@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<title>TranceNoizer</title>
+	<link rel="StyleSheet" href="../noizer.css" type="text/css">
+</head>	<body background="../images/main_bg.gif" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">	<div align="left">	<table width="95%" height="95%" border="0" cellspacing="0" cellpadding="30"><tr><td class="small">	<table border="0" cellspacing="0" cellpadding="6">  	 <tr valign="top">       
+            <td> <b class="bold" ><span class="normalbold">SCRIPTS</span> </b><br>
+              <span class="normal">The script called central.php manages the entire 
+              search, the analysing process and the <br>
+              output-generation by calling other scripts as well as triggering 
+              the database in- and output. </span></td>
+          </tr>	</table>	<table border="0" cellspacing="0" cellpadding="5">  	 <tr valign="top">       <td class="small">      
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>            
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">central.php</td>
+                </tr>        <tr>           
+                  <td colspan="2" class="small">process commander, calls other 
+                    scripts</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">MAIN: main_date<br>INPUT: in_main_id, in_keyword</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">MAIN </td>        </tr>      </table>    </td>    <td class="small">       
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>           
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">ftp_up.php</td>
+                </tr>        <tr>           
+                  <td colspan="2" class="small">select &amp; prepare FTP-Account, 
+                    upload generated content</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">ACCOUNTS: ac_used<br> MAIN: main_weblink, main_ac_id</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">MAIN<br>THEMA<br>ACCOUNTS </td>        </tr>      </table>    </td>    <td class="small">       
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>           
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">control.php</td>
+                </tr>        <tr>           
+                  <td colspan="2" class="small">user password-check, &quot;clone 
+                    control center&quot;</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">--</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">MAIN<br>USER </td>        </tr>      </table>    </td>    <td class="small">       
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>           
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">search.pl</td>
+                </tr>        <tr>           
+                  <td colspan="2" class="small">websearch</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">--</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">-- </td>        </tr>      </table>    </td>    <td class="small">       
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>           
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">makemodel.pl</td>
+                </tr>        <tr>           
+                  <td colspan="2" class="small">prepare analysis, create analysable 
+                    files</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">--</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">-- </td>        </tr>      </table>    </td>    <td class="small">       
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>           
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">rainboultimadb0.2.pl</td>
+                </tr>        <tr>           
+                  <td colspan="2" class="small">start analysing process on rainbow, 
+                    2 steps</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">THEMA: alle<br>WORDCOUNT: alle</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">-- </td>        </tr>      </table>    </td>    <td class="small">       
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>           
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">sucker.php</td>
+                </tr>        <tr>           
+                  <td colspan="2" class="small">online content-grabber</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">--</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">-- </td>        </tr>      </table>    </td>    <td class="small">       
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>         
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">killa.php</td>
+                </tr>        <tr>           
+                  <td colspan="2" class="small">deletion of online-clones</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">MAIN</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">MAIN,<br>ACCOUNTS</td>        </tr>      </table>    </td>    <td class="small">       
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>                   
+                  <td bgcolor="#FFFFFF" colspan="2" class="small"> query.php</td>
+                </tr>        <tr>           
+                  <td colspan="2" class="small">send user input to central.php</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">--</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">USER </td>        </tr>      </table>    </td>    <td class="small">       
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>            
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">subscr.php</td>
+                </tr>        <tr>           
+                  <td colspan="2" class="small">register user in database</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">USER: alle</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">-- </td>        </tr>      </table>    </td>    <td class="small">       
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr>            <td bgcolor="#FFFFFF" colspan="2" class="small">
+                    clon_gen.php
+                    </tr>        <tr>           
+                  <td colspan="2" class="small">intervals for clone-generation</td>        
+                </tr>        <tr>           <td class="small">write</td>          <td class="small">MAIN: main_date, main_usr_id, main_weblink, main_ac_id</td>        </tr>        <tr>           <td class="small">read</td>          <td class="small">MAIN</td>        </tr>      </table>    </td>    <td class="small">&nbsp;</td>  </tr></table></td></tr></table></div></body></html>

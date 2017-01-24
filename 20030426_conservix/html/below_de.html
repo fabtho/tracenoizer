@@ -1,0 +1,104 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<title>TranceNoizer</title>
+		
+	<script language="JavaScript">
+	<!--
+	if(document.images)
+	{
+        image1on = new Image(120,21);
+        image1on.src = "../images/b_processfl_r.gif";
+        image1off = new Image(120,21);
+        image1off.src = "../images/b_processfl.gif";
+
+        image2on = new Image(86,21);
+        image2on.src = "../images/b_databas_r.gif";
+        image2off = new Image(86,21);
+        image2off.src = "../images/b_databas.gif";
+        
+        image3on = new Image(81,21);
+        image3on.src = "../images/b_script_r.gif";
+        image3off = new Image(81,21);
+        image3off.src = "../images/b_script.gif";
+
+        image4on = new Image(78,21);
+        image4on.src = "../images/b_credits_r.gif";
+        image4off = new Image(78,21);
+        image4off.src = "../images/b_credits.gif";			
+	}
+
+	var iMaxImage           =  4;   //H–chste Bildzahl angeben
+	var iDefaultImage       =  0;   //Hier das Standardbild angeben (Bild welches Defaultm”ssig angeschaltet wird)
+	var iStaticImage        =  0;   //Bild welches nie gewechselt werden muss
+
+	var iLastImage          =  0;
+	var bIE                 =  navigator.appName == "Microsoft Internet Explorer";
+
+	function turn(imageNr) 
+	{
+        if (isNaN(parseInt(imageNr)) || imageNr == 0) imageNr = iDefaultImage;
+        if (document.images && (!bIE || imageNr != iLastImage) && (iStaticImage == 0 || imageNr != iStaticImage))
+        {
+                
+			// Neues Bild einschalten
+            if (imageNr != 0)
+            {
+				imageName = 'image' + imageNr;
+				document[imageName].src = eval(imageName + "on.src");
+			}
+
+			 if (bIE) // Internetexplorer
+                {
+					if (iLastImage != 0)
+					{
+                    	imageName = 'image' + iLastImage;
+                    	document[imageName].src = eval(imageName + "off.src");
+					}
+					
+					// Registrieren zuletzt eingeschaltetes Bild
+                    iLastImage      = imageNr;
+                }
+                else    // Netscape
+                {
+                	for (i = 1;i <= iMaxImage;i++)
+                    {
+                    	if (i != imageNr  && i != iStaticImage)
+                        {
+                         	imageName = 'image' + i;
+                         	document[imageName].src = eval(imageName + "off.src");
+						}
+					}
+                }
+        	}
+		}
+	// -->
+	</script>
+	</head>
+
+	<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" background="../images/below_bg.gif">
+	<div align="right"><img src="../images/spacer.gif" border="0" height="10" width="1"><br> 
+		<table border="0" cellpadding="0" cellspacing="0" height="46">
+			<tr>
+				<td><img height="25" width="365" src="../images/b_technology.gif"></td>
+				<td rowspan="2"><img height="1" width="40" src="../images/spacer.gif" border="0"></td>
+			</tr>
+			<tr>
+				<td>
+					<table border="0" cellpadding="0" cellspacing="0" width="365">
+						<tr>
+							<td width="120"><a href="processflow.html" target="main" onmouseover="turn(1), window.status='Process Flow';return true;" onmouseout="turn(0), window.status=''"><img name="image1" src="../images/b_processfl.gif" width="120" height="21" border="0"></a></td>
+							<td width="86"><a href="database.html" target="main" onmouseover="turn(2), window.status='Database';return true;" onmouseout="turn(0), window.status=''"><img name="image2" src="../images/b_databas.gif" width="86" height="21" border="0"></a></td>
+							<td width="81"><a href="scripts.html" target="main" onmouseover="turn(3), window.status='Scripts';return true;" onmouseout="turn(0), window.status=''"><img name="image3" src="../images/b_script.gif" width="81" height="21" border="0"></a></td>		
+							<td width="78"><a href="credits_de.html" target="main" onmouseover="turn(4), window.status='Credits';return true;" onmouseout="turn(0), window.status=''"><img name="image4" src="../images/b_credits.gif" width="78" height="21" border="0"></a></td>
+						
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,371 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<title>TranceNoizer</title>
+	<link rel="StyleSheet" href="../noizer.css" type="text/css">
+</head>
+
+<body background="../images/main_bg.gif" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+<div align="left">
+  <table width="95%" height="95%" border="0" cellspacing="0" cellpadding="30"><tr><td class="small">
+  <table width="100%" border="0" cellspacing="0" cellpadding="6">
+    <tr valign="top"> 
+            <td class="small"> <b class="bold" ><span class="normalbold">DATABASE</span> </b><br>
+              <span class="normal">The SQL-Database is the central storage 
+              unit and contains all search-results as well as results of the analysing 
+              process. <br>
+              Furthermore all crucial information about the generated web-pages 
+              are stored herein. These are the tables: </span></td>
+	</tr>
+  </table>
+        <table width="100" border="0" cellspacing="0" cellpadding="5">
+          <tr valign="top"> 
+            <td class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3" class="small">
+                <tr> 
+                  <td colspan="2" bgcolor="#FFFFFF" class="small">users</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">user data, name, password, email</td>
+                </tr>
+                <tr> 
+                  <td class="small">usr_id</td>
+                  <td class="small">automatic,int,index,unique</td>
+                </tr>
+                <tr> 
+                  <td class="small">usr_name</td>
+                  <td class="small">Name des Benutzers,char(30),index,unique</td>
+                </tr>
+                <tr> 
+                  <td class="small">usr_pw</td>
+                  <td class="small">Passwort des Benutzers,tinytext</td>
+                </tr>
+                <tr> 
+                  <td class="small">usr_mail</td>
+                  <td class="small">E-Mail des Benutzers,tinytext</td>
+                </tr>
+              </table>
+              <br>
+            </td>
+            <td class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3">
+                <tr bgcolor="#FFFFFF"> 
+                  <td colspan="2" class="small">accounts</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">online webspace where new content 
+                    is being put</td>
+                </tr>
+                <tr> 
+                  <td class="small">ac_id</td>
+                  <td class="small">automatic,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">ac_name</td>
+                  <td class="small">username der free-webspaces</td>
+                </tr>
+                <tr> 
+                  <td class="small">ac_pw</td>
+                  <td class="small">password der free-webspaces,tinytext</td>
+                </tr>
+                <tr> 
+                  <td class="small">ac_ftp</td>
+                  <td class="small">ftp-adresse des free-webspaces,tinytext</td>
+                </tr>
+                <tr> 
+                  <td class="small">ac_used<br>
+                  </td>
+                  <td class="small">Flag verhindert Upload (Skriptgesteuert),int(1),index</td>
+                </tr>
+                <tr> 
+                  <td class="small">ac_http</td>
+                  <td class="small">Weblink des FTP-Accounts,text</td>
+                </tr>
+              </table>
+            </td>
+            <td class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr> 
+                  <td colspan="2" bgcolor="#FFFFFF" class="small">status</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">TraceNoiser process-status: 0 to 8</td>
+                </tr>
+                <tr> 
+                  <td class="small">st_id</td>
+                  <td class="small">automatic,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">st_string</td>
+                  <td class="small">Status 0-8,tinytext</td>
+                </tr>
+              </table>
+            </td>
+            <td class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3" class="small">
+                <tr bgcolor="#FFFFFF"> 
+                  <td colspan="2" class="small">main</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">generated clones information</td>
+                </tr>
+                <tr> 
+                  <td class="small">main_id</td>
+                  <td class="small">eine Search-ID f&uuml;r jeden Suchprozess, 
+                    automatic</td>
+                </tr>
+                <tr> 
+                  <td height="49" class="small">main_date</td>
+                  <td height="49" class="small">Datum der Ersteingabe, automatic 
+                  </td>
+                </tr>
+                <tr> 
+                  <td class="small">main_usr_id</td>
+                  <td class="small">zugeh&ouml;rige USER-Id (optional) </td>
+                </tr>
+                <tr> 
+                  <td class="small">main_generation</td>
+                  <td class="small">int</td>
+                </tr>
+                <tr> 
+                  <td class="small">main_weblink</td>
+                  <td class="small">tinytext</td>
+                </tr>
+                <tr> 
+                  <td class="small">main_ac_id</td>
+                  <td class="small">int</td>
+                </tr>
+                <tr> 
+                  <td class="small">main_html</td>
+                  <td class="small">text</td>
+                </tr>
+                <tr> 
+                  <td class="small">main_st_id</td>
+                  <td class="small">int</td>
+                </tr>
+              </table>
+            </td>
+            <td class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3" class="small">
+                <tr bgcolor="#FFFFFF"> 
+                  <td colspan="2" class="small">url</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">weblink of search-results</td>
+                </tr>
+                <tr> 
+                  <td width="110" class="small">url_id</td>
+                  <td width="83" class="small">automatic,int,index</td>
+                </tr>
+                <tr> 
+                  <td width="110" class="small">url_main_id</td>
+                  <td width="83" class="small">zugeh&ouml;rige Search-ID von Tabelle 
+                    main,int,index</td>
+                </tr>
+                <tr> 
+                  <td width="110" class="small">url_link</td>
+                  <td width="83" class="small">Absolute URL der gefundenen Webpages,text</td>
+                </tr>
+              </table>
+            </td>
+            <td class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr> 
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">input</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">keywords for search</td>
+                </tr>
+                <tr> 
+                  <td class="small">in_id</td>
+                  <td class="small">int,automatic,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">in_main_id</td>
+                  <td class="small">zugeh&ouml;rige Search-ID von tabelle main,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">in_keyword</td>
+                  <td class="small">Start-Information f&uuml;r Suche (Anzahl beliebig),tinytext</td>
+                </tr>
+              </table>
+            </td>
+            <td class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3" class="small">
+                <tr align="left"> 
+                  <th bgcolor="#FFFFFF" colspan="2" class="small">keyword</th>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">keyword from analysing process</td>
+                </tr>
+                <tr> 
+                  <td class="small">keyword_id</td>
+                  <td class="small">automatic,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">keyword_main_id</td>
+                  <td class="small">zugeh&ouml;rige main-ID,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">keyword</td>
+                  <td class="small">Stichworte, die sich aus der Analyse ergeben,tinytext</td>
+                </tr>
+                <tr> 
+                  <td class="small">keyword_infog</td>
+                  <td class="small">globale Wahrscheinlichkeit des Stichwortes,float (11,9)</td>
+                </tr>
+                <tr> 
+                  <td class="small">keyword_html</td>
+                  <td class="small">html-File zum Thema,text</td>
+                </tr>
+                <tr> 
+                  <td class="small">keyword_size</td>
+                  <td class="small">html-File zum Thema,int</td>
+                </tr>
+              </table>
+            </td>
+            <td class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3" >
+                <tr> 
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">images</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">images of resultpages</td>
+                </tr>
+                <tr> 
+                  <td class="small" height="18">img_id</td>
+                  <td class="small" height="18">automatic,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">img_url_id</td>
+                  <td class="small">zugeh&ouml;rige URL von Tabelle url,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">img_used</td>
+                  <td class="small">ob bild verwented wird,int(1),index</td>
+                </tr>
+                <tr> 
+                  <td class="small">img_link</td>
+                  <td class="small">absolute URL der Bilder auf der Seite</td>
+                </tr>
+              </table>
+            </td>
+            <td class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3">
+                <tr> 
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">text</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">text of resultpages </td>
+                </tr>
+                <tr> 
+                  <td class="small">tx_id</td>
+                  <td class="small">automatic,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">tx_main_id</td>
+                  <td class="small">int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">tx_url_id</td>
+                  <td class="small">zugeh&ouml;rige URL von Tabelle URL,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">tx_word</td>
+                  <td class="small">anzahl w&ouml;rter im text,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">tx_text</td>
+                  <td class="small">Rohtext ohne Formatierungen,longtext</td>
+                </tr>
+                <tr> 
+                  <td class="small">tx_lang</td>
+                  <td class="small">sprache des text,char(2),index</td>
+                </tr>
+              </table>
+            </td>
+            <td valign="top" class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3">
+                <tr> 
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">wordcount</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">thematical relevances of found pages</td>
+                </tr>
+                <tr> 
+                  <td class="small">wordcount_id</td>
+                  <td class="small">automatic,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">wordcount_tx_id</td>
+                  <td class="small">zu welcher text geh&ouml;rend,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">wordcount_keyword_id</td>
+                  <td class="small">welches keyword in keyword,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">wordcount_infog</td>
+                  <td class="small">durchschnittl. Vorkommen des Stichwortes in der URL (Wichtigkeit/Relevanz),float(11,9)</td>
+                </tr>
+              </table>
+            </td>
+            <td valign="top" class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3">
+                <tr> 
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">globalurl</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">further links on resultpages</td>
+                </tr>
+                <tr> 
+                  <td class="small">g_id</td>
+                  <td class="small">automatic,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">g_url_id</td>
+                  <td class="small">zugeh&ouml;rige URL von Tabelle url,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">g_used</td>
+                  <td class="small">ob url in page benutzt,int(1),index</td>
+                </tr>
+                <tr> 
+                  <td class="small">g_string</td>
+                  <td class="small">die url, text</td>
+                </tr>
+              </table>
+            </td>
+            <td valign="top" class="small"> 
+              <table width="100" border="1" cellspacing="0" cellpadding="3">
+                <tr> 
+                  <td bgcolor="#FFFFFF" colspan="2" class="small">mailurl</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="small">further mails on resultpages</td>
+                </tr>
+                <tr> 
+                  <td class="small">m_id</td>
+                  <td class="small">automatic,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">m_url_id</td>
+                  <td class="small">zugeh&ouml;rige URL von Tabelle url,int,index</td>
+                </tr>
+                <tr> 
+                  <td class="small">m_used</td>
+                  <td class="small">ob mail in page benutzt,int(1),index</td>
+                </tr>
+                <tr> 
+                  <td class="small">m_string</td>
+                  <td class="small">die mailadresse, tinytext</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+</td></tr></table>
+</div>
+</body>
+
+</html>
