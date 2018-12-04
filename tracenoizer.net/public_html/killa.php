@@ -1,12 +1,11 @@
 <?
 
+include_once('db_connect.php');
 
-$connect = mysql_connect("localhost","web","w2kkadb");
 
+$query = mysqli_query($db_connection, "select  ac_http, ac_path from accounts  where ac_id='$main_ac_id'"); 
 
-$query = mysql_db_query("tracenoizer", "select  ac_http, ac_path from accounts  where ac_id='$main_ac_id'"); 
-
-while($row = mysqli_fetch_array($query)){ 
+while($row = mysqli_fetch_array($db_connection, $query)){ 
 	$ac_path = $row[ac_path]; 
 	$ac_http = $row[ac_http];
 }  
@@ -20,12 +19,11 @@ while($row = mysqli_fetch_array($query)){
 $link = $ac_http."/".$main_id."/";
 //echo $link;
 
-$update = mysql_db_query("tracenoizer", "update main set main_weblink = $link, main_ac_id = $ac_id where main_id = $main_id");
-
+$update = mysqli_query($db_connection,  "update main set main_weblink = $link, main_ac_id = $ac_id where main_id = $main_id");
 
 
 //update clonestate
-$update = mysql_db_query("tracenoizer", "update main set main_st_id = 8 where main_id = $main_id");
+$update = mysqli_query($db_connection,  "update main set main_st_id = 8 where main_id = $main_id");
 //echo "<br>sql main update: ".$update;
 
 $dir = $ac_path."/".$main_id;
@@ -49,7 +47,7 @@ function deldir($dir){
 
 
 //closw db
-mysql_close($connect);
+mysqli_close($db_connection);
 
 echo '<meta http-equiv="refresh" content="0;URL=control.php?usr='.$usr.'&pwd='.$pwd.'">';
 

@@ -53,13 +53,11 @@ want more clones, run TraceNoizer again. <br>
 		
 		case "create":
 
-				mysql_connect("localhost","web","w2kkadb");
-
-				mysql_select_db("tracenoizer");
-
+				include_once('db_connect.php');
+				
 				$get = 'select usr_id from users where usr_name="'.$usr_name.'"';
 
-				$result = mysqli_query($connection, $get) or die (mysqli_error());
+				$result = mysqli_query($db_connection, $get) or die (mysqli_error());
 
 				$usr_exist = mysqli_fetch_row($result);
 
@@ -127,9 +125,9 @@ want more clones, run TraceNoizer again. <br>
 
 				//echo $put;
 
-				//mysqli_query($connection, 'update users set usr_name="'.$usr_name.'",usr_pw="'.$usr_pw.'",usr_mail="'.$usr_mail.'" where usr_id='.$usr_id.'') or die (mysqli_error());
+				//mysqli_query($db_connection, 'update users set usr_name="'.$usr_name.'",usr_pw="'.$usr_pw.'",usr_mail="'.$usr_mail.'" where usr_id='.$usr_id.'') or die (mysqli_error());
 
-				mysqli_query($connection, $put) or die (mysqli_error());
+				mysqli_query($db_connection, $put) or die (mysqli_error());
 
 				
 

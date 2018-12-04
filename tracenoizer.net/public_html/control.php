@@ -1,26 +1,21 @@
 <?php
-
-
-$get = mysql_connect("localhost","web","w2kkadb");
-
-
+include_once('db_connect.php');
 
 ###----check, if pw and user_id are in db---
 #--------------------------------------------------
 
-
-$query = mysql_db_query("tracenoizer", "select usr_id from users where usr_name='$usr' and usr_pw='$pwd'"); 
+$sql = "select usr_id from users where usr_name='$usr' and usr_pw='$pwd'";
+$query =  mysqli_query($db_connection,  $sql );
 
 while($row = mysqli_fetch_row($query)){ 
 	$userID=$row[0];
 } 
 
 
-
 ###---if user_id and pw are not in db, go back to input-form---
 ###------------------------------------------------------------
 
-$NumMembers = mysql_num_rows($query); 
+$NumMembers = mysqli_num_rows($query); 
 if ($NumMembers==0){
 
 	echo '
@@ -63,7 +58,7 @@ if ($NumMembers==0){
 </html>
 ';
 
-	mysql_close($get);
+	mysqli_close($db_connection);
 	die("");
 } else {
 
@@ -75,10 +70,10 @@ if ($NumMembers==0){
 ###---if user_id and pw are correct, get clone info (main_weblink and main_date)---------------------------------------------------------------------------------
 	
 	$query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id, main_id FROM main WHERE main_usr_id = '$userID' ");
-	$query2_id = mysqli_query($connection, $query2);
+	$query2_id = mysqli_query($db_connection, $query2);
 
 	$query3 = ("SELECT main_id FROM main WHERE main_usr_id = '$userID' ");
-	$query3_id = mysqli_query($connection, $query3);
+	$query3_id = mysqli_query($db_connection, $query3);
 
 	
 }//end "if ($NumMembers==0)"
@@ -87,7 +82,7 @@ if ($NumMembers==0){
 ###---if there is no clone-info in db print message that clone is under construction ---
 ###-------------------------------------------------------------------------------------
 
-$NumMembers2 = mysql_num_rows($query2_id); 
+$NumMembers2 = mysqli_num_rows($query2_id); 
 if ($NumMembers2==0){
 	echo '<html>
 	<body background="images/main_bg.gif" text="#000000">
@@ -100,7 +95,8 @@ if ($NumMembers2==0){
 } else {
 
 	//get status descriptions
-	$stati= mysql_db_query("tracenoizer", "select st_string from status");
+
+	$stati =  mysqli_query($db_connection,  "select st_string from status");
 	while($row = mysqli_fetch_array($stati)){
 		$st_strings[] = $row["st_string"];
 	}
@@ -176,7 +172,7 @@ echo '
 					<table border="0" cellpadding="0" cellspacing="1">';
 						
 							$query4 = ("SELECT keyword, keyword_infog, keyword_size FROM keyword WHERE keyword_main_id = '$nr' ");
-							$query4_id = mysqli_query($connection, $query4);
+							$query4_id = mysqli_query($db_connection, $query4);
 							
 							while ($comp = mysqli_fetch_array($query4_id)) {
 							$thema = $comp[keyword];
@@ -268,7 +264,7 @@ echo'
 </body>
 </html>';
 
-mysql_close($get);
+mysqli_close($db_connection);
 
 }//end "if ($NumMembers2==0)"
 

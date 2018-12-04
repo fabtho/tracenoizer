@@ -1,7 +1,6 @@
 <?php
 
-$get = mysql_connect("localhost","web","w2kkadb");
-
+include_once('db_connect.php');
 
 $userID = $_GET['userID'];
 
@@ -12,9 +11,8 @@ $userID = $_GET['userID'];
 ###---if there is no clone-info in db print message that clone is under construction ---
 ###-------------------------------------------------------------------------------------
 
-
-//get status descriptions
-	$stati= mysql_db_query("tracenoizer", "select st_string from status");
+	//get status descriptions
+	$stati =  mysqli_query($db_connection,  "select st_string from status");
 	while($row = mysqli_fetch_array($stati)){
 		$st_strings[] = $row["st_string"];
 	}
@@ -30,7 +28,7 @@ echo '
 
 
 $query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id, main_id FROM main WHERE main_usr_id = $userID ");
-$query2_id = mysqli_query($connection, $query2);
+$query2_id = mysqli_query($db_connection, $query2);
 
 $row = mysqli_fetch_array($query2_id);
 
@@ -67,7 +65,7 @@ A.nav:hover {TEXT-DECORATION: none}
 //clones-----------------------------------------------------------
 
 $query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id, main_id FROM main WHERE main_usr_id = $userID ");
-	$query2_id = mysqli_query($connection, $query2);
+	$query2_id = mysqli_query($db_connection, $query2);
 
 
 	while ($row = mysqli_fetch_array($query2_id)) {
@@ -111,7 +109,7 @@ $query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id, main_id FROM
 					<table border="0" cellpadding="0" cellspacing="1">';
 						
 							$query4 = ("SELECT keyword, keyword_infog, keyword_size FROM keyword WHERE keyword_main_id = '$nr' ");
-							$query4_id = mysqli_query($connection, $query4);
+							$query4_id = mysqli_query($db_connection, $query4);
 							
 							while ($comp = mysqli_fetch_array($query4_id)) {
 							$thema = $comp[keyword];
@@ -217,7 +215,7 @@ echo'
 
 
 
-mysql_close($get);
+mysqli_close($db_connection);
 
 ?>
 

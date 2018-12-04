@@ -6,7 +6,7 @@ include_once('db_connect.php');
 $query2 = ('SELECT main_date, main_weblink, main_ac_id, main_st_id FROM main WHERE main_id="'.$main_id.'"');
 
 //$query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id FROM main WHERE main_id=4253");
-$query2_id = mysqli_query($connection, query2);
+$query2_id = mysqli_query($db_connection, query2);
 
 
 $row = mysqli_fetch_array($query2_id);

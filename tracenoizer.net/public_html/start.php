@@ -45,27 +45,28 @@ switch($status)
 
 function maketempuser($Fname,$Sname)
 				{
-				mysql_connect("localhost","web","w2kkadb");
-				mysql_select_db("tracenoizer");
+
+				include_once('db_connect.php');
+
 				$get = 'select max(usr_id) from users';
-				$result = mysqli_query($connection "$get") or die (mysqli_error());
+				$result = mysqli_query($db_connection "$get") or die (mysqli_error());
 				$max_id = mysqli_fetch_row($result);
 				$max_id = $max_id[0];
 				$usr_id_neu = $max_id + 1;
 						
 				$insert = 'insert into users(usr_name)values("'.$usr_id_neu.'")';
 
-				$ask_user = mysqli_query($connection "$insert") or die (mysqli_error());
+				$ask_user = mysqli_query($db_connection "$insert") or die (mysqli_error());
 				
 				//--> getMax from MAIN		
-				$result = mysqli_query($connection "select max(main_id) from main") or die (mysqli_error());
+				$result = mysqli_query($db_connection "select max(main_id) from main") or die (mysqli_error());
 				$max_id = mysqli_fetch_row($result);
 				$max_id = $max_id[0];
 				$main_id_neu = $max_id + 1;
  
 				//--> insert into MAIN
 				$fill_main = 'insert into main (main_date,main_usr_id,main_generation)values(CURRENT_DATE(),"'.$usr_id_neu.'",1)';
-				$ask_main = mysqli_query($connection $fill_main) or die (mysqli_error());
+				$ask_main = mysqli_query($db_connection $fill_main) or die (mysqli_error());
 
 			
 				 $Qname = "'$Fname $Sname'";
