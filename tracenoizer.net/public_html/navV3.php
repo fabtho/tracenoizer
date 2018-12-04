@@ -59,7 +59,7 @@ want more clones, run TraceNoizer again. <br>
 
 				$get = 'select usr_id from users where usr_name="'.$usr_name.'"';
 
-				$result = mysql_query($get) or die (mysql_error());
+				$result = mysqli_query($connection, $get) or die (mysql_error());
 
 				$usr_exist = mysql_fetch_row($result);
 
@@ -127,9 +127,9 @@ want more clones, run TraceNoizer again. <br>
 
 				//echo $put;
 
-				//mysql_query('update users set usr_name="'.$usr_name.'",usr_pw="'.$usr_pw.'",usr_mail="'.$usr_mail.'" where usr_id='.$usr_id.'') or die (mysql_error());
+				//mysqli_query($connection, 'update users set usr_name="'.$usr_name.'",usr_pw="'.$usr_pw.'",usr_mail="'.$usr_mail.'" where usr_id='.$usr_id.'') or die (mysql_error());
 
-				mysql_query($put) or die (mysql_error());
+				mysqli_query($connection, $put) or die (mysql_error());
 
 				
 

@@ -75,10 +75,10 @@ if ($NumMembers==0){
 ###---if user_id and pw are correct, get clone info (main_weblink and main_date)---------------------------------------------------------------------------------
 	
 	$query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id, main_id FROM main WHERE main_usr_id = '$userID' ");
-	$query2_id = mysql_query($query2);
+	$query2_id = mysqli_query($connection, $query2);
 
 	$query3 = ("SELECT main_id FROM main WHERE main_usr_id = '$userID' ");
-	$query3_id = mysql_query($query3);
+	$query3_id = mysqli_query($connection, $query3);
 
 	
 }//end "if ($NumMembers==0)"
@@ -176,7 +176,7 @@ echo '
 					<table border="0" cellpadding="0" cellspacing="1">';
 						
 							$query4 = ("SELECT keyword, keyword_infog, keyword_size FROM keyword WHERE keyword_main_id = '$nr' ");
-							$query4_id = mysql_query($query4);
+							$query4_id = mysqli_query($connection, $query4);
 							
 							while ($comp = mysqli_fetch_array($query4_id)) {
 							$thema = $comp[keyword];
