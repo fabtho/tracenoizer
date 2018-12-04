@@ -11,7 +11,7 @@ $get = mysql_connect("localhost","web","w2kkadb");
 
 $query = mysql_db_query("tracenoizer", "select usr_id from users where usr_name='$usr' and usr_pw='$pwd'"); 
 
-while($row = mysql_fetch_row($query)){ 
+while($row = mysqli_fetch_row($query)){ 
 	$userID=$row[0];
 } 
 

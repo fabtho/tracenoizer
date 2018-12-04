@@ -49,7 +49,7 @@ function maketempuser($Fname,$Sname)
 				mysql_select_db("tracenoizer");
 				$get = 'select max(usr_id) from users';
 				$result = mysqli_query($connection "$get") or die (mysql_error());
-				$max_id = mysql_fetch_row($result);
+				$max_id = mysqli_fetch_row($result);
 				$max_id = $max_id[0];
 				$usr_id_neu = $max_id + 1;
 						
@@ -59,7 +59,7 @@ function maketempuser($Fname,$Sname)
 				
 				//--> getMax from MAIN		
 				$result = mysqli_query($connection "select max(main_id) from main") or die (mysql_error());
-				$max_id = mysql_fetch_row($result);
+				$max_id = mysqli_fetch_row($result);
 				$max_id = $max_id[0];
 				$main_id_neu = $max_id + 1;
  

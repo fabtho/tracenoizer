@@ -61,7 +61,7 @@ want more clones, run TraceNoizer again. <br>
 
 				$result = mysqli_query($connection, $get) or die (mysql_error());
 
-				$usr_exist = mysql_fetch_row($result);
+				$usr_exist = mysqli_fetch_row($result);
 
 				$usr_exist = $usr_exist[0];
 
