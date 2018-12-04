@@ -1,0 +1,85 @@
+<!--                                                               -->
+<!--                    e-scape media limited                      -->
+<!--  (c) 1999-2003 e-scape media  limited.  All Rights Reserved.  -->
+<!--                http://www.e-scapemedia.co.uk                  -->
+<!--                                                               -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="en">
+<head>
+<title>404 Error: Page Not Found</title>
+<style type="text/css">
+h1 {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 24px;
+text-decoration: bold;
+color: #08008C;
+}
+
+h2 {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 18px;
+text-decoration: bold;
+color: #000000;
+}
+
+td {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 13px;
+text-decoration: none;
+color: #000000;
+}
+
+a,a:hover, a.visited
+{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 13px;
+text-decoration: underline;
+color : #0000CD;
+}
+
+
+</style>
+</head>
+<body bgcolor="#FFFFFF" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+<table bgcolor="#FFFFFF" width="100%" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td>
+<img src="http://www.drs.co.uk/images/errorLogo.gif">
+</td>
+</tr>
+</table>        
+<table width="100%" border="0" bgcolor="#FFFFFF" cellspacing="0" cellpadding="30">
+<tr>
+<td width="600">
+<h1>404 Error: Page Not Found</h1>
+<h2>Unfortunately, the page you were trying to reach does not exist.</h2>        
+<p>The reason for this could be:</p>
+<ul>
+<li /><strong>Did you follow a link from somewhere else within this website?</strong><br />
+If you reached this page from another part of this website then we have a broken link and you were unlucky enough 
+to click on it. We've been informed of this error and will fix it in due course.<br /><br /></li>
+<li /><strong>Did you type the page address?</strong><br />
+If you typed the page address (URL) directly, then you may have typed it incorrectly. Check to make sure you&#8217;ve got the right spelling and capitalisation.</li>
+</ul>
+<form name="soWhatNow" action="http://www.drs.co.uk/error/tryAgain.asp" method="post">
+<p>So what now?</p>
+<ul>
+<li /><strong>You can try again</strong><br />
+
+<input type="text" size="50" name="tryAgain" value="http://www.drs.co.uk/graphics/Infoscan_len.jpg" /> <input value="Go" type="submit" /><br /><br /></li>
+</ul>
+<ul>
+<li /><strong>You can return to the home page for this website</strong><br />
+<a href="http://www.drs.co.uk/">Go to the home page</a><br /><br /></li>
+</ul>
+</form>
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

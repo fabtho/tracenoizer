@@ -1,0 +1,148 @@
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+Class `200'
+  Gathering stats... files : unique-words ::                       1 :       71
+Class `201'
+  Gathering stats... files : unique-words ::                       1 :      183
+Class `202'
+  Gathering stats... files : unique-words ::                       1 :      338
+Class `203'
+  Gathering stats... files : unique-words ::                       1 :      351
+Class `204'
+  Gathering stats... files : unique-words ::                       1 :      567
+Class `205'
+  Gathering stats... files : unique-words ::                       1 :      602
+Class `206'
+  Gathering stats... files : unique-words ::                       1 :      816
+Class `207'
+  Gathering stats... files : unique-words ::                       1 :     1124
+Class `208'
+  Gathering stats... files : unique-words ::                       1 :     1143
+Class `209'
+  Gathering stats... files : unique-words ::                       1 :     1148
+Class `210'
+  Gathering stats... files : unique-words ::                       1 :     1172
+Class `211'
+  Gathering stats... files : unique-words ::                       1 :     1638
+Class `212'
+  Gathering stats... files : unique-words ::                       1 :     1654
+Class `213'
+  Gathering stats... files : unique-words ::                       1 :     1690
+Class `214'
+  Gathering stats... files : unique-words ::                       1 :     1690
+Class `215'
+  Gathering stats... files : unique-words ::                       1 :     1696
+Class `216'
+  Gathering stats... files : unique-words ::                       1 :     2113
+Class `217'
+  Gathering stats... files : unique-words ::                       1 :     2183
+Class `218'
+  Gathering stats... files : unique-words ::                       1 :     2183
+Class `219'
+  Gathering stats... files : unique-words ::                       1 :     2183
+Class `220'
+  Gathering stats... files : unique-words ::                       1 :     2183
+Class `221'
+  Gathering stats... files : unique-words ::                       1 :     2215
+Class `222'
+  Gathering stats... files : unique-words ::                       1 :     2278
+Class `223'
+  Gathering stats... files : unique-words ::                       1 :     2301
+Class `224'
+  Gathering stats... files : unique-words ::                       1 :     2338
+Class `225'
+  Gathering stats... files : unique-words ::                       1 :     2348
+Class `226'
+  Gathering stats... files : unique-words ::                       1 :     2427
+Class `227'
+  Gathering stats... files : unique-words ::                       1 :     2458
+Class `228'
+  Gathering stats... files : unique-words ::                       1 :     2491
+Class `229'
+  Gathering stats... files : unique-words ::                       1 :     2502
+Class `230'
+  Gathering stats... files : unique-words ::                       1 :     2586
+Class `231'
+  Gathering stats... files : unique-words ::                       1 :     2598
+Class `232'
+  Gathering stats... files : unique-words ::                       1 :     2653
+Class `233'
+  Gathering stats... files : unique-words ::                       1 :     2653
+Class `234'
+  Gathering stats... files : unique-words ::                       1 :     2661
+Class `235'
+  Gathering stats... files : unique-words ::                       1 :     2661
+Class `236'
+  Gathering stats... files : unique-words ::                       1 :     2723
+Class `237'
+  Gathering stats... files : unique-words ::                       1 :     2755
+Class `238'
+  Gathering stats... files : unique-words ::                       1 :     2793
+Class `239'
+  Gathering stats... files : unique-words ::                       1 :     2955
+Class `240'
+  Gathering stats... files : unique-words ::                       1 :     3000
+Class `241'
+  Gathering stats... files : unique-words ::                       1 :     3035
+Class `242'
+  Gathering stats... files : unique-words ::                       1 :     3035
+Class `243'
+  Gathering stats... files : unique-words ::                       1 :     3035
+Class `244'
+  Gathering stats... files : unique-words ::                       1 :     3035
+Class `79'
+  Gathering stats... files : unique-words ::                  
+File `temp/34630/79/Tim_Casey_GSEC.pdf' skipped because not text
+     0 :     3035
+Found mostly binary files, which were ignored.
+No text files found in directory `temp/34630/79'
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 45 documents in the train set:
+Calculating info gain... words ::               3035     2935     2835     2735     2635     2535     2435     2335     2235     2135     2035     1935     1835     1735     1635     1535     1435     1335     1235     1135     1035      935      835      735      635      535      435      335      235      135       35
+Loading data files...
+Placed remaining 45 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 45 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 45 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 45 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 45 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 45 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 45 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 45 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 45 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 45 documents in the train set:
+WARNING: class `79' has zero prior
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's Homepage<br></font><br><br><br><div align="center"><img HEIGHT="184" WIDTH="16' at line 1 at trace_centralV4.pl line 654.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 'Vogel friss oder stirb'. Verfehlte das Misstrauensvotum gegen diesen im April 19' at line 1 at trace_centralV4.pl line 767.

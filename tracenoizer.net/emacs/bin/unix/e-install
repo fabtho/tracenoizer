@@ -1,0 +1,54 @@
+#!/bin/sh
+#-*-Shell-Script-*-	Time-stamp: <2003-02-18 13:45:43 bingalls>
+#Copyright © 1998, 2003 by Bruce Ingalls bingalls(at)users.sourceforge.net
+#See file COPYING for GPL license.
+# $Id$
+#<url: http://emacro.sourceforge.net/ >		<url: http://www.dotemacs.de/ >
+
+#Script to install EMacro
+if [ ! -d "$HOME/emacs" ]; then
+    echo "EMacro expects the directory $HOME/emacs to exist."
+    echo "Extract EMacro into $HOME."
+    exit
+fi
+
+if grep emacro $HOME/.emacs >/dev/null 2>&1
+then
+    echo "EMacro already installed."
+elif [ -f "$HOME/.emacs" ]
+then
+    pid="$$"			    # Rename ~/.emacs with pid extension
+	echo "Moving existing $HOME/.emacs. to $HOME/.emacs.$pid"
+    mv -f $HOME/.emacs $HOME/.emacs.$pid >/dev/null 2>&1
+	unset -v pid  # Bash says this is inherited from Bourne shell so we
+	              # shouldn't barf on non-bash shells.
+    mv $HOME/init.el $HOME/.emacs
+    echo "EMacro now installed."
+else
+    mv $HOME/init.el $HOME/.emacs
+    echo "EMacro now installed."
+fi
+
+#call ~/bin/unix/e-refresh
+DIR=`dirname $0`
+$DIR/e-refresh
+
+echo
+echo "Attempting to start Emacs. To learn more about EMacro,"
+echo	"Choose  Help -> EMacro from Emacs menu"
+echo
+echo "if you do not see the menu in Emacs, hit F10 key or Alt \`."
+echo "Make sure an HTML browser is in the PATH"
+echo "..."
+
+#Try xemacs first; else try emacs.
+#My guess is more xemacs users also run emacs, than vice-versa.
+#If all else fails, display install/upgrade guide.
+
+xemacs >/dev/null 2>&1 ||
+emacs >/dev/null 2>&1 ||
+netscape doc/install.html >/dev/null 2>&1 ||
+mozilla doc/install.html >/dev/null 2>&1 ||
+( echo "Could not start emacs nor xemacs. Make sure it is in your PATH"
+    echo "Also make sure to put a browser such as Mozilla in your PATH" )
+

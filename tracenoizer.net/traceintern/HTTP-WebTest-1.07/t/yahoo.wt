@@ -1,0 +1,31 @@
+
+# Input file for HTTP::WebTest module.
+ 
+# Global parameters
+###################
+
+save_output = yes
+accept_cookies = yes
+# debug = yes
+ignore_case = yes
+# show_html = yes
+text_forbid = ( Premature end of script headers
+                Error processing directive
+              )
+# terse = summary
+
+# Test block parameters
+#######################
+
+test_name = Yahoo home page
+   url = www.yahoo.com
+   text_require = (     
+      Travel
+      News
+      Sports
+                  )
+   min_bytes = 13000
+   max_bytes = 200000
+   min_rtime = 0.01
+   max_rtime = 30.0
+end_test

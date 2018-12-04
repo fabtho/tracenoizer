@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html
+ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--Time-stamp: <2003-06-12 12:29:57 bingalls> --><!--$Id: tips.html,v 1.25 2003/05/24 17:37:00 bingalls Exp $-->
+<!--Copyright © 1998,2002 Bruce Ingalls bingalls(at)users.sf.net-->
+<!--See the EMacro project file COPYING for license-->
+<!--This file is not (yet) part of Emacs or XEmacs.-->
+<head>
+<meta name="description"
+ content="EMacro is an easy .emacs configuration file for Emacs and XEmacs"/>
+<meta name="keywords" content=".emacs editor configuration"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="icon" href="images/em_ico.png" type="image/png"/>
+
+<title> Advice from Emacs wizards </title>
+<style type="text/css">
+span.emacro {color: blue}
+</style>
+<script type="text/javascript">
+<!--
+var user;
+var host;
+var topDomain;
+
+function UCEproof(user, host, topDomain)
+{
+ document.write('<a href="'+'mailto:'+user+'@'+host+'.'+topDomain+'">' +
+ user + '@' + host + '.' + topDomain + '</a>');
+}
+// -->
+</script>
+</head>
+
+<body>
+<h1>Advice from Emacs wizards</h1>
+<ul>
+<li><a href="#Profile">.Profile</a></li>
+<li><a href="#Appointments">Appointments</a></li>
+<li><a href="#Apropos">Apropos Regular Expressions</a></li>
+<li><a href="#Big">Big Brother Database</a></li>
+<li><a href="#Cache">Cache of <span class="emacro">EMacro</span></a></li>
+<li><a href="#Code">Code &amp; Word Completion / Intellisense</a></li>
+<li><a href="#Completion">Completion Undo</a></li>
+<li><a href="#Controlling">Controlling Commands</a></li>
+<li><a href="#Configuring">Configuring <span class="emacro">EMacro</span></a></li>
+<li><a href="#CUA">CUA.el and Clashing Commands</a></li>
+<li><a href="#Put">Disk Diet For A Smaller Emacs</a></li>
+<li><a href="#Edit">Edit Unusual Files</a></li>
+<li><a href="#Elisp">Elisp Coding</a></li>
+<li><a href="#Find">Find Functions &amp; Variables</a></li>
+<li><a href="#Gdb">Gdb Debugger Tutorial</a></li>
+<li><a href="#ISpell">ISpell</a></li>
+<li><a href="#Japanese">Japanese</a></li>
+<li><a href="#KDE">KDE Colors</a></li>
+<li><a href="#Keyboard">Keyboard Performance</a></li>
+<li><a href="#Kill">Killing Buffers</a></li>
+<li><a href="#MAC">MAC OS Classic (v7 - v9)</a></li>
+<li><a href="#Open">Open New Window</a></li>
+<li><a href="#Oracle">Oracle</a></li>
+<li><a href="#Performance">Performance Improvement</a></li>
+<li><a href="#Permissions">Permissions: Su For Higher Authority</a></li>
+<li><a href="#Replace">Replace Text In A Subdirectory</a></li>
+<li><a href="#Remote">Remote Printing</a></li>
+<li><a href="#Screenrc">.screenrc Sample</a></li>
+<li><a href="#Searching">Searching EmacsWiki</a></li>
+<li><a href="#Shell">Shell Commands</a></li>
+<li><a href="#Superscripts">Superscripts</a></li>
+<li><a href="#TrueType">TrueType Fonts</a></li>
+<li><a href="#Tweaking">Tweaking: Changing Emacs Options</a></li>   
+<li><a href="#Unicode">Unicode</a></li>
+<li><a href="#Word">Word Wrap</a></li>
+<li><a href="#XEmacs">XEmacs .emacs Upgrade</a></li>
+<li><a href="#Toolbar">XEmacs Toolbar Adjustment</a></li>
+<li><a href="#XML">XML Remote DTD</a></li>
+<li><a href="#GLOSSARY">GLOSSARY</a></li>
+<li><a href="#Links">Links to More Emacs Tips</a></li>
+</ul>
+
+<hr />
+<h2><a name="Profile">.Profile</a></h2>
+<p>
+If you use zsh, bash, ksh, or similar shell, you can edit your history
+of commands with:
+<code>set -o emacs</code>
+<br />
+
+I used to have the following in my unix $HOME/.profile. You may have to put
+this in a .zshrc | .bashrc | .kshrc, as Emacs starts an interactive shell.
+<span class="emacro">EMacro</span> now supports ansi-color.el, which allows
+colorized <b>ls</b> inside <code>M-x shell</code>. However, you may freely use
+this sample to disable or enable functionality, only when your terminal is an
+Emacs term. See also <a href="#Shell">Shell Commands</a> <code>M-x shell</code>
+brings up a shell inside Emacs. Control Up Arrow allows you to recall previous
+commands.<br />
+<br />
+<code>
+#-*-Shell-Script-*- #Hint for emacs to open file in shell script mode<br />
+#use source, setenv for c shell<br />
+EDITOR=emacs		#Make Emacs your default editor<br />
+export EDITOR<br />
+<br />
+#Bourne shell (sh) does not support alias<br />
+#Redefine ls for emacs, which cannot handle ansi color escapes<br />
+#Emacs sets the $EMACS environment variable for `M-x shell`<br />
+#This fancy notation sets $EMACS to "f", if it is unset:<br />
+if [ ${EMACS:=f} = t ]; then; alias ls='/bin/ls -ACF'	#for emacs<br />
+<br />
+#otherwise, we exploit our fully functional terminal:<br />
+else;	alias ls='/usr/local/gnu/bin/ls -ACF --color'; fi<br />
+export ls<br />
+</code>
+</p>
+
+<hr/>
+<h2><a name="Appointments">Appointments</a></h2>
+<p>
+You can add quick appointments in Emacs with:
+</p>
+<p>
+<code>(appt-add "13:00" "Dentist")</code>
+</p>
+<p>
+Note that this appointment will be lost, when Emacs is closed. Send me an
+email, if you are interested in an easy menu interface, for appointments.
+</p>
+
+<hr/>
+<h2><a name="Apropos">Apropos Regular Expressions</a></h2>
+<p>
+You can use regular expressions to search help. If you want to learn how to
+stop duplicated commands in Emacs shell history, you would say, "Search for
+shell OR comint, followed by dup" or, in Emacs speak:
+</p>
+<p>
+<code>M-x apropos RET \(shell\|comint\).*dup RET</code>
+</p>
+
+<hr />
+<h2><a name="Big">Big Brother Database</a></h2>
+<p>
+Loading <span class="emacro">EMacro</span>'s inet.el enables BBDB. You can
+activate it in a supported mode, such as GNUS (Internet Emailer and Usenet
+newsreader) by hitting ":", when the cursor is near an address. This adds the
+address to the BB DataBase, and brings it up in a buffer at bottom, where a
+right mouse click brings up a popup menu.
+</p>
+
+<hr />
+<h2><a name="Cache">Cache of <span class="emacro">EMacro</span></a></h2>
+<p>
+locate-library() is one of the slowest commands in elisp. <span
+class="emacro">EMacro</span> optimizes this command, by saving its results in
+<code>~/emacs/preferences/e-cache.el</code> (or e-xcache.el for XEmacs). This
+also has the side effect, that when you've installed <a
+href="http://tiny-tools.sf.net">http://tiny-tools.sf.net</a> or browse-url.el,
+and conditions work right, that you can click on the links to download these
+packages.
+</p>
+<p>
+There are far more packages in [X]Emacs, than the <span
+class="emacro">EMacro</span> team can support, but all the supported libraries,
+not bundled with [X]Emacs, are listed in the cache[s]. <span
+class="emacro">EMacro</span> currently does not automatically refresh the
+cache, so you must delete them, when you change supported packages in your
+load-path. This is what happens, when you run
+<code>~/emacs/bin/</code><i>[os]</i><code>/e-refresh</code>. <span
+class="emacro">EMacro</span> will automatically repopulate any missing items in
+the cache.
+</p>
+
+<hr />
+<h2>
+<a name="Completion">
+Code &amp; Word Completion / Intellisense
+</a>
+</h2>
+<p>
+Emacs lets you hit <i>TAB</i>, when in the minibuffer, to complete command or
+file names. This technology can also be used inside the editor.
+Type a partial word, then <code>S-C-/</code> (Control ?), and
+<span class="emacro">EMacro</span> uses dabbrev to search the buffer to
+complete the word.
+<br />
+See also <a href="resources.html">resources.html</a> for JDEE &amp; CSDE, which
+provide this in their Java &amp; C# development environments.
+<br />
+See <a href="http://cedet.sourceforge.net/intellisense.shtml">
+http://cedet.sourceforge.net/intellisense.shtml</a> for a tutorial on Semantic
+<br />
+See also <a href="resources.html">resources.html</a> for flyspell.el and
+flymake.el
+</p>
+
+<hr />
+<h2><a name="Completion">Completion Undo</a></h2>
+<p>
+If you lose your place when opening a file with <code>C-x f</code> Find File,
+by hitting <code><b>//</b></code> or TAB, you can always hit Undo <code>C-x
+u</code>.
+</p>
+
+<hr />
+
+<h2><a name="Controlling">Controlling Commands</a></h2>
+<ul>
+    <li>Cancel commands with <i>C-g</i> or 3 <i>ESC</i>s</li>
+    <li>History of commands to repeat with <i>M-x M-p</i> or <i>M-x uparrow</i>
+    </li>
+    <li>Repeat to cycle through history <i>C-x ESC ESC</i></li>
+    <li>Sometimes <i>C-x z</i> repeats commands, too.</li>
+</ul>
+
+<hr />
+<h2><a name="Configuring">Configuring Emacro</a></h2>
+<p>
+Before you make changes to <span class="emacro">EMacro</span>, you should read
+INSTALL.txt's section on upgrading. Rather than simply uncommenting code, copy
+your uncommented code to postload.el, (or a file you call from it). This file
+is meant to be modified.
+</p>
+
+<hr />
+<h2><a name="CUA">CUA.el and Clashing Commands</a></h2>
+<p>
+Say you are running cua-mode, and you wish to use the command shortcut for
+<code>M-x comment-region</code>. First, you mark the region by dragging the
+mouse, or shift-arrow. You type <code>C-c</code> (Control C) and
+then <code>C-o</code>. To your surprise, it copies text to the clipboard, then
+tries to open a file. The trick is to execute these commands rapidly together:
+<code>C-c C-o</code>. If you are in a programming mode (modeline at bottom says
+c-mode or emacs-lisp-mode, etc), then the selected region will be commented
+out.
+</p>
+
+<hr />
+<h2><a name="Disk">Disk Diet For A Smaller Emacs</a></h2>
+<p>
+You probably shouldn't use Emacs (nor XEmacs, nor EMacro) if you are starved
+for disk space. Your best bet is to use an Emacs clone, such as Jed or Jove.
+See also the Unix man page for <code>strip</code>.
+Following are some Emacs files that are not <b>critical</b>.
+We will use the word <b>move</b>, to free these files. Contact your system
+administrator, as to whether you should move them to another partion or system
+(and link), compress, or, if needed, <i>delete</i>.
+"~emacs" refers to the main emacs directory. "~lisp" means the main distibution
+of Emacs lisp files
+<br />
+Proceed with <b>CAUTION!</b> We are not responsible for this advice! Further,
+this advice has not been tested, and could lead to Emacs misbehaving!
+</p>
+<ul>
+  <li>Move out all files in ~lisp/ which do not end with '.el' or '.elc'.
+       Furthermore, move all files which end with '.el' if a corresponding
+       '.elc' file exists.  Do this for all subdirectories as well.
+       You can also move all files from the doc directory except
+       for the DOC* files.</li>
+  <li>The following directories are not part of core editor functionality, and
+       can be moved</li>
+</ul>
+       <ul>
+	 <li>~lisp/mail/</li>
+	 <li>~lisp/gnus/</li>
+	 <li>~lisp/term/</li>
+	 <li>~lisp/play/</li>
+	 <li>~lisp/emulation/</li>
+	 <li>~lisp/calendar/</li>
+       </ul>
+<ul>
+  <li>If you only need english ascii, you can move these directories:</li>
+	 <li>~emacs/leim/</li>
+	 <li>~lisp/language/</li>
+	 <li>~lisp/international/</li>
+</ul>
+
+<hr />
+<h2><a name="Edit">Edit Unusual Files</a></h2>
+<p>
+Using the variable <i>file-name-handler-alist</i>, you can execute arbitrary
+code when opening a file. This is used by dired and ange-ftp / efs.
+You can adapt this to other things, such as seamlessly editing text stored in
+a database, where (X)Emacs silently performs the select/update.
+</p>
+
+<hr />
+<h2><a name="Elisp">Elisp Coding</a></h2>
+<p>
+You can always hit <code>C-x e</code> after a closing parenthesis, to execute
+the preceding lisp function. GNU Emacs also supports interactive
+interpretation: try <code>M-x ielm</code>
+</p>
+<p>
+Once you've written code into a <i>*.el</i> elisp file, you can check your work
+with the following tools:
+</p>
+
+<ul>
+<li><code>checkdoc()</code> <a href="ftp://ftp.ultranet.com/pub/zappo/">
+ftp://ftp.ultranet.com/pub/zappo/</a></li>
+<li><code>lm-verify()</code> from <code>lisp-mnt.el</code>, which is bundled
+with emacs</li>
+</ul>
+
+<hr />
+<h2><a name="Find">Find Functions &amp; Variables</a></h2>
+<p>
+You can type <i>C-h v</i>, or <i>C-h f</i> then tab, to have the complete list
+of possible variable or function names, respectively. Then click in the
+*completion* buffer (that should have appeared) and do an i-search <i>C-s</i>
+using for your keyword. This also lets you inspect what values are currently
+set.
+<i>C-h a</i> is also useful here.
+</p>
+
+<hr />
+<h2><a name="Indent">Indent All C++ Files</a></h2>
+<p>
+This shows how to run Emacs in batch mode against several files. See also
+<code>~/emacs/bin/unix/e-batchcompile</code> for another example.
+</p>
+<pre>
+for i in *.[ch]*		#.cpp, .h, .hxx, ...
+do
+    fcommand="$fcommand --find-file $i"
+done
+
+emacs -nw --batch --load ~/tabify-c++-buffers.el $fcommand --execute '(progn (tabify-all-c++-buffers) (kill-emacs 0))'
+</pre>
+
+<hr />
+<h2><a name="Gdb">Gdb Debugger Tutorial</a></h2>
+<p>
+From: Zhongtao Zhu
+<script type="text/javascript">
+<!--
+UCEproof("zhongtao", "tsinghua.edu", "cn");
+// -->
+</script>
+<br />
+(1) Write the <i>hello.c</i> program and compile it with the <b>-g</b> option.
+<br />
+    =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+<br />
+<code>
+    #include &lt;stdio.h&gt;
+<br />
+    main()
+<br />
+    {
+<br />
+         printf("Hello, world.\n");
+<br />
+    }
+</code>
+<br />
+    =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+<br />
+<br />
+    Now you have the executable <i>hello</i> in your working directory.
+<br />
+(2) Load the <i>hello.c</i> source code in a buffer and vertically split the
+window by <code>C-x 2</code>.
+<br />
+(3) Execute <i>gdb</i> by <code>M-x gdb</code> and in the mini-buffer there
+should be a line <code>gdb --fullname hello</code> displayed, you just press
+<i>ENTER</i> for it. Now a new <i>*gud-hello*</i> buffer is shown and ready for
+use.
+<br />
+(4) Switch to the source code buffer and move cursor to the line of
+<code>printf(...)</code>, then set a breakpoint by <code>C-x</code>
+<i>SPACE</i> at the line.
+<br />
+(5) Switch back to the *gud-hello* buffer and input <code>run</code>
+<i>ENTER</i>, the program <i>hello</i> will run and stop in the breakpoint you
+set. For this example, in the source code buffer you will find a <b>=&gt;</b>
+mark pointing to the <code>printf(...)</code> line.
+<br />
+<br />
+    =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+<br />
+<code>
+    #include &lt;stdio.h&gt;
+<br />
+<br />
+    main()
+<br />
+    {
+<br />
+    =&gt;    printf("Hello, world.\n");
+<br />
+    }
+</code>
+<br />
+    =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+<br />
+<br />
+(6) In the <i>*gud-hello*</i> buffer, <code>C-h m</code> will show you all the
+commands of interest.
+</p>
+
+<hr />
+<h2><a name="ISpell">ISpell</a></h2>
+<p>
+If you're running NT Emacs and want to use the Cygwin port of ispell[1]
+together with the German and Swiss dictionaries by Bjoern Jacke (he got them
+from Heinz Knutzen), here is the info you need.
+<br />
+The key is to get the binary distribution and install it, then get the source
+distribution, add <code>#define MASKBITS 64</code> to local.h and run <code>
+make programs</code>. If the other targets fail, you'll need the binary
+distribution as well.  Copy the programs into whatever directory you keep the
+stuff from the binary distribution.
+<br />
+Now you can get the German and Swiss dictionaries by Bjoern and run make there
+(no problem as soon as you have the MASKBITS stuff), and copy the .hash and
+.aff files into wherever the binary distribution puts them.
+<br />
+Into you .emacs, put the following lisp code.  It is copied from the deutsch8
+entry.  If you want other command line options and word boundaries, just take
+another entry from ispell-dictionary-alist as a template.
+</p>
+<pre>
+(add-to-list 'ispell-dictionary-alist
+	     '("german"
+	       "[a-zA-Z\304\326\334\344\366\337\374]"
+	       "[^a-zA-Z\304\326\334\344\366\337\374]"
+	       "[']" t ("-C" "-d" "german") "~latin1" iso-8859-1))
+(add-to-list 'ispell-dictionary-alist
+	     '("swiss"
+	       "[a-zA-Z\304\326\334\344\366\337\374]"
+	       "[^a-zA-Z\304\326\334\344\366\337\374]"
+	       "[']" t ("-C" "-d" "swiss") "~latin1" iso-8859-1))
+</pre>
+<p>
+For the Portuguese dictionary for ispell from
+<a href="http://fmg-www.cs.ucla.edu/geoff/ispell-dictionaries.html">
+http://fmg-www.cs.ucla.edu/geoff/ispell-dictionaries.html
+</a> you may need to add the following entry to ispell-dictionary-alist:
+</p>
+<pre>
+(add-to-list 'ispell-dictionary-alist
+	     '("portugues"
+	       "[a-zA-Z\301\302\311\323\340\341\342\351\352\355\363\343\372]"
+	       "[^a-zA-Z\301\302\311\323\340\341\342\351\352\355\363\343\372]"
+	       "[']" t ("-C" "-d" "portugues") "~latin1" iso-8859-1))
+</pre>
+
+<hr />
+<h2><a name="Japanese">Japanese</a></h2>
+<p>
+If you want to display Japanese fonts, you should have MULE &amp; LEIM support
+compiled in to Emacs. It may help to look at japanese.el &amp; canna.el. You
+will also need to have Japanese fonts installed.
+<br />
+You can put <code>-*- coding: foo; -*-</code> in the first line of the file
+(into a LaTeX comment, for instance), for the right value of foo.
+<br />
+You can use file-coding-system-alist to tell Emacs about the right coding
+system based on the file name.
+</p>
+
+<hr />
+<h2><a name="KDE">KDE Colors</a></h2>
+<p>Edit $KDEDIR/apps/kdisplay/app-defaults/Emacs.ad</p>
+
+<hr />
+<h2><a name="Keyboard">Keyboard Performance</a></h2>
+<p>
+See "AutoRepeat" in XF86Config file, if you use XFree86 (Linux). See also
+<a href="resources.html">resources.html</a>
+</p>
+
+<hr />
+<h2><a name="Kill">Killing Buffers</a></h2>
+<p>
+You can select and remove several buffers with <i>C-x C-b</i> to show list,
+then cursor to each, and type "d" to delete. Hit "x" to exit.
+</p>
+<p>
+You can lock a buffer, so that it cannot be killed, by
+</p>
+<p>
+<code>(require 'emacs-lock)</code> &nbsp; ;;add to e-postload.el (or .emacs)
+</p>
+<p>
+M-x <code>toggle-emacs-lock</code>
+</p>
+
+<hr />
+<h2><a name="MAC">MAC OS Classic (v7 - v9)</a></h2>
+<p>
+You may see a dialog comes up saying that some settings have to be initialized
+the first time emacs is started, and that emacs may have to be restarted.
+If you see this again on the restart, set
+<b>Preferences... -> Cross Platform -> Convert text files to Macintosh format
+</b> to <b>Never</b>.
+Note that <span class="emacro">EMacro</span> Help only supports Netscape
+browser. If you are are good at Applescript, you can help the
+<span class="emacro">EMacro</span> project improve this!
+</p>
+
+<hr />
+<h2><a name="Open">Open New Window</a></h2>
+<p>
+To see 2 windows in your emacs editor, try <i>C-x 4 b</i>. Also see the
+split-window-recent() function in functions.el
+</p>
+
+<hr />
+<h2><a name="Oracle">Oracle</a></h2>
+<p>
+You can get query results in emacs sql-mode on one line with 'set linesize
+9999'. See also auto-fill-mode &amp; hscroll to adjust line wrapping.
+</p>
+
+<hr />
+<h2><a name="Performance">Performance Improvement</a></h2>
+<p>
+You can improve performance, by setting fonts in .Xdefaults, instead of in
+Emacs. To change .Xdefaults, i.e. your fonts, with restarting Emacs, you would
+run<br />
+<code>xrdb [-merge] $HOME/.Xdefaults</code>
+<br />
+<span class="emacro">EMacro</span> sets fonts using Emacs, for portability, so
+this performance trick would require code changes.
+</p>
+
+<hr />
+<h2><a name="Permissions">Permissions: Su For Higher Authority</a></h2>
+<p>
+You can use tramp.el, or possibly Ange-ftp (Emacs) or EFS (XEmacs) to
+edit files with another user's permissions. This may require the FTP service to
+be running. Simply open a file using this syntax:<br />
+<code>C-x f</code>
+</p>
+<p>
+<code>/su:root@localhost:/etc/hosts</code><br />
+or, more simply,<br />
+<code>/su::/etc/hosts</code>
+</p>
+<p>
+You can also try this older syntax:
+</p>
+<p>
+<code>C-x f</code>
+</p>
+<p>
+<code>/root@localhost:/dir/filename</code>
+</p>
+
+<hr />
+<h2><a name="Remote">Remote Printing</a></h2>
+<p>
+Windows users can simply give a UNC name to their printer, e.g. <code>
+\\remote\hp6</code>. Windows users might also wish to use "print", when
+<span class="emacro">EMacro</span> prompts the first time for the print
+command. This is saved in preferences.el as
+<br />
+<code>(setq lpr-command "print")</code>
+<br />
+If your Linux system administrator hasn't set up /dev/rp0, you might be able
+to <span class="emacro">EMacro</span>'s first time prompt with something like
+<br />
+<code>rsh server lp -d hp-printer</code>
+<br />
+This is saved in preferences.el as
+<br />
+<code>(setq lpr-command "ssh")</code>
+<br />
+<code>(setq lpr-switches '("print_server" "lp" "-d" "printer_name"))</code>
+</p>
+
+<hr />
+<h2><a name="Replace">Replace Text In A Subdirectory</a></h2>
+<p>
+If you want to search &amp; replace "foo" with "bar" in all your C files (which
+have names like "file.c" or "file.h"):
+</p>
+<ul>
+    <li><code>M-x dired</code><br />
+        <code>/home/path/</code><br />
+        or<br />
+        <code>/home/path/*.c</code></li>
+    <li>If you are using Gnu Emacs, you can mark a subtree of directories by
+        <br />
+	<code>M-x find-dired</code>
+	<br />
+        <code>/home/path/</code>
+        <br />
+	<code>-name "*.[ch]"</code>
+	<br />
+        Note that Microsoft Windows comes with a default find.exe that comes
+        first in PATH, and interferes with Cygwin's find.exe</li>
+    <li>Mark the files you want to work on.
+        <br />
+	See "Mark" in menu, or <code>C-h a</code>
+	<br />
+        <code>dired-mark</code></li>
+    <li>Type 'Q' <code>dired-do-query-replace</code></li>
+    <li>Type in your replacements as regexps</li>
+</ul>
+
+<hr />
+<h2><a name="Screenrc">.screenrc Sample</a></h2>
+<p>
+From Daniel Jensen
+<script type="text/javascript">
+<!--
+UCEproof(daniel, bigwalter, net)
+// -->
+</script>
+</p><p>
+I have not tested this
+</p><p>
+<code>markkeys "0=^A:\$=^E:h=^B:j=^N:k=^P:l=^F"</code>
+</p>
+
+<hr />
+<h2><a name="Searching">Searching EmacsWiki</a></h2>
+<p>
+You need to escape special characters, so to search for <b>c++</b>, you would
+need to enter &nbsp; <code><b>c\+\+</b></code> &nbsp; in the HTML search box.
+</p>
+
+<hr />
+<h2><a name="Shell">Shell Commands</a></h2>
+<p>
+See also <a href="#Profile">.Profile</a>
+</p><p>
+Emacs emulates many unix commands. Examples: <code>M-x cd</code>,
+<code>M-x dir</code>, <code>M-x grep</code>
+</p>
+<p>
+The following shells support smart things like arrows &amp; color, and may work
+better on versions of XEmacs or Emacs, older than v21.x. If EMacro detects
+<code>ansi-color.el</code> in the <code>load-path</code>, that will help.
+</p>
+<ul>
+    <li>M-x tshell</li>
+    <li>M-x term</li>
+</ul>
+<p>Try them, if you have problems with the standard</p>
+<ul>
+    <li>M-x shell</li>
+</ul>
+<p>
+In <code>M-x shell</code>, <code>C-up</code> gets you the previous command.
+</p>
+<p>
+Also try <code>C-u M-|</code> (<code>shell-command-on-region</code>)
+which runs a command such as grep or sort, using the selected text
+</p>
+<p>
+Here is an example of using Emacs in a shell script<br />
+<br />
+<code>
+#Indent all C++ files<br />
+<br />
+for i in *.[ch]* &nbsp;  #.cpp, .h, .hxx, ...<br />
+do<br />
+    fcommand="$fcommand --find-file $i"<br />
+done<br />
+#The above is simply `fcommand="**/*.[ch][px]*"` in zsh (and modern bash?)
+<br />
+<br />
+emacs -nw --batch --load ~/tabify-c++-buffers.el $fcommand --execute '(progn
+(tabify-all-c++-buffers) (kill-emacs 0))'<br />
+</code>
+</p>
+
+<hr />
+<h2><a name="Superscripts">Superscripts</a></h2>
+<p>
+<code>C-x 8 ^1</code> in Emacs.<br />
+On some keyboards it is <code>AltGr+Shift 1</code>
+There's also footnote.el which has more features.
+</p>
+
+<hr />
+<h2><a name="TrueType">TrueType Fonts</a></h2>
+<p>
+From: Peter Baumgartner
+<script type="text/javascript">
+<!--
+UCEproof("peter", "uni-koblenz", "de");
+// -->
+</script>
+<br />
+Enable TrueType Fonts under XWindow by running the xfstt font server.
+Extend the font path by
+<br />
+<code>xset fp+ inet/127.0.0.1:7101</code>
+<br />
+This line typically goes into ~/.xinitrc. Port number 7101 is the default.
+<br />
+Now you can use X-font specifications for ttf-fonts in the usual way. For
+instance, in ~/.Xresources, set the default XEmacs fonts with
+</p>
+<pre>
+XEmacs.default.attributeFont: -ttf-verdana-medium-r-normal-*-17-*-75-75-*-*-iso8859-1
+</pre>
+
+<hr />
+<h2>
+<a name="Tweaking">
+Tweaking: Changing Emacs Options
+</a>
+</h2>
+<p>
+In Emacs, you can enter <code>M-x customize</code> or, more simply, choose
+<i>Options-&gt;Customize Emacs</i> from the menu.
+</p><p>
+Some settings must be adjusted in your <code>~/.Xdefaults</code> file. Add the
+following line to it.
+</p><p>
+<code>Emacs*menubar*Font:	-*-helvetica-bold-r-*-*-*-100-*-*-*-*-iso8859-*
+</code>
+</p><p>
+Now the JDEE menu should fit within 80 columns. See more examples at
+<a href="http://petaxp.rug.ac.be/~erik/xemacs/sample.Xdefaults">
+http://petaxp.rug.ac.be/~erik/xemacs/sample.Xdefaults</a>
+</p>
+
+<hr />
+<h2><a name="Unicode">Unicode</a></h2>
+<p>
+From Jasper Harder
+<script type="text/javascript">
+<!--
+UCEproof("harder", "myrealbox", "com");
+// -->
+</script>
+<br />
+This is an X Window (only) technique to check if a particular Unicode glyph is
+supported. You can determine which font Emacs will use with<br />
+<code>internal-char-font</code><br />
+You could then call<br />
+<code>xlsfonts -lll -fn</code> FONT<br />
+and parse the output to get the font metrics. If the metrics for a particular
+code point contains all zeros, say<br />
+<code>0x009f (159) 0 0 0 0 0 0x0000</code><br />
+then the glyph doesn't exist in this font.
+</p>
+
+<hr />
+<h2><a name="Word">Word Wrap</a></h2>
+<p>
+Emacs calls "Word Wrap" as <i>fill</i> mode. <span class="emacro">EMacro</span>
+lets you type <code>M-x auto-fill-mode</code> to turn this on and off. Emacs
+does one better, where you can hit <code>C-x .</code> to indent plain text,
+after, for example, an <b>*</b> used  as a bullet. <code>M-q</code> will insert
+a new bullet at the beginning of the current line. XEmacs lets you turn this on
+with <code>M-x filladapt-mode</code> 
+</p>
+
+<hr />
+<h2><a name="XEmacs">XEmacs .emacs Upgrade</a></h2>
+<!-- THIS SECTION IS OBSOLETE AND WILL BE REMOVED -->
+<p>
+When you upgrade your version of XEmacs, you may be prompted to
+migrate <span class="emacro">EMacro</span>'s <code>.emacs</code> file to
+<code>~/.xemacs/init.el</code><br />
+</p>
+<ul>
+  <li><i>Advantages</i> Creates a .toolbar file, but
+    <a href="#XEmacs Toolbar Adjustment">you can create one yourself</a></li>
+  <li><i>Disadvantages</i> May modify your .emacs file. Sharing
+    <span class="emacro">EMacro</span> with (GNU/FSF) Emacs may be more
+    difficult</li>
+</ul>
+
+<hr />
+<h2><a name="Toolbar">XEmacs Toolbar Adjustment</a></h2>
+<p>
+<code>M-x edit-toolbar</code>
+<br />
+<code>default-toolbar</code>
+<br />
+<span class="emacro">EMacro</span> already loads user defined toolbars in <code>~/.xemacs/.toolbar</code>
+</p>
+
+<hr />
+<h2><a name="XML">XML Remote DTD</a></h2>
+<p>
+<span class="emacro">EMacro</span> has code in <code>e-xml.el</code> to load a
+DTD via an URI. For this to work, you must tell e-prefs.el that you connect to
+the net, with a fast connection (no modem). The following elisp libraries must
+also be installed:
+</p>
+<ul>
+<li>w3</li>
+<li>psgml</li>
+<li>advice</li>
+<li>url</li>
+</ul>
+<p>
+Finally, <a href="http://www.jclark.com/sp/howtoget.htm">nsgmls</a> must be in
+the <code>PATH</code>. Make sure to <code>e-refresh</code> e-[x]cache.el.
+</p>
+
+<hr />
+<h2><a name="GLOSSARY">GLOSSARY</a></h2>
+<ul>
+  <li><b>Keys</b> (Note that the <b>-</b> is just a separator)</li>
+  <li><b>A-</b> Means hold down the <i>Alt</i> key,while typing the next
+  keyboard key. You are not likely to see this often; applies only to keyboards
+  with both Alt and Meta keys, such as Sun keyboards.</li>
+  <li><b>C-</b> Hold <i>Control</i> key, while pressing next key.</li>
+  <li><b>M-</b> Press <i>Meta</i> key with the next letter. Most
+  keyboards, this is the <i>Alt</i> key (be sure to try both the
+  left, as well as right <i>Alt</i> keys). Otherwise, press and
+  release the <i>ESC</i> key, then press the next key.</li>
+  <li><b>S-</b> Press Shift key, then next key.</li>
+</ul>
+<ul>
+  <li><b>Buffer</b> Active file loaded into RAM memory. Much like windows on
+       top of each other, that you switch to, using <i>C-x C-b</i>.
+       Buffers can also be split using <i>C-x 2</i>, for example</li>
+  <li><b>Frame</b> Another window of Emacs, if you run in a GUI</li>
+  <li><b>Kill</b> Cut selected text: <i>C-w</i> or <i>S-DEL</i></li>
+  <li><b>Kill Buffer</b> Clipboard that holds selected text</li>
+  <li><b>Mark and Point</b> The beginning and end of region of selected text.
+  C-space sets the <i>mark</i>. 
+       <b>Point</b> is where the text cursor currently is.</li>
+  <li><b>Minibuffer</b> The status area at the bottom of Emacs</li>
+  <li><b>Yank</b> Paste selected text: <i>C-y</i> or <i>S-INS</i></li>
+</ul>
+
+<hr />
+<h2><a name="Links">Links to More Emacs Tips</a></h2>
+<p>
+<a href="http://www-numi.fnal.gov/fnal_minos/computing/emacs_primer.html">
+http://www-numi.fnal.gov/fnal_minos/computing/emacs_primer.html</a>
+</p>
+
+
+</body>
+</html>

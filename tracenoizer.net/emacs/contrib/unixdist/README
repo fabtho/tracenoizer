@@ -1,0 +1,28 @@
+EMacro: Easily and portably configures the Emacs and/or XEmacs editing systems
+Copyright © 1998-2003 Bruce Ingalls bingalls(at)users.sourceforge.net
+
+If you have a .emacs file (other than EMacro's) in /etc/skel or $HOME, you
+should move it before proceeding; it might be overwritten.
+
+This install package will work properly, when installed after all Emacs and
+XEmacs editors are installed, as they might also write /etc/skel/.emacs
+
+This also works well, before creating user accounts. If user accounts have
+already been created, then you must do
+	cp -R /etc/skel/.emacs /etc/skel/emacs ~
+to copy the extracted file and subdirectory into your $HOME path.
+
+The script "emacrosetup.sh" does this same copy
+
+I recommend that beginning users install cua.el from <url: http://www.cua.dk/ >
+into ~/emacs/packages/ before starting EMacro.
+
+When you restart emacs, EMacro caches your environment into one of the files in
+~/emacs/preferences/.
+
+~/emacs/bin/unix/e-refresh will remove the cache, so that you can add new
+supported packages to ~/emacs/packages/ for EMacro to recognize. A list of
+supported packages are generated in the cache files,
+~/emacs/preferences/e-cache.el (emacs) or ~/emacs/preferences/e-cache.el
+(xemacs).
+

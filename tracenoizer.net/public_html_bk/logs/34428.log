@@ -1,0 +1,13 @@
+sh: amp: command not found
+--20:54:57--  http://www.tracenoizer.org/modelanleg.php?main_id=34428
+           => `modelanleg.php?main_id=34428'
+Resolving www.tracenoizer.org... done.
+Connecting to www.tracenoizer.org[195.176.254.172]:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K                                                           8.79 KB/s
+
+20:54:57 (8.79 KB/s) - `modelanleg.php?main_id=34428' saved [9]
+
+sh: endee.txt: Permission denied

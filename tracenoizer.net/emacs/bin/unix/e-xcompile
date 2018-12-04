@@ -1,0 +1,33 @@
+#!/bin/sh
+#xBatchcompile: compiles its args for faster loading
+#Time-stamp: <2003-02-16 10:37:38 bingalls>
+#$Id$
+
+#assumes e-path.el is in $HOME/emacs
+
+#Copyright © 1998,2003 Bruce Ingalls bingalls(at)users.sourceforge.net
+#See the file COPYING for license
+
+#This script requires a unix-like shell running on your system.
+#<url: http://emacro.sourceforge.net/ > <url: http://www.dotemacs.de/ >
+
+# Syntax: compile foo.el bar.el *.el
+
+# I recommend that you do *not* compile EMacro's *.el elisp files. You will not
+# gain much speed, and will lose portablility between versions & Emacs/XEmacs.
+# You can can easily byte-compile individual files, by opening them in Emacs,
+# then choosing menu: Lisp->Compile. Some packages, such as Semantic, used by
+# JDE, benefit from compiling multiple files. You can recognize them, because
+# they include Makefiles. Assuming that Make is available on your system, you
+# may still get errors, because dependent libraries, such as ELib are not in
+# your load-path. This script simply adds EMacro's load-path
+
+if [ ! -f $HOME/emacs/e-path.el ]
+  then
+    echo "$HOME/emacs/e-path.el not found."
+    echo "Please read Installation documentation"
+    echo
+    exit
+fi
+
+xemacs -batch -l $HOME/emacs/e-path.el -f batch-byte-compile $*

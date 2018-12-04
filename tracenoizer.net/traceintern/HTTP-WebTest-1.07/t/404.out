@@ -1,0 +1,9 @@
+Failed  Succeeded  Test Name
+   1          0    Non-existent URL
+
+   Test Name: Non-existent URL
+         URL: http://www.this_domain_does_not_exist.com
+ Return Code: 500 Can't connect to www.this_domain_does_not_exist.com:80 (Bad hostname 'www.this_domain_does_not_exist.com')
+              HTTP request for web page satisfied ?                     FAIL
+
+Total web tests failed: 1   succeeded: 0

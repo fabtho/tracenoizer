@@ -1,0 +1,82 @@
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+--15:37:58--  http://www.tracenoizer.org/modelanleg.php?main_id=34526
+           => `modelanleg.php?main_id=34526'
+Resolving www.tracenoizer.org... done.
+Connecting to www.tracenoizer.org[195.176.254.172]:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K                                                           8.79 KB/s
+
+15:37:58 (8.79 KB/s) - `modelanleg.php?main_id=34526' saved [9]
+
+Loading data files...
+Placed remaining 15 documents in the train set:
+Calculating info gain... words ::               1224     1124     1024      924      824      724      624      524      424      324      224      124       24
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's Homepage<br></font><br><br><br><div align="center"><img height="150" width="21' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 650.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's three new movies at the upcoming Digital Showcase on November 13th.</td>
+<tr>
+' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's three new movies at the upcoming Digital Showcase on November 13th.</td>
+<tr>
+' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's three new movies at the upcoming Digital Showcase on November 13th. .</td>
+<tr' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's three new movies at the upcoming Digital Showcase on November 13th. .">
+<meta ' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's three new movies at the upcoming Digital Showcase on November 13th.</td>
+<tr>
+' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's three new movies at the upcoming Digital Showcase on November 13th. ..</td>
+<t' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near '96, Sean headed for Harvard (to major in computer science) while Josh stayed in ' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near '96, Sean headed for Harvard (to major in computer science) while Josh stayed in ' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+sh: endee.txt: Permission denied

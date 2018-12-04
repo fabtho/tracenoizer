@@ -1,0 +1,137 @@
+#
+# This is the Apache configuration file used with the automated web
+# testing Perl module WWW::WebTest. DO NOT CHANGE any strings in this
+# file that contain "Please_do_not_modify", as the WebTest module
+# substitutes for these strings at runtime.
+#
+# This is the main server configuration file. See URL http://www.apache.org/
+# for instructions.
+#
+LoadModule vhost_alias_module /usr/lib/apache/1.3/mod_vhost_alias.so
+LoadModule env_module /usr/lib/apache/1.3/mod_env.so
+LoadModule config_log_module /usr/lib/apache/1.3/mod_log_config.so
+LoadModule mime_module /usr/lib/apache/1.3/mod_mime.so
+LoadModule negotiation_module /usr/lib/apache/1.3/mod_negotiation.so
+LoadModule status_module /usr/lib/apache/1.3/mod_status.so
+LoadModule includes_module /usr/lib/apache/1.3/mod_include.so
+LoadModule dir_module /usr/lib/apache/1.3/mod_dir.so
+LoadModule cgi_module /usr/lib/apache/1.3/mod_cgi.so
+LoadModule proxy_module /usr/lib/apache/1.3/libproxy.so
+LoadModule alias_module /usr/lib/apache/1.3/mod_alias.so
+LoadModule access_module /usr/lib/apache/1.3/mod_access.so
+LoadModule auth_module /usr/lib/apache/1.3/mod_auth.so
+LoadModule perl_module /usr/lib/apache/1.3/mod_perl.so
+LoadModule ssl_module /usr/lib/apache/1.3/mod_ssl.so
+
+ServerRoot Please_do_not_modify_SERVER_ROOT
+ServerAdmin Please_do_not_modify_EMAIL_ADDRESS
+DocumentRoot Please_do_not_modify_SERVER_ROOT/htdocs
+ServerName Please_do_not_modify_HOST_NAME
+
+Port Please_do_not_modify_PORT
+Listen Please_do_not_modify_PORT
+
+HostnameLookups off
+
+User nobody
+Group nobody
+
+BindAddress *
+
+ExtendedStatus on
+
+ErrorLog Please_do_not_modify_SERVER_ROOT/logs/error.log
+LogLevel Please_do_not_modify_LOG_LEVEL
+LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\" %T %v" full
+LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+LogFormat "%h %l %u %t \"%r\" %>s %b" common
+LogFormat "%{Referer}i -> %U" referer
+LogFormat "%{User-agent}i" agent
+
+CustomLog Please_do_not_modify_SERVER_ROOT/logs/access.log common
+PidFile Please_do_not_modify_SERVER_ROOT/apache.pid
+LockFile Please_do_not_modify_SERVER_ROOT/apache.lock
+UseCanonicalName on
+Timeout 300
+KeepAlive On
+
+MaxKeepAliveRequests 100
+KeepAliveTimeout 15
+MinSpareServers 1
+MaxSpareServers  1
+
+
+StartServers 1
+MaxClients 2
+MaxRequestsPerChild 20
+
+AccessConfig /dev/null
+ResourceConfig /dev/null
+
+SSLPassPhraseDialog  builtin
+SSLSessionCache         dbm:Please_do_not_modify_SERVER_ROOT/ssl_scache
+SSLSessionCacheTimeout  300
+SSLMutex  file:Please_do_not_modify_SERVER_ROOT/ssl_mutex
+
+SSLRandomSeed connect builtin
+SSLRandomSeed startup file:/dev/urandom 512
+SSLLog      Please_do_not_modify_SERVER_ROOT/logs/ssl_engine_log
+SSLLogLevel info
+
+AddHandler cgi-script .cgi
+AddHandler server-parsed .shtml
+AddHandler server-parsed .html
+
+<Directory />
+    Options Indexes ExecCGI FollowSymLinks
+    AllowOverride None
+</Directory>
+
+
+<Directory Please_do_not_modify_SERVER_ROOT/htdocs>
+Options All Indexes FollowSymLinks ExecCGI
+AllowOverride All
+# Controls who can get stuff from this server.
+<Limit GET>
+order allow,deny
+allow from all
+</Limit>
+</Directory>
+
+DirectoryIndex index.html index.htm
+
+#
+# AccessFileName: The name of the file to look for in each directory
+# for access control information.
+#
+AccessFileName .htaccess
+
+<Files ~ "^\.ht">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<VirtualHost Please_do_not_modify_HOST_NAME>
+DocumentRoot Please_do_not_modify_SERVER_ROOT/htdocs
+Options All Indexes FollowSymLinks Includes ExecCGI
+ErrorLog Please_do_not_modify_SERVER_ROOT/logs/error.log
+TransferLog Please_do_not_modify_SERVER_ROOT/logs/access.log
+<FilesMatch "\.(htm|asp)$">
+      SetHandler perl-script
+      PerlHandler Apache::ASP Apache::SSI
+      PerlSetVar Filter On
+      PerlSetVar IncludesDir . 
+      PerlSetVar StateDB DB_File 
+      Please_do_not_modify_PERLSETVAR_GLOBAL
+      PerlSetVar CookiePath /
+      PerlSetVar AllowSessionState 1
+      PerlSetVar SessionTimeout 60
+      PerlSetVar Debug 2 
+      Please_do_not_modify_PERLSETVAR_MAILHOST
+      Please_do_not_modify_PERLSETVAR_MAILERRORSTO
+</FilesMatch>
+
+</VirtualHost>
+
+SetEnv ORACLE_HOME /usr/local/oracle_client/v8_0_5
+

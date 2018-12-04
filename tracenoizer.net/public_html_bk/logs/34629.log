@@ -1,0 +1,154 @@
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+DBD::mysql::st execute failed: Unknown column 'secid' in 'field list' at trace_centralV4.pl line 309.
+DBD::mysql::st execute failed: Unknown column 'secid' in 'field list' at trace_centralV4.pl line 309.
+Created directory `model'.
+Class `143'
+  Gathering stats... files : unique-words ::                       1 :       20
+Class `144'
+  Gathering stats... files : unique-words ::                       1 :       40
+Class `145'
+  Gathering stats... files : unique-words ::                       1 :       65
+Class `146'
+  Gathering stats... files : unique-words ::                       1 :      408
+Class `147'
+  Gathering stats... files : unique-words ::                       1 :      464
+Class `148'
+  Gathering stats... files : unique-words ::                       1 :      481
+Class `149'
+  Gathering stats... files : unique-words ::                       1 :      615
+Class `150'
+  Gathering stats... files : unique-words ::                       1 :      652
+Class `151'
+  Gathering stats... files : unique-words ::                       1 :      652
+Class `152'
+  Gathering stats... files : unique-words ::                       1 :      744
+Class `153'
+  Gathering stats... files : unique-words ::                       1 :      923
+Class `154'
+  Gathering stats... files : unique-words ::                       1 :     1076
+Class `155'
+  Gathering stats... files : unique-words ::                       1 :     1173
+Class `156'
+  Gathering stats... files : unique-words ::                       1 :     1222
+Class `157'
+  Gathering stats... files : unique-words ::                       1 :     1222
+Class `158'
+  Gathering stats... files : unique-words ::                       1 :     1249
+Class `159'
+  Gathering stats... files : unique-words ::                       1 :     1280
+Class `160'
+  Gathering stats... files : unique-words ::                       1 :     1315
+Class `161'
+  Gathering stats... files : unique-words ::                       1 :     1326
+Class `162'
+  Gathering stats... files : unique-words ::                       1 :     1492
+Class `163'
+  Gathering stats... files : unique-words ::                       1 :     1492
+Class `164'
+  Gathering stats... files : unique-words ::                       1 :     1492
+Class `165'
+  Gathering stats... files : unique-words ::                       1 :     1506
+Class `166'
+  Gathering stats... files : unique-words ::                       1 :     1506
+Class `167'
+  Gathering stats... files : unique-words ::                       1 :     1565
+Class `168'
+  Gathering stats... files : unique-words ::                       1 :     1809
+Class `169'
+  Gathering stats... files : unique-words ::                       1 :     1906
+Class `170'
+  Gathering stats... files : unique-words ::                       1 :     1968
+Class `171'
+  Gathering stats... files : unique-words ::                       1 :     1968
+Class `172'
+  Gathering stats... files : unique-words ::                       1 :     1990
+Class `173'
+  Gathering stats... files : unique-words ::                       1 :     2066
+Class `174'
+  Gathering stats... files : unique-words ::                       1 :     2110
+Class `175'
+  Gathering stats... files : unique-words ::                       1 :     2161
+Class `176'
+  Gathering stats... files : unique-words ::                       1 :     2194
+Class `177'
+  Gathering stats... files : unique-words ::                       1 :     2219
+Class `178'
+  Gathering stats... files : unique-words ::                       1 :     2414
+Class `179'
+  Gathering stats... files : unique-words ::                       1 :     2531
+Class `180'
+  Gathering stats... files : unique-words ::                       1 :     2663
+Class `181'
+  Gathering stats... files : unique-words ::                       1 :     2663
+Class `182'
+  Gathering stats... files : unique-words ::                       1 :     2733
+Class `183'
+  Gathering stats... files : unique-words ::                       1 :     2785
+Class `184'
+  Gathering stats... files : unique-words ::                       1 :     2916
+Class `185'
+  Gathering stats... files : unique-words ::                       1 :     2938
+Class `186'
+  Gathering stats... files : unique-words ::                       1 :     3688
+Class `187'
+  Gathering stats... files : unique-words ::                       1 :     3689
+Class `188'
+  Gathering stats... files : unique-words ::                       1 :     3699
+Class `189'
+  Gathering stats... files : unique-words ::                       1 :     3699
+Class `190'
+  Gathering stats... files : unique-words ::                       1 :     3709
+Class `191'
+  Gathering stats... files : unique-words ::                       1 :     3810
+Class `192'
+  Gathering stats... files : unique-words ::                       1 :     3810
+Class `193'
+  Gathering stats... files : unique-words ::                       1 :     3813
+Class `194'
+  Gathering stats... files : unique-words ::                       1 :     3899
+Class `195'
+  Gathering stats... files : unique-words ::                       1 :     3906
+Class `196'
+  Gathering stats... files : unique-words ::                       1 :     3915
+Class `197'
+  Gathering stats... files : unique-words ::                       1 :     3945
+Class `198'
+  Gathering stats... files : unique-words ::                       1 :     4113
+Class `199'
+  Gathering stats... files : unique-words ::                       1 :     4289
+Class `79'
+  Gathering stats... files : unique-words ::                       1 :     4343
+Loading data files...
+Placed remaining 58 documents in the train set:
+Calculating info gain... words ::               4343     4243     4143     4043     3943     3843     3743     3643     3543     3443     3343     3243     3143     3043     2943     2843     2743     2643     2543     2443     2343     2243     2143     2043     1943     1843     1743     1643     1543     1443     1343     1243     1143     1043      943      843      743      643      543      443      343      243      143       43
+Loading data files...
+Placed remaining 58 documents in the train set:
+Loading data files...
+Placed remaining 58 documents in the train set:
+Loading data files...
+Placed remaining 58 documents in the train set:
+Loading data files...
+Placed remaining 58 documents in the train set:
+Loading data files...
+Placed remaining 58 documents in the train set:
+Loading data files...
+Placed remaining 58 documents in the train set:
+Loading data files...
+Placed remaining 58 documents in the train set:
+Loading data files...
+Placed remaining 58 documents in the train set:
+Loading data files...
+Placed remaining 58 documents in the train set:
+Loading data files...
+Placed remaining 58 documents in the train set:
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's Homepage<br></font><br><br><br><div align="center"><img height="134" width="20' at line 1 at trace_centralV4.pl line 654.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 't focus of from you She remembers like a that you the rhythmic gay male porn sta' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's of galleries we have and our 1000's of Jenna pictures that have never been sho' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's of galleries we have and our 1000's of Jenna pictures that have never been sho' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's 1. Your job is to create a character and build up his or her Porn Star status ' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's Friends and Recommended Links Big Tits Pornstars Free Pic Pornstars Free Cente' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's starting letter is M OK, I'VE SEE ENOUGH HERE. BACK TO MAIN MENU THE FURTURE O' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's House Famous pornstar sexy body showed naked. Allysin Chaynes Pictures from ea' at line 1 at trace_centralV4.pl line 767.
+sh: endee.txt: Permission denied

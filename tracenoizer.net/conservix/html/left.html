@@ -1,0 +1,311 @@
+<html>
+
+
+
+	<head>
+
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+
+		<title>TraceNoizer</title>		
+
+
+
+	<script language="JavaScript">
+
+	<!--
+
+	if(document.images)
+
+	{
+
+        image1on = new Image(166,20);
+
+        image1on.src = "../images/b_about_r.gif";
+
+        image1off = new Image(166,20);
+
+        image1off.src = "../images/b_about.gif";
+
+
+
+        image2on = new Image(166,20);
+
+        image2on.src = "../images/b_privacy_r.gif";
+
+        image2off = new Image(166,20);
+
+        image2off.src = "../images/b_privacy.gif";
+
+        
+
+        image3on = new Image(166,20);
+
+        image3on.src = "../images/b_fun_r.gif";
+
+        image3off = new Image(166,20);
+
+        image3off.src = "../images/b_fun.gif";
+
+
+
+        image4on = new Image(166,20);
+
+        image4on.src = "../images/b_faq_r.gif";
+
+        image4off = new Image(166,20);
+
+        image4off.src = "../images/b_faq.gif";
+
+        
+
+        image5on = new Image(167,20);
+
+        image5on.src = "../images/b_databody_r.gif";
+
+        image5off = new Image(167,20);
+
+        image5off.src = "../images/b_databody.gif";
+
+
+
+        image6on = new Image(167,20);
+
+        image6on.src = "../images/b_cloning_r.gif";
+
+        image6off = new Image(167,20);
+
+        image6off.src = "../images/b_cloning.gif";
+
+        
+
+        image7on = new Image(167,20);
+
+        image7on.src = "../images/b_controlling_r.gif";
+
+        image7off = new Image(167,20);
+
+        image7off.src = "../images/b_controlling.gif";
+
+				
+
+	}
+
+
+
+	var iMaxImage           =  7;   //H–chste Bildzahl angeben
+
+	var iDefaultImage       =  0;   //Hier das Standardbild angeben (Bild welches Defaultmússig angeschaltet wird)
+
+	var iStaticImage        =  0;   //Bild welches nie gewechselt werden muss
+
+
+
+	var iLastImage          =  0;
+
+	var bIE                 =  navigator.appName == "Microsoft Internet Explorer";
+
+
+
+	function turn(imageNr) 
+
+	{
+
+        if (isNaN(parseInt(imageNr)) || imageNr == 0) imageNr = iDefaultImage;
+
+        if (document.images && (!bIE || imageNr != iLastImage) && (iStaticImage == 0 || imageNr != iStaticImage))
+
+        {
+
+                
+
+			// Neues Bild einschalten
+
+            if (imageNr != 0)
+
+            {
+
+				imageName = 'image' + imageNr;
+
+				document[imageName].src = eval(imageName + "on.src");
+
+			}
+
+
+
+			 if (bIE) // Internetexplorer
+
+                {
+
+					if (iLastImage != 0)
+
+					{
+
+                    	imageName = 'image' + iLastImage;
+
+                    	document[imageName].src = eval(imageName + "off.src");
+
+					}
+
+					
+
+					// Registrieren zuletzt eingeschaltetes Bild
+
+                    iLastImage      = imageNr;
+
+                }
+
+                else    // Netscape
+
+                {
+
+                	for (i = 1;i <= iMaxImage;i++)
+
+                    {
+
+                    	if (i != imageNr  && i != iStaticImage)
+
+                        {
+
+                         	imageName = 'image' + i;
+
+                         	document[imageName].src = eval(imageName + "off.src");
+
+						}
+
+					}
+
+                }
+
+        	}
+
+		}
+
+	// -->
+
+	</script>
+
+	</head>
+
+
+
+	<body background="../images/left_bg.gif" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+		<table height="100%" align="left" valign="top" cellpadding="0" cellspacing="0" border="0">
+
+
+
+
+
+			<tr>
+
+				<td height="39" align="left" valign="top"><a href="start.html" target="main"><img width="206" height="39" src="../images/left_logo.gif" border="0"></a></td>
+
+				<td height="76"><img width="1" height="115" src="../images/spacer.gif" border="0"></td>
+
+			</tr>
+
+			<tr>
+
+				<td height="97" align="left" valign="top">
+
+					<table height="97" width="167" cellpadding="0" cellspacing="0" border="0">
+
+						<tr>
+
+							<td><img height="1" width="13" src="../images/spacer.gif"></td>
+
+							<td><img height="37" width="167" src="../images/b_theory.gif"></td>
+
+						</tr>
+
+						<tr>
+
+							<td>&nbsp;</td>
+
+							<td><a href="databody.html" target="main" onmouseover="turn(5), window.status='Databody';return true;" onmouseout="turn(0), window.status=''"><img name="image5" src="../images/b_databody.gif" width="167" height="20" border="0"></a></td>
+
+						</tr>
+
+						<tr>
+
+							<td>&nbsp;</td>
+
+							<td><a href="cloning.html" target="main" onmouseover="turn(6), window.status='Cloning';return true;" onmouseout="turn(0), window.status=''"><img name="image6" src="../images/b_cloning.gif" width="167" height="20" border="0"></a></td>
+
+						</tr>
+
+						<tr>
+
+							<td>&nbsp;</td>
+
+							<td><a href="controlling.html" target="main" onmouseover="turn(7), window.status='Controlling';return true;" onmouseout="turn(0), window.status=''"><img name="image7" src="../images/b_controlling.gif" width="167" height="20" border="0"></a></td>
+
+						</tr>
+
+					</table>
+
+				</td>
+
+			</tr>
+
+			<tr>
+
+				<td height="107" align="left" valign="bottom">
+
+					<table width="180" align="left" valign="top" cellpadding="0" cellspacing="0" border="0">
+
+						<tr>
+
+							<td><img height="1" width="13" src="../images/spacer.gif"></td>							
+
+          					<td><img height="37" width="166" src="../images/b_general.gif"></td>
+
+						</tr>
+
+						<tr>
+
+							<td>&nbsp;</td>
+
+							<td><a href="aboutus.html" target="main" onmouseover="turn(1), window.status='About Us';return true;" onmouseout="turn(0), window.status=''"><img name="image1" src="../images/b_about.gif" width="166" height="20" border="0"></a></td>
+
+						</tr>
+
+						<tr>
+
+							<td>&nbsp;</td>
+
+							<td><a href="privacy.html" target="main" onmouseover="turn(2), window.status='Privacy Policy';return true;" onmouseout="turn(0), window.status=''"><img name="image2" src="../images/b_privacy.gif" width="166" height="20" border="0"></a></td>
+
+						</tr>
+
+						<tr>
+
+							<td>&nbsp;</td>
+
+							<td><a href="funstuff.html" target="main" onmouseover="turn(3), window.status='Fun Stuff';return true;" onmouseout="turn(0), window.status=''"><img name="image3" src="../images/b_fun.gif" width="166" height="20" border="0"></a></td>
+
+						</tr>
+
+						<tr>
+
+							<td>&nbsp;</td>
+
+							
+          <td><a href="dokumentation.html" target="main" onmouseover="turn(4), window.status='FAQs';return true;" onmouseout="turn(0), window.status=''"><img name="image4" src="../images/b_faq.gif" width="166" height="20" border="0"></a></td>
+
+						</tr>
+
+					</table>					
+
+				</td>
+
+			</tr>
+
+		</table>
+
+	</body>
+
+
+
+</html>
+

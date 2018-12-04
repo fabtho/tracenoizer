@@ -1,0 +1,11 @@
+#!/bin/bash
+#From: "Rodrigo Chandia" <rodrigo.chandia(at)netlinkaccess.com>
+#lpr to print postscript on w32 cygwin systems.
+
+if [ -z $1 ]; then
+  FILE=-
+else
+  FILE=$1
+fi
+
+ghostscript.exe -sDEVICE=mswinpr2 -dBATCH -dNOPAUSE -q $FILE

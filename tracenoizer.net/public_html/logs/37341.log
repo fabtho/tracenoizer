@@ -1,0 +1,15 @@
+----> connection to db tracenoizer established 
+----> insert into input (in_main_id,in_keyword) values (37341,Thibault Dietlin) 
+status setzt zu 0 
+----> suche mit "Thibault Dietlin"
+----> this is the actual searchterm : 
+
+----> in this part 0 urls found 
+---->  new searchterm: Dietlin Thibault 
+----> suche mit "Dietlin Thibault"
+----> this is the actual searchterm : 
+
+----> in this part 0 urls found 
+---->  0 urls found and put into downloadlist 
+---->  0 urls found no further processes
+status setzt zu 9 

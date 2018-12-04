@@ -1,0 +1,9 @@
+Failed  Succeeded  Test Name
+   1          0    Typhoon download survey form
+
+   Test Name: Typhoon download survey form
+         URL: http://www.unixscripts.com/cgi-bin/webtest_form.cgi
+ Return Code: 404 Not Found
+              HTTP request for web page satisfied ?                     FAIL
+
+Total web tests failed: 1   succeeded: 0

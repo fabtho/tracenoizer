@@ -1,0 +1,84 @@
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+--14:49:16--  http://www.tracenoizer.org/modelanleg.php?main_id=34517
+           => `modelanleg.php?main_id=34517'
+Resolving www.tracenoizer.org... done.
+Connecting to www.tracenoizer.org[195.176.254.172]:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K                                                           8.79 KB/s
+
+14:49:17 (8.79 KB/s) - `modelanleg.php?main_id=34517' saved [9]
+
+Loading data files...
+Placed remaining 14 documents in the train set:
+Calculating info gain... words ::                681      581      481      381      281      181       81
+Loading data files...
+Placed remaining 14 documents in the train set:
+Loading data files...
+Placed remaining 14 documents in the train set:
+Loading data files...
+Placed remaining 14 documents in the train set:
+Loading data files...
+Placed remaining 14 documents in the train set:
+Loading data files...
+Placed remaining 14 documents in the train set:
+Loading data files...
+Placed remaining 14 documents in the train set:
+Loading data files...
+Placed remaining 14 documents in the train set:
+Loading data files...
+Placed remaining 14 documents in the train set:
+Loading data files...
+Placed remaining 14 documents in the train set:
+Loading data files...
+Placed remaining 14 documents in the train set:
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 'stories and actions, to follow their conversations, or to enter into dialog with' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 'd recommend instead of or in addition to this one. ) in the box below, select ad' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+sh: endee.txt: Permission denied

@@ -1,0 +1,496 @@
+
+<html>
+<head>
+<title>DAL PROFONDO</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="author" content="Oliver Labs, Tanja L&ouml;hr (artefont)">
+  <meta name="robots" content="index">
+  <meta name="robots" content="follow">
+
+  <link rel=stylesheet type="text/css" href="formats.css">
+
+
+
+</head>
+
+<body>
+
+<base target="_top">
+
+<table border=0 cellpadding=0 cellspacing=0 height=100%>
+<tr height="*">
+<td width=230 valign=top>
+<!-- Navigations-Spalte -->
+
+<table border=0 cellpadding=0 cellspacing=0>
+
+  <tr height=5>
+    <td>
+       <img src="images/nix.gif" width=1 height=5 border=0>
+    </td>
+  </tr>
+
+  <tr height=210>
+    <td width=230 align=left>
+       
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td width=0>
+<img src="images/nix.gif" border=0 width=0 height=1>
+</td>
+<td width=230 height=210 align=right>
+<a href="view.php?PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><img src="images/nix.gif" width=230 height=210 border=0></a>
+<!--<b>DAL PROFONDO</b>-->
+</td>
+<td width=0>
+<img src="images/nix.gif" border=0 width=10 height=1>
+</td>
+</tr>
+</table>
+    </td>
+  </tr>
+
+  <tr height=5>
+    <td>
+       <img src="images/nix.gif" width=1 height=5 border=0>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign=top>
+    <!-- the menu -->
+
+     <table width=230 border=0 cellpadding=0 cellspacing=0>
+     <tr>
+
+     <td width=15 align=left>
+     <img src="images/nix.gif" border=0 width=15>
+     </td>
+
+     <td width=215 align=left>
+
+	     
+
+      <table width=215 border=0 cellpadding=0 cellspacing=2>
+
+      <tr>      
+      <td height=22 width=215>
+        <img src="images/nix.gif" border=0 width=215 height=22>
+      </td>
+      </tr>
+
+	     <tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=1&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#ffffff">AUS DER TIEFE</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=60&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#cccc55">DAL PROFONDO</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		     width=10><img
+		     src="images/nix.gif" border=0
+		     width=10 height=1></td>
+<td class="highLighted" align=left>
+<h4 class="clickhighlighted"><a class="highLighted" 
+			    href="view.php?menu=50&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#ffffff">KÜNSTLERiNNEN</font></a></h4></td>
+<td class="highLighted"
+		       width=10><img
+		       src="images/nix.gif" border=0
+		       width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=61&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#cccc55">ARTISTI</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=59&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#ffffff">VERANSTALTUNGEN</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=64&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#cccc55">EVENTI</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=62&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#ffffff">PRESSE</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=63&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#cccc55">PRESSE</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=65&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#ffffff">DANKE</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=66&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#cccc55">GRAZIE</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=67&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#ffffff">KONTAKT</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=68&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#cccc55">CONTATTO</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=69&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#ffffff">JOBS</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+<tr><td width=210 align=left>
+<table width=210 border=0 cellspacing=0 cellpadding=0>
+<tr><td class="highLighted"
+		 width=10><img
+	     src="images/nix.gif" border=0
+	     width=10 height=1></td>
+<td class="inverted">
+<h4 class="click"><a class="inverted" 
+			    href="view.php?menu=70&PHPSESSID=70518ccf3b855a303184b576491d09b8" target="_top"><font color="#cccc55">JOBS</font></a></h4></td>
+<td class="inverted"
+		 width=10><img
+		 src="images/nix.gif" border=0
+		 width=10 height=1></td></tr>
+</table></td></tr>
+      </td>
+
+      </tr>
+      </table>
+     </td>
+
+     <td width=0 align=left>
+     <img src="images/nix.gif" border=0 width=0>
+     </td>
+
+     </tr>
+     </table>
+    </td>
+  </tr>
+</table>
+</td>
+
+<td width=10 valign=top>
+<!-- Leere Spalte -->
+<img src="images/nix.gif" border=0 width=10height=1> 
+</td>
+
+<td valign=top>
+<!-- Inhalts-Spalte -->
+
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<!-- Haupt-Inhalts-Zeile -->
+<td valign=top>
+
+<table width=340 border=0 cellpadding=0 cellspacing=0>
+
+<tr>
+<td valign=top width=340>
+
+<table width=340 border=0 cellpadding=0 cellspacing=0>
+
+<tr height=98>
+<!-- Top-Zeile -->
+<td height=98 valign=top>
+<table border=0 cellpadding=0 cellspacing=0>
+<!-- Link zur Druckversion -->
+<tr height=0>
+<td height=0 valign=top>
+</td>
+</tr>
+
+<!-- Space between print version and top-navig -->
+<tr height=24>
+<td height=24 valign=top>
+<img src="images/nix.gif" border=0 width=1 height=24>
+</td>
+</tr>
+
+<!-- Top-Navig -->
+<tr height=28>
+<td height=28 valign=top>
+
+<table width=340 border=0 cellpadding=0 cellspacing=0>
+
+<tr><td width=100%>
+
+<table width=100% border=0 cellpadding=0 cellspacing=2>
+
+      <tr><td>
+	     <a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=106&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#cccc55">Valerio Berruti</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=107&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#ffffff">Christina Beldeanu</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=108&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#cccc55">Francesco Bocchini</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=109&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#ffffff">Katharina Fischborn</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=110&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#cccc55">Marco di Giovanni</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=111&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#ffffff">Bine H.</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=112&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#cccc55">Alessandro Lupi</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=113&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#ffffff">Verena Jacobs</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=114&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#cccc55">Ada Mascolo</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=115&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#ffffff">Nikola Jaensch</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=116&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#cccc55">Paolo Picozza</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=117&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#ffffff">Jörg Oetken</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=118&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#cccc55">Antonello Viola</font></a>  | 
+<a class="topnavigInverted" 
+			    href="view.php?menu=50&submenu=119&PHPSESSID=70518ccf3b855a303184b576491d09b8"
+	     target="_top"><font color="#ffffff">Bettina van Haaren</font></a> <!--      <td class="topnavigInverted" align=center>&nbsp; &nbsp; &nbsp;
+	     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+-->
+
+     <td width=1><img src="images/nix.gif" border=0 width=1
+	     height=1></td>
+     </tr>
+     </table>
+
+</td>
+</tr>
+
+<!--
+<tr><td width=100%>
+
+<table width=100% border=0 cellpadding=0 cellspacing=2>
+<tr>
+
+<td align=left width=100% class="subtopnavigHighlighted">
+<table border=0 cellpadding=1 cellspacing=0>
+
+      <tr>
+-->
+	     
+<!--
+      <td class="subtopnavigHighlighted"
+      align=center><h4 class="topnavig">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></td> 
+
+     </tr>
+     </table>
+
+</td>
+     <td width=1><img src="images/nix.gif" border=0 width=1 height=1></td>
+
+</tr>
+</table>
+
+
+</td></tr>
+-->
+
+</table>
+</td></tr>
+
+<tr>
+<td>
+      <img src="images/nix.gif" border=0 width=1 height=18><br>
+<h3>KÜNSTLERiNNEN</h3>
+<p>Auf diesen Seiten lernen Sie unsere 7 italienischen und 7 deutschen Künstlerinnen und Künstler durch die Augen von folgenden jungen Kunstkritikerinnen und Kunsthistorikern der Scuola di Specializzazione dell'Arte Bologna kennen: <br><br>Chiara Alinovi, Carla Casu, Emanuela D'Agostino, Duccio Dogheria, Daniele Guernelli, Francesca Nanni, Alessandra Olivetti und Giorgia Sossass. <br><br>Wählen Sie oben den Künstler / die Künstlerin, über die sie mehr erfahren möchten. </p>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+</table>
+</td>
+<!-- Ende Haupt-Inhalts-Zeile -->
+</tr>
+</table>
+
+<!-- Ende der Inhalts-Spalte -->
+</td>
+
+
+<td width=20>
+<!-- an empty column -->
+<img src="images/nix.gif" width=20 height=1 border=0>
+</td>
+
+<td valign=top>
+
+<!-- an image at the right -->
+<table border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td height=52>
+<img src="images/nix.gif" border=0 width=1 
+     height=52>
+</td>
+<td>
+<!-- 
+Here should be some code to include an image and text...
+-->
+<table border=0 cellpadding=0 cellspacing=0>
+
+<!-- the image -->
+<tr>
+<td>
+</td>
+</tr>
+
+<!-- the text below the image -->
+<tr>
+<td>
+<p class="sm"> </p>&nbsp;
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+</html>

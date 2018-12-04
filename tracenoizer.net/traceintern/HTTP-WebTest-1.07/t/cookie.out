@@ -1,0 +1,12 @@
+Failed  Succeeded  Test Name
+   1          0    Test sending a cookie
+
+   Test Name: Test sending a cookie
+         URL: http://www.unixscripts.com/cgi-bin/webtest_cookie.cgi
+ Return Code: 404 Not Found
+              HTTP request for web page satisfied ?                     FAIL
+      Cookie: Set-Cookie3: webtest="This is the cookie value"; path="/";
+      Cookie: domain=".unixscripts.com"; expires="2002-07-18 00:12:57Z";
+      Cookie: Comment="What a tasty cookie!"; version=0
+
+Total web tests failed: 1   succeeded: 0

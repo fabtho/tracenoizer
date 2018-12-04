@@ -1,0 +1,1168 @@
+ 
+   
+
+		
+<style>
+.note-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: .95em;
+		margin-left: .75em; margin-right: .75em;}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	
+	
+		
+		
+		    
+		
+		
+		
+		
+		
+		
+	  
+	
+	
+
+
+
+	
+	
+	
+	
+	
+	
+  
+
+
+	
+	
+  
+
+
+	
+
+	
+		
+		
+   	 
+
+ 	
+ 	
+	
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="css/dl.css">
+<title>Consistency Techniques in Ordinary Differential Equations</title>
+<style type="text/css"><!--
+    body {margin-left: 0em; margin-top: 0}
+    a:link {text-decoration: underline; 	Color: #006699;}
+    a:visited  { color: #990033; text-decoration: underline;}
+    a:hover {color: red; text-decoration: none}
+    a.dLink1:link {color:#336699}
+    a.dLink1:visited {color:#666666}
+	a.isblack:link {text-decoration: underline; 	Color: #000000;}
+    a.isblack:visited  { color: #000000; text-decoration: underline;}
+    a.isblack:hover {color: #000000; text-decoration: none}
+    h1 {font-size: 140%; margin-bottom: 0}
+	ul {margin-top: .25em; list-style-type: disc}
+	ol {margin-top: .25em;}
+	li {padding-bottom: .25em}
+    h2 {color: white; background-color: #069; 
+        font-size: 100%; padding-left: 1em;
+		margin: 0}
+	h3 {color: black; background-color: yellow; 
+    	font-size: 100%;
+		margin: 0}
+	 h4 {color: black; background-color: #99c5e8; 
+        font-size: 100%;
+		margin: 0}
+    hr {color: #39176d;}
+    form {margin-top: 10}
+    form.xrs {margin-top: 0}
+	
+	a {text-decoration: none; }
+	
+	input {font-size: 1em;}
+	.chevron {color: #ff0000;}
+	.light-blue {color:#336699;}
+	.black {color:#000000;}
+	
+	/* ### standard text styles, smallest to largest ### */
+	
+	.footer-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .75em; line-height: 1.33em;
+		text-indent: -.75 em; margin-left: 2em; margin-right: .75em;}
+		
+	.footer-copy-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em; line-height: 1.3em;
+		margin-left: .75em; margin-right: .75em;}
+		
+	.small-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; padding-bottom : 2px;
+	  	padding-top : 2px;}
+
+	.smaller-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em;}		
+	.small-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em;}
+	.medium-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em;}
+	.mediumb-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em; font-weight: bold;}
+	.large-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1.3em;}		
+	
+	.list-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .83em; line-height: 1.3em;}
+	.list-link-btext {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; line-height: 1.3em;}
+	
+	.searchbox-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;}
+	.footer-header-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;
+		margin-left: .75em; margin-right: .75em;}
+	.medium-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold; line-height: 1em;
+		text-indent: -1.25em; margin-left: 2em; margin-right: .75em;}
+	
+	
+	.small-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: .75em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+
+	.medium-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1.3em; line-height: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.medium-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+
+  --></style>
+<SCRIPT LANGUAGE="JavaScript">
+ /* <!-- Begin
+	if(document.layers || document.all) {
+	a = 1;
+	setInterval("Jump()", 10);
+	}
+	function Jump() {
+	a = a + 1;
+	//self.moveBy((Math.random() * a * 2 - a), (Math.random() * a * 2) - a);
+	}
+//  End --> */
+</script>
+
+<script LANGUAGE=JAVASCRIPT TYPE="text/javascript" >
+<!--
+
+function _CF_onError(form_object, input_object, object_value, error_message)
+    {
+	alert(error_message);
+       	return false;	
+    }
+
+
+function _CF_hasValue(obj, obj_type)
+    {
+    if (obj_type == "TEXT" || obj_type == "PASSWORD")
+	{
+    	if (obj.value.length == 0) 
+      		return false;
+    	else 
+      		return true;
+    	}
+    else if (obj_type == "SELECT")
+	{
+        for (i=0; i < obj.length; i++)
+	    	{
+		if (obj.options[i].selected)
+			return true;
+		}
+
+       	return false;	
+	}
+    else if (obj_type == "SINGLE_VALUE_RADIO" || obj_type == "SINGLE_VALUE_CHECKBOX")
+	{
+
+		if (obj.checked)
+			return true;
+		else
+       		return false;	
+	}
+    else if (obj_type == "RADIO" || obj_type == "CHECKBOX")
+	{
+
+        for (i=0; i < obj.length; i++)
+	    	{
+		if (obj[i].checked)
+			return true;
+		}
+
+       	return false;	
+	}
+	}
+
+function  _CF_checkqiksearch(_CF_this)
+    {
+    if  (!_CF_hasValue(_CF_this.query, "TEXT" )) 
+        {
+        if  (!_CF_onError(_CF_this, _CF_this.query, _CF_this.query.value, "Please enter your Search Criteria"))
+            {
+            return false; 
+            }
+        }
+
+    return true;
+    }
+
+//-->
+</script>
+</head>
+
+
+
+	
+	
+	
+	
+
+	
+
+
+<body bgcolor="#ffffff" onload="window.focus()">
+<div align="center">
+<a name="CIT"></a>
+<table border="0" width="85%" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+
+
+	 
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr valign="top">
+		<td width="1%" class="small-link-text" align="center"  background="images/horiz-bar.jpg"><img src="images/logo_acm_portal2.jpg" alt="ACM Portal" width="263" height="54" border="0" usemap="#PORT">
+			
+				<font color="white">
+				
+					HGKZ-Bibliothek
+				
+				</font>
+			  
+		</td>
+		<td width="99%" align="left" class="small-link-text">
+			<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>&nbsp;</td>
+				
+					<td class="small-link-text"><a href="https://campus.acm.org/Public/login_genpubqj.cfm?CFID=23890656&CFTOKEN=73473689&rdr=http://portal.acm.org/citation.cfm?id=647485.726331&promo=QJPUB&offering=200&form_type=PUB&CFID=23890656&CFTOKEN=73473689" class="small-link-text">Subscribe</a><span class="small-link-text">&nbsp;(Full Service)</span>&nbsp;&nbsp;&nbsp;</td>
+					<td class="small-link-text"><a href="https://portal.acm.org/poplogin.cfm?dl=GUIDE&coll=GUIDE&want_href=portal.cfm?CFID=23890656&CFTOKEN=73473689" class="small-link-text">Register</a><span class="small-link-text">&nbsp;(Limited Service, <font color="Red">Free</font>)</span>&nbsp;&nbsp;&nbsp;</td>
+				
+				<td class="small-link-text" valign="bot">
+					
+		 					<a href="https://portal.acm.org/poplogin.cfm?dl=GUIDE&coll=GUIDE&want_href=citation%2Ecfm%3Fid%3D647485%2E726331&CFID=23890656&CFTOKEN=73473689" class="small-link-text">Login</a>
+					
+				</td>			
+			</tr>
+			</table>
+			
+			<table border="0" width="100%" cellspacing="0" cellpadding="0">
+				<FORM NAME="qiksearch" ACTION="results.cfm?coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" METHOD=POST onSubmit="return _CF_checkqiksearch(this)" TARGET="_self">
+				<tr>
+					<td height="5"><img src="img/blanks.gif" width=1 height=1 alt="" border="0"></td>
+				</tr>
+				<input type="hidden" name="parser" value="Internet">
+				<tr>
+					<td class="small-link-text">&nbsp;</td>
+					<td class="small-link-text">
+						
+						  	
+						
+						<b>Search:</b>&nbsp;&nbsp;&nbsp;<input type="Radio" name="whichDL" value="acm" >The ACM Digital Library&nbsp;&nbsp;&nbsp;<input type="Radio" name="whichDL" value="guide" checked>The Guide
+						<br><INPUT TYPE="Text" NAME="query" VALUE="" CLASS="pubdescr" SIZE="60">&nbsp;&nbsp;
+						<input type="Image" alt="Search" name=Go src="img/search_small.jpg" border="0" >
+						
+					</td>
+				</tr>
+				</FORM>
+			</table>
+			
+		</td>
+	<!-- top nav END -->
+	</tr>
+	</table>
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td height="12"><img src="img/blanks.gif" width=1 height=1 alt="" border="0"></td>
+	</tr>
+	</table>
+
+<map name="PORT" > 
+  <area shape="rect" coords="1,1,55,60" href="http://www.acm.org/" alt="ACM Home Page">
+  <area shape="rect" coords="65,1,300,78" href="/portal.cfm?coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689">
+</map>
+
+
+<table border="0" width="100%" align="left">
+	<col width="40%">
+	<col width="60%">
+	<tr>
+		<td>
+			
+				<a href="guide.cfm?coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689"><img src="images/acm_guide_bar_large2.jpg" width=350 height=25 alt="" border="0"></a>
+			
+		</td>
+ 		<td class="small-text" align="center">
+			<img src="img/feedback.gif" width="20" height="19" alt="Please provide us with feedback." border="0">&nbsp;<a href="survey/survey-ci.cfm?CFID=23890656&CFTOKEN=73473689">Feedback</a>&nbsp;&nbsp;<a href="survey/survey-ci.cfm?CFID=23890656&CFTOKEN=73473689">Report a problem</a>&nbsp;&nbsp;<a href="survey/survey-general.cfm?CFID=23890656&CFTOKEN=73473689">Satisfaction survey</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="6"><img src="img/blanks.gif" width=1 height=1 alt="" border="0"></td>
+	</tr>
+	
+	
+</table>
+</td>
+</tr>
+
+
+
+
+<tr>
+	<td colspan="3" valign="top" height="1" background="images/horiz-bar-long.jpg"></td>
+</tr>
+
+<tr>
+<td class="small-text">
+	<table border="0" width="100%"  cellpadding="2">
+		<col width="1%">
+		<col width="8%">
+		<col width="91%">
+	<tr>
+		<td class="medium-text" colspan="3"><strong>Consistency Techniques in Ordinary Differential Equations</strong></td>
+	</tr>
+					
+	
+
+		<tr valign="top">
+			<td class="small-text"><strong>Source</strong></td>
+			<td class="small-text" colspan="2">
+			
+								
+										
+											
+											
+												
+										
+											
+											
+											
+												
+											
+											
+												
+												
+												
+													
+													
+												
+											
+												
+											
+											
+											    
+												
+												
+												
+												
+													
+													
+														
+												
+													
+													
+													
+														
+														
+														
+														
+														
+														
+														<SPAN class="mediumb-text">Lecture Notes In Computer Science</span>
+																			<a href="toc.cfm?id=SERIES9612&type=series&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self" class="small-link-text">archive</a><br>
+													  
+													<SPAN class="mediumb-text">Proceedings of the 4th International Conference on Principles and Practice of Constraint Programming </span>
+										 								 <a href="toc.cfm?id=647485&type=proceeding&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689"  target="_self" class="small-link-text">table of contents</a><br>
+												  
+												<DIV class="small-text">
+													  
+												</div>
+											   
+										
+								
+		
+		<div class="medium-text">
+			
+			  	
+			
+			
+		</div>
+		
+		
+		    
+			
+			
+		
+			
+			<div class="small-text">
+				 Pages: 162 - 176&nbsp;&nbsp;
+			</div>
+					
+			
+				<div class="small-text">
+					Year of Publication:&nbsp;1998
+				</div>
+			
+				<div class="small-text">
+				
+					
+					  	
+					    
+					
+					ISBN:3-540-65224-8
+				</div>
+			
+				
+				
+				
+			
+			  	
+			 
+		
+			
+				
+			</td>
+		</tr>
+		
+		
+		
+			<tr valign="top">
+				<td class="small-text">							
+										  	<strong>Authors</strong>
+										
+				</td>
+				
+				
+					
+					
+				<td colspan="2">
+				<div class="authors">
+				    
+			
+					<table cellpadding="0" cellspacing="0">		
+					
+							<tr>
+								<td class="small-text">
+ 									<a href="results.cfm?query=author%3AP308565&querydisp=author%3AYves%20%20Deville&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Yves  Deville</a>
+									
+								</td>
+								<td class="small-text">
+										
+								</td>
+							</tr>
+					
+							<tr>
+								<td class="small-text">
+ 									<a href="results.cfm?query=author%3AP402088&querydisp=author%3AMicha%20%20Janssen&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Micha  Janssen</a>
+									
+								</td>
+								<td class="small-text">
+										
+								</td>
+							</tr>
+					
+							<tr>
+								<td class="small-text">
+ 									<a href="results.cfm?query=author%3AP219658&querydisp=author%3APascal%20Van%20Hentenryck&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Pascal Van Hentenryck</a>
+									
+								</td>
+								<td class="small-text">
+										
+								</td>
+							</tr>
+					
+					</table>	
+				</div>
+				</td>
+			</tr>
+			
+		
+			
+			
+			
+			
+				
+					<tr valign="top">
+						<td class="small-text"><strong>Publisher</strong></td>
+						<td colspan="2">
+							<div class="publishers">
+								
+								
+								
+								
+								
+								
+									
+									
+									  	Springer-Verlag &nbsp;
+									
+									
+										<small> London, UK </small>
+									
+			
+								
+							</div>
+							
+							
+							 
+						</td>
+					</tr>
+				
+			
+		
+		</table>
+		
+		
+		
+		
+		
+		
+ 
+ 		
+</td>
+</tr>
+
+
+<tr>
+<td>
+
+<!-- third main table: main content START -->
+	<table border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td height="6"><img src="img/blanks.gif" width=1 height=1 alt="" border="0"></td>
+	</tr>
+	<tr>
+		<td colspan="4" valign="top" height="1" background="images/horiz-bar-long.jpg"></td>
+	</tr>
+	<tr>
+		<td height="6"><img src="img/blanks.gif" width=1 height=1 alt="" border="0"></td>
+	</tr>
+
+	
+
+	<tr valign="top">
+	<!-- buttons -->
+		<td width="100%" colspan="4">
+	    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+		<col width="22%">
+	    <col width="78%">
+		<tr>
+			<td class="small-text"><b>Additional Information:</b></td>
+			<td>
+			<p class="small-text">
+				
+				
+				
+				
+					<a href="#citings">citings</a>&nbsp;&nbsp;
+				
+				
+				
+				
+				
+						<a href="#collab">collaborative colleagues</a>&nbsp;&nbsp;
+				
+				
+				</p>
+			</td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="6"><img src="img/blanks.gif" width=1 height=1 alt="" border="0"></td>
+	</tr>
+	
+	<tr valign="top">
+	<!-- buttons -->
+		<form name="popbinder">
+		<td width="100%" colspan="4">
+		
+		<table border="0" cellspacing="0" cellpadding="2" width="100%" >
+		  <col width="22%">
+		  <col width="78%">
+		  <tr valign="top">
+		  	<td class="small-text"><b>Tools and Actions:</b></td>
+			<td>
+			 
+				
+			  
+				    <a href="https://portal.acm.org/poplogin.cfm?dl=GUIDE&coll=GUIDE&comp_id=COMPONENT032&want_href=ocr%5Fdiscuss%2Ecfm%3Fid%3D726331&CFID=23890656&CFTOKEN=73473689" class="small-link-text">	
+
+			
+			Discussions</a>
+			&nbsp;&nbsp;
+			
+
+			<a href="results.cfm?query=726331&querydisp=Similar%20to%3A%20Consistency%20Techniques%20in%20Ordinary%20Differential%20Equations&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self" class="small-link-text">Find similar Articles</a>&nbsp;&nbsp;
+
+			<a href="http://www.reviews.com/reviewer/quickreview/frameset_toplevel.cfm?bib_id=726331" target="reviews" class="small-link-text">Review this Article</a>&nbsp;&nbsp;
+			
+			
+			 	<br><a href="#" onClick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">
+				Save this Article to a Binder</a><img src="img/blanks.gif" border="0" name="saved">
+			
+			&nbsp;&nbsp;
+			<a href="#" onClick="window.open('popBibTex.cfm?id=726331&ids=SERIES9612.647485.726331&types=series.proceeding.article&reqtype=article&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');" class="small-link-text">
+			Display in BibTex Format</a>
+			&nbsp;&nbsp;				
+			
+			</td>
+		</tr>
+		<tr>
+			<td height="10"><img src="img/blanks.gif" width=1 height=1 alt="" border="0"></td>
+		</tr>
+		
+		</table>
+		
+		</td>
+		</form>
+	</tr>
+	<tr>
+		<td height="6"><img src="img/blanks.gif" width=1 height=1 alt="" border="0"></td>
+	</tr>
+	<tr>
+		<td colspan="4" valign="top" height="1" background="images/horiz-bar-long.jpg"></td>
+	</tr>
+	<tr>
+		<td height="6"><img src="img/blanks.gif" width=1 height=1 alt="" border="0"></td>
+	</tr>
+	</table>
+<!-- third main table: main content END -->
+
+		  	<div class="abstract">
+			
+			
+			  	
+			 
+			 
+			
+			</div>
+		
+		  	<div class="abstract">
+			
+			
+			  	
+			 
+			 
+			
+			</div>
+		
+			<br>
+			<div class="abstract">
+			
+			<A HREF="#CIT"><img name="top" src="img/arrowu.gif" hspace="10" border="0"></A><SPAN class=heading><A NAME="citings">CITINGS</A></span>
+			
+			
+			  	
+				 	
+					
+					 
+					 
+				
+			  
+			
+			
+				<p class="abstract">
+				
+					  <a href="https://portal.acm.org/poplogin.cfm?dl=GUIDE&coll=GUIDE&comp_id=COMPONENT031&want_href=citation%2Ecfm%3Fid%3D325738&CFID=23890656&CFTOKEN=73473689">	
+				
+					
+					Timothy J. Hickey, Analytic constraint solving and interval arithmetic, Proceedings of the 27th ACM SIGPLAN-SIGACT symposium on Principles of programming languages, p.338-351, January 19-21, 2000, Boston, MA, USA
+				  </a>
+				</p>
+			
+			
+			</div>
+		
+			
+			
+			  	
+			 
+			 
+			
+		
+			
+			
+			  	
+			
+			
+			
+		
+			<div class="abstract">
+				
+				<A HREF="#CIT"><img name="top" src="img/arrowu.gif" hspace="10" border="0"></A><SPAN class=heading><A NAME="collab">Collaborative Colleagues:</A></span>
+				
+				<table border="0" style="margin-left: 2em" cellpadding="2">
+				
+				
+						<tr valign="top"><td><div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP308565&querydisp=author%3AYves%20Deville&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Yves Deville</a>:</div></td><td>
+
+					
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+					
+							
+					
+					
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP211915%20author%3AP308565&querydisp=author%3AOlivier%20Barette&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Olivier Barette</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP454998%20author%3AP308565&querydisp=author%3AEric%20Chasseur&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Eric Chasseur</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP227276%20author%3AP308565&querydisp=author%3APierre%20Flener&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Pierre Flener</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP61685%20author%3AP308565&querydisp=author%3ADavid%20Gilbert&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">David Gilbert</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP466344%20author%3AP308565&querydisp=author%3AJacques%20van%20Helden&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Jacques van Helden</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP219658%20author%3AP308565&querydisp=author%3APascal%20Van%20Hentenryck&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Pascal Van Hentenryck</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP402088%20author%3AP308565&querydisp=author%3AMicha%20Janssen&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Micha Janssen</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP361726%20author%3AP308565&querydisp=author%3APhilippe%20Massonet&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Philippe Massonet</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP361668%20author%3AP308565&querydisp=author%3AC%26%23233%3Bdric%20N%26%23232%3Bve&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">C&#233;dric N&#232;ve</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP78370%20author%3AP308565&querydisp=author%3AEric%20Poupaert&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Eric Poupaert</a></div>
+						
+					
+						
+						
+							
+							</td><td>							
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP291133%20author%3AP308565&querydisp=author%3AVijay%20Saraswat&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Vijay Saraswat</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP291132%20author%3AP308565&querydisp=author%3AVijay%20A%2E%20Saraswat&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Vijay A. Saraswat</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP581046%20author%3AP308565&querydisp=author%3ANguyen%20Tran%20Sy&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Nguyen Tran Sy</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP577354%20author%3AP308565&querydisp=author%3AChoh%20Teng&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Choh Teng</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP45755%20author%3AP308565&querydisp=author%3AChoh%2DMan%20Teng&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Choh-Man Teng</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP577390%20author%3AP308565&querydisp=author%3APascal%20Van%20Hantenryck&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Pascal Van Hantenryck</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP219712%20author%3AP308565&querydisp=author%3APascal%20Van%20Hentenryck&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Pascal Van Hentenryck</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP494042%20author%3AP308565&querydisp=author%3AShoshana%20J%2E%20Wodak&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Shoshana J. Wodak</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP219721%20author%3AP308565&querydisp=author%3APascal%20van%20Hentenryck&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Pascal van Hentenryck</a></div>
+						
+					
+						</td>
+						</tr>
+				
+						<tr valign="top"><td><div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP219658&querydisp=author%3APascal%20Van%20Hentenryck&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Pascal Van Hentenryck</a>:</div></td><td>
+
+					
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+					
+							
+					
+					
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP10222%20author%3AP219658&querydisp=author%3AAbderrahmane%20Aggoun&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Abderrahmane Aggoun</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP508840%20author%3AP219658&querydisp=author%3AAntonio%20P%2E%20Antunes&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Antonio P. Antunes</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP211915%20author%3AP219658&querydisp=author%3AOlivier%20Barette&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Olivier Barette</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP350603%20author%3AP219658&querydisp=author%3ABaudouin%20Le%20Charlier&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Baudouin Le Charlier</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP484421%20author%3AP219658&querydisp=author%3AOlivier%20Degimbe&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Olivier Degimbe</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP308565%20author%3AP219658&querydisp=author%3AYves%20Deville&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Yves Deville</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP195574%20author%3AP219658&querydisp=author%3AMehmet%20Dincbas&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Mehmet Dincbas</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP291352%20author%3AP219658&querydisp=author%3AVincent%20Englebert&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Vincent Englebert</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP14023%20author%3AP219658&querydisp=author%3AAlexander%20Herold&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Alexander Herold</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP402088%20author%3AP219658&querydisp=author%3AMicha%20Janssen&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Micha Janssen</a></div>
+						
+					
+						
+						
+							
+							</td><td>							
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP226727%20author%3AP219658&querydisp=author%3APhilippe%20Laborie&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Philippe Laborie</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP79923%20author%3AP219658&querydisp=author%3AEvelina%20Lamma&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Evelina Lamma</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP219321%20author%3AP219658&querydisp=author%3APaola%20Mello&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Paola Mello</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP169395%20author%3AP219658&querydisp=author%3ALaurent%20Michel&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Laurent Michel</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP618523%20author%3AP219658&querydisp=author%3ALaurent%20Dominique%20Michel&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Laurent Dominique Michel</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP379406%20author%3AP219658&querydisp=author%3AWim%20Nuijten&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Wim Nuijten</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP169408%20author%3AP219658&querydisp=author%3ALaurent%20Perron&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Laurent Perron</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP136386%20author%3AP219658&querydisp=author%3AJean%2DCharles%20R%26%23233%3Bgin&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Jean-Charles R&#233;gin</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP291753%20author%3AP219658&querydisp=author%3AViswanath%20Ramachandran&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Viswanath Ramachandran</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP467978%20author%3AP219658&querydisp=author%3AJerome%20Rogerie&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Jerome Rogerie</a></div>
+						
+					
+						
+						
+							
+							</td><td>							
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP66823%20author%3AP219658&querydisp=author%3ADidier%20Roland&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Didier Roland</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP291133%20author%3AP219658&querydisp=author%3AVijay%20Saraswat&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Vijay Saraswat</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP291132%20author%3AP219658&querydisp=author%3AVijay%20A%2E%20Saraswat&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Vijay A. Saraswat</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP109126%20author%3AP219658&querydisp=author%3AHelmut%20Simonis&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Helmut Simonis</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP42447%20author%3AP219658&querydisp=author%3ACesare%20Stefanelli&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Cesare Stefanelli</a></div>
+						
+					
+						</td>
+						</tr>
+				
+						<tr valign="top"><td><div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP402088&querydisp=author%3AMicha%20Janssen&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Micha Janssen</a>:</div></td><td>
+
+					
+					
+						
+					
+						
+					
+						
+					
+						
+					
+					
+							
+						
+					
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP308565%20author%3AP402088&querydisp=author%3AYves%20Deville&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Yves Deville</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP219658%20author%3AP402088&querydisp=author%3APascal%20Van%20Hentenryck&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Pascal Van Hentenryck</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP577390%20author%3AP402088&querydisp=author%3APascal%20Van%20Hantenryck&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Pascal Van Hantenryck</a></div>
+						
+					
+						
+						
+						<div class="abstract"><a href="results.cfm?query=%2Bauthor%3AP219712%20author%3AP402088&querydisp=author%3APascal%20Van%20Hentenryck&coll=GUIDE&dl=GUIDE&CFID=23890656&CFTOKEN=73473689" target="_self">Pascal Van Hentenryck</a></div>
+						
+					
+						</td>
+						</tr>
+				
+				</table>
+			</div>
+		
+			
+			
+			
+				
+			
+  	
+
+
+
+
+<br>
+<DIV class=footer-copy-text align="center">
+	
+	The ACM Portal is published by the Association for Computing Machinery. Copyright © 2004 ACM, Inc.<br>
+	<A href="http://portal.acm.org/info/usage.cfm">Terms of Usage</A>&nbsp;&nbsp;
+	<A href="http://www.acm.org/serving/acm-privacy.html">Privacy Policy</A>&nbsp;&nbsp;
+	<A href="http://www.acm.org/constitution/code.html">Code of Ethics</A>&nbsp;&nbsp;	  
+	<A href="http://www.acm.org/key_people/">Contact Us</A>
+
+<br><br>
+Useful downloads: 
+<a href="http://www.adobe.com/products/acrobat/readstep2.html"><img src="images/pdf_logo.gif" width="16" height="16" alt="" border="0"> Adobe Acrobat</a>
+&nbsp;&nbsp;
+<a href="http://www.apple.com/quicktime/download/" target="_blank"><img src="img/qtlogo.gif" width="16" height="16" alt="" border="0"> QuickTime</a>
+&nbsp;&nbsp;
+<a href="http://www.microsoft.com/windows/windowsmedia/download/default.asp" target="_blank"><img src="img/wmv.gif" width="16" height="15" alt="" border="0"> Windows Media Player</a>
+&nbsp;&nbsp;
+<a href="http://www.real.com/" target="_blank"><img src="img/realplayer.gif" width="20" height="18" alt="" border="0"> Real Player</a>
+
+
+</DIV>
+
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>

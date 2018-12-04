@@ -1,0 +1,71 @@
+
+<HTML>
+<HEAD>
+<TITLE>Artículos analizados</TITLE>
+<LINK REL=stylesheet HREF="http://www.ucm.es/bucm/compludoc/css/estilos1.css" TYPE="text/css">
+<LINK REL=stylesheet HREF="http://www.ucm.es/bucm/cssn/estilos.css" TYPE="text/css">
+<script language="javascript" src="http://www.ucm.es/bucm/compludoc/zjs/utilesr.js"></script>
+<script language=javascript>
+  function ZS(opt) {
+     var e = document.forms[0].donde;
+     if(!e[opt].checked)
+        e[opt].checked = true;
+  }
+</script>
+</HEAD>
+<BODY>
+<script language=JavaScript>
+
+var bot = '<html><head><LINK REL=stylesheet HREF="http://www.ucm.es/bucm/compludoc/css/estilos1.css" TYPE="text/css"><title></title></head><body class=BarraBotones><table cellpadding=0 cellspacing=0 marginheight=0 marginwidth=0 topmargin=0 leftmargin=0 border=0 width="100%"><tr><td bgcolor=#840000><img src="http://www.ucm.es/bucm/images/p_trans.gif"></td></tr><tr><td bgcolor=#ffffff><img src="http://www.ucm.es/bucm/images/p_trans.gif"></td></tr><tr><td><table><tr><td><!-- <img src=http://www.ucm.es/bucm/compludoc/botones/volver.gif border=0 title="Inicio" alt="Inicio" onclick="top.cbuscado.document.forms[1].form.value=1;top.cbuscado.document.forms[1].submit();"> --><img src=http://www.ucm.es/bucm/compludoc/botones/ayuda.gif border=0 title="Ayuda" alt="Ayuda" onclick="window.open(\'http://www.ucm.es/bucm/compludoc/ayuda/\',\'_blank\');"></td><td class=BotCentro>AVISO: No hay resultados</td></tr></table></td></tr><tr><td bgcolor=#000000><img src="http://www.ucm.es/bucm/images/p_trans.gif"></td></tr><tr><td bgcolor=#ffffff><img src="http://www.ucm.es/bucm/images/p_trans.gif"></td></tr></table></body></html>';
+top.cbotones.document.write(bot);
+top.cbotones.document.close();
+</script>
+<div id=ContenedorPrincipalCompludoc>
+<FORM method="POST" action="http://europa.sim.ucm.es/compludoc/AA">
+<table>
+<tr><td><input type=image src=http://www.ucm.es/bucm/compludoc/botones/boton_buscar.gif></td><td><table><tr><td><input type=radio name=donde value=castellano CHECKED></td><td class=OpcionRadio onclick="ZS('0');" onMouseover="this.style.cursor = 'hand';">Artículos de revistas en español</td><td><input type=radio name=donde value=otras ></td><td class=OpcionRadio onclick="ZS('1')" onMouseover="this.style.cursor = 'hand';">Artículos de revistas en otra lengua</td></tr></table></select></td></tr>
+</table>
+<table>
+<tr><td><b>Término(s) 1:</b></td><td><input type=text size=55 maxlength=256 name="term_claves_1" value="">&nbsp;<select name="term_campo_1" size=1>
+<option value=TI class=LetrasBlanco >Título del artículo</option>
+<option value=autores >Autor(es)</option>
+<option value=FU >Título de la revista</option>
+<option value=RE >Resumen</option>
+<option value='' SELECTED>Todos los campos</option>
+</select></td></tr>
+<tr><td colspan=2><input type=radio checked name="operador_2" value="AND" > Y <input type=radio name="operador_2" value="OR" > O <input type=radio name="operador_2" value="NOT" > Y NO</td></tr>
+<tr><td><b>Término(s) 2:</b></td><td><input type=text size=55 maxlength=256 name="term_claves_2" value="">&nbsp;<select name="term_campo_2" size=1>
+<option value=TI >Título del artículo</option>
+<option value=autores >Autor(es)</option>
+<option value=FU >Título de la revista</option>
+<option value=RE >Resumen</option>
+<option value='' SELECTED>Todos los campos</option>
+</select>
+</td></tr>
+<tr><td colspan=2><input type=radio checked name="operador_3" value="AND" > Y <input type=radio name="operador_3" value="OR" > O</td></tr>
+<tr><td><b>Año de publicación:</b></td><td><input type=hidden name="term_campo_3" value="year_numero">&nbsp;<select name="relacion_3" size=1>
+<option value="despues de" >Despues de</option>
+<option value="antes de" >Antes de</option>
+<option value=desde >Desde</option>
+</select> <input type=text size=5 maxlength=5 name="term_fecha_3" value=""> hasta <input type=text size=5 maxlength=5 name="term_superior_3" value="">
+</td></tr>
+<!--
+<tr><td><b>Sección:</b></td><td>
+<table cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td><input type=checkbox name="seccion" value="ciencias" > Ciencias</td>
+<td><input type=checkbox name="seccion" value="salud" >Ciencias de la Salud</td>
+<td><input type=checkbox name="seccion" value="humanidades" > Humanidades</td>
+<td><input type=checkbox name="seccion" value="sociales" > Ciencias Sociales</td>
+</tr>
+</table>
+</td></tr>
+-->
+</table>
+<table border=0>
+<tr><td colspan=3>Buscar sólo entre los números indexados en el último mes: <input type=checkbox name=addsufijo value="m" ></d></tr>
+<tr><td colspan=3>Mostrar como máximo <input type=text size=2 maxlength=2 name="registrosporpagina" value="50"> referencias. <input type=checkbox name="indice"  value=1> Mostrar índice previo.</td></tr>
+</table>
+</form>
+</div>
+<table cellpadding=0 cellspacing=0 border=0 width=100%><tr><td rowspan=2 class=PieIzq width=79><a target="_top" href=http://www.ucm.es><img border=0 src=http://www.ucm.es/bucm/nimages/rectoradoteja.gif></a><br>&#169;&nbsp;UCM&nbsp;2005</td><td class=PieCen width=29  valign=top><img src=http://www.ucm.es/bucm/nimages/lverticalgris1.gif></td><td class=PieDer><table border=0 cellpadding=0 cellspacing=0 width=100%><tr><td class=PieMenu></td><td align=right class=PieUniversidad>AVISO: No hay resultados</td></tr></table></td></tr><tr><td></td><td class=PieNada><table cellpadding=0 cellspacing=0 border=0 width=100%><tr><td class=PieNada><img src=http://www.ucm.es/bucm/nimages/p_trans.gif width=1 height=20></td><td class=PieNada1 align=center><a class=submenu href="http://europa.sim.ucm.es/compludoc/revistasanalizadas?PantallaInicio=1">Inicio</a>&nbsp;|&nbsp;<a class=submenu href="http://europa.sim.ucm.es/compludoc/revistasanalizadas?form=1">Revistas</a>&nbsp;|&nbsp;<a class=submenu href="http://europa.sim.ucm.es/compludoc/AA?form=1">Artículos</a>&nbsp;|&nbsp;<a class=submenu href="http://europa.sim.ucm.es/compludoc/GetSumario?formboletin=1">Boletines</a>&nbsp;|&nbsp;<a class=submenu href="javascript:parent.Suscripciones()">Mis Suscripciones</a></td><td class=PieNada1 align=right><img border=0 alt="Página principal de COMPLUDOC" title="Página principal de COMPLUDOC" onclick="location.replace('http://europa.sim.ucm.es/compludoc/revistasanalizadas?PantallaInicio=1')" src=http://www.ucm.es/bucm/nimages/ico_hom.gif>&nbsp;<a href="mailto:bucweb@buc.ucm.es"><img border=0 alt="Enviar mail" title="Enviar mail" src=http://www.ucm.es/bucm/nimages/ico_mail.gif></a>&nbsp;<img border=0 alt="Imprimir esta página" title="Imprimir esta página" src=http://www.ucm.es/bucm/nimages/ico_print.gif onclick="window.print()"></td></tr></table></td></tr></table>

@@ -1,0 +1,10 @@
+# allow all at krung.org
+User-agent: *
+Disallow:
+
+# Disallow:: /help disallows both /help.html and /help/index.html, 
+# whereas Disallow: /help/ would disallow /help/index.html but allow /help.html. 
+
+# disallow stress test
+user-agent: stress-agent
+Disallow: /

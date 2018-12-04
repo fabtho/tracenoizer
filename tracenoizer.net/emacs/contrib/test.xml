@@ -1,0 +1,6 @@
+<?xml version='1.0' standalone="no"?>
+<!--Mindless XML example tests a remote DTD, and will be removed when I get
+ tired of it-->
+<!DOCTYPE test SYSTEM "http://emacro.sourceforge.net/dtd/test.dtd">
+<test simpletext="Hello World">
+</test>

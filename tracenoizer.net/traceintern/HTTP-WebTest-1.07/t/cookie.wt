@@ -1,0 +1,36 @@
+
+# Input file for HTTP::WebTest module.
+ 
+# Global parameters
+###################
+
+save_output = yes
+# debug = yes
+ignore_case = yes
+text_forbid = ( Premature end of script headers
+                Error processing directive 
+              )
+show_cookies = yes
+show_html = yes
+
+# Test block parameters
+#######################
+
+test_name = 'Test sending a cookie' 
+   url = http://www.unixscripts.com/cgi-bin/webtest_cookie.cgi
+   regex_require = ( This is the cookie value )
+   cookie = ( 0
+              webtest
+              This is the cookie value
+              /
+              .unixscripts.com
+              ''
+              0
+              ''
+              2592000
+              ''
+              Comment
+              What a tasty cookie!
+            )
+end_test
+

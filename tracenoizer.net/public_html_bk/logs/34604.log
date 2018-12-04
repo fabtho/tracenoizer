@@ -1,0 +1,64 @@
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 350.
+--16:04:11--  http://www.tracenoizer.org/modelanleg.php?main_id=34604
+           => `modelanleg.php?main_id=34604'
+Resolving www.tracenoizer.org... done.
+Connecting to www.tracenoizer.org[195.176.254.172]:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K                                                           8.79 KB/s
+
+16:04:11 (8.79 KB/s) - `modelanleg.php?main_id=34604' saved [9]
+
+Loading data files...
+Placed remaining 5 documents in the train set:
+Calculating info gain... words ::                577      477      377      277      177       77
+Loading data files...
+Placed remaining 5 documents in the train set:
+Loading data files...
+Placed remaining 5 documents in the train set:
+Loading data files...
+Placed remaining 5 documents in the train set:
+Loading data files...
+Placed remaining 5 documents in the train set:
+Loading data files...
+Placed remaining 5 documents in the train set:
+Loading data files...
+Placed remaining 5 documents in the train set:
+Loading data files...
+Placed remaining 5 documents in the train set:
+Loading data files...
+Placed remaining 5 documents in the train set:
+Loading data files...
+Placed remaining 5 documents in the train set:
+Loading data files...
+Placed remaining 5 documents in the train set:
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 't big enough to remember the hotels, s. dtirol An unrecognized bit was set in th' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 't really look down on the " casually dressed " and there's a lot less attitiude ' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 't really look down on the " casually dressed " and there's a lot less attitiude ' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 't big enough to remember the hotels, s. dtirol An unrecognized bit was set in th' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 't big enough to remember the hotels, s. dtirol An unrecognized bit was set in th' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's written in guide-book. With round white marble tables and comfortable seats fr' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 't big enough to remember the hotels, s. dtirol An unrecognized bit was set in th' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+sh: endee.txt: Permission denied

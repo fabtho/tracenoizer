@@ -1,0 +1,70 @@
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+Class `19'
+  Gathering stats... files : unique-words ::                       1 :      204
+Class `76'
+  Gathering stats... files : unique-words ::                       1 :      222
+Class `77'
+  Gathering stats... files : unique-words ::                       1 :      382
+Class `78'
+  Gathering stats... files : unique-words ::                       1 :      496
+Class `79'
+  Gathering stats... files : unique-words ::                       1 :      497
+Class `80'
+  Gathering stats... files : unique-words ::                       1 :      497
+Class `81'
+  Gathering stats... files : unique-words ::                       1 :      552
+Class `82'
+  Gathering stats... files : unique-words ::                       1 :      552
+Class `83'
+  Gathering stats... files : unique-words ::                       1 :      552
+Class `84'
+  Gathering stats... files : unique-words ::                       1 :      769
+Class `85'
+  Gathering stats... files : unique-words ::                       1 :     1095
+Class `86'
+  Gathering stats... files : unique-words ::                       1 :     1160
+Class `87'
+  Gathering stats... files : unique-words ::                       1 :     1252
+Class `88'
+  Gathering stats... files : unique-words ::                       1 :     1289
+Class `89'
+  Gathering stats... files : unique-words ::                       1 :     1300
+bow_fopen: Permission denied
+bow_write_format_version_to_file: Couldn't open file `model/format-version' for writing
+Loading data files...
+Placed remaining 5 documents in the train set:
+Calculating info gain... words ::                264      164       64
+Loading data files...
+Placed remaining 5 documents in the train set:
+WARNING: class `index.html' has zero prior
+Loading data files...
+Placed remaining 5 documents in the train set:
+WARNING: class `index.html' has zero prior
+Loading data files...
+Placed remaining 5 documents in the train set:
+WARNING: class `index.html' has zero prior
+Loading data files...
+Placed remaining 5 documents in the train set:
+WARNING: class `index.html' has zero prior
+Loading data files...
+Placed remaining 5 documents in the train set:
+WARNING: class `index.html' has zero prior
+Loading data files...
+Placed remaining 5 documents in the train set:
+WARNING: class `index.html' has zero prior
+Loading data files...
+Placed remaining 5 documents in the train set:
+WARNING: class `index.html' has zero prior
+Loading data files...
+Placed remaining 5 documents in the train set:
+WARNING: class `index.html' has zero prior
+Loading data files...
+Placed remaining 5 documents in the train set:
+WARNING: class `index.html' has zero prior
+Loading data files...
+Placed remaining 5 documents in the train set:
+WARNING: class `index.html' has zero prior
+sh: endee.txt: Permission denied

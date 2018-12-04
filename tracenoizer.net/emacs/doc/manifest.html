@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--Time-stamp: <2003-06-12 11:48:32 bingalls> --><!--$Id: manifest.html,v 1.23 2003/05/24 17:36:59 bingalls Exp $-->
+<!--Copyright © 1998,2002 Bruce Ingalls bingalls(at)users.sf.net-->
+<!--See the EMacro project file COPYING for license-->
+<!--This file is not (yet) part of Emacs or XEmacs.-->
+<head>
+<meta name="description"
+ content="EMacro is an easy .emacs configuration file for Emacs and XEmacs"/>
+<meta name="keywords" content=".emacs editor configuration"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="icon" href="images/em_ico.png" type="image/png"/>
+
+<title>Manifest</title>
+<style type="text/css">
+span.emacro {color: blue}
+</style>
+</head>
+<body>
+<p>
+Note that <a href="http://emacro.sourceforge.net/">EMacro Libs</a> is a
+separate, optional package.
+</p>
+<pre>
+		MANIFEST
+This distribution includes
+
+~/init.el		(rename to .emacs)
+
+The remaining are in the ~/emacs directory:
+
+bin/unix/e-compile	Shell script to bytecompile for Gnu Emacs
+bin/unix/e-edit		Replaces ~bin/emacs link to start a fast emacsclient
+bin/unix/e-install	Installation script (Gnu/Linux and compatibles)
+bin/unix/e-refresh	Script to clear caches
+bin/unix/e-xcompile	Shell script to bytecompile for X Emacs
+bin/unix/e-xedit	Gnuclient script. Second xemacs start fast.
+
+The *.bat files are experimental:
+bin/w32/e-compile.bat	Batch file to bytecompile for Gnu Emacs
+bin/w32/e-install.bat	Installation batch file
+bin/w32/e-refresh.bat	Batch file to clear caches
+bin/w32/e-xcompile.bat	Batch file to bytecompile for X Emacs
+bin/w32/unix2dos.bat	Batch file to convert \n to \n\r (^J to ^M^J)
+
+contrib/*		unmaintained, but helpful files
+
+doc/bugs.html		How to report bugs
+doc/ChangeLog		Emacs system for reporting release differences
+doc/COPYING		License and copyright permissions
+doc/credits.html	Who to thank for this package
+doc/emacslibs.html	Info on optional support library package
+doc/home.html		Documentation startup contents
+doc/index.html		Documentation start frame
+doc/manifest.html	This file
+doc/nav.html		Navigation bar to all documentation
+doc/overview		What <span class="emacro">EMacro</span> is all about
+doc/release_notes.html	Info about the latest version
+doc/release_procedures.html	Quality check for developers
+doc/resources.html	Where to get emacs packages (was emacs.html)
+doc/solutions.html	Answers to your problems
+doc/tips.html		Advice from Emacs gurus.
+doc/to_do.html		Future ideas. Help is appreciated.
+doc/images/em_ico.png	<span class="emacro">EMacro</span> icon
+doc/images/em_ico.xpm	<span class="emacro">EMacro</span> icon
+doc/images/emacro.jpg	<span class="emacro">EMacro</span> logo
+doc/images/emacs.jpg	Emacs Ring logo
+doc/images/sflogo.php.png	SourceForge credit logo
+doc/images/valid-xhtml10.png	Displays our Strict XHTML compliance
+
+e-path.el		<i>Edit This!</i> Puts *.el libraries in search path
+e-postload.el		<i>Edit This!</i> Put old .emacs here; loads after <span class="emacro">EMacro</span>
+e-preload.el		<i>Edit This!</i> Put old .emacs here; loads before <span class="emacro">EMacro</span>
+
+emacro/e-browser.el	(External) web browser support. Required for help
+emacro/e-common.el	Routines for every Emacs and OS
+emacro/e-config.el	Loads and starts other files; configures preferences.el
+emacro/e-functions.el	Unpackaged functions for every Emacs and OS
+emacro/e-keys.el	Keyboard mappings for every Emacs and OS
+emacro/e-linux.el	Routines for unix-like systems
+emacro/e-mac-os.el	Emacs on classic Mac OS
+emacro/e-macs.el	(FSF/Gnu) Emacs, every OS
+emacro/e-net.el		Connects Emacs to Email, News, Web...
+emacro/e-w32.el		MS Windows routines, Gnu and X Emacs
+emacro/e-xemacs.el	XEmacs, every OS
+emacro/which.el		Find executables in $PATH environment
+
+packages/readme.txt	Describes that directory, to download new packages to
+
+programmer/e-c.el	C/C++ support
+programmer/e-java.el
+programmer/e-perl.el
+programmer/e-programmer.el	Programmer routines for every Emacs and OS
+programmer/e-sql.el
+programmer/e-xml.el
+
+readme.html			HTML link to doc/index.html
+
+preferences/e-xcustom.el	XEmacs `M-x customize` writes to this file
+
+<span class="emacro">EMacro</span> generates these files:
+preferences/e-cache.el	Emacs list of all *.el libraries found
+preferences/e-custom.el	Emacs `M-x customize` writes to this file
+preferences/e-prefs.el	!EDIT THIS! Saves your personal settings here.
+preferences/e-xcache.el	XEmacs list of all *.el libraries found
+
+</pre>
+</body>
+</html>

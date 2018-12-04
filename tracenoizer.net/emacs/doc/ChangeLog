@@ -1,0 +1,644 @@
+<!--?xml version="1.0" encoding="iso-8859-1" ?-->
+<!--Mozilla 1.3 barfs, when the above line is enabled-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--Time-stamp: <2003-07-09 12:23:19 bingalls> -->
+<!--$Id: ChangeLog,v 1.25 2003/05/24 17:36:59 bingalls Exp $-->
+<!--Copyright © 1998,2003 Bruce Ingalls bingalls(at)users.sourceforge.net-->
+<!--See the EMacro project file COPYING for license-->
+<!--This file is not (yet) part of Emacs or XEmacs.-->
+<head>
+<meta name="description"
+ content="EMacro is an easy .emacs configuration file for Emacs and XEmacs"/>
+<meta name="keywords" content=".emacs editor configuration"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="icon" href="images/em_ico.png" type="image/png"/>
+
+<title>ChangeLog</title></head>
+<body>
+<pre>
+2003-7-8  bingalls  <bingalls(at)users.sf.net>
+	* v2.8.1
+	Trivial update: Wrong .emacs was packaged for RPM, DEB and Slackware
+	
+2003-7-8  bingalls  <bingalls(at)users.sf.net>
+	* v2.8.0
+	Fixed code that required color-theme
+	Added emacro-refresh-cache as elisp function, and to menu
+	Moved cache version stamping from e-config to e-macro
+
+2003-4-16  bingalls  <bingalls(at)users.sf.net>
+	* v2.7.3beta
+	Separated e-config prompts for smtp & pop3 email servers
+	Changed e-linux.el to use X system clipboard
+	Updated docs
+	
+2003-4-16  bingalls  <bingalls(at)users.sf.net>
+	* v2.7.2beta
+	Corrected reversed XEmacs wheel mouse bindings in e-keys.el
+	Added semantic setup to contrib
+	Now does auto max height by default
+	Utf-8 encoding crept into e-config.el. Should now be 8 bit clean
+	Overhauled to support XEmacs without sumo tarball nor EMacro Libs
+	Firebird checky plugin fixed dead links in resources.html
+	
+2003-4-16  bingalls  <bingalls(at)users.sf.net>
+	* v2.7.1beta
+	Upgraded some of the EMacro Libs files
+	Fixed call to (require 'a2ps-print)
+	Fixed hangup, when saving w32 files, due to ebackup.el
+	Added support for Konqueror & Dillo browsers
+	Wrote in release_notes, that "Error in `pre-command-hook'" is from
+	 XEmacs cua-mode
+	
+2003-4-13  bingalls  <bingalls(at)users.sf.net>
+	* v2.7.0beta
+	Added ilocate-library, camelCase; also to EMacro libs
+	Removed bloated vm*.el for EMacro libs 0.7
+	Imports server settings from mozilla's prefs.js
+	Migration from Phoenix to Firebird
+	Put imenu in hooks. Is mmm-mode too much?
+	Starting to notice inexplicable crashing.
+	XEmacs issues warning:
+	(1) (error/warning) Error in `pre-command-hook' (setting hook to nil): (wrong-type-argument stringp delete-buffer)
+
+
+2003-4-11  bingalls  <bingalls(at)users.sf.net>
+	* v2.6.0 EMacro Freedom
+	Fixed docs and load-paths.
+	Fixed CUA-mode.el in Emacro Libs
+
+	Some annoyances have crept in, since 2.4:
+	Warning sometimes appears (around 2.5.5 - 2.5.7?)
+	...
+	Saving a file under MS Windows requires a C-g quit to continue
+	Likely due to a write-hook, which does "Loading	Executable...done"
+	Changed one in e-programmer. Also more in e-xml
+
+2003-4-6  bingalls  <bingalls(at)users.sf.net>
+	* v2.5.8beta
+	Restored Gnome keymap C-r from Recenter to Reverse search
+	Added Export PDF and HTML as easymenu
+	Migrated some menus to portable easymenu
+	Added defcustom option to leave pop mail on server
+	Revamped support for VM, added it to EMacro Libs
+	Disabled code imports Mozilla mailboxes
+
+2003-4-3  bingalls  <bingalls(at)users.sf.net>
+	* v2.5.7beta
+	Fixed '-' sign in desktop-height-approx(), which caused bad sizing
+	Added mouse button 3 (right click) menu for Emacs for Gnome
+	consistency. What does KDE do? XEmacs already uses button 3.
+	New EMacro Libs support: CUA for XEmacs, ini-mode for Emacs
+
+2003-3-16  bingalls  <bingalls(at)users.sf.net>
+	* v2.5.6beta
+	EMacroLib v0.0.3 support for tabbar
+	Comment out nsftp code in e-xemacs.el, due to cygwin user complaint
+
+2003-2-16  bingalls  <bingalls(at)users.sf.net>
+	* v2.5.5beta
+	Fixed C-f for Find & C-i under cua & linux keybindings
+	Introduced popup boxes
+	Fixed height for XEmacs
+	Cleaned out old contrib code
+
+2003-2-16  bingalls  <bingalls(at)users.sf.net>
+	* v2.5.4beta
+	Fixed M-space for "linux" keybindings?
+	Added su for a tramp method
+
+2003-2-16  bingalls  <bingalls(at)users.sf.net>
+	* v2.5.3beta
+	Fixed bugs in e-install & e-keys
+	Now loads customize files at beginning of e-configure.el
+	C-F4 calls new delete-buffer(), which works reasonably
+	e-keys needs more work
+	
+2003-2-16  bingalls  <bingalls(at)users.sf.net>
+	* v2.5.2beta
+	Added keybinding themes
+	Added popup menus
+	Despammed all email addresses
+	Moved height XEmacs height offset from desktop-height-approx to
+	e-config
+
+2003-2-3  bingalls  <bingalls(at)users.sf.net>
+	* v2.4.4	Packaged 2.5.1beta
+
+2003-1-16  bingalls  <bingalls(at)users.sf.net>
+	* v2.5.1beta
+	Now supports use-height=0 in preferences for auto max height
+
+2003-1-16  bingalls  <bingalls(at)users.sf.net>
+	* v2.5.0beta
+	Fixed stale URLs in elisp
+	Added /usr/share/elisp to load-path for new EMacro Libs package
+	Autoheight for X Window in e-config now accounts for bar on desktop
+	Removed stale comments
+	Removed obsolete trailing-whitespace(). Use new whitespace-mode
+
+2003-1-10  bingalls  <bingalls(at)users.sf.net>
+	* v2.4.3
+	Silenced compiler warnings
+	Fixed e-configure setup for 'nil/"" defaults for user-mail-address
+	and user-full-name
+	Contributed package for slackware
+
+2003-1-6  bingalls  <bingalls(at)users.sf.net>
+	* v2.4.2
+	Fixed e-net 'use-smtp bugs
+	Packaged EMacro for w32 and rpm
+
+2003-1-1  bingalls  <bingalls(at)users.sf.net>
+	* v2.4.1
+	Fixed e-w32 syntax bugs.
+	Note: bin/unix/e-xcompile causes "Signal 127" with Cygwin/Native XEmacs
+	bin/w32/e-xcompile.bat doesn't work at all.
+	Fixed the COPYING license; updated headers & copyrights
+
+2002-12-21  bingalls  <bingalls(at)users.sf.net>
+	* v2.4.0 Goodwill Towards Penguins release
+	Updated documentation
+
+2002-11-24  bingalls  <bingalls(at)users.sf.net>
+	* v2.3.7 beta
+	Changed all non-functioning put()s to set-default()s
+	Fixed bug in install
+	max-specpdl-size max-lisp-eval-depth returned to default sizes, a
+	sign that reliability has returned to EMacro
+
+2002-11-24  bingalls  <bingalls(at)users.sf.net>
+	* v2.3.6 alpha
+	Changed many defcustom()s & setq()s to put()s, to better work
+	with defcustom system.
+	EMacro no longer positions itself; only sets height.
+
+2002-09-30  bruce ingalls <bingalls(at)users.sf.net>
+	* v2.3.5 beta
+	Replaced defcustom()s which were improperly ineffective
+	Tim fixed emacro-require, due to tinyload changes
+	Added psgml.el's xml-mode as fallback for html editing
+
+2002-09-27  bruce ingalls <bingalls(at)users.sf.net>
+	* v2.2.1 release
+	Fixed obsolete docs. Most are now valid xhtml strict & css2
+	Fixed bug in e-install.bat
+
+2002-09-23  bruce ingalls <bingalls(at)users.sf.net>
+	* v2.3.4 beta
+	Enabled mouse wheel for Emacs
+	Plug & Play of supported elisp libs is now more clear
+	
+2002-09-18  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.3.3 beta
+	Default option pops up calendar if ~/diary exists
+	Fixed bug of misspelled e-(x)custom.el filename
+	Fixed some defvars including tiny-load
+	Fixed emacro-require()
+
+2002-09-02  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.3.2 beta
+	Now deals with unixODBC == isql in PATH
+	Placing e-browser and e-net after e-xemacs in e-config fixed bugs.
+	ELAE now says to look for version in e-macro
+	Started improving TRAMP support in e-net
+	Merged in Red Hat v7.3 .emacs
+	Replaced emacro.jpg with emacro.png
+	bin/unix/e-install is now cleaner.
+
+2002-08-02  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.3.1 alpha
+	New e-browser.el does not require use-net=t for browser support
+
+2002-07-07  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.3.0 alpha
+	Install docs now cleaner
+	OS X support improved and verified. Emacs-on-aqua will be unsupported
+	e-config simplified tiny-load
+	e-net supports non deprecated gnus in emacs v21.x
+	e-config makes XEmacs 5 rows shorter, to equal height of Emacs
+	e-w32 added Dired hook, so "x" executes files in dired mode
+	e-macs, e-xemacs added PDF Export
+
+	Shelved check for updated versions into contrib. Just too slow.
+	e-functions fixed ver-lessp. To be moved into contrib/e-update.el
+
+2002-06-16  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.2.0 RC2 (same as 2.2 production)
+	HTML is now XHTML compliant. Web now in acceptable state
+	Created ~/emacs/contrib/web directory for web equivalent of local docs
+	Tested web links with new cleaned out CVS-web on sf.net
+	Now supports EmacsWiki search
+	<font color="blue">EMacro</font> is now properly spelled in blue!
+
+2002-06-04  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.2.0 RC1
+	Cleaned up html
+	EMacro logo is now a smaller, politically correct jpg and Mozilla
+	compliant
+	Deleted the original higher image quality gif
+	Created ~/emacs/docs/images subdirectory 
+	e-config.el: Corrected version check for no network
+	
+2002-05-20  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.18 beta
+	Better version checking includes X/Emacs, beyond EMacro, itself.
+	Version check now goes into splash screen.
+	Re-enabled tiny-url in e-xemacs.el
+
+2002-05-18  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.17 beta
+	Fixed initial frame in e-xemacs
+	Gnuserv now works better for XEmacs
+	Simplified e-config.el condition-case to simple `which ps`
+	e-config now checks version and prompts appropriately for a download
+	Renamed release_procedures from .txt to .html
+
+2002-05-03  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.16 beta
+	Help menu browsing now works in text mode
+	Fixed and tested e-refresh.bat
+	Fixed bug in e-w32, so it doesn't fail, when no shells like cygwin
+	are available.
+	
+2002-04-28  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.16 alpha
+	Found backup code that blew up under gnuserv on w32 emacs
+	Fixed unix/e-install shell for e-refresh PATH
+	Now prints version msgs at top of preference files
+	Disabled code to set background color, although it looks good for
+	  almost all systems (ugly for one, but not all rh7.2 GUI cases)
+	Fixed use-height bug, which forced a restart
+	Support for Mac OS extended fonts
+
+2002-03-23  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.15 beta
+	Renamed emacs.html to more descriptive resources.html
+	Disabled scrollbars in e-macs.el; now works for OS X console
+	Reworked w32 gnuserv code in e-macs.el
+	Added "untested code" messages to w32 batch files, after
+	e-refresh.bat failed
+
+2002-03-06  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.15 alpha
+	Updated documentation in solutions.html
+	e-refresh now deletes ~/.emacs.elc, if present
+	Updated e-c.el and e-programmer.el to support new cc-mode
+	Tested gnuserv on w98
+	Moved XEmacs tool bar toggle to Options menu
+	Fixed forward delete key in XEmacs. Broken by defcustom().
+	Users can now completely replace e-preload.el and e-postload.el, as
+	  long as the files exist.
+
+2002-03-05  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.14 beta
+	Corrected Copyright notices including email addresses
+	Added ocaml support
+	Fixed and tested gnuserv support on w32 Emacs
+
+2002-02-27  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.14 alpha
+	Added EOL after appending csharp to e-*cache.el
+	Removed spurious (defconst cache-recentf t) from e-net.el
+	Fixed annoyance with default-frame-plist setting height under XEmacs.
+	Fixed code, so that color-theme users also set height. Seemed to
+	be working already, but code now makes sense.
+	Updated most documentation.
+	Tested on Mac OS classic (v8-9)
+	Word wrap can be turned on or off via Customize for html modes.
+
+2002-02-26  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.13 beta
+	e-macs.el: enabled imenu mode-hook; users should be >v20.3 by now
+	Removed e-custom.el, to fix font-lock in c-mode and c++-mode
+	Neither e-custom.el nor e-xcustom.el are required to exist
+	load-path is now a defcustom(). This now makes it possible to use
+	EMacro, without writing a single line of elisp
+
+2002-02-22  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.13 alpha
+	Fixed e-macs.el, so that it works with both server.el and	gnuserv.el
+	Suppressed most spurious bytecompile warnings, when *.el files are
+	compiled individually.
+	Squashed many small bugs to prepare for 2.2 release.
+	Scripts are now saved with chmod +x
+	Documentation (tips, solutions, links, etc.) has been updated.
+	Added simple support for perldoc.el
+	Changed defcustom of scrollbar, as only setq() moves it to right.
+
+2002-02-17  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.12 beta
+	Defcustom support. Checked with Jan Borsodi, and deleted e-option.el
+	Removed use-home. Same as (dirname emacro-top-dir)
+	Cleaned up e-xml.el
+	First version to support http://emacro.sf.net/upgrade.html
+	Need to add version for XEmacs help menu
+	Need to debug w32 gnuserv problem.
+
+2002-01-26  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.12 alpha
+	Overdue addition of Furlan Primus to credits.html
+	All files' namespaces begin with e-*; updated manifest.html
+	Updated scripts to reflect new e-*.el names
+	Moved files that were not being maintained, to contrib:	e-palm.el, i18n
+	Changed nonmac.el into e-linux.el
+	Version now appears under Help in menu
+	Moved out unused i18n code in e-net.el and e-common.el into
+	respective contrib/e-china.el, e-europe.el and e-japan.el
+
+2002-01-05  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.11 beta
+	Commented out new TeX-command-list, as programmer.el didn't load right.
+	Fixed bin scripts for directory change. They are now hardwired to
+	the HOME directory.
+	Furlan Primus fixed all *.bat files in bin/windows/ and added
+	unix2dos. Note that dos batch files hate unix \n.
+	~/emacs/bin/windows/install.bat may need further testing.
+	Removed ver.el. Support for old emacsen is gone.
+	Some files in contrib were removed or renamed.
+	Suppressed further bytecompile warnings
+	Added RedHat 7.2 Emacs 21.1 upgrade docs
+	Changed preferences/x_custom.el from 12pt to 9pt
+	Default letter paper size now in preferences
+	Restored regular printer name into preferences
+	Moved frame size code to top of emacro/configure.el. Frame is
+	temporarily sized to height=24, so that prompt at bottom is
+	guaranteed to be seen.
+
+2001-12-13  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.10 beta
+	Major cleanup of directory structure; files are much easier to
+	find. Also, all files in the preferences directory can be deleted,
+	as EMacro generates them.
+
+	Fix for the new cua-mode name change
+	Fixed sizing height for XEmacs in configure.el
+	Fixed w32 to use default browser, and not require 'use-browser'
+	Removed deprecated ver.el
+	Added perl-man-func(), renamed make-perl-script() to perl-make-script()
+	Added overview.html
+	Reduced font size in preferences/x_custom.el
+
+2001-11-25  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.9 beta
+	Fixed use-login and some minor cleanup of configure.el.
+	No longer requires you connect to net, to avoid bugs.
+	Removed duplicate load of preferences in inet.el - frame height
+	works again in Gnu Emacs v21.
+	TODO: check URL for sql.el in e-sql.el
+	Replaced use-sql-user with sql-user and use-sql-db-server with
+	sql-database
+	Added sql-host; better fits current versions of sql.el
+	May have to deprecate sql-mode.el support
+	Tiny-path support added. I'm sure this needs much testing.
+	
+
+2001-11-04  bruce ingalls  <bingalls(at)users.sf.net>
+	* v2.1.8 beta
+	XEmacs Recent-files now at top of File menu
+	Moved mmm-mode code from e-xml.el to programmer.el and cleaned it up
+	Updated docs
+	Removing EMacro code broken by JDE upgrades in e-java.el
+	toggle-toolbar() now in the view menu of e-xemacs.el
+	Dropped XEmacs ksh-mode support to sh-mode, for portability
+
+2001-10-31  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.7 beta
+	Removed font sizing code from Postload.el
+	Added support for cua-mode
+	Added mmm support for PHP and ASP (needs testing)
+	ebackup.el support replaces ~/.backup code
+	color-theme.el now supported via preferences.el
+	XEmacs Recent-Files now a submenu of File
+	Added w32 Emacs gnuservw support
+
+2001-10-25  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.6 beta
+	Now works for Emacs v21!
+	I had to hack poweruser.el's auto-compression()
+	New, simplified xemacs check in configure.el, whether to use alist or
+	plist for frame size
+	Fixed emacro-help() in functions.el
+	Fixed browse-url support in inet.el, and added Galeon
+	e-sql.el: removed msg, when sql-show-sqli-buffer() not available
+
+	Bug fixes from Vishy:
+	XEmacs supports gnuservw
+	Cleaned nonmac comments out of configure.el, and clarified
+	comments in other files
+	sql.el now supports MS Sql Server, EMacro does, too.
+	w32.el has better handling for ghostview. Probably can be improved.
+
+2001-10-22  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.5 beta
+	Undid conditional append of "/" from 2.1.3. Note that this is in
+	both .emacs and emacro.el :(
+	Fixed a few w32 emacs bugs
+	Updated some URLs in docs; added Ruby to auto-mode-alist.
+
+2001-08-26  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.4 beta
+	ver.el is deprecated; old X/Emacs users no longer "supported"
+	Tested with recent tiny-tools. XEmacs has problems with ":link" in 
+	tinylpr and tinyurl
+	Trimmed auto-mode-alist and auto-mode-interpreter-list, to remove
+	duplicates of X/Emacs's files.el
+	Rewrote dirname(), to replace an obsolete function
+	The Mac Emacs port I use, does support which(). All code using
+	which() has been pulled out of nonmac.el. This may break some Mac OS
+	ports, so send feedback!
+	I am deprecating all tinytools code. Current versions simply
+	require 'tiny-setup.
+	Added tinyload: faster startup thru delayed loading
+
+2001-04-21  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.3 beta
+	Now tested to work on XEmacs 21.4
+	Restored having no "/" after use-home on w32 Emacs.
+
+2001-03-01  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.2 beta
+	Now conforms to standard elisp comments
+	Removed unnecessary progn()s and obsolete comments
+	Now supports most tiny-tools
+	xemacs.el renamed to e-xemacs.el to avoid featurep() conflict.
+	Started to roll Jan Borsodi's work into e-c.el
+
+2001-02-13  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.1 beta
+	Added mode-compile and awk support
+	Fix for bad w32 xemacs v21.1.13 distribution: (require 'pp) workaround
+	Fix for w32 not running oracle
+	Child frames now open with same "use-height" as initial frame
+	Trimmed comments from most *.el files
+	Tramp support for remote files through SSH
+
+2001-01-08  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.1.0 beta
+	Now committing to odd middle number for beta releases.
+	
+	Added hooks to trap tiny-tools in compile and grep modes
+	Tested again with minimal XEmacs distribution
+	EMacro now prefers iswitchb to pcbufsw
+	.js is now javascript.
+	.jsp server-side JavaScript Page file extension has been changed to
+	JDE java mode for Java Server Pages, in programmer.el, by default.
+	function.el: Whitespace code is being replaced.
+	w32.el:	more variables are set, to support shells like bash.
+	Added ediff cleanup hook to xemacs.el. Should gnu.el get it, too?
+	Fixed "iexplorer" to work on solaris.
+	Modified Title Bar displays file or nonfile modes (*shell*,*grep*,etc)
+	X Window users automagically get max height.
+	Bug Fix: I now check that env vars are set before I use getenv()
+	Turned on icomplete-mode. Is this in base xemacs?
+	Added several interpreter-modes
+
+2000-11-27  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.0.4 release
+	Moved SQL detection code from nonmac.el to configure.el
+	Added links into doc/emacs.html
+	Default windows browser is now supported, rather than PATH search.
+
+2000-11-20  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.0.4beta10
+	Fixed Mac port bugs, and other small bugs.
+
+2000-11-16  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.0.4b9
+	Fixed windows port bugs from the hasty beta 8 release.
+
+2000-11-09  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.0.4b8
+	Fixed xml-mode. Basics- font-lock and indent now work.
+	Nsgmls now recognizes DTD urls.
+	Some annoyances need to be fixed by psgml maintainer.
+	Programmer.el now supports several new modes by file extension
+	Printing now works better.
+	Separated caches for Emacs and XEmacs, so they can be used
+	concurrently, even with different load-paths.
+
+2000-11-05  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.0.4b7
+	install.bat now works.
+	Added applescript to launch help menu in mac.el
+	Changed Sawfish patch of extra offset from top of desktop.
+	Sawfish versions < 0.32 are no longer broken.
+	MS Windows now uses the default browser
+	condition-case now exception handles that cygwin's 'ps' might not
+	be installed on your MS Windows box.
+	Fixed max-lisp-eval-depth from e-java.el into configure.el
+	This caused w32 xemacs using scrollbar with mouse to crash
+	Docs have been turned into html, with help from Vishy.
+
+2000-09-15  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v2.0.4b4
+	Refixed w32 xemacs "/" path separators.
+	Messages now say that packages are optional, and what they are for.
+	file-append() replaced by built-in append-file()
+	EMacro now uses cache-locate-library(), which speeds up searching
+	whole load-path for missing libraries. As a bonus, shows what
+	EMacro detected.
+	New URLs at the top of each file
+	SQL clients now autodetected in PATH
+	Default modeline changed. Old modeline in comments
+	Rolled in Vishy's docs
+
+2000-08-14  Bruce Ingalls  <bingalls(at)users.sf.net>
+	* v 2.0.4b3
+	This version has been moved to http://www.SourceForge.net/
+	Fixed indentation for XEmacs java/jde modes.
+	Replaced format()s with concat() for speed.
+	Added hack for sawfish desktop positioning
+	Separated inet.el from poweruser.el
+	Now runs faster on restart- sizing info is cached in
+	preferences.el
+	Reworked jde-compile() out of nonmac.el, back into programmer
+	.emacs is simply now a load-file(); people can now hack it to
+	their content.
+	Docs are moved from *.txt to emacs/docs/*.html files
+	Code for programmers is broken up, and moved into
+	emacs/programmer/
+	Testing on MacOS was falling behind. Now works again.
+	Tested with JDE 2.2.2
+	Added Emacs Lisp Archive Entry.
+	Moved hilit19 from gnu.el to ver.el
+	Added Help menus
+	Embedded RCS $Id: ChangeLog,v 1.25 2003/05/24 17:36:59 bingalls Exp $
+	Shortcut prompts for sql and net support
+	Fixed install shell script
+	Trimmed some less-used functions from functions.el; however I now
+	realize that I need to cut load-library()s to speed up EMacro.
+	Added xml support code to e-xml.el. Untested code at bottom might
+	not be GPL, and may get removed.
+
+2000-07-27  Bruce Ingalls  <bruce(at)panix.com>
+	* v 2.0.3
+	Now supports beta GTk XEmacs
+	Now reads MS Word files.
+	Version stamps in each file
+	Code now works with which.el v0.45
+	Tested with XEmacs v21.1.11
+	Had problems getting add-hook() to append functionality. Rewrote
+	to lump everything into 1 add-hook per mode.
+	Added release_procedures.txt
+	Renamed cache.el to preferences.el
+	Now supports qflib.el
+
+2000-06-15  Bruce Ingalls  <bruce(at)panix.com>
+	* v 2.0.1 release/bug fixes
+	More testing on ms windows. sql support is more smooth.
+	Fixed JDE support
+	Added hippie-expand universal completion
+	Added prompt for default printer
+
+2000-06-06  Bruce Ingalls  <bruce(at)panix.com>
+	* v 2.0 release. Down to about 4 bytecompile warnings.
+	version.el rewritten. load-path.el added. Now automatically checks
+	if libraries exist. Which() automatically searches for support
+	programs like ghostscript. Japanese.el added. Cache.el added.
+	Customizations now saved to customize.el. release_notes.txt and
+	to_do.txt created.
+	Tested for emacs -nw console mode.
+
+2000-04-14  Bruce Ingalls  <bingalls(at)panix.com>
+	* v 2.0 beta. Centralized configuration in config.el. Renamed files;
+	added emacs.html and local load paths.
+
+	Replace almost every require and load-library with autoload,
+	resulting in amazing speed increase.
+
+	The only bytecompile warnings are in version.el
+
+1999-12-28  Bruce Ingalls  <bingalls(at)panix.com>
+	* v 2.0 alpha. Many more files; outline mode support; checkdoc checked;
+	Internationalization; Palm support; code added from www.ikoch.de
+
+	Fixed or suppressed many bytecompile warnings within EMacro
+	Started implementing the guidelines of
+	<url:http://mirror.ncsa.uiuc.edu/procmail/ssjaaa/ema-pkg.html />
+	by running checkdoc() <url:ftp://ftp.ultranet.com/pub/zappo/ />
+	and lm-verify() in lisp-mnt.el (bundled with emacs)
+
+1999-11-14  Bruce Ingalls  <bingalls(at)panix.com>
+	* v 1.3  Table of Contents, Mac support
+
+1999-10-25  Bruce Ingalls  <bingalls(at)panix.com>
+	* v 1.2 Smaller, manageable files; code from www.dotfiles.com
+	Emailed all authors to get GPL permission.
+
+1999-9-1  Bruce Ingalls  <bingalls(at)panix.com>
+	* v 1.11 Code cleanup: reduced compile warnings
+
+1999-6-17  Bruce Ingalls  <bingalls(at)panix.com>
+	* v 1.1  Supports new XEmacs on MS Windows
+
+1998-12-1  Bruce Ingalls  <bingalls(at)panix.com>
+	* emacs.html links are updated with each release.
+	Changes to this file will not be logged.
+	* v 1.0  Created
+
+ This version history file is formatted by `M-x add-change-log-entry`
+ You may need to `M-x load-library <ret> add-log` first.
+</pre></body></html>

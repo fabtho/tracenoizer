@@ -1,0 +1,15 @@
+----> connection to db tracenoizer established 
+----> insert into input (in_main_id,in_keyword) values (37260,Tom Airaksinen) 
+status setzt zu 0 
+----> suche mit "Tom Airaksinen"
+----> this is the actual searchterm : 
+
+----> in this part 0 urls found 
+---->  new searchterm: Airaksinen Tom 
+----> suche mit "Airaksinen Tom"
+----> this is the actual searchterm : 
+
+----> in this part 0 urls found 
+---->  0 urls found and put into downloadlist 
+---->  0 urls found no further processes
+status setzt zu 9 

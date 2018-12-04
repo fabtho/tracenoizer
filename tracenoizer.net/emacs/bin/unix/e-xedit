@@ -1,0 +1,21 @@
+#!/bin/sh
+#-*-Shell-Script-*-	Time-stamp: <2003-02-16 10:37:38 bingalls>
+#Copyright © 1998, 2003 by Bruce Ingalls bingalls(at)users.sourceforge.net
+#See file COPYING for GPL license.
+#$Id$
+#<url: http://emacro.sourceforge.net/ > <url: http://www.dotemacs.de/ >
+
+#XEmacs replacement front end.
+#You need to run XEmacs with gnuserv.el (which is enabled in EMacro)
+#If this cannot start a faster gnuclient session, then it starts a full Emacs
+#session. Note that `C-x c` closes all sessions, so be sure to `C-x #`
+
+#Warning! Calls to `xemacs -nw` with xemacs as window in mixed client/server
+#will lead to xemacs locking and/or crashing.
+
+#Edit the name of the Emacs program, as needed:
+
+gnuclient $*  >/dev/null 2>&1 || xemacs $*
+
+#gnuclient $*  >/dev/null 2>&1 || xemacs-21.1.11 $*
+

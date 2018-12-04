@@ -1,0 +1,218 @@
+<html>
+<head>
+<title>404 Error</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="STYLESHEET" type="text/css" href="../styles/datarecovery.css">
+
+
+
+<script language="JavaScript">
+<!--
+
+// NOTE : This list is alphabetized by the referring URL
+
+/* CHEAT SHEET:
+else if (path == "/from.asp")
+	window.location.href = base + "/destination.asp";
+
+Registration folders:	
+FR = .fr/enregistrez
+DE = .de/registrieren
+UK = .co.uk/registration
+*/
+
+base = "http://www.ontrack.com";
+path = location.pathname;
+
+if (path == "/english.html" || path == "/TOC.html")  	window.location.href = base + "/";
+
+// HARD CODED LINKS in SOFTWARE
+else if (path == "/discovery/" || path == "/discovery" || path == "/info.asp?id=151" || path == "/judges/" || path == "/judges")
+	window.location.href = base + "/electronicdiscovery";
+else if (path == "/da-down.html" || path == "/op/op_1.asp")
+	window.location.href = base + "/dataadvisor/";
+else if (path == "/restore/" || path == "/restore")
+	window.location.href = base + "/datarecovery/restore.asp";
+else if (path == "/deutsch/index.asp?page=28")
+	window.location.href = "http://www.ontrack.de/easyrecovery";
+else if (path == "/uk/reg.asp")
+	window.location.href = "http://www.ontrack.co.uk/registration/";
+else if (path == "/deutsch/reg.asp")
+	window.location.href = "http://www.ontrack.de/registrieren";
+else if (path == "/francais/reg.asp")
+	window.location.href = "http://www.ontrack.fr/enregistrez";
+else if (path == "/cVGeS36Dge9/odrndemo.exe")
+	window.location.href = "/freesoftware/#odrn";
+else if (path == "/labdr/" || path == "/labdr" || path == "/info.asp?id=147")
+	window.location.href = base + "/datarecovery/labdr.asp";
+else if (path == "/library#userguide")
+	window.location.href = base + "/library/#userguides";
+else if (path == "/op/op_7/op_7.asp#purchase")
+	window.location.href = base + "/buyonline/#easyrecovery";
+else if (path == "/re/fq/FAQSearch.asp")
+	window.location.href = base + "/faq/";
+else if (path == "/registration/easyrecovery.asp")
+	window.location.href = base + "/registration/index.asp?product=er";
+// END HARD CODED LINKS
+
+
+else if (path == "/datarec.html" || path == "/hc/ec.asp")
+	window.location.href = base + "/datarecovery";
+else if (path == "/downloads.asp" || path == "/re/do/do.asp" || path == "/freesoftware/ERPROFRE.exe")
+	window.location.href = base + "/freesoftware/";
+else if (path == "/easyupdate.asp")
+	window.location.href = base + "/easyupdate/";
+else if (path == "/eimcontacts/" || path == "/eimcontacts")
+	window.location.href = base + "/electronicdiscovery/eimcontacts.asp";
+else if (path == "/eimpressreleases/" || path == "/eimpressreleases")
+	window.location.href = base + "/electronicdiscovery/eimnews.asp";
+
+
+else if (path == "/help.asp" || path == "/supportform.asp")
+	window.location.href = base + "/techsupport/";
+else if (path == "/jobs.asp")
+	window.location.href = base + "/employment/";
+else if (path == "/mijenix.asp" || path == "/aboutontrack/" || path == "/aboutontrack")
+	window.location.href = base + "/aboutus/";
+else if (path == "/order.asp")
+	window.location.href = base + "/buyonline/";
+else if (path == "/partners/" || path == "/partners")
+	window.location.href = "http://www.ontrack.co.uk/partners";
+else if (path == "/products.asp" || path == "/software.html")
+	window.location.href = base + "/software/";
+else if (path == "/re/do/fujitsu_download.asp")
+	window.location.href = base + "/fujitsu/";
+else if (path == "/support.asp")
+	window.location.href = base + "/support/";
+else if (path =="/easyrecovery/worm.asp")
+	window.location.href = base + "/virusinfofaqs/tutorial.asp";
+
+
+//-->
+</script>
+
+
+</head>
+
+<body bgcolor="#166D96" topmargin="0" marginheight="0" leftmargin="0" marginwidth="0">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr> 
+	<td width="336" bgcolor="#000000"> 
+		<table width="335" border="0" cellspacing="0" cellpadding="0">
+		<tr> 
+			<td width="150"><a href="/"><img src="/images/nav/top_logo.gif" width="220" height="100" border="0"></a></td>
+			<td width="185" bgcolor="#000000">&nbsp;</td>
+		</tr>
+		</table>
+	</td>
+	<td bgcolor="#000000" align="right" valign="bottom"> 
+		<form method="post" action="/search/index.asp" id="form3" name="form3">
+		<table width="365" height="50" border="0" cellspacing="0" cellpadding="0">
+		<tr> 
+			<td>&nbsp;</td>
+			<td colspan="3"> 
+				<input type="hidden" name="formcount" value="1">
+				<div align="center">
+				<img src="/images/nav/search.gif">
+				<input type="image" border="0" src="/images/nav/go.gif" id="image1" name="image1">
+				<br>
+				<input type="text" name="searchstring" maxlength="100" style="border:2 solid #999999" size="12">
+				</div>
+			</td>
+			<td> 
+				<div align="center"><a href="/sitemap/"><img src="/images/nav/sitemap.gif" width="35" height="35" border="0"></a></div>
+			</td>
+		</tr>
+		<tr> 
+			<td width="365" colspan="5"><img src="/images/nav/clear.gif" width="365" height="10"></td>
+		</tr>
+		</table>
+		</form>
+	</td>
+</tr>
+<tr bgcolor="#999999"> 
+	<td colspan="2" height="3"><img src="/images/nav/clear.gif" width="700" height="3"></td>
+</tr>
+<tr bgcolor="#166D96"> 
+	<td colspan="2" height="19">
+		<table width="700" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="200"><img SRC="http://www.ontrack.com/images/aboutus/aboutus_phone.gif" BORDER="0" WIDTH="200" HEIGHT="19"></td>
+<td width="500" colspan="5"><img src="/images/nav/clear.gif" width="501" height="1"></td>
+</tr></table>
+</td>
+</tr><tr bgcolor="#000000"> 
+<td colspan="2" height="18"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr> 
+<td valign="top" bgcolor="#FFFFFF" colspan="5">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr bgcolor="#FFFFFF" valign="top">
+<td width="200" height="1"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td width="1" height="1"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td width="24" height="1"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td height="1"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td width="25" height="1"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+</tr><tr>
+<!-- NetFrame tag - this is the image on the left -->
+<td width="200" valign="top" bgcolor="#999999"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td width="1" bgcolor="#000000"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td width="24" bgcolor="#CCCCCC" valign="top"><img src="/images/nav/clear.gif" width="24" height="1"></td>
+<td bgcolor="#CCCCCC" valign="middle" align="left"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td bgcolor="#CCCCCC" valign="top" width="25"><img src="/images/nav/clear.gif" width="25" height="1"></td>
+</tr><tr>
+<td width="200" valign="top" bgcolor="#FFFFFF"><img src="/images/nav/clear.gif" width="200" height="1"></td>
+<td width="1" bgcolor="#000000"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td width="24" bgcolor="#FFFFFF" valign="top"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td bgcolor="#FFFFFF" valign="top"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td bgcolor="#FFFFFF" valign="top" width="25"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+</tr><tr> 
+<!-- NetFrame tag for element 10 -->
+<td width="200" valign="top" bgcolor="#999999"><img src="/images/search/searchpic_main.gif" width="200" height="195">
+</td>
+<td width="1" bgcolor="#000000"><img src="/images/nav/clear.gif" width="1" height="100"></td>
+<td width="24" bgcolor="#FFFFFF" valign="top"><img src="/images/nav/clear.gif" width="24" height="1"></td>
+<td bgcolor="#FFFFFF" valign="top">
+<img src="/images/nav/clear.gif" width="1" height="25"><br>
+  <font face="Verdana, Arial, Helvetica, sans-serif" size="4"><b>404 error - Page Not Found</b></font> 
+<img src="/images/nav/gray.gif" width="100%" height="5"><br>
+
+<!-- Zone tag for main content area -->
+
+<p>Welcome to Ontrack.  We're constantly updating our Web site and have made a 
+change that doesn't correspond with the link you have used. Please click on the 
+Ontrack logo above to visit our home page or use the &quot;search&quot; function 
+in the upper right to help you locate the information you were seeking.  Thank you 
+for your interest in Ontrack!</p>
+
+<p>If you are searching for our international sites, they may be found here:</p>
+
+<ul><li><a href="http://www.ontrack.com/">Ontrack</a></li><p>
+<li><a href="http://www.ontrack.de/">Deutsch</a></li><p>
+<li><a href="http://www.ontrack.es/">Espanol</a></li><p>
+<li><a href="http://www.ontrack.fr/">Francais</a></li><p>
+<li><a href="http://www.ontrack.co.uk/">British</a></li><p>
+<li><a href="http://www.ontrackrecuperodati.it/">Italiano</a></li><p>
+<li><a href="http://www.recuperationdedonnees.ch/">Suisse</a></li><p>
+<li><a href="http://www.ontrack-japan.com/">Japanese</a></li><p>
+</ul>       
+<p>&nbsp;</p>      
+</td>
+<td bgcolor="#FFFFFF" valign="top" width="25"><img src="/images/nav/clear.gif" width="25" height="1"></td>
+</tr></table></td></tr></table></td>
+</tr><tr bgcolor="#999999"> 
+<td colspan="2" height="3"><img src="/images/nav/clear.gif" width="700" height="3"></td>
+</tr><tr bgcolor="#000000"> 
+<td><table width="325" border="0" cellspacing="0" cellpadding="0"><tr> 
+<td width="125"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td width="25"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+<td width="150"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+</tr></table></td>
+<td align="right"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+</tr><tr bgcolor="#166D96"> 
+<td colspan="2"><img src="/images/nav/clear.gif" width="1" height="1"></td>
+</tr></table>
+<div align="center"><img src="/images/nav/clear.gif" width="1" height="5"></div>
+</body>
+</html>

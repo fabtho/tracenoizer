@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--Time-stamp: <2003-06-12 11:22:22 bingalls> --><!--$Id: emacrolibs.html,v 1.7 2003/05/24 17:36:59 bingalls Exp $-->
+<!--Copyright © 1998,2002 Bruce Ingalls bingalls(at)users.sf.net-->
+<!--See the EMacro project file COPYING for license-->
+<!--This file is not (yet) part of Emacs or XEmacs.-->
+<head>
+<meta name="description"
+ content="EMacro Libs packages many supported elisp libs for an easy install"/>
+<meta name="keywords" content=".emacs editor configuration"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="icon" href="images/em_ico.png" type="image/png"/>
+
+<script type="text/javascript">
+<!--
+var user;
+var host;
+var topDomain;
+
+function UCEproof(user, host, topDomain)
+{
+ document.write('<a href="'+'mailto:'+user+'@'+host+'.'+topDomain+'">' +
+ user + '@' + host + '.' + topDomain + '</a>');
+}
+// -->
+</script>
+
+<title>EMacro Libs</title>
+<style type="text/css">
+span.emacro {color: blue}
+</style>
+</head>
+
+<body>
+<p>
+<span class="emacro">EMacro</span> Libs requires
+<span class="emacro">EMacro</span> v2.4.4 or higher.
+</p>
+<h2>Disclaimer</h2>
+<p>
+All code in <span class="emacro">EMacro</span> Libs that the packager is aware
+of, is GPL licensed. The GPL license is explained in the <span
+class="emacro">EMacro</span> project's COPYING file, available at
+<a href="http://emacro.sf.net">http://emacro.sf.net</a>. However, as none of
+the included libraries are written by the <span class="emacro">EMacro</span>
+project, it is your responsibility to read each file, to discover the actual
+license, as well as any missing files.
+</p>
+<p>
+<span class="emacro">EMacro</span> Libs does not guarantee to package the
+latest versions of all elisp libraries. Email
+<script type="text/javascript">
+<!--
+UCEproof("bingalls", "users.sf", "net");
+// -->
+</script>
+if you find a package is out of date.
+</p>
+<h2>Setup</h2>
+<p>
+To use <span class="emacro">EMacro</span> Libs without <span
+class="emacro">EMacro</span>, or with versions older than v2.4.4, you must add
+<code>/usr/share/elisp</code> to your <code>load-path</code>. Add the following
+elisp code to your .emacs file, or for <span class="emacro">EMacro</span>
+users, to <code>~/emacs/e-path.el</code>:
+</p>
+<p>
+<code>(add-to-list 'load-path "/usr/share/elisp")</code>
+</p>
+<p>
+Of course, if you are <i>not</i> using <span class="emacro">EMacro</span>,
+you must still configure all of these libraries for use; this is the purpose of
+<span class="emacro">EMacro</span>.
+</p>
+<h3>Microsoft Windows</h3>
+<p>
+MS Windows has limited POSIX compliance. Sharing
+<span class="emacro">EMacro</span> Libs between Emacs and XEmacs takes a little
+more effort. If you run both, the Windows setup package will install
+<span class="emacro">EMacro</span> Libs for Emacs, only. Here are some
+alternate solutions, to get <span class="emacro">EMacro</span> Libs to also
+work for XEmacs:
+</p>
+<ol>
+<li>Edit e-path.el, to add Emacs's site-lisp dir to the load-path</li>
+<li>Copy all files in Emacs's site-lisp dir to XEmacs's packages dir</li>
+<li>Re-install <span class="emacro">EMacro</span> Libs into XEmacs's packages
+dir</li>
+</ol>
+
+<h2>What's Not Included</h2>
+<p>
+You may need to <code>e-refresh</code> <span class="emacro">EMacro</span>'s
+cache, before using <span class="emacro">EMacro</span> Libs. Included are all
+the elisp libraries supported by <span class="emacro">EMacro</span>, which do
+not require byte-compiling, and are portable between Emacs and XEmacs. The
+following projects fail these criteria, and are missing from
+<span class="emacro">EMacro</span> Libs. These are mostly large packages, which
+update more frequently, and are best downloaded directly:
+</p>
+<table>
+  <tr><td>BBDB: Big Brother Data Base</td>
+	<td><a href="http://bbdb.sf.net/">http://bbdb.sf.net/</a></td></tr>
+  <tr><td>CSDE: C# Development Environment</td>
+	<td><a href="http://csde.sourceforge.net/">
+	http://csde.sourceforge.net/</a></td></tr>
+  <tr><td>Esheet XEmacs spreadsheet</td>
+	<td><a href="http://esheet.sf.net/">http://esheet.sf.net/</a></td></tr>
+  <tr><td>Java JDEE</td>
+    <td><a href="http://jdee.sunsite.dk/">http://jdee.sunsite.dk/</a></td></tr>
+  <tr><td>Tiny Tools</td><td><a href="http://tiny-tools.sourceforge.net/">
+	http://tiny-tools.sourceforge.net/</a></td></tr>
+  <tr><td>W3 browser</td>
+	<td><a href="http://www.cs.indiana.edu/elisp/w3/docs.html">
+	http://www.cs.indiana.edu/elisp/w3/docs.html</a></td></tr>
+</table>
+<p>
+<span class="emacro">EMacro</span> also supports many binaries. No binaries
+ship with <span class="emacro">EMacro</span> Libs. Many are commonly included,
+such as CVS or a web browser. Databases and compilers are also missing.
+Microsoft Windows users should install <a href="http://www.cygwin.com/">
+http://www.cygwin.com/</a>
+Here are some supported binaries you more likely will need to download:
+</p>
+<table>
+  <tr><td>a2ps: Syntax colored printouts</td>
+  <td><a href="http://savannah.gnu.org/projects/gnu/a2ps/">
+	http://savannah.gnu.org/projects/gnu/a2ps/</a></td></tr>
+  <tr><td>Exhuberant CTAGS: quickly indexes your source code</td>
+  <td><a href="http://ctags.sf.net/">http://ctags.sf.net/</a></td></tr>
+  <tr><td>Ghostscript</td>
+  <td><a href="http://savannah.gnu.org/projects/ghostscript">
+	http://savannah.gnu.org/projects/ghostscript</a></td></tr>
+  <tr><td>Ghostview</td>
+  <td><a href="http://www.gnu.org/software/ghostview/">
+	http://www.gnu.org/software/ghostview/</a></td></tr>
+  <tr><td>Ispell international spell checker</td>
+  <td><a href="http://fmg-www.cs.ucla.edu/fmg-members/geoff/ispell.html">
+	http://fmg-www.cs.ucla.edu/fmg-members/geoff/ispell.html</a></td></tr>
+  <tr><td>Ispell spell checker. Note that v3.1 is more recent than v4.0!</td>
+  <td><a href="http://ficus-www.cs.ucla.edu/">
+	http://ficus-www.cs.ucla.edu/</a></td></tr>
+  <tr><td>Jikes javac compiler</td><td><a href="http://www.jikes.org/">
+	http://www.jikes.org/</a></td></tr>
+  <tr><td>ncftp</td><td><a href="http://www.ncftpd.com/">
+	http://www.ncftpd.com/</a></td></tr>
+  <tr><td>nsgmls: XML parser</td>
+  <td><a href="http://www.jclark.com/sp/howtoget.htm">
+	http://www.jclark.com/sp/howtoget.htm</a></td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# exclude krung.org from robots on krungkuene.org
+User-agent: *
+Disallow: /krung/krung/
+
+# Disallow:: /help disallows both /help.html and /help/index.html, 
+# whereas Disallow: /help/ would disallow /help/index.html but allow /help.html. 
+# but allow htdig to index our doc-tree
+
+# disallow stress test
+user-agent: stress-agent
+Disallow: /
+Disallow:

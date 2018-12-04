@@ -1,0 +1,382 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Exindex -  </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta http-equiv="MSThemeCompatible" content="no">
+	<meta name="MSSmartTagsPreventParsing" content="true">
+	<meta name="description" lang="hu" content="A C3 Kulturális és Kommunikációs Központ művészeti folyóirata">
+	<meta name="keywords" lang="hu" content="C3, kiállítás, kiállítások, galéria, galériák, art, media, intermedia, művészet, médiaművészet">
+	<meta name="language" content="hu">
+	<meta name="ROBOTS" content="ALL">
+	<meta name="robots" content="index,follow">
+	<meta name="revisit-after" content="7 days">
+	<meta name="distribution" content="Global">
+	<meta name="rating" content="Safe For Kids">
+	<meta name="copyright" content="C3 - exindex">
+	<meta name="author" content="C3 - exindex">
+	<script language="JavaScript" src="script/banner.js"></script>
+	<script language="JavaScript" src="script/windowopen.js"></script>
+	<link rel="stylesheet" href="./css/jerk.css" type="text/css">
+	<style type="text/css">
+		@import "./css/base.css";
+		@import "./css/deco.css";
+	</style>
+	<!-- <link rel="stylesheet" href="./css/base.css" type="text/css"> -->
+	<!-- <link rel="stylesheet" href="./css/deco.css" type="text/css"> -->
+
+<script language="JavaScript">
+<!--
+	function menu_on() {
+		this.style.backgroundColor='#ff0000';
+	}
+	function menu_out() {
+		this.style.backgroundColor='none';
+	}
+//-->
+</script>
+<script src="script/core.js" type="text/javascript"></script>
+<script src="script/scroller.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+// resize fix for ns4
+var origWidth, origHeight;
+if (document.layers) {
+	origWidth = window.innerWidth; origHeight = window.innerHeight;
+	window.onresize = function() { if (window.innerWidth != origWidth || window.innerHeight != origHeight) history.go(0); }
+}
+
+function initScrollerObjs() {
+	scroller1 = new scrollerObj(5,5,150,100,"left","holder");
+	//scroller1.setTiming(3500,55,4);	
+	// comment to roll [gusty]
+	scroller1.setTiming(0,0,0);	// HA CSAK EGY HIR
+	scroller1.setFont('verdana,helvetica,arial,sans-serif','10px','#000000');
+// messages for scroller (content, url optional)
+	scroller1.addItem('<b>Az FBI művészetellenes akciója</b><br><a href="./index.php?l=hu&inc=cae"><b>további információ &raquo;&raquo;</b></a>');
+scroller1.create(); // build the scroller
+  
+  if (navigator.userAgent.indexOf("Gecko")>-1) positionGecko(); // bug fix for rel-pos
+  setMouseEvents(); // set up pause/restart onmouseover/out
+}
+
+window.onload = initScrollerObjs;
+if (navigator.userAgent.indexOf("Gecko")>-1) window.onresize = rePosGecko; // bug fix for rel-pos
+//-->
+</script>
+</head>
+<body>
+<a name="top"></a><table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="80" background="./gfx/top_background.png" valign="middle">
+			<table width="780" border="0" cellpadding="0" cellspacing="0" align="left">
+				<tr>
+					<td width="150" align="left"><div class="frissitve">frissítve:  2004. 08. 03.</div><a href="./index.php?l=hu"><img src="./gfx/exindex.png"  width="163" height="80" alt="exindex" title="exindex" border="0"></a></td>
+					<td align="right">
+						<script language="JavaScript">
+						<!--
+						document.write('<a href="' + link + '" target="blank"><img src="' + banner + '" class="banner" border="0" alt="'+alt+'" width="468" height="60" align="right"></a>');
+						//-->
+						</script>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="780" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td class="mainmenu_head" width="135" valign="middle">	
+			<ol>
+			<!--<li class="lang_out" onMouseOver="this.className='lang_over';" onMouseOut="this.className='lang_out';"><a  class="menu" href="./index.php?l=en">in english</a></li>-->
+			<li class="main_out" onMouseOver="this.className='main_over';" onMouseOut="this.className='main_out';"><a  class="menu" href="./index.php?l=hu">főoldal</a></li>
+			</ol>
+		</td><td width="645" xclass="content_container_head" align="center" valign="middle"><!--<a href="http://www.c3.hu/" target="_blank">A C3</a> kulturális <a href="javascript:void(0);" onClick="window.open('0.html', 'vertical', 'top=150,left=150,width=400,height=125');">„vertikális portálja”</a>-->kortárs képzőművészeti folyóirat</td><td width="135" class="rightmenu_head" style="text-align:center;">
+			<ol>
+					<!--<li class="lang_out" onMouseOver="this.className='lang_over';" onMouseOut="this.className='lang_out';"><a  class="menu" href="./index.php?l=en">in english</a></li>-->
+					<li class="lang_out" onMouseOver="this.className='lang_over';" onMouseOut="this.className='lang_out';"><a  class="menu" href="./index.php?l=en">in english</a></li>
+			</ol>
+		</td></tr>
+	<tr>
+		<td class="mainmenu" valign="top"><!--IV.-->
+			<div class="container_I">
+			<ol><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&k=1" title="tetthely">tetthely</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&t=kritika" title="kritika">kritika</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&t=media" title="médiaművészet">médiaművészet</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&t=tema" title="téma">téma</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&t=nemtema" title="nem téma">nem téma</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&t=interju" title="interjú">interjú</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&t=szabadkez" title="szabad kéz">szabad kéz</a></li></ol>
+			</div>
+			<div class="container_II">
+			<ol>
+			<li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&inc=kapcsolat" title="linkek">linkek</a></li>
+			<li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&p=1" title="pályázatok">pályázatok</a></li>
+			<!--<li class="mainmenu_out" xonMouseOver="this.className='mainmenu_over';" xonMouseOut="this.className='mainmenu_out';"><xa class="menu" href="./index.php?l=hu&inc=adattar" title="adattár">adattár</xa></li>-->
+			</ol>
+			</div>
+			<div class="container_search">
+			<ol>
+			<li class="mainmenu_out" onmouseover="this.className='mainmenu_over';" onmouseout="this.className='mainmenu_out';"><a class="menu" href="./search.php?l=hu" title="">keresés</a></li>
+			</ol>
+				<div align="right">				
+					<form method="post" action="http://search.c3.hu/cgi-bin/htsearch">
+						<input type="hidden" name="config" value="htdig_ex_hu">
+						<input type="hidden" name="restrict" value="www.exindex.hu">
+						<input type="hidden" name="exclude" value="">
+						<input type="text" name="words" class="menusearchinput" value=""><br>
+						<input type="submit" class="menubutton" value="keresés indítása">
+					</form>
+				</div>
+			</div>
+			<div class="container_III">
+			<ol>
+			<li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&inc=impresszum" title="impresszum">impresszum</a></li>
+			<li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="mailto:exindex@c3.hu" title="mailto mailto mailto">kontakt</a></li>
+			<li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=hu&inc=tamogatok" title="támogatók">támogatók</a></li>
+			</ol>
+			</div>
+		<div align="center">
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<div align="center">támogatók</div><br>
+		<a href="http://www.nka.hu/" target="_blank"><img src="./gfx/nka_2004.png" width="74" height="50" alt="nka logo" title="NKA" border="0"></a><br><br>
+		<a href="http://www.ihm.hu/" target="_blank"><img src="./gfx/ihm_2004.png" width="74" height="50" alt="ihm logo" title="IHM" border="0"></a>
+		</div>
+		</td><td width="510" class="content_container" valign="top""><!--V.-->
+			<br><div class="topic_container_head"><a href="./index.php?l=hu&k=1">tetthely</a></div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td width="74" align="left" valign="top">
+						<a href=./index.php?l=hu&k=2><image class="imgborder" src="./gfx/0.gif" width="74" height="50" border="0"></a>
+					</td>
+					<td align="left" xwidth="90%">
+						<div class="cikk_cimsor_a">
+						<a class="cikk_cimsor_a" onMouseOver="this.className='cikk_cimsor_over_a';" onMouseOut="this.className='cikk_cimsor_a';" href="./index.php?l=hu&k=1">kiállítási ajánlat</a> | 
+						<a class="cikk_cimsor_a" onMouseOver="this.className='cikk_cimsor_over_a';" onMouseOut="this.className='cikk_cimsor_a';" href="./index.php?l=hu&k=2">megnyitók</a>
+						</div><br>
+						<div class="cikk_cimsor_a">
+						<a class="cikk_cimsor_a" onMouseOver="this.className='cikk_cimsor_over_a';" onMouseOut="this.className='cikk_cimsor_a';" href="./index.php?l=hu&k=3">aktuális kiállítások</a> | 
+						<a class="cikk_cimsor_a" onMouseOver="this.className='cikk_cimsor_over_a';" onMouseOut="this.className='cikk_cimsor_a';" href="./index.php?l=hu&k=4">külföldi kiállítások</a></b>
+						</div><br>
+						<div class="cikk_cimsor_a">
+						<a class="cikk_cimsor_a" onMouseOver="this.className='cikk_cimsor_over_a';" onMouseOut="this.className='cikk_cimsor_a';" href="./index.php?l=hu&k=7">galériák</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=hu&t=tema">téma</a></div><div class="cikk_datumsor">2004. március 10.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=tema&tf=11.php"><image class="imgborder" src="./images/tema/copyleft.gif" width="74" height="50" border="0" alt="img" title="left  ·  COPY  ·  right"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor"></div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=tema&tf=11.php">left  ·  COPY  ·  right</a></div>
+					<div class="cikk_alcimsor">A szellemi tulajdon ellentmondásai</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=hu&t=nemtema">nem téma</a></div><div class="cikk_datumsor">2004. július 7.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=nemtema&tf=ingatag_intezmeny_hu.html"><image class="imgborder" src="./images/nemtema/cb.gif" width="74" height="50" border="0" alt="img" title="Az ingatag intézmény"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Carlos Basualdo </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=nemtema&tf=ingatag_intezmeny_hu.html">Az ingatag intézmény</a></div>
+					
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">2004. május 19.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=nemtema&tf=szepsegkura_hu.html"><image class="imgborder" src="./images/nemtema/kura.gif" width="74" height="50" border="0" alt="img" title="Szépségkúra"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Grant Kester </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=nemtema&tf=szepsegkura_hu.html">Szépségkúra</a></div>
+					<div class="cikk_alcimsor">Dave Hickey elveszett világa</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=hu&t=szabadkez">szabad kéz</a></div><div class="cikk_datumsor">2004. július 30.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=szabadkez&tf=random_35.html"><image class="imgborder" src="./images/szabadkez/mumus.gif" width="74" height="50" border="0" alt="img" title="Random helyzetjelentések XXXV., Budapest"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Szövényi Anikó </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=szabadkez&tf=random_35.html">Random helyzetjelentések XXXV., Budapest</a></div>
+					<div class="cikk_alcimsor">Kisfröccs szörf</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">2004. május 5.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=szabadkez&tf=eh_bevezeto.html"><image class="imgborder" src="./images/szabadkez/default.png" width="74" height="50" border="0" alt="img" title="Elhallgatott Holocaust"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor"></div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=szabadkez&tf=eh_bevezeto.html">Elhallgatott Holocaust</a></div>
+					<div class="cikk_alcimsor">Körkérdés, egyenes válaszok</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">2004. április 6.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=szabadkez&tf=vizszem.html"><image class="imgborder" src="./images/szabadkez/vis_rat.gif" width="74" height="50" border="0" alt="img" title="Vizuális szeminárium szörf"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Szövényi Anikó </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=szabadkez&tf=vizszem.html">Vizuális szeminárium szörf</a></div>
+					<div class="cikk_alcimsor">Random helyzetjelentések 34., Budapest</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=hu&t=kritika">kritika</a></div><div class="cikk_datumsor">2004. július 26.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=kritika&tf=sor_virsli_izzadas.html"><image class="imgborder" src="./images/kritika/virsli.gif" width="74" height="50" border="0" alt="img" title="Sör, virsli, izzadás..."></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Molnár Edit </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=kritika&tf=sor_virsli_izzadas.html">Sör, virsli, izzadás...</a></div>
+					<div class="cikk_alcimsor">„Ich bin vierzig” - Juergen Teller kiállítása</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">2004. június 10.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=kritika&tf=idegen_toll.html"><image class="imgborder" src="./images/kritika/feder.gif" width="74" height="50" border="0" alt="img" title="Random helyzetjelentések XXXIV és fél. Magyarország"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Mélyi József </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=kritika&tf=idegen_toll.html">Random helyzetjelentések XXXIV és fél. Magyarország</a></div>
+					<div class="cikk_alcimsor">Idegen Toll szörf</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">2004. június 2.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=kritika&tf=rejtett_felelmek_maszkjai.html"><image class="imgborder" src="./images/kritika/gg.gif" width="74" height="50" border="0" alt="img" title="Rejtett félelmek maszkjai"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Szombathy Bálint </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=kritika&tf=rejtett_felelmek_maszkjai.html">Rejtett félelmek maszkjai</a></div>
+					<div class="cikk_alcimsor">Gerhes Gábor »Letakart harcosok« cím&#251; kiállítása a Vintage Galériában</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=hu&t=interju">interjú</a></div><div class="cikk_datumsor">2004. április 28.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=interju&tf=baglyas_erika.html"><image class="imgborder" src="./images/interju/baglyas_erika.png" width="74" height="50" border="0" alt="img" title="„Művész mint magánember, művészet mint magánügy”"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Erdős Ibolya </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=interju&tf=baglyas_erika.html">„Művész mint magánember, művészet mint magánügy”</a></div>
+					<div class="cikk_alcimsor">Beszélgetés Baglyas Erikával</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">2004. március 17.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=interju&tf=sarosi_anita.html"><image class="imgborder" src="./images/interju/sarosi_anita.png" width="74" height="50" border="0" alt="img" title="„... hanem valami külön dolog”"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Erőss Nikolett </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=interju&tf=sarosi_anita.html">„... hanem valami külön dolog”</a></div>
+					<div class="cikk_alcimsor">Beszélgetés Sárosi Anitával</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=hu&t=media">médiaművészet</a></div><div class="cikk_datumsor">2004. március 10.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=media&tf=mummy.html"><image class="imgborder" src="./images/media/mummy.gif" width="74" height="50" border="0" alt="img" title="Aránypárok játéka"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Beöthy Balázs </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=media&tf=mummy.html">Aránypárok játéka</a></div>
+					<div class="cikk_alcimsor">http://www.zombie-and-mummy.org</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">2004. február 13.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=media&tf=a_terek_pszichologiaja.html"><image class="imgborder" src="./images/media/terek_pszichologiaja.jpg" width="74" height="50" border="0" alt="img" title="A terek pszichológiája"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Molnár Edit </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=media&tf=a_terek_pszichologiaja.html">A terek pszichológiája</a></div>
+					<div class="cikk_alcimsor">Jane and Louise Wilson kiállítása -  De Appel, január 23 - március 14-ig</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">2003. december 31.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=hu&t=media&tf=visszacsatolas.html"><image class="imgborder" src="./images/media/ka.gif" width="74" height="50" border="0" alt="img" title="Visszacsatolás"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Kotányi Attila </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=hu&t=media&tf=visszacsatolas.html">Visszacsatolás</a></div>
+					<div class="cikk_alcimsor">Hang-adó előadás</div>
+					</td>
+				</tr>
+			</table>
+			</div>
+		<!--<h3>Lorem ipsum dolor sit amet</h3>
+		Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct. Nam liber te conscient to factor tum poen legum odioque civiuda. Et tam neque pecun modut est neque nonor et imper ned libidig met, consectetur adipiscing elit, sed ut labore et dolore magna aliquam makes one wonder who would ever read this stuff? Bis nostrud exercitation ullam mmodo consequet. Duis aute in voluptate velit esse cillum dolore eu fugiat nulla pariatur. At vver eos et accusam dignissum qui blandit est praesent luptatum delenit aigue excepteur sint occae. Et harumd dereud facilis est er expedit distinct. Nam libe soluta nobis eligent optio est congue nihil impedit doming id Lorem ipsum dolor sit amet, consectetur adipiscing elit, set eiusmod tempor incidunt et labore et dolore magna aliquam. Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse molestaie cillum. Tia non ob ea soluad incommod quae egen ium improb fugiend. Officia deserunt mollit anim id est laborum Et harumd dereud facilis est er expedit distinct. Nam liber te conscient to factor tum poen legum odioque civiuda et tam. Neque pecun modut est neque nonor et imper ned libidig met, consectetur adipiscing elit, sed ut labore et dolore magna aliquam is nostrud exercitation ullam mmodo consequet. Duis aute in voluptate velit esse cillum dolore eu fugiat nulla pariatur. At vver eos et accusam dignissum qui blandit est praesent. Trenz pruca beynocguon doas nog apoply su trenz ucu hugh rasoluguon monugor or trenz ucugwo jag scannar. Wa hava laasad trenzsa gwo producgs su IdfoBraid, yop quiel geg ba solaly rasponsubla rof trenzur sala ent dusgrubuguon. Offoctivo immoriatoly, hawrgasi pwicos asi sirucor.Thas sirutciun applios tyu thuso itoms ghuso pwicos gosi sirucor in mixent gosi sirucor ic mixent ples cak ontisi sowios uf Zerm hawr rwivos. Unte af phen neige pheings atoot Prexs eis phat eit sakem eit vory gast te Plok peish ba useing phen roxas. Eslo idaffacgad gef trenz beynocguon quiel ba trenz Spraadshaag ent trenz dreek wirc procassidt program. Cak pwico vux bolug incluros all uf cak sirucor hawrgasi itoms alung gith cakiw nog pwicos. Plloaso mako nuto uf cakso dodtos anr koop a cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel ba mada su otrenzr swipontgwook proudgs hus yag su ba dagarmidad. Plasa maku noga wipont trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona. Cak pwico siructiun ruos nust apoply tyu cak UCU sisulutiun munityuw uw cak UCU-TGU jot scannow. Trens roxas eis ti Plokeing quert loppe eis yop prexs. Piy opher hawers, eit yaggles orn ti sumbloat alohe plok. Su havo loasor cakso tgu pwuructs tyu InfuBwain, ghu gill nug bo suloly sispunsiblo fuw cakiw salo anr ristwibutiun. Hei muk neme eis loppe. Treas em wankeing ont sime ploked peish rof phen sumbloat syug si phat phey gavet peish ta paat ein pheeir sumbloats. Aslu unaffoctor gef cak siructiun gill bo cak spiarshoot anet cak GurGanglo gur pwucossing pwutwam. Ghat dodtos, ig pany, gill bo maro tyu ucakw suftgasi pwuructs hod yot tyubo rotowminor. Plloaso mako nuto uf cakso dodtos anr koop a cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel ba mada su otrenzr swipontgwook proudgs hus yag su ba dagarmidad. Plasa maku noga wipont trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona. Cak pwico siructiun ruos nust apoply tyu cak UCU sisulutiun munityuw uw cak UCU- TGU jot scannow. Trens roxas eis ti Plokeing quert loppe eis yop prexs. Piy opher hawers, eit yaggles orn ti sumbloat alohe plok. Su havo loasor cakso tgu pwuructs tyu.
+		-->
+		<p>&nbsp;</p>
+		</td><td class="rightmenu" valign="top"><!--VI.--><div id="holder"></div><table cellpadding="0" sellcpacing="0" class="rightside_szerzolista" border="0">
+	<tr><td><h5>ajánlat</h5></td></tr>
+	<tr><td>
+	<div class="rightmenu_out" onMouseOver="this.className='rightmenu_over';" onMouseOut="this.className='rightmenu_out';">		
+			<a class="exb" href="./index.php?l=hu&k=5&g=96" title="Pintér Sonja Galéria"><u>Pintér Sonja Galéria</u></a><br>Néma angyal<br><a class="ex" href="./index.php?l=hu&k=6&g=96&x=50048" title="a kiállítás részletei">részletek &raquo;&raquo; &raquo;&raquo;&raquo; <br></a>
+</div><div class="rightmenu_out" onMouseOver="this.className='rightmenu_over';" onMouseOut="this.className='rightmenu_out';">		
+			<a class="exb" href="./index.php?l=hu&k=5&g=18" title="Ernst Múzeum"><u>Ernst Múzeum</u></a><br>Kiterjesztés<br><a class="ex" href="./index.php?l=hu&k=6&g=18&x=50213" title="a kiállítás részletei">részletek &raquo;&raquo; &raquo;&raquo;&raquo; <br></a>
+</div><div class="rightmenu_out" onMouseOver="this.className='rightmenu_over';" onMouseOut="this.className='rightmenu_out';">		
+			<a class="exb" href="./index.php?l=hu&k=5&g=1" title="1x1 tábla"><u>1x1 tábla</u></a><br>Fake up<br><a class="ex" href="./index.php?l=hu&k=6&g=1&x=41884" title="a kiállítás részletei">részletek &raquo;&raquo; &raquo;&raquo;&raquo; <br></a>
+</div><div class="rightmenu_out" onMouseOver="this.className='rightmenu_over';" onMouseOut="this.className='rightmenu_out';">		
+			<a class="exb" href="./index.php?l=hu&k=5&g=1" title="1x1 tábla"><u>1x1 tábla</u></a><br>kiállítása<br><a class="ex" href="./index.php?l=hu&k=6&g=1&x=1608" title="a kiállítás részletei">részletek &raquo;&raquo; &raquo;&raquo;&raquo; <br></a>
+</div><div class="rightmenu_out" onMouseOver="this.className='rightmenu_over';" onMouseOut="this.className='rightmenu_out';">		
+			<a class="exb" href="./index.php?l=hu&k=5&g=25" title="Goethe Ins. Bp."><u>Goethe Ins. Bp.</u></a><br>Hétköznapi részletek<br><a class="ex" href="./index.php?l=hu&k=6&g=25&x=50201" title="a kiállítás részletei">részletek &raquo;&raquo; &raquo;&raquo;&raquo; <br></a>
+</div><div class="rightmenu_out" onMouseOver="this.className='rightmenu_over';" onMouseOut="this.className='rightmenu_out';">		
+			<a class="exb" href="./index.php?l=hu&k=5&g=80" title="Magyar Fotográfiai Múz."><u>Magyar Fotográfiai Múz.</u></a><br>A Fotómúzeum kincsei<br><a class="ex" href="./index.php?l=hu&k=6&g=80&x=50224" title="a kiállítás részletei">részletek &raquo;&raquo; &raquo;&raquo;&raquo; <br></a>
+</div></td></tr></table>
+				</td></tr>
+	<tr>
+		<td class="mainmenu_foot" valign="middle">&nbsp;</td>
+		<td class="content_container_foot" align="center">
+		exindex © 2000-2004<br><a href="http://www.c3.hu/index_hu.html" target="_blank">C3 Kulturális és Kommunikációs Központ</a>
+		<!--VIII.--></td><td class="rightmenu_foot"><!--IX.-->&nbsp;</td></tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+	</body>
+</html>

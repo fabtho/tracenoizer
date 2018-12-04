@@ -1,0 +1,130 @@
+#/usr/bin/perl
+
+#####################################################################################
+#######              computerzeit.pl V0.01                       #####
+#######          2002 copyleft martin krung                      #####			
+#######	 martin at krungkuene dot org martin at krung dot org    #####
+#####################################################################################
+
+
+
+if ($ARGV[2] == undef ){
+print "\nProgram aborted : too less argumentes.\n";
+print "Programm vorzeitig beendet : zuwenig Argumente.\n\n";
+
+print "Argumentes:\n\n";
+
+print "number_of_different_characters number_of_digits combinations_per_second\n\n";
+print "eg: perl computerzeit.pl 58 8 70000 \n\n";
+
+print "Argumente:\n\n";
+print "anzahl_verschiedener_zeichen anzahl_stellen kombinationen_pro_sekunde\n\n";
+print "zb: perl computerzeit.pl 58 8 70000 \n";
+
+exit;
+};
+
+# ---------input----------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------
+
+$diffchar = $ARGV[0];
+$pwstellen = $ARGV[1];
+$c_p_s= $ARGV[2];
+
+# -----------calculation--------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------
+
+$combination = $diffchar ** $pwstellen;
+
+$ts = $combination/$c_p_s;
+
+$th = $ts / 3600;
+
+$td = $th / 24;
+$tw = $td / 7;
+$ty = $td / 356;
+
+# this is only guessed, beause i know a 64 bit DES encrypted password needs 13 bytes
+$MB = ($combination * ($pw_stellen + 13))/ (1024*1024);
+$GB = $MB / 1024;
+$TB = $GB / 1024;
+
+
+
+
+
+# ------------------------------------------------------------------------------------------------
+# -----the following funtions are for better readability of the output ---------------------------
+
+$ts = space_num(eval(int($ts)));
+$maxdigit = length($ts);
+
+#add space every 3 digit, it s better readable
+
+sub space_num{
+my $num = $_[0];
+$num = reverse($num);
+$num =~ s/(.{3})/$1 /g;
+$num = reverse($num);
+
+#remove the leading space, if there is any.
+#this took my several hours, if you know better,
+#or even one regexp for all, please mail me !
+
+$num =~ s/^ {1}//;
+return($num);
+}
+
+# make the digits rightbound, for better readability too
+
+sub right_num{
+my $num = $_[0];
+my $maxdigit = $_[1];
+my $num_lenght = length("$num");
+$loops = $maxdigit - $num_lenght;
+for ($i=0; $i < $loops; $i++){
+$num = " ".$num;
+}
+return($num);
+}
+
+# both in one step
+
+sub show_digit{
+my $num = $_[0];
+$num = space_num(eval(int($num)));
+$num = right_num($num,$maxdigit);
+return($num);
+}
+
+# ---Output----german---------------------------------------------------------------------------
+
+
+
+print "\n ----------- INFO ------------------------------------------ \n\n";
+
+print "There are ".space_num($combination)." differently combinations.\n";
+print "Es gibt ".space_num($combination)." verschieden Kombinationen. \n\n";
+
+print "With ".space_num($c_p_s)." combinations per second it needs :\n";
+print "Bei ".space_num($c_p_s)." Kombinationen pro Sekunde braucht es :\n\n";
+
+
+print $ts." seconds / Sekunden\n";
+
+print show_digit($th)." houres  / Stunden \n";
+print show_digit($td)." days    / Tagen \n";
+print show_digit($tw)." weeks   / Wochen  \n";
+print show_digit($ty)." years   / Jahre \n\n";
+
+print "To save all this combinations on harddisk it needs :\n";
+print "Um all diese Kombinationen zu speicher braucht es :\n\n";
+
+print  show_digit($GB)." GigaBytes\n";
+print  show_digit($TB)." TeraBytes\n\n";
+
+
+print "\n ---------------------------------------------------------- \n\n";
+
+
+

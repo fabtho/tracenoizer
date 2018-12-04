@@ -1,0 +1,156 @@
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+Class `245'
+  Gathering stats... files : unique-words ::                       1 :       51
+Class `246'
+  Gathering stats... files : unique-words ::                       1 :      144
+Class `247'
+  Gathering stats... files : unique-words ::                       1 :      268
+Class `248'
+  Gathering stats... files : unique-words ::                       1 :      282
+Class `249'
+  Gathering stats... files : unique-words ::                       1 :      410
+Class `250'
+  Gathering stats... files : unique-words ::                       1 :      435
+Class `251'
+  Gathering stats... files : unique-words ::                       1 :      634
+Class `252'
+  Gathering stats... files : unique-words ::                       1 :      849
+Class `253'
+  Gathering stats... files : unique-words ::                       1 :      866
+Class `254'
+  Gathering stats... files : unique-words ::                       1 :      870
+Class `255'
+  Gathering stats... files : unique-words ::                       1 :      889
+Class `256'
+  Gathering stats... files : unique-words ::                       1 :     1276
+Class `257'
+  Gathering stats... files : unique-words ::                       1 :     1290
+Class `258'
+  Gathering stats... files : unique-words ::                       1 :     1317
+Class `259'
+  Gathering stats... files : unique-words ::                       1 :     1317
+Class `260'
+  Gathering stats... files : unique-words ::                       1 :     1322
+Class `261'
+  Gathering stats... files : unique-words ::                       1 :     1718
+Class `262'
+  Gathering stats... files : unique-words ::                       1 :     1777
+Class `263'
+  Gathering stats... files : unique-words ::                       1 :     1777
+Class `264'
+  Gathering stats... files : unique-words ::                       1 :     1777
+Class `265'
+  Gathering stats... files : unique-words ::                       1 :     1777
+Class `266'
+  Gathering stats... files : unique-words ::                       1 :     1807
+Class `267'
+  Gathering stats... files : unique-words ::                       1 :     1858
+Class `268'
+  Gathering stats... files : unique-words ::                       1 :     1879
+Class `269'
+  Gathering stats... files : unique-words ::                       1 :     1910
+Class `270'
+  Gathering stats... files : unique-words ::                       1 :     1920
+Class `271'
+  Gathering stats... files : unique-words ::                       1 :     1992
+Class `272'
+  Gathering stats... files : unique-words ::                       1 :     2017
+Class `273'
+  Gathering stats... files : unique-words ::                       1 :     2046
+Class `274'
+  Gathering stats... files : unique-words ::                       1 :     2057
+Class `275'
+  Gathering stats... files : unique-words ::                       1 :     2133
+Class `276'
+  Gathering stats... files : unique-words ::                       1 :     2144
+Class `277'
+  Gathering stats... files : unique-words ::                       1 :     2194
+Class `278'
+  Gathering stats... files : unique-words ::                       1 :     2194
+Class `279'
+  Gathering stats... files : unique-words ::                       1 :     2202
+Class `280'
+  Gathering stats... files : unique-words ::                       1 :     2202
+Class `281'
+  Gathering stats... files : unique-words ::                       1 :     2248
+Class `282'
+  Gathering stats... files : unique-words ::                       1 :     2277
+Class `283'
+  Gathering stats... files : unique-words ::                       1 :     2309
+Class `284'
+  Gathering stats... files : unique-words ::                       1 :     2437
+Class `285'
+  Gathering stats... files : unique-words ::                       1 :     2480
+Class `286'
+  Gathering stats... files : unique-words ::                       1 :     2515
+Class `287'
+  Gathering stats... files : unique-words ::                       1 :     2560
+Class `288'
+  Gathering stats... files : unique-words ::                       1 :     2560
+Class `289'
+  Gathering stats... files : unique-words ::                       1 :     2560
+Class `290'
+  Gathering stats... files : unique-words ::                       1 :     2560
+Class `291'
+  Gathering stats... files : unique-words ::                       1 :     2656
+Class `79'
+  Gathering stats... files : unique-words ::                  
+File `temp/34631/79/Tim_Casey_GSEC.pdf' skipped because not text
+     0 :     2656
+Found mostly binary files, which were ignored.
+No text files found in directory `temp/34631/79'
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 47 documents in the train set:
+Calculating info gain... words ::               2656     2556     2456     2356     2256     2156     2056     1956     1856     1756     1656     1556     1456     1356     1256     1156     1056      956      856      756      656      556      456      356      256      156       56
+Loading data files...
+Placed remaining 47 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 47 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 47 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 47 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 47 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 47 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 47 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 47 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 47 documents in the train set:
+WARNING: class `79' has zero prior
+Loading data files...
+Placed remaining 47 documents in the train set:
+WARNING: class `79' has zero prior
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 'childlike but savage satirical cartoons of the Great and Good are now printed an' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 'childlike but savage satirical cartoons of the Great and the Good are collected ' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 'childlike but savage satirical cartoons of the Great and Good are now printed an' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 'd imagine that the only people who wouldn't find it amusing would be hardcore US' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 'Kailash' im Heinrich Hugendubel Verlag. Sammelte Volkslieder vornehmlich aus den' at line 1 at trace_centralV4.pl line 767.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 'T a shemale polar bear. This is more of the same from the terrifically funny "To' at line 1 at trace_centralV4.pl line 767.

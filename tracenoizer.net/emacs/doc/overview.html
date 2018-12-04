@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--Time-stamp: <03/04/10 19:19:03 bingalls> --><!--$Id: overview.html,v 1.23 2003/05/24 17:37:00 bingalls Exp $-->
+<!--Copyright © 1998,2002 Bruce Ingalls bingalls(at)users.sf.net-->
+<!--See the EMacro project file COPYING for license-->
+<!--This file is not (yet) part of Emacs or XEmacs.-->
+<head>
+<meta name="description"
+ content="EMacro is an easy .emacs configuration file for Emacs and XEmacs"/>
+<meta name="keywords" content=".emacs editor configuration"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="icon" href="images/em_ico.png" type="image/png"/>
+
+<title>EMacro Overview</title>
+<style type="text/css">
+span.emacro {color: blue}
+</style>
+</head>
+<body>
+<h1><span class="emacro">EMacro</span> Overview</h1>
+<ul>
+<li><a href="#Abstract">Abstract</a></li>
+<li><a href="#Directory">Directory Descriptions</a></li>
+<li><a href="#Program">Program Flow</a></li>
+</ul>
+
+<hr />
+<h2><a name="Abstract">Abstract</a></h2>
+<p>
+What is <span class="emacro">EMacro</span>? Emacro is a .emacs configuration
+system for Emacs. It is:
+</p>
+<dl>
+<dt><b>Easy</b></dt>
+<dd>
+<span class="emacro">EMacro</span> prompts you once only, and saves your
+configuration in an easy to read file.
+<br />
+You don't need to know elisp, to run Emacs with sane defaults, such as loading
+the best available Java mode, when opening *.java files.
+<br />
+<span class="emacro">EMacro</span> also includes extensive user documentation
+<br />
+Combine Emacs v21.1 with <span class="emacro">EMacro</span> and cua.el, and new
+users can get comfortable immediately! <small>Unfortunately, the XEmacs port of
+cua.el is out of date.</small>
+</dd>
+<dt><b>Extensible</b></dt>
+<dd>
+<span class="emacro">EMacro</span>'s ease of use does not come at the expense
+of advanced users. If you love elisp, you will find <span
+class="emacro">EMacro</span>'s code easy to search, with plenty of hints in its
+comments.
+</dd>
+<dt><b>Fast</b></dt>
+<dd>
+<span class="emacro">EMacro</span> has been optimized for speed. It may double
+the number of seconds that Emacs loads, but it will save you minutes, from
+searching for, and loading libraries. <span class="emacro">EMacro</span> can be
+considered the world's largest .emacs, but still quite manageable in size.
+</dd>
+<dt><b>Portable</b></dt>
+<dd>
+It works with Microsoft Windows, Mac OS, and Gnu/Linux compatible systems,
+including BSD and Sun Solaris. Others have not been tested, but should
+work. <span class="emacro">EMacro</span> works with both Emacs and XEmacs.
+</dd>
+<dt><b>Complete</b></dt>
+<dd>
+<span class="emacro">EMacro</span> combines the work of everyone in <a
+href="credits.html"> credits.html</a>, in a sense, all the ideas that are good
+enough to share.
+</dd>
+<dt><b>Tested</b></dt>
+<dd>
+Since <span class="emacro">EMacro</span> is more complete, there is less need
+to add code, which will break it. Code for <span class="emacro">EMacro</span>
+goes back 10 years. <span class="emacro">EMacro</span> has a team that spends
+more time uncovering bugs, under more varieties of conditions, than any other
+.emacs.
+</dd>
+<dt><b>Uniform</b></dt>
+<dd>
+Stop learning a different editor, every time you switch platforms or
+languages. With <span class="emacro">EMacro</span> Libs, you will also find
+Emacs more similar to XEmacs. Try the key-themes from the <i>Options</i>
+menu, to blend with your favorite Operating System.
+</dd>
+</dl>
+
+<hr />
+<h2><a name="Directory">Directory Descriptions</a></h2>
+<table>
+<tr><td>bin</td><td>Contains shell scripts or batch files</td></tr>
+<tr><td>contrib</td><td>Optional code in testing</td></tr>
+<tr><td>doc</td><td>HTML help files</td></tr>
+<tr><td>emacro</td><td>Main elisp code libraries</td></tr>
+<tr><td>i18n</td><td>International Language code</td></tr>
+<tr><td>packages</td><td>Where to install new elisp libraries</td></tr>
+<tr><td>preferences</td><td>System generated &amp; customized files. You may
+edit or delete all files in this directory</td></tr>
+<tr><td>programmer</td><td>Macro libraries for developers</td></tr>
+</table>
+<p>
+For individual file details, see <a href="manifest.html">manifest.html</a>
+</p>
+
+<hr />
+<h2><a name="Program">Program Flow</a></h2>
+<p>
+Emacs first loads ~/.emacs or XEmacs loads ~/.xemacs/init.el.
+The <span class="emacro">EMacro</span> tar.gz file calls this file ~/init.el,
+to avoid overwriting this file, if you have already created one. If you use a
+package, then it is the responsibility of your system to preven file
+collisions.
+<br />
+This init file loads ~/emacs/emacro/e-macro.el, which then loads
+emacs/e-path.el. You may need to edit ~/emacs/e-path.el, to find the path to
+every Emacs macro library file you expect to use.
+<br />
+Next, ~/emacs/preferences/e-preload.el is loaded. You can customize this file,
+for any user code, before the bulk of <span class="emacro">EMacro</span> is
+executed.
+<br />
+Then comes ~/emacs/emacro/e-configure.el, which generates
+preferences/preferences.el as necessary, checking your PATH environment
+variable, and elisp libraries in the load-path.
+<br />
+The remaining files are loaded in no particular order. If tiny-tools are in the
+load-path, then they may not load, until the idle timer detects no keyboard
+activity for several seconds.
+<br />
+Lastly, files loaded are from the preferences directory, including the
+defcustom files, where preferences from the <code>M-x customize</code> or
+associated pulldown menu are saved. The final file loaded is
+~/emacs/preferences/e-postload.el, which contains user code.
+<br />
+Note that e-preload.el and e-postload.el serve a similar purpose, and are
+loaded before or after the bulk of <span class="emacro">EMacro</span>,
+respectively.
+</p>
+</body>
+</html>

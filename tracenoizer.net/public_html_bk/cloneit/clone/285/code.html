@@ -1,0 +1,48 @@
+<html><head><title>Markus Kossmann code</title>
+<meta http-equiv="Content-Type" content="text/html">
+<meta http-equiv="Author" name="Markus Kossmann" content="code">
+<meta http-equiv="Author" name="code" content="drivers">
+<meta name="Language" content="de-en">
+<meta name="Keywords" lang="de" content="code, Markus Kossmann, drivers">
+<meta name="Keywords" lang="en" content="Markus Kossmann, code, , drivers">
+<meta name="Description" lang="al "content=" The HP Linux Inkjet Driver Project is a add-on to the GNU Ghostscript application. For more information on the interaction between Ghostscript and the HP Inkjet Server (HPIJS), refer to the driver architecture. Source Code Install Supported Printers Download the Source Code version 0. ..">
+<meta name="Revisit-after" content="1 month">
+<meta name="Date_modified" content="2001-06-13">
+<meta name="ROBOTS" content="index,follow">
+</head>
+<style type="text/css"> 
+	A.nav:link {TEXT-DECORATION: none}
+	A.nav:visited {TEXT-DECORATION: none} 
+	A.nav:visited {TEXT-DECORATION: none}
+	A.nav:active {TEXT-DECORATION: none}
+	A.nav:hover {TEXT-DECORATION: none}
+	</style><body bgcolor="#FFFFF">
+	<font face="arial" size="3" color="#000000">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr><td><a href="drivers.html" class="nav">drivers</a></td></tr>
+	<tr><td><a href="index.html" class="nav">home page</a></td></tr></table>
+	<br><div align="center"><font size="6">- code -<br><br></font></div>
+<table width="100%" border="0" cellspacing="0" cellpadding="6">
+<td valign="center">
+ I might do it provided I have enough time and requested enhancement is not very major undertaking. Right now the driver accepts only raw data which just being sent to the DAC, and only first two bytes of the write request are sent to the driver. So, user space code should provide all the timing and required data conversion. First is that to doing high resulution timing in kernel requires using of udelay which is major CPU hog, and at the time of writing this driver it was implemented as SMP unfriendly function. Second, is that my application is not time sensitive at all, so I didn't bother much with this problem at all.</td>
+<tr>
+</table>
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<td valign="top">
+ WinDriver is based on a generic device driver which resides in the Linux kernel. Your application calls WinDriver kernel module through a user mode API, reducing the startup curve needed to learn and understand the Linux internals. WinDriver enables you to write and debug all your hardware access code in the user mode via graphical user interface, eliminating the need for long and tedious kernel code writing and debugging. WinDriver for Linux is the only device driver development tool that offers a graphical user interface (GUI). WinDriver features a unique graphical wizard, for hardware diagnostics and automatic code generation.</td>
+<tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="6"
+<td valign="bottom">
+ The HP Linux Inkjet Driver Project is a add-on to the GNU Ghostscript application. For more information on the interaction between Ghostscript and the HP Inkjet Server (HPIJS), refer to the driver architecture. Source Code Install Supported Printers Download the Source Code version 0. ..</td>
+<tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+<td valign="top"></td>
+<td valign="top">
+ . It is a work in progress, but scanning is already supported on some models, when either connected to the parallel port on a Linux (Intel or Alpha) workstation, or to a LAN with selected HP JetDirect external print servers. Additional functionality, such as USB connectivity and broader scanning support, is under development in the CVS code repository. See the Supported devices page for more information on which models ptal-hp currently supports scanning. The Supported devices page was updated to reflect which OfficeJets correspond to which DeskJet drivers.</td>
+<tr>
+</table>
+<br>further information: <a href="http://www.bzimage.org">http://www.bzimage.org</a><br><br>
+</font><font size=-6> <a class="nav" href="http://www.krungkuene.org/~werner/25/index.html">.</a><br><br>
+</font></body></html>

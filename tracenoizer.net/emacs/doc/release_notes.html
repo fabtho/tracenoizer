@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--Time-stamp: <03/04/30 09:07:13 bingalls> --><!--$Id: release_notes.html,v 1.23 2003/05/24 17:37:00 bingalls Exp $-->
+<!--Copyright © 1998,2002 Bruce Ingalls bingalls(at)users.sf.net-->
+<!--See the EMacro project file COPYING for license-->
+<!--This file is not (yet) part of Emacs or XEmacs.-->
+<head>
+<meta name="description"
+ content="EMacro is an easy .emacs configuration file for Emacs and XEmacs"/>
+<meta name="keywords" content=".emacs editor configuration"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="icon" href="images/em_ico.png" type="image/png"/>
+
+<style type="text/css">
+span.emacro {color: blue}
+</style>
+<title>Release Notes</title></head>
+<body>
+<p>
+WHAT'S NEW IN THIS RELEASE (see also Upgrades in Install.html)
+<br />
+These recent versions have been tested:
+</p>
+<table border="0">
+<tr>
+<td>Gnu Emacs</td>
+<td>v21.2
+ <small>Mac OS X works, but Emacs-on-aqua is not supported.</small></td>
+<td>v20.6 or higher recommended</td>
+</tr>
+
+<tr>
+<td valign="top">[Gnu] XEmacs</td>
+<td>v21.4
+<small>Mac OS XEmacs is not supported.
+<br /> Beta GTk XEmacs had limited testing.</small></td>
+<td valign="top">v21.1.9 or higher recommended</td>
+</tr>
+</table>
+
+<p>
+Note that XEmacs v21.4 changes ~/.emacs to ~/.xemacs/init.el
+<br />
+I recommend installing <span class="emacro">EMacro</span> Libs.
+<br />
+Classic Mac OS v8-9.x may still work, but is no longer being tested.
+</p>
+<h2>Annoyance Bugs</h2>
+<p>
+I have seen on a Microsoft Windows 2000 server, where
+<span class="emacro">EMacro</span> will lock up, with the first file you try to
+save. You can continue, by hitting <code>C-g</code> and future saves work
+normally. This also does not affect most Windows systems.
+</p><p>
+Newer web browsers have been released, since EMacro started supporting them.
+I need help from the community, in order to support new browsers, such as the
+Mac OS X browsers.
+</p><p>
+Because browse-url under Emacs and XEmacs behaves differently, as well as a
+small bug, launching Netscape compatible browsers displays the message
+"Starting Netscape", even though it correctly launches Mozilla, Galeon,
+Firebird, or other Mozilla derived browsers.
+Nobody has been bothered enough to email me about this, so far.
+</p><p>
+There is a bug in which.el v0.44; it won't run <i>interactively</i>
+under Gnu Emacs. EMacro uses which.el in <i>batch mode</i> (compiled), so
+it works. Christoph Conrad, author of which.el, is aware of this problem.
+</p><p>
+When you start a search, C-s will continue searching, and will <b>not save</b>,
+until you escape from the search. This happens even if you use an alternate
+key-theme, such as CUA. Since I do not maintain the code for
+<code>isearch-forward</code>(), this will not be fixed soon.
+</p><p>
+If you see <code>
+(1) (error/warning) Error in `pre-command-hook' (setting hook to nil):</code>
+in XEmacs, this is due to a bug in cua-mode.el
+</p>
+</body>
+</html>

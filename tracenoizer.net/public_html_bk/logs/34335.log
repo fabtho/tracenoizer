@@ -1,0 +1,18 @@
+sh: -c: line 1: syntax error near unexpected token `http://www.moviegoods.com/search2.asp?find_spec=Alex(a'
+sh: -c: line 1: `puf -Tl 2 -Td 4 -Tc 4 -lb 200000 -nw -t 3  -P temp/34335/3/  http://www.moviegoods.com/search2.asp?find_spec=Alex(andre)+Rignault&amp;mscssid= &'
+sh: apos: command not found
+sh: 03-: command not found
+sh: apos: command not found
+sh: 04: command not found
+--20:28:41--  http://www.tracenoizer.org/modelanleg.php?main_id=34335
+           => `modelanleg.php?main_id=34335'
+Resolving www.tracenoizer.org... done.
+Connecting to www.tracenoizer.org[195.176.254.172]:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K                                                           8.79 KB/s
+
+20:28:41 (8.79 KB/s) - `modelanleg.php?main_id=34335' saved [9]
+
+sh: endee.txt: Permission denied

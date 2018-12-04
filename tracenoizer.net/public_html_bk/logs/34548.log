@@ -1,0 +1,56 @@
+--19:27:25--  http://www.tracenoizer.org/modelanleg.php?main_id=34548
+           => `modelanleg.php?main_id=34548'
+Resolving www.tracenoizer.org... done.
+Connecting to www.tracenoizer.org[195.176.254.172]:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K                                                           8.79 KB/s
+
+19:27:25 (8.79 KB/s) - `modelanleg.php?main_id=34548' saved [9]
+
+Loading data files...
+Placed remaining 15 documents in the train set:
+Calculating info gain... words ::               3759     3659     3559     3459     3359     3259     3159     3059     2959     2859     2759     2659     2559     2459     2359     2259     2159     2059     1959     1859     1759     1659     1559     1459     1359     1259     1159     1059      959      859      759      659      559      459      359      259      159       59
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+Loading data files...
+Placed remaining 15 documents in the train set:
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 'Buecherverbrennung 1933 Video der Originalaufnahmen, ca. Es war eine eigene Lust' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 763.
+DBD::mysql::st execute failed: Can't find file: './tracenoizer/globalurl.frm' (errno: 13) at /home/tracenoizer/public_html/trace_centralV4.pl line 803.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/tracenoizer/public_html/trace_centralV4.pl line 809.
+sh: endee.txt: Permission denied

@@ -1,0 +1,204 @@
+<html>
+	<head>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<title>TraceNoizer</title>
+	<link rel="StyleSheet" href="../noizer.css" type="text/css">
+	<script language="JavaScript">
+	<!--
+	if(document.images)
+	{
+        image1on = new Image(173,23);
+        image1on.src = "../images/b_create_r.gif";
+        image1off = new Image(173,23);
+        image1off.src = "../images/b_create.gif";
+	}
+
+	var iMaxImage           =  1;   //Hñchste Bildzahl angeben
+	var iDefaultImage       =  0;   //Hier das Standardbild angeben (Bild welches Defaultmssig angeschaltet wird)
+	var iStaticImage        =  0;   //Bild welches nie gewechselt werden muss
+	var iLastImage          =  0;
+	var bIE                 =  navigator.appName == "Microsoft Internet Explorer";
+
+	function turn(imageNr) 
+	{
+        if (isNaN(parseInt(imageNr)) || imageNr == 0) imageNr = iDefaultImage;
+        if (document.images && (!bIE || imageNr != iLastImage) && (iStaticImage == 0 || imageNr != iStaticImage))
+        {
+			// Neues Bild einschalten
+            if (imageNr != 0)
+            {
+				imageName = 'image' + imageNr;
+				document[imageName].src = eval(imageName + "on.src");
+			}
+			 if (bIE) // Internetexplorer
+                {
+					if (iLastImage != 0)
+					{
+                    	imageName = 'image' + iLastImage;
+                    	document[imageName].src = eval(imageName + "off.src");
+					}
+					// Registrieren zuletzt eingeschaltetes Bild
+                    iLastImage      = imageNr;
+                }
+                else    // Netscape
+                {
+                	for (i = 1;i <= iMaxImage;i++)
+                    {
+                    	if (i != imageNr  && i != iStaticImage)
+                        {
+                         	imageName = 'image' + i;
+                         	document[imageName].src = eval(imageName + "off.src");
+						}
+					}
+                }
+        	}
+		}
+
+		function bil(){
+		/*
+		times = parent.length;
+		for(i = 0; i < times; i++){
+			cont=parent.frames[i].location;
+			alert(i+" = "+cont);
+		}*/
+		
+		cont=parent.frames[6].location;
+		url = "../index_bil.php?cont="+cont;
+		parent.location.href=url;
+	
+	}
+	// -->
+	</script>
+		<csactions>
+			<csaction name="B86270680" class="Set Image URL" type="onevent" val0="sprache" val1="../images/top_logo_r_de.gif">
+			<csaction name="B86270B61" class="Set Image URL" type="onevent" val0="sprache" val1="../images/top_logo_r.gif">
+		</csactions>
+		<csscriptdict>
+			<script><!--
+CSStopExecution=false;
+function CSAction(array) {return CSAction2(CSAct, array);}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var aa = fct[array[i]];
+		if (aa == null) return false;
+		var ta = new Array;
+		for(var j=1;j<aa.length;j++) {
+			if((aa[j]!=null)&&(typeof(aa[j])=="object")&&(aa[j].length==2)){
+				if(aa[j][0]=="VAR"){ta[j]=CSStateArray[aa[j][1]];}
+				else{if(aa[j][0]=="ACT"){ta[j]=CSAction(new Array(new String(aa[j][1])));}
+				else ta[j]=aa[j];}
+			} else ta[j]=aa[j];
+		}			
+		result=aa[0](ta);
+	}
+	return result;
+}
+CSAct = new Object;
+
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+CSIsW3CDOM = ((document.getElementById) && !(IsIE()&&CSBVers<6)) ? true : false;
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { if (CSIsW3CDOM) return document.getElementById(s).style; else return CSFindElement(s,0);  }
+CSIImg=false;
+function CSInitImgID() {if (!CSIImg && document.images) { for (var i=0; i<document.images.length; i++) { if (!document.images[i].id) document.images[i].id=document.images[i].name; } CSIImg = true;}}
+function CSFindElement(n,ly) { if (CSBVers<4) return document[n];
+	if (CSIsW3CDOM) {CSInitImgID();return(document.getElementById(n));}
+	var curDoc = ly?ly.document:document; var elem = curDoc[n];
+	if (!elem) {for (var i=0;i<curDoc.layers.length;i++) {elem=CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+function CSGetImage(n) {if(document.images) {return ((!IsIE()&&CSBVers<5)?CSFindElement(n,0):document.images[n]);} else {return null;}}
+CSDInit=false;
+function CSIDOM() { if (CSDInit)return; CSDInit=true; if(document.getElementsByTagName) {var n = document.getElementsByTagName('DIV'); for (var i=0;i<n.length;i++) {CSICSS2Prop(n[i].id);}}}
+function CSICSS2Prop(id) { var n = document.getElementsByTagName('STYLE');for (var i=0;i<n.length;i++) { var cn = n[i].childNodes; for (var j=0;j<cn.length;j++) { CSSetCSS2Props(CSFetchStyle(cn[j].data, id),id); }}}
+function CSFetchStyle(sc, id) {
+	var s=sc; while(s.indexOf("#")!=-1) { s=s.substring(s.indexOf("#")+1,sc.length); if (s.substring(0,s.indexOf("{")).toUpperCase().indexOf(id.toUpperCase())!=-1) return(s.substring(s.indexOf("{")+1,s.indexOf("}")));}
+	return "";
+}
+function CSGetStyleAttrValue (si, id) {
+	var s=si.toUpperCase();
+	var myID=id.toUpperCase()+":";
+	var id1=s.indexOf(myID);
+	if (id1==-1) return "";
+	s=s.substring(id1+myID.length+1,si.length);
+	var id2=s.indexOf(";");
+	return ((id2==-1)?s:s.substring(0,id2));
+}
+function CSSetCSS2Props(si, id) {
+	var el=document.getElementById(id);
+	if (el==null) return;
+	var style=document.getElementById(id).style;
+	if (style) {
+		if (style.left=="") style.left=CSGetStyleAttrValue(si,"left");
+		if (style.top=="") style.top=CSGetStyleAttrValue(si,"top");
+		if (style.width=="") style.width=CSGetStyleAttrValue(si,"width");
+		if (style.height=="") style.height=CSGetStyleAttrValue(si,"height");
+		if (style.visibility=="") style.visibility=CSGetStyleAttrValue(si,"visibility");
+		if (style.zIndex=="") style.zIndex=CSGetStyleAttrValue(si,"z-index");
+	}
+}
+
+function CSSetImageURL(action) {
+	var img=CSGetImage(action[1]);
+	if (img) img.src=action[2];
+}
+
+
+// --></script>
+		</csscriptdict>
+		<csactiondict>
+			<script><!--
+CSAct[/*CMP*/ 'B86270680'] = new Array(CSSetImageURL,/*CMP*/ 'sprache',/*URL*/ '../images/top_logo_r_de.gif');
+CSAct[/*CMP*/ 'B86270B61'] = new Array(CSSetImageURL,/*CMP*/ 'sprache',/*URL*/ '../images/top_logo_r.gif');
+
+// --></script>
+		</csactiondict>
+	</head>
+	
+	<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" background="../images/top_bg.gif">
+		<table background="../images/top_logo2.gif" width="100%" height="39" cellpadding="0" cellspacing="0" border="0">
+			<tr valign="top">
+				<td align="left"><img src="../images/top_logo_m.gif" height="39" width="199"></td>
+				<td align="right"><a href="Javascript:bil()" onmouseover="CSAction(new Array(/*CMP*/'B86270680'));return true;" csover="B86270680" onmouseout="CSAction(new Array(/*CMP*/'B86270B61'));" csout="B86270B61"><img src="../images/top_logo_r.gif" height="39" width="108" name="sprache" border="0"></a></td>
+			</tr>
+		</table>
+		<table height="57" width="450" valign="top" cellpadding="0" cellspacing="0" border="0">
+			<tr valign="top">
+				<td><img src="../images/spacer.gif" width="1" height="10" border="0"></td>
+			</tr>
+			<tr valign="top">
+				<td height="24" valign="top">
+					<table height="24" background="../images/b_clone_ctrl_bg.gif" width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="left"><img src="../images/b_clone_ctrl_l.gif" width="318" height="24" border="0"></td>
+							<td align="right" width="1"><img src="../images/b_clone_ctrl_r.gif" width="1" height="24" border="0"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr height="23" valign="top">
+				<td height="23">
+					<table height="23" align="left" background="../images/bg_zelle.gif" width="100%" cellpadding="0" cellspacing="0" border="0">
+					<form name="goForm" action="../control.php" target="main">
+						<tr height="23">
+							<td align="left" width="176" height="23"><a href="../query.php" target="main" onmouseover="turn(1), window.status='Create Clone Account';return true;" onmouseout="turn(0), window.status=''"><img name="image1" src="../images/b_create.gif" width="176" height="23" border="0"></a></td>
+							<td align="left" width="89" height="23"><img src="../images/b_login.gif" width="89" height="23"></td>
+							<td align="left" width="66" height="23"><input type="text" name="usr" style="width:66px;font-size:11px"></td>
+							<td align="left" width="22" height="23"><img src="../images/b_pw.gif" width="22" height="23"></td>
+							<td align="left" width="66" height="23"><input type="password" name="pwd" style="width:66px;font-size:11px"></td>
+							<td align="left" width="5" height="23"><img src="../images/spacer.gif" width="5" height="1"></td>
+							<td align="left" width="26" height="23"><input type="submit" name="sub" style="width:20px;font-size:11px" value="ok"></td>
+							<td align="left" width="5" height="23"><img src="../images/spacer.gif" width="5" height="23"></td>
+							<td align="right" width="1" height="23"><img src="../images/b_clone_ctrl_r.gif" width="1" height="23" border="0"></td>
+						</tr>
+						</form>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
+

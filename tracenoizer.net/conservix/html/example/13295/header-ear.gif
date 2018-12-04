@@ -1,0 +1,943 @@
+<html>
+<head>
+    <title>Mail and Guardian Online</title>
+    <style type="text/css">
+	A:hover {
+		COLOR: red
+	}
+
+	.cookietrailtext {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ff0022; FONT-FAMILY: Arial
+	}
+
+	.standardtext {
+		FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial
+	}
+
+	.leftnavtext {
+		FONT-SIZE: 8pt; COLOR: #575757; FONT-FAMILY: Arial; TEXT-DECORATION: none
+	}
+
+	.articleheadlinetext1 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: black; FONT-FAMILY: Arial; TEXT-DECORATION: none
+	}
+
+	.articleheadlinetext2 {
+		FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: black; FONT-FAMILY: Arial; TEXT-DECORATION: none
+	}
+
+	.arealinktext {
+		FONT-SIZE: 8pt; COLOR: red; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+	}
+
+	.datetimetext {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial
+	}
+
+	.mastheadtrailtextheadline {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial; TEXT-DECORATION: none
+	}
+
+	.mastheadtrailtext {
+		FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial
+	}
+
+	.articletext {
+		FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial
+	}
+
+	.Articlebylinetext {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial; TEXT-DECORATION: none
+	}
+
+	.leftnavgroup {
+		FONT-WEIGHT: bold; FONT-SIZE: 8pt; TEXT-TRANSFORM: uppercase; COLOR: black; FONT-FAMILY: Arial; TEXT-DECORATION: none
+	}
+
+	.votetext {
+		FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial; TEXT-DECORATION: none
+	}
+
+	.votebutton {
+		FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: Arial; BACKGROUND-COLOR: gray
+	}
+
+	.standardbutton {
+		FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: Arial; BACKGROUND-COLOR: gray
+	}
+
+	.articleboldtext {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: Arial
+	}
+
+	.standardtextsmall {
+		FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: Arial
+	}
+
+	.linktextsmall {
+		FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: Arial; TEXT-DECORATION: none
+	}
+
+	BODY {
+		BACKGROUND-COLOR: white
+	}
+
+	.RedLink_standardtext {
+		FONT-SIZE: 10pt; CURSOR: hand; COLOR: black; FONT-FAMILY: Arial
+	}
+
+	AS:hover {
+		COLOR: red
+	}
+
+    </style>
+</head>
+<SCRIPT language="JavaScript" src="http://toolbar.mweb.co.za/toolbar/statsbar_script.asp?site=dmg&affiliate=mgHomepage&target=mg.mghome.homepage"></SCRIPT><script language="Javascript">
+function display_site() {
+	if (document.getElementById('l1image') != null) {
+		document.getElementById('l1image').innerHTML = document.getElementById('l1image_temp').innerHTML;
+	}
+	if (document.getElementById('div_indicators') != null) {
+		document.getElementById('div_indicators').innerHTML = document.getElementById('div_indicators_temp').innerHTML;
+	}
+	if (document.getElementById('div_right_ad') != null) {
+		document.getElementById('div_right_ad').innerHTML = document.getElementById('div_right_ad_temp').innerHTML;
+	}
+
+	var ad1 = document.getElementById('ad1');
+	var ad1_temp = document.getElementById('ad1_temp');
+	
+	//var objBrowser=new browser_sniffer();
+	var agt=navigator.userAgent.toLowerCase();
+	var is_mac=(agt.indexOf("mac")!=-1);
+	var is_ns=(agt.indexOf("netscape")!=-1);
+	
+	if ((ad1 != null) && (ad1_temp != null)) {
+		if ((is_mac) || (is_ns))
+		{	//display_macads();
+			//adsswap();
+			//t_text = ad1_temp.innerHTML.toString();
+			//alert(t_text);
+			//ad1.innerHTML = t_text;
+		}
+		else
+		{	ad1.innerHTML = ad1_temp.innerHTML; }
+	}
+	
+}
+
+</script>
+
+
+
+<body style='margin-top:1px;margin-left:8px' onload="display_site();">
+<img src="/Images/greypix.gif" width=740 height=1 vspace=6 border=0><br>
+<div id="ad1" style="height:60px"></div>
+
+
+
+<img src="/Images/greypix.gif" width=740 height=1 vspace=6 border=0><br>
+	<table width=740 border=0 cellpadding=0 cellspacing=0>
+<tr>
+	<td rowspan=2 width=460><a href="http://www.mg.co.za"><img src="http://www.mg.co.za/Images/MGOLogo.gif" alt="Mail&Guardian Online" width=437 height=51 border="0"></a></td>
+	<td width=280 height=46 valign=BOTTOM ><span class='datetimetext'>Wednesday, June 04, 2003</span></td><td> <A HREF="#" onClick="this.style.behavior='url(#default#homepage)'; this.setHomePage('http://www.mg.co.za');">
+<img src='http://www.mg.co.za/Images/MG2a.gif'  border='0'></a></td>
+</tr>	
+<tr>
+	<td height=5></td>
+</tr>
+</table><table width=740 border=0 cellpadding=0 cellspacing=0 bgcolor="#e4e4e4">
+<tr valign=top>
+		<td height=64 width=150><a href='http://www.mg.co.za/Content/l3.asp?ao=15172'><img border=0 src="http://www.mg.co.za/ContentImages/21485/poll-x.jpg" width=150 height=64></a></td>
+		<td width=10></td>	
+		<td width=200>
+		<img src="http://www.mg.co.za/Images/greypix.gif" width=1 height=1 vspace=1 border=0><br>
+		<a class='mastheadtrailtextheadline' href='http://www.mg.co.za/Content/l3.asp?ao=15172'>Poll law caught in time trap</a><br>
+		<span class="mastheadtrailtext">More than one million need ID books in order to register as voters</span></td>	
+		<td width=10></td> 
+		<td height=64 width=150><a href='http://www.mg.co.za/Content/l3_fl2.asp?o=20498'><img border=0 src="http://www.mg.co.za/ContentImages/21463/tiger-x.jpg" width=150 height=64></a></td>
+		<td width=10></td>			
+		<td width=200>
+		<img src="http://www.mg.co.za/Images/greypix.gif" width=1 height=1 vspace=1 border=0><br>	
+		<a class='mastheadtrailtextheadline' href='http://www.mg.co.za/Content/l3_fl2.asp?o=20498'>Tigers in Africa</a><br>
+		<span class="mastheadtrailtext">The new-look <i>Earthyear</i> site brings you essential environmental news</span></td>	
+		<td width=10></td> 
+</tr>
+</table>
+<table height=3 width=740 border=0 cellpadding=0 cellspacing=0><tr><td bgcolor='#000000'><img width=1 height=1></td></tr></table>
+<table width=740 border=0 cellpadding=0 cellspacing=0>
+	<tr><td height=8></td></tr>
+	<tr>
+		<td width=140 valign=top>
+<table cellpadding=0 cellspacing=0 width=100% border=0>
+<tr><td height=2></td></tr>		
+<tr>
+<td width=140 colspan=2><SPAN class="leftnavgroup">BREAKING NEWS</span><br><img src="http://www.mg.co.za/Images/blackpix.gif" width=140 height=1 vspace=4 border=0></td>
+</tr>
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=1">NATIONAL</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>	
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=18">AFRICA</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>	
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=3">INTERNATIONAL</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>			
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=2">BUSINESS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=5">SPORT</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+
+<tr><td height=7></td></tr>
+<tr>
+<td width=140 colspan=2><SPAN class="leftnavgroup">INSIGHT</span><br><img src="http://www.mg.co.za/Images/blackpix.gif" width=140 height=1 vspace=4 border=0></td>
+</tr>	
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=16">NATIONAL</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/l2_ca.asp?sa=49">AFRICA</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>	
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=17">INTERNATIONAL</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=4">COMMENT & ANALYSIS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/l2_ca.asp?sa=51">ECONOMY & BUSINESS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=19">COLUMNISTS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=7">EDITORIALS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+	
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=21">MONITOR</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>	
+
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=8">KRISJAN LEMMER</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>	
+
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/l2_ca.asp?sa=50">BODY LANGUAGE</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>	
+
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=33">ARTS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.chico.mweb.co.za/pc/razor/">FRASER'S RAZOR</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=20">HIV/AIDS BAROMETER</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=7></td></tr>			
+<tr>
+
+<td width=140 colspan=2><SPAN class="leftnavgroup">SPECIAL REPORTS</span><br><img src="http://www.mg.co.za/Images/blackpix.gif" width=140 height=1 vspace=4 border=0></td>
+</tr>	
+
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/l3_fl2.asp?o=20413">WALTER SISULU</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/l3_fl2.asp?o=19838">NAT ARTS FESTIVAL</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/l3_fl2.asp?o=17350">IRAQ SPECIAL REPORT</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+
+<tr><td height=5></td></tr>				
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/l3_fl2.asp?o=21465">SUPPLEMENTS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+
+<tr><td height=7></td></tr>			
+<tr>
+<td width=140 colspan=2><SPAN class="leftnavgroup">REGULARS</span><br><img src="http://www.mg.co.za/Images/blackpix.gif" width=140 height=1 vspace=4 border=0></td>
+</tr>	
+
+
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=10">ZAPIRO</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/l3_fl2.asp?o=21106">MADAM & EVE</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=28">THROUGH THE LENS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=14">FORUMS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=9">NOTES & QUERIES</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=12">LETTERS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>	
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=37">ARCHIVE SEARCH</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>	
+<tr><td height=5></td></tr>
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=13">GAMES</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>	
+<tr><td height=7></td></tr>			
+<tr>
+<td width=140 colspan=2><SPAN class="leftnavgroup">SERVICES</span><br><img src="http://www.mg.co.za/Images/blackpix.gif" width=140 height=1 vspace=4 border=0></td>
+</tr>	
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/l3_f.asp?o=557">SUBSCRIPTIONS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>	
+<tr><td height=5></td></tr>	
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/flysaa/">BOOK FLIGHTS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>	
+<tr><td height=5></td></tr>	
+<tr>
+<td width=132><a class="leftnavtext" href="http://mg.datingbuzz.com/">DATING BUZZ</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>	
+<tr><td height=5></td></tr>
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=11">JOBS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=26">NEWSLETTERS</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>	
+<tr><td height=7></td></tr>
+<tr>
+<td width=140 colspan=2><SPAN class="leftnavgroup">PARTNER SITES</span><br><img src="http://www.mg.co.za/Images/blackpix.gif" width=140 height=1 vspace=4 border=0></td>
+</tr>	
+<tr>
+<td width=132><a target=_blank class="leftnavtext" href="http://www.mg.co.za/Content/pd.asp?sa=35">THE TEACHER</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+
+<tr><td height=5></td></tr>		
+<tr>
+<td width=132><a target=_blank class="leftnavtext" href="http://www.earthyear.co.za">EARTHYEAR</a></td>
+<td width=8><img src="http://www.mg.co.za/Images/LeftNavArrow.gif" width=8 height=11 border=0></td>	
+</tr>
+
+<tr><td height=5></td></tr>
+
+</table>
+
+<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>
+<table width=140 border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5"
+height="4" border="0"></TD>
+<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif"
+width="5" height="4" border="0"></td>
+</tr>
+<tr>
+<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+<td WIDTH=4></TD>		
+<td WIDTH=138 VALIGN=top>
+<font size="2" face="Arial, Helvetica, sans-serif"
+color="#FF0000"><img src="http://www.mg.co.za/ContentImages/17245/addFlight1.jpg" align=right border="0"><b>Book flights here!</b></font>		<br>
+<font size="1" face="Arial, Helvetica, sans-serif"
+color="#000000">M&G Online has teamed up with SAA to bring you the cheapest flights around. You need to book it to believe it!
+<br>
+<center><a class='standardtext'
+href="http://www.mg.co.za/flysaa/"><b>Find out
+more...</b></A>  </center>
+</font>
+</TD>
+<td WIDTH=4></TD>		
+<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+</tr>
+<tr>
+<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5"
+height="4" border="0"></TD>
+<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif"
+width="5" height="4" border="0"></td>
+</tr>
+</TABLE>
+
+
+<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>	
+
+
+
+
+
+<table width="140" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5" height="4" border="0"></TD>
+<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif" width="5" height="4" border="0"></td>
+</tr>
+
+
+
+<tr>
+<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+<td WIDTH=4></TD>		
+<td WIDTH=138 VALIGN=top>
+<font size="2" face="Arial, Helvetica, sans-serif" color="#FF0000"><b>Greening the Future</b><br>
+<img src="http://www.chico.mweb.co.za/za/archive/2003april/greening-x.jpg" width="40"  alt="" border="0" align=right></font>
+		
+<font size="1" face="Arial, Helvetica, sans-serif" color="#000000"><i>Mail & Guardian</i> has launched a competition to celebrate sustainable management practices.
+
+<br>
+<center><a class='standardtext' href="http://www.chico.mweb.co.za/za/archive/2003april/030428-greening.html"><b>Find out more...</b></A></center>
+</font>
+</TD>
+<td WIDTH=4></TD>		
+<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>		
+</tr>
+<tr>
+<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5" height="4" border="0"></TD>
+<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif" width="5" height="4" border="0"></td>
+</tr>
+</TABLE>
+
+<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>
+
+
+
+
+
+<table width=140 border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5"
+height="4" border="0"></TD>
+<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif"
+width="5" height="4" border="0"></td>
+</tr>
+
+
+
+<tr>
+<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+<td WIDTH=4></TD>		
+<td WIDTH=138 VALIGN=top>
+<font size="2" face="Arial, Helvetica, sans-serif"
+color="#FF0000"><b>Digital M&G</b></font><img src="http://www.mg.co.za/ContentImages/Images/021010-digital1.jpg"
+width=68 height=61 align=right border="0"><br>		
+<font size="1" face="Arial, Helvetica, sans-serif"
+color="#000000">Have your M&G newspaper  delivered via the web, anywhere in
+the world, directly to your PC!
+<br>
+<center><a class='standardtext'
+href="http://www.mg.co.za/Content/l3_f.asp?a=18&o=10298"><b>Find out
+more...</b></A>  </center>
+</font>
+</TD>
+<td WIDTH=4></TD>		
+<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+</tr>
+<tr>
+<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5"
+height="4" border="0"></TD>
+<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif"
+width="5" height="4" border="0"></td>
+</tr>
+</TABLE>        
+
+<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>
+<script language="Javascript">
+<!--
+function quickGo(list)
+{var item=list.options[list.selectedIndex].value;
+if (item!="#") {
+location.href=item;
+}}
+//-->
+</script>
+<table width="140" border="0" cellspacing="0" cellpadding="0">
+<form>
+<tr>
+<td colspan=5 height=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+</tr>
+<tr>
+<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+<td WIDTH=6></TD>		
+<td WIDTH=134 VALIGN=top>				<img width=1 height=8><br>
+<font size="2" face="Arial, Helvetica, sans-serif" color="#FF0000"><b>WHAT'S ON</b></font><br>
+<span class="standardtextsmall">Find out what's on in your city...</span><br>
+<img width=1 height=8><br>	
+<select name="whatson" onChange="quickGo(this);" style="width:120; font-size:7pt">
+<option value="#" selected>Music...</option>
+<option value="http://www.chico.mweb.co.za/mg/art/music/listing/music-jhb.htm">Jo'burg</option>
+<option value="http://www.chico.mweb.co.za/mg/art/music/listing/music-ct.htm">Cape Town</option>
+<option value="http://www.chico.mweb.co.za/mg/art/music/listing/music-pta.htm">Pretoria</option>
+<option value="http://www.chico.mweb.co.za/mg/art/music/listing/music-dbn.htm">Durban</option>
+<option value="http://www.chico.mweb.co.za/mg/art/music/listing/music-pmb.htm">Maritzburg</option>
+</select><br>
+<img width=1 height=8><br>
+<select name="whatson" onChange="quickGo(this);" style="width:120; font-size:7pt">
+<option value="#" selected>Theatre...</option>
+<option value="http://www.chico.mweb.co.za/mg/art/theatre/listing/theatre-jhb.htm">Jo'burg</option>
+<option value="http://www.chico.mweb.co.za/mg/art/theatre/listing/theatre-ct.htm">Cape Town</option>
+<option value="http://www.chico.mweb.co.za/mg/art/theatre/listing/theatre-pta.htm">Pretoria</option>
+<option value="http://www.chico.mweb.co.za/mg/art/theatre/listing/theatre-dbn.htm">Durban</option>
+<option value="http://www.chico.mweb.co.za/mg/art/theatre/listing/theatre-pmb.htm">Maritzburg</option>
+</select><br>
+<img width=1 height=8><br>
+<select name="whatson" onChange="quickGo(this);" style="width:120; font-size:7pt">
+<option value="#" selected>Fine art...</option>
+<option value="http://www.chico.mweb.co.za/mg/art/fineart/listing/fineart-jhb.htm">Jo'burg</option>
+<option value="http://www.chico.mweb.co.za/mg/art/fineart/listing/fineart-ct.htm">Cape Town</option>
+<option value="http://www.chico.mweb.co.za/mg/art/fineart/listing/fineart-pta.htm">Pretoria</option>
+<option value="http://www.chico.mweb.co.za/mg/art/fineart/listing/fineart-dbn.htm">Durban</option>
+<option value="http://www.chico.mweb.co.za/mg/art/fineart/listing/fineart-pmb.htm">Maritzburg</option>
+</select><br>
+<img width=1 height=8><br>
+<select name="whatson" onChange="quickGo(this);" style="width:120; font-size:7pt">
+<option value="#" selected>Movies...</option>
+<option value="http://www.chico.mweb.co.za/art/film/menu-film.htm">Reviews</option>
+<option value="http://www.chico.mweb.co.za/mg/art/film/listing/film-list.htm">On circuit</option>
+</select><br>
+<img width=1 height=8><br>
+<select name="whatson" onChange="quickGo(this);" style="width:120; font-size:7pt">
+<option value="#" selected>TV...</option>
+<option value="http://www.chico.mweb.co.za/mg/art/tv/listing/tv-fri.htm">Friday</option>
+<option value="http://www.chico.mweb.co.za/mg/art/tv/listing/tv-sat.htm">Saturday</option>
+<option value="http://www.chico.mweb.co.za/mg/art/tv/listing/tv-sun.htm">Sunday</option>
+<option value="http://www.chico.mweb.co.za/mg/art/tv/listing/tv-mon.htm">Monday</option>
+<option value="http://www.chico.mweb.co.za/mg/art/tv/listing/tv-tues.htm">Tuesday</option>
+<option value="http://www.chico.mweb.co.za/mg/art/tv/listing/tv-wed.htm">Wednesday</option>
+<option value="http://www.chico.mweb.co.za/mg/art/tv/listing/tv-thurs.htm">Thursday</option>
+<option value="http://www.mg.co.za/Content/l3_f.asp?a=18&o=609">Best of sport</option>
+</select><br>
+<img width=1 height=8><br></TD>
+<td WIDTH=6></TD>		
+<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+</tr>
+<tr>
+<td colspan=5 height=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+</tr>
+</form>		
+</TABLE>
+
+
+<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>
+<font size="1" face="Arial, Helvetica, sans-serif">
+<b>QUICK LINKS</b><br>
+<img src="http://www.mg.co.za/Images/blackpix.gif" width="140" vspace=5 height="1" border="0"><br>
+- <a class="standardtextsmall"  href=# onclick="Javascript:window.open('http://www.chico.mweb.co.za/wx/index.php', 'newwindow', 'height=350, width=470, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');"><font size='1'>Today's weather</a><br>
+- <a class='standardtext' href="http://www.mg.co.za/Content/pd.asp?sa=13"><font size=1>Games</a><br>
+- <a class='standardtext' href="http://www.mg.co.za/Content/pd.asp?sa=9"><font size=1>Notes & Queries</a><br>
+<br>
+<b>SERVICES</b><br>
+<img src="http://www.mg.co.za/Images/blackpix.gif" width="140" vspace=5 height="1" border="0"><br>
+- <a class='standardtext' href="http://www.mg.co.za/Content/l3_f.asp?o=557"><font size=1>Subscribe to M&G</a><br>
+- <a class='standardtext' href="http://www.mg.co.za/Content/l3_f.asp?o=558"><font size=1>Subscription queries</a><br>
+- <a class='standardtext' href="http://www.mg.co.za/Content/l3_f.asp?o=19914"><font size=1>Free news for your site</a><br>
+- <a class='standardtext' href="http://www.mg.co.za/flysaa/"><font size=1>Book cheap flights</a><br>	
+- <a class='standardtext' href="http://www.mg.co.za/Content/pd.asp?sa=11"><font size=1>Find a job</a><br>
+</td>
+
+		<td width=10><img src="/images/trans.gif" border="0" height="1" width="10"></img></td>
+<td width=440 valign=top>
+	<table width=100% border=0 cellpadding=0 cellspacing=0>
+		<tr><td bgcolor="#E4E4E4" width=100% height=18><font face='Arial, Helvetica, sans-serif' size='2' color='#000000'>&nbsp;<b>PAGE NOT FOUND</b></td></tr>
+		<tr><td bgcolor="#FF0000" width=100% height=2><img width=1 height=1></td></tr>
+		<tr><td height=8></td></tr>
+	</table>
+	<font face='Arial, Helvetica, sans-serif' size='2' color='#000000'>
+	You have typed in the wrong web address or tried to access an article that has moved location or no longer exists on the <a class='standardtext' href="http://www.mg.co.za">Mail&Guardian Online</a> website.
+	<p>You can one or more of the following:<br>
+	<ol>
+		<li> Find the article you are looking for by using the navigation on the left hand side of this page or by visiting the <a class='standardtext' href="http://www.mg.co.za">Mail&Guardian Online</a> homepage and browsing further.<br><br></li>
+		<li> Let us know about this broken link and the article you were looking for and we’ll attend to the problem. E-mail us at <a class='standardtext' href="mailto:webmaster@mg.co.za?subject=broken link report">webmaster@mg.co.za</a>.<br><br></li>
+		<li> Search for the article in the Mail&Guardian Online archive archives:
+			<form name="searchForm404" action="http://196.2.63.90/MGArchive/default.asp" method="post" style="display: inline;" id="Form1"><br clear="all">
+				<script language="Javascript">
+										function GoSearch() {
+											searchForm404.submit();
+										}
+				</script>
+				<input type="text" name="searchtext" size="20" id="searchtext"><input type="button" value="Go" align="ABSMIDDLE" onclick="GoSearch();" id="Button1" name="Button1"><br>
+				<font size="1" face="Arial, Helvetica, sans-serif" color="#000000">
+					<input type="checkbox" name="printedition" value="yes" checked>Print edition<br>
+
+            <input type="checkbox" name="dailynews" value="yes" checked>Daily news<br>
+
+
+					&nbsp;[ <a class='standardtext' href="http://archive.mg.co.za/MGArchive/FrameSet.asp?Src=Adv"><font size=1>Advanced</A> | <a class='standardtext' href="http://archive.mg.co.za/MGArchive/FrameSet.asp?Src=HelpGuide"><font size=1>Help</A> ]</font>
+			</form></li>
+	</ol>
+</td>
+
+<td width=10></td>
+<td width=140 valign="top" style="padding-left:10px;">
+			
+    <table width="140" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>
+		<table width="140" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif" width="5" height="4" border="0"></td>
+		</tr>
+		<tr>
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=138 VALIGN=top>
+			<font size="2" face="Arial, Helvetica, sans-serif" color="#FF0000"><b>Archive Search</b></font>
+				<form name="searchForm1" action="http://196.2.63.90/MGArchive/default.asp" method="post" style="display: inline;"><br clear="all">
+					<script language="Javascript">
+						function GoSearch() {
+							searchForm1.submit();
+						}
+					</script>
+					<input type="text" name="searchtext" size="11"><INPUT TYPE="button" VALUE="Go" ALIGN="ABSMIDDLE" onclick="GoSearch();"><br>
+					<font size="1" face="Arial, Helvetica, sans-serif" color="#000000">
+					<input type="checkbox" name="printedition" value="yes" checked>Print edition<br>
+
+            <input type="checkbox" name="dailynews" value="yes" checked>Daily news<br>
+
+
+					
+					<center>[ <a class='standardtext' href="http://archive.mg.co.za/MGArchive/FrameSet.asp?Src=Adv"><font size=1>Advanced</A> | <a class='standardtext' href="http://archive.mg.co.za/MGArchive/FrameSet.asp?Src=HelpGuide"><font size=1>Help</A> ]</center></font>
+				</form>
+			</TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>		
+		</tr>
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif" width="5" height="4" border="0"></td>
+		</tr>
+	</TABLE>
+	<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>
+	<!-- HP Ad -->
+	<table width="140" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif" width="5" height="4" border="0"></td>
+		</tr>
+		<tr align='center'>
+			<td width=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+			<td width=4></TD>		
+			<td width=138 valign=top><table border=0 cellpadding=0 cellspacing=0><tr><td><script language="JavaScript1.1" src="http://as.coza.com/js.ng/site=dmg&affiliate=mgHomepage&target=mg.mghome.homepage&adsize=120x240&position=10&number=$Random$"></script></td></tr></table>
+</TD>
+			<td width=4></TD>		
+			<td width=1 bgcolor="#FF0000"><img width=1 height=1></TD>		
+		</tr>
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif" width="5" height="4" border="0"></td>
+		</tr>
+	</TABLE>
+	<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>
+	
+	<!-- Piggs Peak Ad -->
+		<table width="140" border="0" cellspacing="0" cellpadding="0" ID="Table2">
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif" width="5" height="4" border="0"></td>
+		</tr>
+		<tr align='center'>
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=138 VALIGN=top><script language="JavaScript1.1" src="http://as.coza.com/js.ng/site=dmg&affiliate=mgHomepage&target=mg.mghome.homepage&adsize=120x180&position=11&number=$Random$"></script></TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>		
+		</tr>
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif" width="5" height="4" border="0"></td>
+		</tr>
+	</TABLE>
+	<!-- M & G AD -->
+	<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>		
+	<table width="140" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif" width="5" height="4" border="0"></td>
+		</tr>
+		<tr align='center'>
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=138 VALIGN=top><a href="http://www.mg.co.za/Content/l3_f.asp?o=557"><img src="http://www.mg.co.za/ContentImages/Ads/mg-button02.gif" border=0></a></TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>		
+		</tr>
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif" width="5" height="4" border="0"></td>
+		</tr>
+	</TABLE>
+	
+	<!--<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>		
+	<table width="140" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif" width="5" height="4" border="0"></td>
+		</tr>
+		<tr align='center'>
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=138 VALIGN=top><div id="div_right_ad"></div></TD>			
+			<td WIDTH=4></TD>		
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>		
+		</tr>
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif" width="5" height="4" border="0"></td>
+		</tr>
+	</TABLE>-->
+	<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>		
+	<table width="140" border="0" cellspacing="0" cellpadding="0" ID="Table1">
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif" width="5" height="4" border="0"></td>
+		</tr>
+		<tr align='center'>
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=138 VALIGN=top><div><a href="http://www.guardianweekly.co.uk" ><img src="http://www.mg.co.za/Images/360news.gif" border=0></a></div></TD>			
+			<td WIDTH=4></TD>		
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>		
+		</tr>
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif" width="5" height="4" border="0"></td>
+		</tr>
+	</TABLE>	
+	<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>		
+	
+    <font size="2" face="Arial, Helvetica, sans-serif" color="#FF0000"><b>Today's Zapiro</b></font><br>
+		<a class='standardtext' href="http://www.mg.co.za/Content/pd.asp?a=51"><img src="http://www.mg.co.za/ContentImages/2561/t_02-june03.gif" width="140" vspace=2 height="110" border="0"></a><br>
+			<font size="1" face="Arial, Helvetica, sans-serif">
+			<center>[ <a class='standardtext' href="http://www.mg.co.za/Content/pd.asp?a=51"><font size=1>See full image</A> ]</center>
+			<center>[ <a class='standardtext' href="http://www.mg.co.za/Content/l3_f.asp?o=561"><font size=1>Zapiro by e-mail</a>]</font></center>
+            <!--<center>[ < ! -- <a class='standardtext' href="http://www.mg.co.za/Content/pd.asp?a=92"> --  ><a class='standardtext' href="http://www.mg.co.za/iraq/zapiro.html"><font size=1>Zapiro on Iraq</A> ]</center>--> </font>	
+            
+		<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>
+
+	<table width="140" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif" width="5" height="4" border="0"></td>
+		</tr>
+		<tr>
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=138 VALIGN=top>
+			<font size="2" face="Arial, Helvetica, sans-serif" color="#FF0000"><b>Indicators</b></font><br>		
+			<font size="2" face="Arial, Helvetica, sans-serif" color="#000000">
+			<div id="div_indicators" style="height:50px"></div>
+			<font size="1" face="Arial, Helvetica, sans-serif" color="#000000">
+			<center>[ <a class='standardtext' href="http://www.moneymax.co.za" target="_blank"><font size=1>Source: Moneymax</A> ]</center></font>	
+			</font>
+			</TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>		
+		</tr>
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif" width="5" height="4" border="0"></td>
+		</tr>
+	</TABLE>
+	<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>	
+	<table width="140" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif" width="5" height="4" border="0"></td>
+		</tr>
+		<tr>
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+			<td WIDTH=4></TD>		
+			<td WIDTH=138 VALIGN=top>
+			<font size="2" face="Arial, Helvetica, sans-serif" color="#FF0000"><b>Get news by e-mail</b></font>
+				<form name="subscribeForm" style="display: inline;"><br clear="all">
+					<script language="Javascript">
+						function subscribe() {
+							if (subscribeForm.bmailchoice.value == "1") {
+								window.open ('http://weblist.mweb.co.za/mailman/listinfo/dmgtext', 'newwindow', config='height=400, width=600, toolbar=no, menubar=no, scrollbars=yes, resizable=yes, location=no, directories=no, status=no');
+							} else {
+								window.open ('http://weblist.mweb.co.za/mailman/listinfo/dmg', 'newwindow', config='height=400, width=600, toolbar=no, menubar=no, scrollbars=yes, resizable=yes, location=no, directories=no, status=no');
+							}
+						}
+						function btnVote_onclick() {}
+					</script>
+<div align='center'>
+			<font size="1" face="Arial, Helvetica, sans-serif" color="#000000">
+	<input type="radio" name="radsubscribe" id="radsubscribe" value="2" checked onclick="bmailchoice.value = 2;">HTML<br>
+        <input type="radio" name="radsubscribe" id="radsubscribe" value="1" onclick="bmailchoice.value = 1;">Text<br>
+        <input type="hidden" name="bmailchoice" id="bmailchoice" value="2">
+	<INPUT TYPE="button" VALUE="Go" ALIGN="ABSMIDDLE" onclick="subscribe();"><br>
+			<center>[ <a class='standardtext' href="http://www.mg.co.za/Content/l3_f.asp?o=561"><font size=1>More about this</A> ]</center></font>
+	</form></TD>
+</div>
+			<td WIDTH=4></TD>		
+			<td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>		
+		</tr>
+               
+                <tr>
+			<td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5" height="4" border="0"></TD>
+			<td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif" width="5" height="4" border="0"></td>
+		</tr>
+                 </table>
+
+<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>	
+<table width="140" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan=2><img src="http://www.mg.co.za/Images/nav_topleft.gif" width="5" height="4" border="0"></TD>
+                <td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_topright.gif" width="5" height="4" border="0"></td>
+        </tr>
+        <tr>
+                <td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>
+                <td WIDTH=4></TD>		
+                <td WIDTH=138 VALIGN=top>
+                <font size="2" face="Arial, Helvetica, sans-serif" color="#FF0000"><b>Talkback</b></font>
+                <font size="2" face="Arial, Helvetica, sans-serif" color="#000000"><br>
+                There are calls to establish a red light district in Cape Town. Where, if at all, should it be situated?
+                <br>
+                <center><a class='standardtext' href="http://www.mg.co.za/Content/pd.asp?sa=25"><b>Have your say</b></A>&nbsp;&nbsp;</center>
+                </TD>
+                <td WIDTH=4></TD>		
+                <td WIDTH=1 bgcolor="#FF0000"><img width=1 height=1></TD>		
+        </tr>
+        <tr>
+                <td colspan=2><img src="http://www.mg.co.za/Images/nav_botleft.gif" width="5" height="4" border="0"></TD>
+                <td colspan=3 align="right"><img src="http://www.mg.co.za/Images/nav_botright.gif" width="5" height="4" border="0"></td>
+	</tr>
+</TABLE>
+
+<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>
+		<font size="2" face="Arial, Helvetica, sans-serif">
+		<b>VERBATIM</b><br>
+		<img src="http://www.mg.co.za/Images/blackpix.gif" width="140" vspace=5 height="1" border="0">
+<table>
+	<tr>
+		<td valign="top"><img src="http://www.mg.co.za/ContentImages/16204/quote-open.gif" hspace=0 width="20" height="19" alt="" align=left border="0"></td>
+		<td class='standardtext' valign="top">No amount of violence can crush people's desire for peaceful democratic change.<img src="http://www.mg.co.za/ContentImages/16205/quote-close.gif" hspace=0 width="18" height="15" alt="" border="0"></td>
+	</tr>
+</table>
+<a class='standardtext' href="http://www.mg.co.za/Content/l3.asp?ao=15142&t=1"><img src="http://www.mg.co.za/images/arrow2x1.gif" hspace=3 alt="" border="0"><b>Read the full story</b></A><br>
+<a class='standardtext' href="/content/Verbatim3.asp?ao=11923&a=70"><img src="http://www.mg.co.za/images/arrow2x1.gif" hspace=3 alt="" border="0"><b>More verbatims</b></A>
+&nbsp;&nbsp;
+<img src="http://www.mg.co.za/Images/greypix.gif" width="140" vspace=5 height="1" border="0"><br>
+
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+
+<img src="/Images/greypix.gif" width=740 height=2 vspace=6 border=0><br>
+<table width=740 border=0 cellpadding=0 cellspacing=0>
+<tr>
+	<td width=740 align=center>
+	<span class="standardtextsmall">
+	<a class='standardtextsmall' href="http://www.mg.co.za/Content/l3_f.asp?o=554">CONTACT US</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class='standardtextsmall' href="http://www.mg.co.za/Content/l3_f.asp?o=553">ABOUT US</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class='standardtextsmall' href="http://www.mg.co.za/Content/l3_f.asp?o=555">M&G HISTORY</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class='standardtextsmall' href="http://www.mg.co.za/Content/l3_f.asp?o=557">SUBSCRIPTIONS</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class='standardtextsmall' href="http://www.mg.co.za/Content/l3_f.asp?o=565">ADVERTISING</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class='standardtextsmall' href="http://www.mg.co.za/Content/l3_f.asp?o=17108">INTERNSHIPS</a>
+	<br><br>
+	All material copyright Mail&Guardian. <br>
+	Material may not be published or reproduced in any form without prior written permission.<br>
+        Read the Mail&Guardian's <a class='standardtextsmall' href="http://www.mg.co.za/Content/l3_f.asp?o=9559">privacy policy</a> 
+	</span>		
+	</td>
+</tr>
+</table>
+<img src="/Images/greypix.gif" width=740 height=2 vspace=6 border=0><br><br>
+<div id="l1image_temp" style="display:none">
+
+		<img src="http://www.mg.co.za/ContentImages/21516/amina.jpg" width=215 border=0><br>
+		<span class="standardtextsmall"><font color="#707070">Woman in waiting... Amina Lawal (33) holds her daughter Wasila as the registrar of Katsina State Sharia Court of Appeal in Nigeria announces the third adjournment of her appeal hearing. She is appealing against her conviction to death by stoning by a lower Sharia court in March 2002 for having had sex outside marriage. (Pius Utomi Ekpei, AFP) </font color></span><br> 
+</div>
+<div id="ad1_temp" style="display:none">
+
+		<table width=740 border=0 cellpadding=0 cellspacing=0 ID="Table1"><tr><td width=120><div id="Div1">
+		<script language="JavaScript1.1" src="http://as.coza.com/js.ng/site=dmg&affiliate=mgHomepage&target=mg.mghome.homepage&adsize=740x60&position=5&number=$Random$"></script>
+		</div></td></tr></table>
+</div>
+
+<script>
+
+var agt=navigator.userAgent.toLowerCase();
+var is_mac=(agt.indexOf("mac")!=-1);
+
+function adsswap()
+{	if (objB.is_mac)
+	{	function mac_ads(url,adNum)
+		{strAdd = 'strAdd'+adNum;
+		strAdd = new String('<script language="JavaScript1.1" src=' + url + '><\/script>');
+		eval('ad'+adNum+'.innerHTML=\''+strAdd+'\'');
+		} 		
+mac_ads('"http://as.coza.com/js.ng/site=dmg&affiliate=mgHomepage&target=mg.mghome.homepage&adsize=120x60&position=1&number=$Random$"','1');	
+mac_ads('"http://as.coza.com/js.ng/site=dmg&affiliate=mgHomepage&target=mg.mghome.homepage&adsize=468x60&position=2&number=$Random$','2');
+mac_ads('"http://as.coza.com/js.ng/site=dmg&affiliate=mgHomepage&target=mg.mghome.homepage&adsize=120x60&position=3&number=$Random$"','3');
+	}
+}
+</script>
+<div id="div_right_ad_temp" style="display:none">
+<script language="JavaScript1.1" src="http://as.coza.com/js.ng/site=dmg&affiliate=mgHomepage&target=mg.mghome.homepage&adsize=120x60&position=6&number=$Random$"></script>
+</div><div id="div_indicators_temp" style="display:none">
+<iframe src="http://www.moneymax.co.za/partners/mgo/default.asp" width="125" height="50" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
+</div>
+</body>
+</html>

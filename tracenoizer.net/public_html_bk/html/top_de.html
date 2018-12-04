@@ -1,0 +1,121 @@
+<html>
+	<head>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<title>TraceNoizer</title>
+	<script language="JavaScript">
+	<!--
+	if(document.images)
+	{
+        image1on = new Image(108,39);
+        image1on.src = "../images/top_logo_r.gif";
+        image1off = new Image(108,39);
+        image1off.src = "../images/top_logo_r_de.gif";
+        
+        image2on = new Image(173,23);
+        image2on.src = "../images/b_create_r.gif";
+        image2off = new Image(173,23);
+        image2off.src = "../images/b_create.gif";
+        
+        image3on = new Image(262,23);
+        image3on.src = "../images/b_access_clone_account_r.gif";
+        image3off = new Image(262,23);
+        image3off.src = "../images/b_access_clone_account.gif";
+        
+       
+	}
+
+	var iMaxImage           =  3;   //Hñchste Bildzahl angeben
+	var iDefaultImage       =  0;   //Hier das Standardbild angeben (Bild welches Defaultmssig angeschaltet wird)
+	var iStaticImage        =  0;   //Bild welches nie gewechselt werden muss
+	var iLastImage          =  0;
+	var bIE                 =  navigator.appName == "Microsoft Internet Explorer";
+
+	function turn(imageNr) 
+	{
+        if (isNaN(parseInt(imageNr)) || imageNr == 0) imageNr = iDefaultImage;
+        if (document.images && (!bIE || imageNr != iLastImage) && (iStaticImage == 0 || imageNr != iStaticImage))
+        {
+			// Neues Bild einschalten
+            if (imageNr != 0)
+            {
+				imageName = 'image' + imageNr;
+				document[imageName].src = eval(imageName + "on.src");
+			}
+			 if (bIE) // Internetexplorer
+                {
+					if (iLastImage != 0)
+					{
+                    	imageName = 'image' + iLastImage;
+                    	document[imageName].src = eval(imageName + "off.src");
+					}
+					// Registrieren zuletzt eingeschaltetes Bild
+                    iLastImage      = imageNr;
+                }
+                else    // Netscape
+                {
+                	for (i = 1;i <= iMaxImage;i++)
+                    {
+                    	if (i != imageNr  && i != iStaticImage)
+                        {
+                         	imageName = 'image' + i;
+                         	document[imageName].src = eval(imageName + "off.src");
+						}
+					}
+                }
+        	}
+		}
+		
+		function bil()
+		{
+			/*
+			times = parent.length;
+			for(i = 0; i < times; i++){
+				cont=parent.frames[i].location;
+				alert(i+" = "+cont);
+			}*/
+		
+			cont=parent.frames[6].location;
+			url = "../index_bil.php?cont="+cont;
+			parent.location.href=url;
+		}
+	// -->
+	</script>
+</head>
+	
+	<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" background="../images/top_bg.gif">
+		<table background="../images/top_logo2.gif" width="100%" height="39" cellpadding="0" cellspacing="0" border="0">
+			<tr valign="top">
+				<td align="left"><img src="../images/top_logo_m.gif" height="39" width="199"></td>
+				<td align="right"><a href="Javascript:bil()" onmouseover="turn(1), window.status='English Version';return true;" onmouseout="turn(0), window.status=''">
+					<img name="image1" src="../images/top_logo_r_de.gif" height="39" width="108" border="0"></a></td>
+			</tr>
+		</table>
+		<table height="57" width="450" valign="top" cellpadding="0" cellspacing="0" border="0">
+			<tr valign="top">
+				<td><img src="../images/spacer.gif" width="1" height="10" border="0"></td>
+			</tr>
+			<tr valign="top">
+				<td height="24" valign="top">
+					<table height="24" background="../images/b_clone_ctrl_bg.gif" width="438" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="left"><img src="../images/b_clone_ctrl_l.gif" width="318" height="24" border="0"></td>
+							<td align="right" width="1"><img src="../images/b_clone_ctrl_r.gif" width="1" height="24" border="0"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr height="23" valign="top">
+				<td height="23">
+					<table height="23" align="left" width="438" cellpadding="0" cellspacing="0" border="0">
+					<form name="goForm" action="../control.php" target="main">
+						<tr height="23">
+							<td align="left" width="176" height="23"><a href="../start.php" target="main" onmouseover="turn(2), window.status='Create Clone Account';return true;" onmouseout="turn(0), window.status=''"><img name="image2" src="../images/b_create.gif" width="176" height="23" border="0"></a></td>
+							<td align="left" width="262" height="23"><a href="ccc_login.html" target="main" onmouseover="turn(3), window.status='Access Clone Account';return true;" onmouseout="turn(0), window.status=''"><img name="image3" src="../images/b_access_clone_account.gif" width="262" height="23" border="0"></a></td>
+						</form>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
+

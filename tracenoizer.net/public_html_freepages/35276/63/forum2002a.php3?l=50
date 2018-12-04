@@ -1,0 +1,38 @@
+ 
+<HTML>
+<HEAD></HEAD>
+<BODY BGCOLOR="#1F3776" TEXT="#C0C0C0" LINK="#C0C0C0" VLINK="#C0C0C0">
+<FORM  ACTION="forum.php3?t=add" method="post">
+<CENTER>
+<BR>
+<TABLE width="720" ALIGN="center">
+ <TR>
+  <TD></TD>
+  <TD ALIGN="center">
+<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0" ALIGN="center">
+ <TR>
+  <TD><FONT FACE="Arial" SIZE="2"><B>Név: </B></FONT></TD>
+  <TD><INPUT type="text" name="name" value=""></TD>
+ </TR>
+ <TR>
+  <TD><FONT FACE="Arial" SIZE="2"><B>Tárgy: </B></FONT></TD>
+  <TD><INPUT type="text" name="subject" value=""></TD>
+ </TR>
+ <TR>
+  <TD VALIGN="top"><FONT FACE="Arial" SIZE="2"><B>&Uuml;zenet: </B></FONT></TD>
+  <TD><TEXTAREA rows="5" cols="60" name="content"></TEXTAREA></TD>
+ </TR>
+ <TR>
+   <TD ALIGN="center" COLSPAN="2"><BR><INPUT TYPE="submit" value="Küld"></TD>
+ </TR>
+</TABLE></TD>
+<TD></TD>
+</TR>
+</TABLE></FORM></CENTER>
+<P>
+<TABLE width="720" border="0" cellpadding="0" cellspacing="0" ALIGN="center">
+<br />
+<b>Warning</b>:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in <b>/home/www/www.maghar.hu/html/forum/forum2002a.php3</b> on line <b>42</b><br />
+</TABLE><CENTER><A HREF='forum2002a.php3?l=&to=30' STYLE='color:#C0C0C0; text-decoration:none; font-family: Arial ; font-weight: bold;  font-size:12pt;'>elõzõek &raquo;&raquo;</A></CENTER></BODY>
+</HTML>
+

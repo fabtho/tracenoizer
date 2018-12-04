@@ -1,0 +1,21 @@
+Failed  Succeeded  Test Name
+   0          10   Yahoo home page
+
+   Test Name: Yahoo home page
+         URL: http://www.yahoo.com
+ Return Code: 200 OK (24427 bytes)
+              Response time ( 0.650 ) is < or = 30.000 ?                SUCCEED
+              Response time ( 0.650 ) is > or = 0.010 ?                 SUCCEED
+              Number of returned bytes ( 24427 ) is < or =200000 ?      SUCCEED
+              Number of returned bytes ( 24427 ) is > or = 13000 ?      SUCCEED
+
+              REQUIRED TEXT (may be truncated to fit page)
+              Travel                                                    SUCCEED
+              News                                                      SUCCEED
+              Sports                                                    SUCCEED
+
+              FORBIDDEN TEXT (may be truncated to fit page)
+              Premature end of script headers                           SUCCEED
+              Error processing directive                                SUCCEED
+
+Total web tests failed: 0   succeeded: 10

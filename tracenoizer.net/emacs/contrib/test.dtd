@@ -1,0 +1,11 @@
+<!ELEMENT test (simpletext?)>
+        <!ATTLIST test simpletext CDATA #IMPLIED>
+
+<!--Mindless DTD.
+ This tests a remote DTD, and will be removed, when I get tired of it
+ Test if you can access it, by putting
+
+	<?xml version='1.0' standalone="no"?>
+	<!DOCTYPE test SYSTEM "http://emacro.sf.net/dtd/test.dtd">
+
+ at the top of your XML file-->

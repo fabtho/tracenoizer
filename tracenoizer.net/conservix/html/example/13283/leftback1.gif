@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Political (Video Games) - WorldSearch.com</title>
+<meta name="Description" content="Political Video Games : find the best computer and video games about Political at WorldSearch.com.">
+<meta name="Keywords" content="Political video games, Political video game, Political games, Political game, Political computer games, Political computer game">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en">
+<meta name="Robots" content="index,follow,all">
+<meta name="googlebot" content="noarchive">
+<meta name="revisit-after" content="15 days">
+<meta http-equiv="imagetoolbar" content="no">
+<link rel="shortcut icon" href="http://www.worldsearch.com/favicon.ico">
+<link rel="P3Pv1" href="http://www.worldsearch.com/w3c/p3p.xml">
+<script language=javascript type="text/javascript">
+<!--
+function blockError(){return true;}
+window.onerror = blockError;
+function openPageEx(URL,W,H,Style)
+{
+	xPos = screen.width /2 - W/2;
+	yPos = screen.height/2 - H/2;
+	window.open(URL, "feedback", Style + ",width="+W+",height="+H+",top="+yPos+",left="+xPos);
+}
+
+function openPage(URL,W,H)
+{
+	openPageEx(URL,W,H,"menubar=0, status=0,resizable=0,location=0,titlebar=1,toolbar=0,scrollbars=1");
+}
+
+function openFeedback(parameters)
+{
+	url = '/scripts/feedback.php?'+parameters+'&'+'referer='+document.location;
+	openPage(url,600,400);
+}
+function openHelp(url) { openPage(url,400,400); }
+
+function reloadPage()
+{
+if (window != top) top.location.href = location.href;
+}
+window.setTimeout("reloadPage()",1500);
+// -->
+</script>
+<style type="text/css">
+dl {line-height:16px;}
+dd {margin-left:24px;}
+a:hover {color:#FF0000;}
+span {font-size:12px;}
+.titlebargray {background-color:#F7F7F7;border:1px solid #C0C0C0;}
+.a2b {font:bold 10pt Arial;}
+.mtl {background-color:#6000C4;background-image:url('http://img.worldsearch.com:8080/i/leftback.gif');}
+.mtr {background-color:#6000C4;background-image:url('http://img.worldsearch.com:8080/i/rightback10.gif');}
+.thumbtxtgray {color:#C0C0C0;font:8pt Verdana, Arial, Sans-serif;text-align:center;}
+.pcaption {background-color:#FD9902;color:#FFFFFF;font:bold 8pt Verdana, Arial, Sans-serif;padding:2px;}
+.pimg {background-color:#FFF7F3;border-bottom:1px solid #FD9902;border-left:1px solid #FD9902;border-top:1px solid #FD9902;padding:9px;text-align:center;vertical-align:top;}
+.pdesc {background-color:#FFF7F3;border-bottom:1px solid #FD9902;border-top:1px solid #FD9902;font:10pt Arial, Sans-serif;padding:9px;vertical-align:top;}
+.pprice {background-color:#FFF7F3;border-bottom:1px solid #FD9902;border-right:1px solid #FD9902;border-top:1px solid #FD9902;font:10pt Verdana, Arial, Sans-serif;padding:9px;text-align:center;vertical-align:top;}
+.poster {border:1px solid #000000;}
+.postimg {background-color:#FFF7F3;border:1px solid #FD9902;padding:9px;text-align:center;vertical-align:middle;}
+.posttext {border-left:1px solid #FD9902;border-right:1px solid #FD9902;font:10pt Arial, Sans-serif;padding:0px 9px 0px 9px;text-align:center;vertical-align:top;}
+.postprice {border-left:1px solid #FD9902;border-right:1px solid #FD9902;font:8pt Verdana,Arial, Sans-serif;padding:9px 9px 9px 9px;text-align:center;vertical-align:top;}
+.postmore {background-color:#FD9902;font:bold 7pt Verdana, Arial, Sans-serif;text-align:right;padding:2px 4px 2px 4px;}
+</style>
+<script language=javascript type="text/javascript">
+<!--
+function getPageOffsetLeft (el) { var ol = el.offsetLeft; while((el = el.offsetParent) != null) { ol += el.offsetLeft; } return ol; }
+function getPageOffsetTop  (el) { var ot = el.offsetTop ; while((el = el.offsetParent) != null) { ot += el.offsetTop ; } return ot; }
+
+function getAnchorPosition(anchorname) { var useWindow = false; var coordinates = new Object(); coordinates.x = coordinates.y = 0 ;var x=0; var y=0; var use_gebi = false; var use_css = false; var use_layers = false; if (document.getElementById) { use_gebi = true; } else if (document.all) { use_css = true; } else if (document.layers) { use_layers = true; } if (use_gebi && document.all) { x = getPageOffsetLeft(document.all[anchorname]); y = getPageOffsetTop(document.all[anchorname]); } else if (use_gebi) { var o = document.getElementById(anchorname); x = o.offsetLeft; y = o.offsetTop; } else if (use_css) { x = getPageOffsetLeft(document.all[anchorname]); y = getPageOffsetTop(document.all[anchorname]); } else if (use_layers) { var found=0; for (var i=0; i<document.anchors.length; i++) { if (document.anchors[i].name == anchorname) { found=1; break; } } if (found == 0) { coordinates.x=0; coordinates.y=0; return coordinates; } x = document.anchors[i].x; y = document.anchors[i].y; } else { coordinates.x=0; coordinates.y=0; return coordinates; } coordinates.x = x; coordinates.y = y; return coordinates; }
+function moveObject(id,left,top) { if(typeof(left) == "undefined") return; obj = document.getElementById?document.getElementById(id).style:	document.all?document.all[id].style: document.layers?document.layers[id]:null; if (obj) { obj.left=left; obj.top=top; } }
+
+
+
+function showObject(id) { obj = document.getElementById?document.getElementById(id).style:	document.all?document.all[id].style: document.layers?document.layers[id]:null; if (obj) { obj.visibility="visible"; } }
+function moveContent     () { coordinates = getAnchorPosition("contentpos"); moveObject("content",coordinates.x,coordinates.y); }
+function moveContentTimer() { coordinates = getAnchorPosition("contentpos"); if(coordinates.x!=0) { moveObject("content",coordinates.x,coordinates.y); } setTimeout("moveContentTimer()",1000); }
+// -->
+</script>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="100%" bgcolor="#00C4FF"><tr><td style="background-image: url(http://img.worldsearch.com:8080/i/topback.gif);" height=36><a href="http://www.worldsearch.com/"><img src="http://img.worldsearch.com:8080/i/ws.gif" width=252 height=36 border=0 alt=""></a></td><td style="background-image: url(http://img.worldsearch.com:8080/i/topback.gif);" align=right><table border=0 cellpadding=0 cellspacing=0><tr><td height=36 nowrap rowspan=2 width=27><img src="http://img.worldsearch.com:8080/i/topc.gif" width=27 height=36 border=0 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/w.gif);" bgcolor="#FFFFFF" height=27><font face=verdana size=1>•&nbsp;<a href="/d.lisa/en">Home</a> •&nbsp;<a href="/webmaster/?action=linkus&amp;target=http%3A%2F%2Fwww.worldsearch.com">Link to us</a> •&nbsp;<a href="/te.isa/clickxchange/home" target=_blank>Affiliates</a> •&nbsp;<a href="/te.isa/clickxchange/home" target=_blank>Advertisers</a></font></td></tr><tr><td align=right style="background-image: url(http://img.worldsearch.com:8080/i/topback2.gif);" height=9><img src="http://img.worldsearch.com:8080/i/topc2.gif" width=86 height=9 border=0 alt=""></td></tr></table>
+</td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td width=27 style="background-image: url(http://img.worldsearch.com:8080/i/leftback.gif);" valign=top align=center bgcolor="#6000C4" rowspan=2><img src="http://img.worldsearch.com:8080/i/leftback1.gif" width=27 height=37 border=0 alt=""></td><td valign=top align=right width="100%"><img src="http://img.worldsearch.com:8080/i/tmllisa.gif" width=265 height=33 border=0 alt=""><br><font face=arial size=1>Princess :*****(&nbsp;</font></td><td width=53 style="background-image: url(http://img.worldsearch.com:8080/i/rightback2.gif);" rowspan=2 valign=top><map name="fmap"><area href="http://www.worldsearch.com/d.lisa/en" shape="rect" coords="9, 0, 53, 20" alt="en"><area href="http://www.worldsearch.com/d.lisa/fr" shape="rect" coords="9, 20, 53, 40" alt="fr"><area href="http://www.worldsearch.com/d.lisa/de" shape="rect" coords="9, 40, 53, 60" alt="de"><area href="http://www.worldsearch.com/d.lisa/es" shape="rect" coords="9, 60, 53, 80" alt="es"><area href="http://www.worldsearch.com/d.lisa/it" shape="rect" coords="9, 80, 53, 100" alt="it"><area href="http://www.worldsearch.com/d.lisa/pt" shape="rect" coords="9, 100, 53, 120" alt="pt"></map><img src="http://img.worldsearch.com:8080/i/flags.gif" width=53 height=120 border=0 usemap="#fmap" alt=""></td></tr><tr><td valign=middle align=center width="100%"><div align=center><table cellspacing=9 cellpadding=0 border=0><tr><td align=center valign=middle>
+<iframe width=468 height=60 scrolling="no" frameborder=0 src="http://rcm.amazon.com/e/cm?t=worldofnewave&amp;p=13&amp;o=1&amp;l=ez&amp;f=ifr">
+
+
+<MAP NAME="boxmap"><AREA SHAPE="RECT" COORDS="379, 50, 460, 57" HREF="http://rcm.amazon.com/e/cm/privacy-policy.html?o=1" alt=""><AREA COORDS="0,0,10000,10000" HREF="http://www.amazon.com/exec/obidos/redirect-home/worldofnewave" alt=""></MAP><img src="http://rcm-images.amazon.com/images/G/01/rcm/468x60.gif" width="468" height="60" border="0" usemap="#boxmap" alt="Shop at Amazon.com"></iframe>
+
+
+</td></tr></table>
+</div></td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td width=27 style="background-image: url(http://img.worldsearch.com:8080/i/leftback.gif);" valign=top align=left bgcolor="#6000C4"><img src="http://img.worldsearch.com:8080/i/leftback.gif" width=27 height=1 border=0 alt=""></td><td valign=top align=left width=120 bgcolor="#FFC480"><table border=0 cellspacing=0 width=120 cellpadding=0><tr><td colspan=2 align=center bgcolor="#FFF5DC" style="background-image: url(http://img.worldsearch.com:8080/i/ht.gif);"><font face=Verdana size=1><b>Did you know ?</b></font></td></tr><tr><td bgcolor="#FFC480" width=1><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=1 height=1 alt=""></td><td bgcolor="#FFFFFF"><table cellspacing=0 cellpadding=4 border=0><tr><td><font face=Arial size=1>You can <font face=verdana size=1 color="#FF0000"><b>earn hundreds of dollars</b></font> by simply completing surveys about movies, sports and products!</font><img src="http://www.qksrv.net/image-717787-10280990" width=1 height=1 alt=""></td></tr></table></td></tr><tr><td colspan=2 align=center bgcolor="#FFF5DC" style="background-image: url(http://img.worldsearch.com:8080/i/hb3.gif);"><font face=Arial size=1><a href="/duniok.site/lisa_en_banners/26/sites/0/search/" target=_blank onmouseover="window.status='Learn more'; return true;" onmouseout="window.status=''; return true;">Learn more &gt;</a></font></td></tr></table>
+</td><td width="100%" valign=top align=left bgcolor="#FFC480"><table cellspacing=0 cellpadding=4 border=0 width="100%"><tr><td align=right><font face=verdana size=1><font face=verdana size=1>Wednesday, June 4, 2003 • Famous Birthday: <a href="/kd.lisa/Angelina+Jolie/en">Angelina Jolie</a> (1975)</font></font></tr><tr><td align=center><script language=javascript type="text/javascript">
+<!--
+function submitSearch()
+{
+where = document.searchform.where[document.searchform.where.selectedIndex].value;
+regExp = / /gi;
+keywords = document.searchform.keywords.value;
+keywords = escape(keywords.replace(regExp,"+"));
+dbname = document.searchform.db.value;
+document.location.href="/ktd.lisa/"+keywords+"/"+where+"/"+dbname;
+}
+// -->
+</script>
+
+<form method=post action="/" name=searchform style="margin-top: 0px; margin-bottom: 0px;" onsubmit="submitSearch(); return false;"><input type=hidden name=db value=en><table border=0 cellpadding=0 cellspacing=0><tr><td width=9 bgcolor="#FF0000"><img src="http://img.worldsearch.com:8080/i/sbl.gif" width=9 height=36 alt=""></td><td bgcolor="#000000"><table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td bgcolor="#FF0000" height=12 colspan=2><font face=verdana color="#FFFFFFf" size=1><b>Search For : </b></font></td></tr><tr><td align=center valign=middle width="100%"><font color="#C0C0C0" face=verdana size=1><b>What:</b>&nbsp;<input name=keywords size=20 value="Political">&nbsp;<b>In:</b>&nbsp</font><font face=arial size=1><select size=1 name=where style="font-family: Arial; font-size: 8pt"><option value=websites >Web Sites</option><option value=shops >Shopping</option><option value=posters >Posters & Photos</option><option value=books >Books</option><option value=usedbooks >Used Books</option><option value=calendars >Calendars</option><option value=magazines >Magazines</option><option value=music >Popular Music</option><option value=classical >Classical Music</option><option value=usedmusic >Used CDs</option><option value=videos >VHS</option><option value=dvd >DVD</option><option value=usedvideos >Used DVDs/Videos</option><option value=software >Software</option><option value=videogames selected>Video Games</option><option value=usedgames >Used Video Games</option><option value=hardware >Computers</option><option value=electronics >Electronics</option><option value=photo >Camera & Photo</option><option value=toys >Toys</option><option value=baby >Baby</option><option value=tools >Tools & Hardware</option><option value=garden >Outdoor Living</option><option value=kitchen >Kitchen</option><option value=auto >Auto</option><option value=auction >Auctions</option></select></font></td><td align=right valign=middle width=69><input alt=Search name=I1 src="http://img.worldsearch.com:8080/i/search.gif" type=image></td></tr></table></td><td width=9 bgcolor="#000000"><img src="http://img.worldsearch.com:8080/i/sbr.gif" width=9 height=36 alt=""></td><td width=120>&nbsp;</td></tr></table>
+</form></td></tr><tr><td align=left><font face=verdana size=1><b>•&nbsp;SHOP:</b>&nbsp;<a href="http://www.worldsearch.com/dp.lisa/merchants-en/Books_and_Media/Calendars"  style="color:#000080"><b>2003 Calendars</b></a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Automotive"  style="color:#000080">Autos</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Sports_and_Fitness"  style="color:#000080">Sports</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Gifts"  style="color:#000080"><b>Gifts</b></a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Arts/Music"  style="color:#000080">Music</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Gifts/Flowers"  style="color:#000080">Flowers</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Clothing_and_Apparel/Jewelry"  style="color:#000080">Jewels</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Gifts/Chocolates_and_Candies"  style="color:#000080">Chocolates</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Arts/Posters,_Photos_and_Prints"  style="color:#000080"><b>Photos and Posters</b></a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games"  style="color:#000080">Games</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Computer"  style="color:#000080">Computers</a> - <a href="http://www.worldsearch.com/d.lisa/merchants-en"  style="color:#000080"><b>Shopping Guide</b></a>  <b>•&nbsp;FINANCING:</b>&nbsp;<a href="http://www.worldsearch.com/dp.lisa/merchants-en/Business/Financial_services/Credit_Cards"  style="color:#000080"><b>Credit Cards</b></a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Business/Financial_services/Real_Estate"  style="color:#000080">Real Estate</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Business/Financial_services/Loans"  style="color:#000080"><b>Loans</b></a>  <b>•&nbsp;FIND:</b>&nbsp;<a href="http://www.worldsearch.com/dp.lisa/merchants-en/Business/Employment"  style="color:#000080">Careers</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Recreation_and_Leisure/Matchmaking"  style="color:#000080"><b>Personals</b></a> - <a href="http://www.qksrv.net/click-837543-201015" target=_blank style="color:#000080">Find People</a>  <b>•&nbsp;INTERNET:</b>&nbsp;<a href="http://www.worldsearch.com/dp.lisa/merchants-en/Web_Services/Internet_Service_Providers"  style="color:#000080">Access (ISP)</a> - <a href="http://www.clickXchange.com/fr.phtml?act=391463.888" target=_blank style="color:#000080"><b>Free Email</b></a><img src="http://www.clickXchange.com/ft.phtml?act=391463.888" border=0 width=1 height=1 alt=""> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Web_Services/Web_Hosting_and_Servers"  style="color:#000080">Hosting</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Web_Services/_Web_Registrations"  style="color:#000080">Domain Registration</a> - <a href="http://www.world-of-newave.com/ringsworld/" target=_blank style="color:#000080">Rings</a>  <b>•&nbsp;COMPUTER:</b>&nbsp;<a href="http://www.worldsearch.com/dp.lisa/merchants-en/Computer/Software"  style="color:#000080">Software</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Computer/Hardware"  style="color:#000080">Hardware</a> - <a href="http://www.worldsearch.com/dp.lisa/merchants-en/Computer/Software/Antivirus"  style="color:#000080"><b>Virus Protection</b></a> <br>&nbsp;</font></td></tr></table></td><td width=62 valign=bottom align=right style="background-image: url(http://img.worldsearch.com:8080/i/rightback11.gif);"><img src="http://img.worldsearch.com:8080/i/s.gif" width=62 height=48 border=0 alt=""></td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td width=36><img src="http://img.worldsearch.com:8080/i/tabl.gif" width=36 height=18 border=0 alt=""></td><td align=right style="background-image: url(http://img.worldsearch.com:8080/i/ob.gif);" width="100%">
+
+<div align=right><table border=0 cellspacing=0 cellpadding=0><tr><td><img src="http://img.worldsearch.com:8080/i/ut0.gif" width=20 height=18 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/utb.gif);" nowrap><font face=arial size=1><a href="http://www.worldsearch.com/ktd.lisa/Political/websites/en"  >Sites</a></font></td><td><img src="http://img.worldsearch.com:8080/i/ut1.gif" width=20 height=18 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/utb.gif);" nowrap><font face=arial size=1><a href="http://www.worldsearch.com/kd.lisa/Political/merchants-en"  >Shopping</a></font></td><td><img src="http://img.worldsearch.com:8080/i/ut1.gif" width=20 height=18 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/utb.gif);" nowrap><font face=arial size=1><a href="http://www.worldsearch.com/ktd.lisa/Political/books/en"  >Books</a></font></td><td><img src="http://img.worldsearch.com:8080/i/ut1.gif" width=20 height=18 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/utb.gif);" nowrap><font face=arial size=1><a href="http://www.worldsearch.com/ktd.lisa/Political/magazines/en"  >Magazines</a></font></td><td><img src="http://img.worldsearch.com:8080/i/ut1.gif" width=20 height=18 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/utb.gif);" nowrap><font face=arial size=1><a href="http://www.worldsearch.com/ktd.lisa/Political/music/en"  >Music</a></font></td><td><img src="http://img.worldsearch.com:8080/i/ut1.gif" width=20 height=18 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/utb.gif);" nowrap><font face=arial size=1><a href="http://www.worldsearch.com/ktd.lisa/Political/videos/en"  >Video</a></font></td><td><img src="http://img.worldsearch.com:8080/i/ut1.gif" width=20 height=18 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/utb.gif);" nowrap><font face=arial size=1><a href="http://www.worldsearch.com/ktd.lisa/Political/software/en"  >Soft.</a></font></td><td bgColor="#008080"><img src="http://img.worldsearch.com:8080/i/st1.gif" width=20 height=18 alt=""></td><td bgcolor="#008080" style="background-image: url(http://img.worldsearch.com:8080/i/g.gif);" nowrap><font face=verdana size=1 color="#FFFFFF"><b>Games</b></font></td><td><img src="http://img.worldsearch.com:8080/i/st2.gif" width=20 height=18 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/utb.gif);" nowrap><font face=arial size=1><a href="http://www.worldsearch.com/ktd.lisa/Political/usedgames/en"  >Used Games</a></font></td><td><img src="http://img.worldsearch.com:8080/i/ut1.gif" width=20 height=18 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/utb.gif);" nowrap><font face=arial size=1><a href="http://www.worldsearch.com/ktd.lisa/Political/hardware/en"  >Computers</a></font></td><td><img src="http://img.worldsearch.com:8080/i/ut1.gif" width=20 height=18 alt=""></td><td style="background-image: url(http://img.worldsearch.com:8080/i/utb.gif);" nowrap><font face=arial size=1><a href="http://www.worldsearch.com/kad.lisa/Political/more/en"  >more</a></font></td><td><img src="http://img.worldsearch.com:8080/i/ut3.gif" width=20 height=18 alt=""></td></tr></table></div></td><td valign=top align=left width=48 bgcolor="#FFC480"><img src="http://img.worldsearch.com:8080/i/s1.gif" width=48 height=18 border=0 alt=""></td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td width=36><img src="http://img.worldsearch.com:8080/i/tl.gif" width=36 height=39 border=0 alt=""></td><td bgcolor="#008080" width="100%"><table border=0 cellpadding=2 cellspacing=0 width="100%"><tr><td bgcolor="#00A4A4" nowrap><p><font face=Verdana size=1 color="#FFFFFF"><b><a href="/d.lisa/en"><font color="#C4FFFF">Home</font></a> » <br><font face=arial size=3 color="#FFFFFF">Search Results For: <font size=2>Political</font></font></b></font></p></td></tr></table></td><td width=31><img src="http://img.worldsearch.com:8080/i/tr.gif" width=31 height=39 border=0 alt=""></td></table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td width=27 class=mtl><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=27 height=1 alt=""></td><td valign=top width="100%">&nbsp;</td><td width=9 valign=top align=right><img src="http://img.worldsearch.com:8080/i/orangec0.gif" width=9 height=9 alt=""></td><td width=116 valign=top bgcolor="#FFC480"><div id="contentpos" style="position: relative; top: 0px; left: 0px; width: 10px; height:10px; "></div><div id=content style="position: absolute; top: 0px; left: -1000px; width: 116px; height: 1400px"><iframe id=ia name=ia width=116 height=1400 scrolling=no frameborder=0 marginheight=0 marginwidth=0 align=middle src="/content.php?db=en&amp;t=videogames&amp;k=Political&amp;p="></iframe></div><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=116 height=1 alt=""></td><td width=18 valign=bottom class=mtr><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=18 height=1 alt=""></td></tr></table>
+
+<script language=javascript type="text/javascript">
+<!--
+window.onresize = moveContent;
+moveContentTimer();
+showObject("content");
+// -->
+</script>
+
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td width=27 class=mtl><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=27 height=1 alt=""></td><td valign=top width="100%">	
+<table border=0 cellspacing=0 width="100%" cellpadding=0 class=titlebargray><tr><td><span class=a2b>Video Games</span></td></tr></table><div align=center><center><table border=0 cellspacing=9 cellpadding=0><tr><td><table border=0 cellspacing=0 cellpadding=4><tr><td bgcolor="#D2FFDC"><p><font face=verdana size=1><b><font color="#008000">No worry purchases</font></b><br>Ordering online one or more of the following products is guaranteed 100% safe and secure by <a href="/te.isa/amazon/home" target=_blank>Amazon.com</a> the leading online shopping site.<br><font color="#FF0000"><b>Free Shipping:</b></font> FREE Super Saver Shipping on orders of $49 or more. Some restrictions apply. Click on the following products to verify if they are eligible for free shipping.</font></p></td></tr><tr><td bgcolor="#e1ffe7"><p><font face=verdana size=1><b>See Also:</b> <a href="http://www.worldsearch.com/ktd.lisa/Political/hardware/en">Computers</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/software/en">Software</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/usedgames/en">Used Video Games</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/electronics/en">Electronics</a></font></p></td></tr><tr><td bgcolor="#f0fff3"><p><font face=verdana size=1><b>This category in other languages: </b><a href="http://www.worldsearch.com/ktd.lisa/Political/videogames/fr">French</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/videogames/de">German</a></font></p></td></tr></table></td></tr></table></center></div><div align=center><center><table border=0 cellpadding=0 cellspacing=0><tr><td colspan=3><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=1 height=9 alt=""></td></tr><tr><td class=pimg><a href="http://store.worldsearch.com/products/amco-B00005JIUN.htm" target=_blank><img src="http://images.amazon.com/images/P/B00005JIUN.01.THUMBZZZ.jpg" alt="" border=0></a></td><td class=pdesc><a href="http://store.worldsearch.com/products/amco-B00005JIUN.htm" target=_blank><b>Political</b> Tycoon</a><br>Windows 95, Windows 98, Windows Me and Windows 2000<br><br><font size=1 color="#808080">EDITION:</font>&nbsp; CD-ROM<br><font size=1 color="#808080">MANUFACTURER:</font>&nbsp; Take2 Interactive Software<br><font size=1 color="#808080">RELEASE DATE:</font>&nbsp; 15 May, 2001</td><td class=pprice nowrap><b>Our Price: <font color="#C40000">$9.99</font></b><hr size=1>Used Price: <font color="#C40000">$3.00</font><p><font size=1><a href="http://store.worldsearch.com/purchase/amco-B00005JIUN.htm" target=_blank><img src="http://img.worldsearch.com:8080/stores/amcoo.gif" width=128 height=34 alt="" border=0><br>Order<br><b> <b>Political</b> Tycoon</b></a></font></p></td></tr></table></center></div></td><td width=9 valign=top align=right><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=9 height=9 alt=""></td><td width=116 valign=top><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=116 height=1 alt=""></td><td width=18 valign=bottom class=mtr><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=18 height=1 alt=""></td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td width=27 class=mtl><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=27 height=1 alt=""></td><td valign=top width="100%"><table border=0 cellspacing=0 width="100%" cellpadding=0 class=titlebargray><tr><td><span class=a2b>All Categories</span></td></tr></table><div align=center><center><table cellspacing=9 cellpadding=0 border=0><tr><td width="50%" valign=top><ul><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/Game_Boy" target=_top><b>Game Boy</b></a></font></li><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/Game_Boy_Advance" target=_top><b>Game Boy Advance</b></a></font></li><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/GameCube" target=_top><b>GameCube</b></a></font></li><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/Imported_Video_Games" target=_top><b>Imported Video Games</b></a></font></li><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/Mac_Games" target=_top><b>Mac Games</b></a></font></li><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/Nintendo_64" target=_top><b>Nintendo 64</b></a></font></li></ul></td><td width="50%" valign=top><ul><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/PC_Games" target=_top><b>PC Games</b></a></font></li><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/PlayStation" target=_top><b>PlayStation</b></a></font></li><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/PlayStation2" target=_top><b>PlayStation2</b></a></font></li><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/Sega_Dreamcast" target=_top><b>Sega Dreamcast</b></a></font></li><li><font face=verdana size=1><a href="http://www.worldsearch.com/dp.lisa/merchants-en/Games_and_Toys/Video_Games/Xbox" target=_top><b>Xbox</b></a></font></li></ul></td></tr></table></center></div></td><td width=9 valign=top align=right><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=9 height=9 alt=""></td><td width=116 valign=top><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=116 height=1 alt=""></td><td width=18 valign=bottom class=mtr><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=18 height=1 alt=""></td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td width=27 class=mtl><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=27 height=1 alt=""></td><td valign=top width="100%"><table border=0 width="100%" cellspacing=1 cellpadding=0 bgcolor="#C0C0C0"><tr><td bgcolor="#F7F7F7"><font face=arial size=2><b>Extend Your Search</b></font></td></tr></table><table cellspacing=9 cellpadding=0 border=0 width="100%"><tr><td><p><font face=arial size=2>Search <b>Political</b> in: <a href="http://www.worldsearch.com/kd.lisa/Political/merchants-en">Shopping</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/posters/en">Posters & Photos</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/books/en">Books</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/usedbooks/en">Used Books</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/calendars/en">Calendars</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/magazines/en">Magazines</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/music/en">Popular Music</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/classical/en">Classical Music</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/usedmusic/en">Used CDs</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/videos/en">VHS</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/dvd/en">DVD</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/usedvideos/en">Used DVDs/Videos</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/software/en">Software</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/usedgames/en">Used Video Games</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/hardware/en">Computers</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/electronics/en">Electronics</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/photo/en">Camera & Photo</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/toys/en">Toys</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/baby/en">Baby</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/tools/en">Tools & Hardware</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/garden/en">Outdoor Living</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/kitchen/en">Kitchen</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/auto/en">Auto</a> - <a href="http://www.worldsearch.com/ktd.lisa/Political/auction/en">Auctions</a><br></font></p></td></tr></table><p align=center><font face=arial size=2><a href="http://download.alexa.com/?amzn_id=worldofnewave" target=_blank>Take the Alexa Toolbar with you for 1-Click access to search, site reviews & more!<br><img src="http://img.worldsearch.com:8080/ic/alexa.gif" border=0 alt=""></a></font></p></td><td width=9 valign=top align=right><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=9 height=9 alt=""></td><td width=116 valign=top><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=116 height=1 alt=""></td><td width=18 valign=bottom class=mtr><a id=endcontent name=endcontent></a><img src="http://img.worldsearch.com:8080/ic/trans.gif" width=18 height=1 alt=""></td></tr></table>
+
+<script language=javascript type="text/javascript">
+<!--
+start = getAnchorPosition("contentpos");
+end   = getAnchorPosition("endcontent");
+
+if(start.y + 1400 > end.y)
+{
+	height = (start.y + 1400) - end.y;
+
+	document.write('<table border=0 cellpadding=0 cellspacing=0 width=100% height='+height+'>');
+	document.write('<tr>');
+		
+	document.write('<td width=27 bgcolor=#6000C4 background=/i/leftback.gif>');
+	document.write('<img src=/i/leftback.gif width=27 height=1>');
+	document.write('<\/td>');
+	
+	document.write('<td width=100% valign=top>&nbsp;<\/td>');
+		
+	document.write('<td width=9 valign=top align=right>');
+	document.write('<img src=/i/white.gif width=9 height=9>');
+	document.write('<\/td>');
+
+	document.write('<td width=116 valign=top>&nbsp;<\/td>');
+
+	document.write('<td width=18 background=http://img.worldsearch.com:8080/i/rightback10.gif bgcolor=#6000C4>');
+	document.write('<img src=http://img.worldsearch.com:8080/i/rightback10.gif width=18 height=1>');
+	document.write('<\/td>');
+	
+	document.write('<\/tr>');
+	document.write('<\/table>');
+}
+
+// -->
+</script>
+
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td width=36><img src="http://img.worldsearch.com:8080/i/tl1.gif" width=36 height=20 border=0 alt=""></td><td bgcolor="#008080" width="100%"><table border=0 cellpadding=2 width="100%"><tr><td bgcolor="#00A4A4" nowrap><font face=verdana size=1 color="#FFFFFF"><b>SPONSORS LINKS</b></font></td></tr></table></td><td width=27><img src="http://img.worldsearch.com:8080/i/tr1.gif" width=27 height=20 border=0 alt=""></td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td width=27 bgcolor="#6000C4" style="background-image: url(http://img.worldsearch.com:8080/i/leftback.gif);"><img src="http://img.worldsearch.com:8080/i/leftback.gif" width=27 height=1 border=0 alt=""></td><td width="100%"><table cellspacing=9 cellpadding=0 border=0 width="100%"><tr><td><table border=0 cellspacing=0 align=right><tr><td><div id="thumb_0_text" class=thumbtxtgray></div><a href="/te.isa/art/home" target="_blank"><img id="thumb_0_image" src="http://img.worldsearch.com:8080/ic/empty.gif" alt="" onmouseover="thumb_show(0);" onmouseout="thumb_hide();" border=0 ></a><div id="thumb_0_date" class=thumbtxtgray></div></td></tr></table><p><font face=arial size=2><a href="/te.isa/art/home" target=_blank>Art.com - Your Home For Prints, Posters and Custom Framing</a><br>Offers the best selection of prints, posters, photographs and fine-art limited edition prints for all tastes and for all environments</font></p><div align=center><a href="/te.isa/art/home" target=_blank><img src="http://img.worldsearch.com:8080/stores/art.gif" alt="" border=0></a></div></td></tr><tr><td><table border=0 cellspacing=0 align=right><tr><td><div id="thumb_1_text" class=thumbtxtgray></div><a href="/te.isa/calendars/home" target="_blank"><img id="thumb_1_image" src="http://img.worldsearch.com:8080/ic/empty.gif" alt="" onmouseover="thumb_show(1);" onmouseout="thumb_hide();" border=0 ></a><div id="thumb_1_date" class=thumbtxtgray></div></td></tr></table><p><font face=arial size=2><a href="/te.isa/calendars/home" target=_blank>Calendars.com - 2003 Calendars</a><br>The world's biggest and best calendar store with Wall Calendars, Desk Calendars and Engagement Calendars for every interest and occasion.</font></p><div align=center><a href="/te.isa/calendars/home" target=_blank><img src="http://img.worldsearch.com:8080/stores/calendars.gif" alt="" border=0></a></div></td></tr><tr><td><table border=0 cellspacing=0 align=right><tr><td><div id="thumb_2_text" class=thumbtxtgray></div><a href="/te.isa/amazon/home" target="_blank"><img id="thumb_2_image" src="http://img.worldsearch.com:8080/ic/empty.gif" alt="" onmouseover="thumb_show(2);" onmouseout="thumb_hide();" border=0 ></a><div id="thumb_2_date" class=thumbtxtgray></div></td></tr></table><p><font face=arial size=2><a href="/te.isa/amazon/home" target=_blank>Amazon.com--Earth's Biggest Selection</a><br>The leading online shopping site. Amazon.com is the place to find and discover anything you want to buy online. We have Earth's Biggest Selection of products, including free electronic greeting cards, online auctions, and millions of books, CDs, videos, DVDs, toys and games, electronics, kitchenware, computers and more.</font></p><div align=center><a href="/te.isa/amazon/home" target=_blank><img src="http://img.worldsearch.com:8080/stores/amazon.gif" alt="" border=0></a></div></td></tr><tr><td><table border=0 cellspacing=0 align=right><tr><td><div id="thumb_3_text" class=thumbtxtgray></div><a href="/te.isa/catalogcity/home" target="_blank"><img id="thumb_3_image" src="http://img.worldsearch.com:8080/ic/empty.gif" alt="" onmouseover="thumb_show(3);" onmouseout="thumb_hide();" border=0 ></a><div id="thumb_3_date" class=thumbtxtgray></div></td></tr></table><p><font face=arial size=2><a href="/te.isa/catalogcity/home" target=_blank>CatalogCity.com</a><br>The world's first and largest online mall for catalog shoppers. The CatalogCity.com web site includes thousands of catalogs such as Ross-Simons, Lerner, Office Max, The Sharper Image, Coldwater Creek, Lane Bryant, Hammacher Schlemmer and many more, over 7,000,000 products from more than 500 catalogs.</font></p><div align=center><a href="/te.isa/catalogcity/home" target=_blank><img src="http://www.qksrv.net/image-837543-1101512" alt="" border=0></a></div></td></tr></table></td><td width=18 bgcolor="#6000C4" style="background-image: url(http://img.worldsearch.com:8080/i/rightback10.gif);"><img src="http://img.worldsearch.com:8080/i/rightback10.gif" width=18 height=1 border=0 alt=""></td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td align=left style="background-image: url(http://img.worldsearch.com:8080/i/leftback12.gif);" bgcolor="#00C4C4" valign=bottom width=27><img src="http://img.worldsearch.com:8080/i/ul.gif" width=27 height=63 border=0 alt=""></td><td align=center valign=bottom width="100%"><table cellspacing=0 cellpadding=0 border=0 width="100%"><tr><td align=center><script language=javascript type="text/javascript">
+<!--
+var thumb_string = new Array();
+thumb_string["preview"]="Preview";
+thumb_string["month_0"]="Jan";
+thumb_string["month_1"]="Feb";
+thumb_string["month_2"]="Mar";
+thumb_string["month_3"]="Apr";
+thumb_string["month_4"]="May";
+thumb_string["month_5"]="Jun";
+thumb_string["month_6"]="Jul";
+thumb_string["month_7"]="Aug";
+thumb_string["month_8"]="Sep";
+thumb_string["month_9"]="Oct";
+thumb_string["month_10"]="Nov";
+thumb_string["month_11"]="Dec";
+thumb_string["madeon"]="Snapshot";
+// -->
+</script>
+<script language=javascript type="text/javascript" src="/scripts/thumbnails.js"></script>
+<div id="div_thumb_shadow" style="background-color: #000000; position: absolute; left: -1000px; filter: alpha(opacity=33); visibility: hidden" onmouseover="thumb_killtimer_hide();" onmouseout="thumb_hide();"></div><div id="div_thumb" style="position: absolute; left: -1000px; visibility: hidden; background-color: #FFFFFF; border-style: solid; border-color: #000000; border-width: 2px" onmouseover="thumb_killtimer_hide();" onmouseout="thumb_hide();" ></div><div id="div_thumb_title" style="font-family: Verdana; font-size: 7pt; background-color: #FFFFFF; position: absolute; left: -1000px; visibility: hidden" onmouseover="thumb_killtimer_hide();" onmouseout="thumb_hide();"></div><div id="div_thumb_loading" align=center style="position: absolute; left: -1000px; visibility: hidden; border-style: dotted; border-color: #000000; border-width: 1px" onmouseover="thumb_killtimer_hide();" onmouseout="thumb_hide();"><font face=arial size=2>Please wait loading...</font></div><div id="div_thumb_image" style="border-style: solid; border-color: #000000; border-width: 1px; position: absolute; left: -1000px; visibility: hidden" onmouseover="thumb_killtimer_hide();" onmouseout="thumb_hide();"></div><script language=javascript type="text/javascript">
+<!--
+thumb_data[0] = new Array();
+thumb_data[0]["href"  ]="/te.isa/art/home";
+thumb_data[0]["target"]="_blank";
+thumb_data[0]["small" ]="";
+thumb_data[0]["big"   ]="";
+thumb_data[0]["alt"   ]="Art.com - Your Home For Prints, Posters and Custom Framing";
+thumb_data[0]["url"   ]="http://www.art.com";
+thumb_data[0]["date"  ]="";
+thumb_data[1] = new Array();
+thumb_data[1]["href"  ]="/te.isa/calendars/home";
+thumb_data[1]["target"]="_blank";
+thumb_data[1]["small" ]="";
+thumb_data[1]["big"   ]="";
+thumb_data[1]["alt"   ]="Calendars.com - 2003 Calendars";
+thumb_data[1]["url"   ]="http://www.calendars.com";
+thumb_data[1]["date"  ]="";
+thumb_data[2] = new Array();
+thumb_data[2]["href"  ]="/te.isa/amazon/home";
+thumb_data[2]["target"]="_blank";
+thumb_data[2]["small" ]="";
+thumb_data[2]["big"   ]="";
+thumb_data[2]["alt"   ]="Amazon.com--Earth's Biggest Selection";
+thumb_data[2]["url"   ]="http://www.amazon.com";
+thumb_data[2]["date"  ]="";
+thumb_data[3] = new Array();
+thumb_data[3]["href"  ]="/te.isa/catalogcity/home";
+thumb_data[3]["target"]="_blank";
+thumb_data[3]["small" ]="";
+thumb_data[3]["big"   ]="";
+thumb_data[3]["alt"   ]="CatalogCity.com";
+thumb_data[3]["url"   ]="http://www.catalogcity.com";
+thumb_data[3]["date"  ]="";
+thumb_index = 0;
+// -->
+</script>
+<script language=javascript type="text/javascript" src="http://thumbnails.worldsearch.com/www.art.com"></script>
+<script language=javascript type="text/javascript" src="http://thumbnails.worldsearch.com/www.calendars.com"></script>
+<script language=javascript type="text/javascript" src="http://thumbnails.worldsearch.com/www.amazon.com"></script>
+<script language=javascript type="text/javascript" src="http://thumbnails.worldsearch.com/www.catalogcity.com"></script>
+<script language=javascript type="text/javascript">
+<!--
+thumb_display();
+// -->
+</script>
+<hr noshade size=1 width="100%"><p><font face=verdana size=1><b>English</b> | <a href="http://www.worldsearch.com/d.lisa/fr">French</a> | <a href="http://www.worldsearch.com/d.lisa/de">German</a> | <a href="http://www.worldsearch.com/d.lisa/es">Spanish</a> | <a href="http://www.worldsearch.com/d.lisa/it">Italian</a> | <a href="http://www.worldsearch.com/d.lisa/pt">Portuguese</a></font></p><p><font face=verdana size=1><a href="/webmaster/?action=linkus&amp;target=http%3A%2F%2Fwww.worldsearch.com">Link to us</a> | <a href="/te.isa/clickxchange/home" target=_blank>Earn $$$ become Affiliate</a> | <a href="/te.isa/clickxchange/home" target=_blank>Advertisers</a><br><a href="javascript://" onclick="openFeedback('dbname=lisa_en&amp;subject=WorldSearch.com');">Contact Us</a> | <a href="/ad.lisa/about/en">About</a> | <a href="/ad.lisa/terms/en">Terms of Use</a> | <a href="/ad.lisa/privacy/en">Privacy Policy</a></font></p><p></p></td></tr><tr><td align=left style="background-image: url(http://img.worldsearch.com:8080/i/botback.gif);" bgcolor="#00C4C4" height=9 valign=top width="100%"><img src="http://img.worldsearch.com:8080/i/leftback8.gif" width=9 height=9 border=0 alt=""></td></tr></table></td><td style="background-image: url(http://img.worldsearch.com:8080/i/rightback4.gif);" bgcolor="#6000C4" valign=bottom width=68><a href="http://www.world-of-newave.com/" target=_blank><img src="http://img.worldsearch.com:8080/i/newave2.gif" width=68 height=68 border=0 alt=""></a></td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td align=left valign=top width=36><img src="http://img.worldsearch.com:8080/i/ul2.gif" width=36 height=9 border=0 alt=""></td><td align=right valign=top width="100%"><font face=arial size=1>Some portions of WorldSearch are based on a modified version of the Open Directory.<br></font><font face=Verdana size=1>WorldSearch: The Missing Link [By Lisa] ©2001-2003.§/Newave. All rights reserved. - powered by Newave-Lisa-Engine/1.0.110</font></td></tr></table>
+</body>
+</html><!-- compressed 4096 -->

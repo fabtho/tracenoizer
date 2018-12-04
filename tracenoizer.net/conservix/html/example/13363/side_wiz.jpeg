@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>.: Drivers Headquarters ::</title>
+<script language="JavaScript1.1" >
+function xyz()
+{setTimeout("document.location.href='http://www.drivershq.com/'",3000);}
+</script>
+<style>
+.ccfrmtxt,.txt1{font-family:Arial,Helvetica,Verdana;}
+body {scrollbar-face-color : #D8DBDF;scrollbar-highlight-color : #FFFFFF;scrollbar-shadow-color : #C1C6CC;scrollbar-3dlight-color : #ABB1B3;scrollbar-arrow-color : #004070;scrollbar-track-color : #F8FAF9;scrollbar-darkshadow-color : #ABB1B3;}
+.ccfrmtxt{font-weight: normal; font-size: 11px; color: #000000;}
+a:link.ccfrmtxt,a:visited.ccfrmtxt,a:active.ccfrmtxt,a:hover.ccfrmtxt{font-weight:bold;font-size: 10px;text-decoration:underline;}
+.txt1 {font-weight: normal; font-size: 11px; color: #444444; font-family: Arial, Helvetica,Verdana ;text-decoration: none;}
+a:link.txt1,a:visited.txt1,a:active.txt1,a:hover.txt1{font-weight: bold; font-size: 10px; color: #000000;text-decoration:underline;}
+</style>
+</head>
+<body leftMargin="0" topMargin="0" onload="xyz();">
+<table cellpadding="10" cellspacing="0" border="0"><tr><td class="txt1"><strong>PC Drivers Headquarters:</strong>&nbsp;&nbsp;This Page will redirect you to in 3 Seconds. If it does not please <a href="http://www.drivershq.com/" class="ccfrmtxt">click this link</a>.</td></tr></table>
+</body>
+</html>
+

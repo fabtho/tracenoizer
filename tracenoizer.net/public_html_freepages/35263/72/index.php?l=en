@@ -1,0 +1,297 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Exindex -  </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta http-equiv="MSThemeCompatible" content="no">
+	<meta name="MSSmartTagsPreventParsing" content="true">
+	<meta name="description" lang="hu" content="">
+	<meta name="keywords" lang="en" content="">
+	<meta name="language" content="en">
+	<meta name="ROBOTS" content="ALL">
+	<meta name="robots" content="index,follow">
+	<meta name="revisit-after" content="7 days">
+	<meta name="distribution" content="Global">
+	<meta name="rating" content="Safe For Kids">
+	<meta name="copyright" content="C3 - exindex">
+	<meta name="author" content="C3 - exindex">
+	<script language="JavaScript" src="script/banner.js"></script>
+	<script language="JavaScript" src="script/windowopen.js"></script>
+	<link rel="stylesheet" href="./css/jerk.css" type="text/css">
+	<style type="text/css">
+		@import "./css/base.css";
+		@import "./css/deco.css";
+	</style>
+	<!-- <link rel="stylesheet" href="./css/base.css" type="text/css"> -->
+	<!-- <link rel="stylesheet" href="./css/deco.css" type="text/css"> -->
+
+<script language="JavaScript">
+<!--
+	function menu_on() {
+		this.style.backgroundColor='#ff0000';
+	}
+	function menu_out() {
+		this.style.backgroundColor='none';
+	}
+//-->
+</script>
+</head>
+<body>
+<a name="top"></a><table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="80" background="./gfx/top_background.png" valign="middle">
+			<table width="780" border="0" cellpadding="0" cellspacing="0" align="left">
+				<tr>
+					<td width="150" align="left"><div class="frissitve">updated:  03. 08. 2004.</div><a href="./index.php?l=en"><img src="./gfx/exindex.png"  width="163" height="80" alt="exindex" title="exindex" border="0"></a></td>
+					<td align="right">
+						<script language="JavaScript">
+						<!--
+						document.write('<a href="' + link + '" target="blank"><img src="' + banner + '" class="banner" border="0" alt="'+alt+'" width="468" height="60" align="right"></a>');
+						//-->
+						</script>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="780" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td class="mainmenu_head" width="135" valign="middle">	
+			<ol>
+			<!--<li class="lang_out" onMouseOver="this.className='lang_over';" onMouseOut="this.className='lang_out';"><a  class="menu" href="./index.php?l=hu">magyarul</a></li>-->
+			<li class="main_out" onMouseOver="this.className='main_over';" onMouseOut="this.className='main_out';"><a  class="menu" href="./index.php?l=en">main</a></li>
+			</ol>
+		</td><td width="645" xclass="content_container_head" align="center" valign="middle"><!--<a href="http://www.c3.hu/" target="_blank">A C3</a> kulturális <a href="javascript:void(0);" onClick="window.open('0.html', 'vertical', 'top=150,left=150,width=400,height=125');">„vertikális portálja”</a>-->The Arts Magazine of <a href="http://www.c3.hu/index.html" target="_blank">C3</a></td><td width="135" class="rightmenu_head" style="text-align:center;">
+			<ol>
+					<!--<li class="lang_out" onMouseOver="this.className='lang_over';" onMouseOut="this.className='lang_out';"><a  class="menu" href="./index.php?l=hu">magyarul</a></li>-->
+					<li class="lang_out" onMouseOver="this.className='lang_over';" onMouseOut="this.className='lang_out';"><a  class="menu" href="./index.php?l=hu">magyarul</a></li>
+			</ol>
+		</td></tr>
+	<tr>
+		<td class="mainmenu" valign="top"><!--IV.-->
+			<div class="container_I">
+			<ol><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&k=1" title="art venues">art venues</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&t=kritika" title="critique">critique</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&t=media" title="media art">media art</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&t=tema" title="focus">focus</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&t=nemtema" title="out of focus">out of focus</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&t=interju" title="interview">interview</a></li><li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&t=szabadkez" title="freehand">freehand</a></li></ol>
+			</div>
+			<div class="container_II">
+			<ol>
+			<li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&inc=kapcsolat" title="links">links</a></li>
+			<li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&p=1" title="grants">grants</a></li>
+			<!--<li class="mainmenu_out" xonMouseOver="this.className='mainmenu_over';" xonMouseOut="this.className='mainmenu_out';"><xa class="menu" href="./index.php?l=en&inc=adattar" title="artists files">artists files</xa></li>-->
+			</ol>
+			</div>
+			<div class="container_search">
+			<ol>
+			<li class="mainmenu_out" onmouseover="this.className='mainmenu_over';" onmouseout="this.className='mainmenu_out';"><a class="menu" href="./search.php?l=en" title="">search</a></li>
+			</ol>
+				<div align="right">				
+					<form method="post" action="http://search.c3.hu/cgi-bin/htsearch">
+						<input type="hidden" name="config" value="htdig_ex_en">
+						<input type="hidden" name="restrict" value="www.exindex.hu">
+						<input type="hidden" name="exclude" value="">
+						<input type="text" name="words" class="menusearchinput" value=""><br>
+						<input type="submit" class="menubutton" value="start">
+					</form>
+				</div>
+			</div>
+			<div class="container_III">
+			<ol>
+			<li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&inc=impresszum" title="imprint">imprint</a></li>
+			<li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="mailto:exindex@c3.hu" title="mailto mailto mailto">contact</a></li>
+			<li class="mainmenu_out" onMouseOver="this.className='mainmenu_over';" onMouseOut="this.className='mainmenu_out';"><a class="menu" href="./index.php?l=en&inc=tamogatok" title="sponsors">sponsors</a></li>
+			</ol>
+			</div>
+		<div align="center">
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<div align="center">sponsors</div><br>
+		<a href="http://www.nka.hu/" target="_blank"><img src="./gfx/nka_2004.png" width="74" height="50" alt="nka logo" title="NKA" border="0"></a><br><br>
+		<a href="http://www.ihm.hu/" target="_blank"><img src="./gfx/ihm_2004.png" width="74" height="50" alt="ihm logo" title="IHM" border="0"></a>
+		</div>
+		</td><td width="510" class="content_container" valign="top""><!--V.-->
+			<br><div class="topic_container_head"><a href="./index.php?l=en&k=1">art venues</a></div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td width="74" align="left" valign="top">
+						<a href=./index.php?l=en&k=2><image class="imgborder" src="./gfx/0.gif" width="74" height="50" border="0"></a>
+					</td>
+					<td align="left" xwidth="90%">
+						<div class="cikk_cimsor_a">
+						<a class="cikk_cimsor_a" onMouseOver="this.className='cikk_cimsor_over_a';" onMouseOut="this.className='cikk_cimsor_a';" href="./index.php?l=en&k=1">recommended</a> | 
+						<a class="cikk_cimsor_a" onMouseOver="this.className='cikk_cimsor_over_a';" onMouseOut="this.className='cikk_cimsor_a';" href="./index.php?l=en&k=2">vernissages</a>
+						</div><br>
+						<div class="cikk_cimsor_a">
+						<a class="cikk_cimsor_a" onMouseOver="this.className='cikk_cimsor_over_a';" onMouseOut="this.className='cikk_cimsor_a';" href="./index.php?l=en&k=3">current exhibitions</a> | 
+						<a class="cikk_cimsor_a" onMouseOver="this.className='cikk_cimsor_over_a';" onMouseOut="this.className='cikk_cimsor_a';" href="./index.php?l=en&k=4">elsewhere</a></b>
+						</div><br>
+						<div class="cikk_cimsor_a">
+						<a class="cikk_cimsor_a" onMouseOver="this.className='cikk_cimsor_over_a';" onMouseOut="this.className='cikk_cimsor_a';" href="./index.php?l=en&k=7">galleries</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=en&t=tema">focus</a></div><div class="cikk_datumsor">10. March 2004.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=en&t=tema&tf=11_en.php"><image class="imgborder" src="./images/tema/copyleft.gif" width="74" height="50" border="0" alt="img" title="left  ·  COPY  ·  right"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor"></div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=en&t=tema&tf=11_en.php">left  ·  COPY  ·  right</a></div>
+					<div class="cikk_alcimsor">The Oxymoron of Intellectual Property</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=en&t=nemtema">out of focus</a></div><div class="cikk_datumsor">12. May 2004.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=en&t=nemtema&tf=johetne_mar_a_valosag_en.html"><image class="imgborder" src="./images/nemtema/default.png" width="74" height="50" border="0" alt="img" title="Reality Would Have to Begin"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Harun Farocki </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=en&t=nemtema&tf=johetne_mar_a_valosag_en.html">Reality Would Have to Begin</a></div>
+					
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=en&t=szabadkez">freehand</a></div><div class="cikk_datumsor">18. May 2004.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=en&t=szabadkez&tf=selfcolonization_en.html"><image class="imgborder" src="./images/szabadkez/blind_spot.gif" width="74" height="50" border="0" alt="img" title="Blind spot of the new critical theory"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">András Edit </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=en&t=szabadkez&tf=selfcolonization_en.html">Blind spot of the new critical theory</a></div>
+					<div class="cikk_alcimsor">Notes on the theory of self colonization</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=en&t=media">media art</a></div><div class="cikk_datumsor">27. April 2004.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=en&t=media&tf=bb_shiva_en.html"><image class="imgborder" src="./images/media/shiva.gif" width="74" height="50" border="0" alt="img" title="B.B. AND SHIVA"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Erhardt Miklós </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=en&t=media&tf=bb_shiva_en.html">B.B. AND SHIVA</a></div>
+					<div class="cikk_alcimsor">Notes on the S.I. and Attila Kotányi</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">31. December 2003.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=en&t=media&tf=visszacsatolas_en.html"><image class="imgborder" src="./images/media/ka.gif" width="74" height="50" border="0" alt="img" title="Feedback"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Kotányi Attila </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=en&t=media&tf=visszacsatolas_en.html">Feedback</a></div>
+					
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">16. December 2002.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=en&t=media&tf=salrandolph.html"><image class="imgborder" src="./images/media/salrandolph.gif" width="74" height="50" border="0" alt="img" title="Everyone is Invited"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Zólyom Franciska </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=en&t=media&tf=salrandolph.html">Everyone is Invited</a></div>
+					<div class="cikk_alcimsor">Interview with Sal Randolph - Berlin, 5 November 2002</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=en&t=interju">interview</a></div><div class="cikk_datumsor">17. March 2004.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=en&t=interju&tf=sarosi_anita_en.html"><image class="imgborder" src="./images/interju/sarosi_anita.png" width="74" height="50" border="0" alt="img" title="„...but rather something different”"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Erõss Nikolett </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=en&t=interju&tf=sarosi_anita_en.html">„...but rather something different”</a></div>
+					<div class="cikk_alcimsor">Chat with Anita Sárosi</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="spacer">&nbsp;</div><div class="topic_container_head"><a href="./index.php?l=en&t=kritika">critique</a></div><div class="cikk_datumsor">6. June 2003.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=en&t=kritika&tf=lees.html"><image class="imgborder" src="./images/kritika/109.gif" width="74" height="50" border="0" alt="img" title="Last East European Show"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Katarina Sevic </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=en&t=kritika&tf=lees.html">Last East European Show</a></div>
+					<div class="cikk_alcimsor">17.05.-18.06.2003. Museum of Contemporary Art Belgrade</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">1. October 2002.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=en&t=kritika&tf=aec2002_networked.html"><image class="imgborder" src="./images/kritika/87.gif" width="74" height="50" border="0" alt="img" title="On networked collaborations at Ars Electronica 2002"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Nina Czegledy </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=en&t=kritika&tf=aec2002_networked.html">On networked collaborations at Ars Electronica 2002</a></div>
+					<div class="cikk_alcimsor">Unplugged: Art as the Scene of Global conflicts.</div>
+					</td>
+				</tr>
+			</table>
+			</div><div class="cikk_datumsor">4. July 2002.</div>
+			<div class="topic_container">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" valign="top">
+						<a class="cikkcim" href="./index.php?l=en&t=kritika&tf=vaknaplo_en.html"><image class="imgborder" src="./images/kritika/78.gif" width="74" height="50" border="0" alt="img" title="A Blind Person"></a>
+					</td>
+					<td align="left" width="90%"><div class="cikk_szerzosor">Szombathy Bálint </div>
+					<div class="cikk_cimsor" onMouseOver="this.className='cikk_cimsor_over';" onMouseOut="this.className='cikk_cimsor';"><a class="cikkcim" href="./index.php?l=en&t=kritika&tf=vaknaplo_en.html">A Blind Person</a></div>
+					<div class="cikk_alcimsor">exhibition from the works of Béla drMáriás</div>
+					</td>
+				</tr>
+			</table>
+			</div>
+		<!--<h3>Lorem ipsum dolor sit amet</h3>
+		Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct. Nam liber te conscient to factor tum poen legum odioque civiuda. Et tam neque pecun modut est neque nonor et imper ned libidig met, consectetur adipiscing elit, sed ut labore et dolore magna aliquam makes one wonder who would ever read this stuff? Bis nostrud exercitation ullam mmodo consequet. Duis aute in voluptate velit esse cillum dolore eu fugiat nulla pariatur. At vver eos et accusam dignissum qui blandit est praesent luptatum delenit aigue excepteur sint occae. Et harumd dereud facilis est er expedit distinct. Nam libe soluta nobis eligent optio est congue nihil impedit doming id Lorem ipsum dolor sit amet, consectetur adipiscing elit, set eiusmod tempor incidunt et labore et dolore magna aliquam. Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse molestaie cillum. Tia non ob ea soluad incommod quae egen ium improb fugiend. Officia deserunt mollit anim id est laborum Et harumd dereud facilis est er expedit distinct. Nam liber te conscient to factor tum poen legum odioque civiuda et tam. Neque pecun modut est neque nonor et imper ned libidig met, consectetur adipiscing elit, sed ut labore et dolore magna aliquam is nostrud exercitation ullam mmodo consequet. Duis aute in voluptate velit esse cillum dolore eu fugiat nulla pariatur. At vver eos et accusam dignissum qui blandit est praesent. Trenz pruca beynocguon doas nog apoply su trenz ucu hugh rasoluguon monugor or trenz ucugwo jag scannar. Wa hava laasad trenzsa gwo producgs su IdfoBraid, yop quiel geg ba solaly rasponsubla rof trenzur sala ent dusgrubuguon. Offoctivo immoriatoly, hawrgasi pwicos asi sirucor.Thas sirutciun applios tyu thuso itoms ghuso pwicos gosi sirucor in mixent gosi sirucor ic mixent ples cak ontisi sowios uf Zerm hawr rwivos. Unte af phen neige pheings atoot Prexs eis phat eit sakem eit vory gast te Plok peish ba useing phen roxas. Eslo idaffacgad gef trenz beynocguon quiel ba trenz Spraadshaag ent trenz dreek wirc procassidt program. Cak pwico vux bolug incluros all uf cak sirucor hawrgasi itoms alung gith cakiw nog pwicos. Plloaso mako nuto uf cakso dodtos anr koop a cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel ba mada su otrenzr swipontgwook proudgs hus yag su ba dagarmidad. Plasa maku noga wipont trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona. Cak pwico siructiun ruos nust apoply tyu cak UCU sisulutiun munityuw uw cak UCU-TGU jot scannow. Trens roxas eis ti Plokeing quert loppe eis yop prexs. Piy opher hawers, eit yaggles orn ti sumbloat alohe plok. Su havo loasor cakso tgu pwuructs tyu InfuBwain, ghu gill nug bo suloly sispunsiblo fuw cakiw salo anr ristwibutiun. Hei muk neme eis loppe. Treas em wankeing ont sime ploked peish rof phen sumbloat syug si phat phey gavet peish ta paat ein pheeir sumbloats. Aslu unaffoctor gef cak siructiun gill bo cak spiarshoot anet cak GurGanglo gur pwucossing pwutwam. Ghat dodtos, ig pany, gill bo maro tyu ucakw suftgasi pwuructs hod yot tyubo rotowminor. Plloaso mako nuto uf cakso dodtos anr koop a cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel ba mada su otrenzr swipontgwook proudgs hus yag su ba dagarmidad. Plasa maku noga wipont trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona. Cak pwico siructiun ruos nust apoply tyu cak UCU sisulutiun munityuw uw cak UCU- TGU jot scannow. Trens roxas eis ti Plokeing quert loppe eis yop prexs. Piy opher hawers, eit yaggles orn ti sumbloat alohe plok. Su havo loasor cakso tgu pwuructs tyu.
+		-->
+		<p>&nbsp;</p>
+		</td><td class="rightmenu" valign="top"><!--VI.--><table cellpadding="0" sellcpacing="0" class="rightside_szerzolista" border="0">
+	<tr><td><h5>recommended</h5></td></tr>
+	<tr><td>
+	<div class="rightmenu_out" onMouseOver="this.className='rightmenu_over';" onMouseOut="this.className='rightmenu_out';">		
+			<a class="exb" href="./index.php?l=en&k=5&g=18" title="Ernst Museum"><u>Ernst Museum</u></a><br>Expansion<br><a class="ex" href="./index.php?l=en&k=6&g=18&x=50213" title="a kiállítás részletei">details &raquo;&raquo; &raquo;&raquo;&raquo; <br></a>
+</div><div class="rightmenu_out" onMouseOver="this.className='rightmenu_over';" onMouseOut="this.className='rightmenu_out';">		
+			<a class="exb" href="./index.php?l=en&k=5&g=1" title="1x1 Board"><u>1x1 Board</u></a><br>Fake up<br><a class="ex" href="./index.php?l=en&k=6&g=1&x=41884" title="a kiállítás részletei">details &raquo;&raquo; &raquo;&raquo;&raquo; <br></a>
+</div><div class="rightmenu_out" onMouseOver="this.className='rightmenu_over';" onMouseOut="this.className='rightmenu_out';">		
+			<a class="exb" href="./index.php?l=en&k=5&g=1" title="1x1 Board"><u>1x1 Board</u></a><br>exhibition<br><a class="ex" href="./index.php?l=en&k=6&g=1&x=1608" title="a kiállítás részletei">details &raquo;&raquo; &raquo;&raquo;&raquo; <br></a>
+</div><div class="rightmenu_out" onMouseOver="this.className='rightmenu_over';" onMouseOut="this.className='rightmenu_out';">		
+			<a class="exb" href="./index.php?l=en&k=5&g=80" title="Hungarian Mus. of Photography"><u>Hungarian Mus. of Photography</u></a><br>Treasures of the Hungarian Museum of Photography<br><a class="ex" href="./index.php?l=en&k=6&g=80&x=50224" title="a kiállítás részletei">details &raquo;&raquo; &raquo;&raquo;&raquo; <br></a>
+</div></td></tr></table>
+				</td></tr>
+	<tr>
+		<td class="mainmenu_foot" valign="middle">&nbsp;</td>
+		<td class="content_container_foot" align="center">
+		exindex © 2000-2004<br><a href="http://www.c3.hu/index_en.html" target="_blank">C3 Center for Culture and Communication</a>
+		<!--VIII.--></td><td class="rightmenu_foot"><!--IX.-->&nbsp;</td></tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+	</body>
+</html>

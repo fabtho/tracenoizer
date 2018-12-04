@@ -1,0 +1,10 @@
+;; Emacs Lisp Archive Entry
+;; Package: EMacro
+;; Version: See emacro-version variable in ~/emacs/emacro/e-macro.el
+;; Keywords: configure, configuration, setup, install
+;; Author: Bruce Ingalls <bingalls@users.sourceforge.net>
+;; Maintainer:	Bruce Ingalls <bingalls@users.sourceforge.net>
+;; Created: Oct 1999
+;; Description: Portable .emacs. Easy, no programming required
+;; <URL: http://emacro.sourceforge.net/ >
+;; Compatibility: Emacs v21, XEmacs v21

@@ -1,0 +1,21 @@
+
+HTTP::WebTest only works on Unix (e.g., Solaris, Linux, AIX, etc.).
+
+To install HTTP::WebTest, do this:
+
+perl Makefile.PL
+make
+make test
+make install       
+
+If you want the wt script to use a path for perl other than the path returned
+by the Unix command "which perl", do this:
+
+/home/johndoe/bin/perl Makefile.PL
+make
+make test
+make install       
+
+WARNING: If your system does not have an HTTP connection to the Internet or
+your system requires a proxy HTTP server, the "make test" tests will fail.
+ 

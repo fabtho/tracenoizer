@@ -1,0 +1,18 @@
+#!/bin/sh
+#-*-Shell-Script-*-	Time-stamp: <2003-02-16 10:37:38 bingalls>
+#$Id$
+#Copyright © 1998,2003 Bruce Ingalls bingalls(at)users.sourceforge.net
+#See the file COPYING for license
+#<url: http://emacro.sourceforge.net/ > <url: http://www.dotemacs.de/ >
+
+#Gnu Emacs replacement front end.  NOT TESTED!
+#You need to run Emacs with gnuserv.el (which is enabled in EMacro)
+#If this cannot start a faster gnuclient session, then it starts a full Emacs
+#session. Note that `C-x c` closes all sessions, so be sure to `C-x #`
+
+#Warning! Calls to `emacs -nw` with xemacs as window in mixed client/server
+#will lead to Emacs locking and/or crashing.
+
+#You can also rename emacs, and substitute this script, to work like magic
+
+emacsclient -n $*  >/dev/null 2>&1 || emacs $*

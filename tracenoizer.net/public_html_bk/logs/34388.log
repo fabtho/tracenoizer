@@ -1,0 +1,18 @@
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+sh: amp: command not found
+--01:40:31--  http://www.tracenoizer.org/modelanleg.php?main_id=34388
+           => `modelanleg.php?main_id=34388'
+Resolving www.tracenoizer.org... done.
+Connecting to www.tracenoizer.org[195.176.254.172]:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K                                                           8.79 KB/s
+
+01:40:31 (8.79 KB/s) - `modelanleg.php?main_id=34388' saved [9]
+
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's Homepage<br></font><br><br><br><div align="center"><img height=600 width=120 s' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 650.
+sh: endee.txt: Permission denied

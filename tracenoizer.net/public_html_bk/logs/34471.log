@@ -1,0 +1,12 @@
+--10:10:26--  http://www.tracenoizer.org/modelanleg.php?main_id=34471
+           => `modelanleg.php?main_id=34471'
+Resolving www.tracenoizer.org... done.
+Connecting to www.tracenoizer.org[195.176.254.172]:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K                                                           8.79 KB/s
+
+10:10:27 (8.79 KB/s) - `modelanleg.php?main_id=34471' saved [9]
+
+sh: endee.txt: Permission denied

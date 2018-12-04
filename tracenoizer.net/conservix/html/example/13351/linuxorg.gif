@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Linux Online - User Groups</TITLE>
+<META NAME="ROBOTS" CONTENT="NOCACHE,NOARCHIVE">
+</HEAD>
+
+<!-- header -->
+
+
+
+
+
+
+
+<BODY BGCOLOR="#F4F1BC">
+<A HREF="/robot/index.html"><IMG SRC="/images/colour/yellow.gif" WIDTH=1 HEIGHT=1 BORDER=0 ALT=""></A><BR>
+<TABLE WIDTH=766 BORDER=0 BGCOLOR="#A41F1F" CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD COLSPAN=4 ALIGN=LEFT VALIGN=TOP>
+<TABLE WIDTH=766 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD ALIGN=LEFT VALIGN=TOP WIDTH=266><A HREF="http://www.linux.org/"><IMG SRC="/images/logo/linuxorg.gif" WIDTH=262 HEIGHT=113 BORDER=0 ALT="Linux Online"></A></TD>
+<TD ALIGN=CENTER VALIGN=MIDDLE WIDTH=486><IMG SRC="/images/header/advert.gif" BORDER=0 WIDTH=61 HEIGHT=10 ALT="Advertisement"><BR><A HREF="http://www.linux.org/advert/bin/click?02:0362:0226:F43ED0FEDCCFB0FBA3C3683F"><IMG SRC="http://www.linux.org/advert/bin/image?02:0362:0220:F43ED0FEDCCFB0FBA3C3683F" WIDTH=468 HEIGHT=60 BORDER=0 ALT="Dress your PC with a Linux Online label!"></A><BR><A HREF="/advert/bin/directory"><IMG SRC="/images/button/sponsors.gif" BORDER=0 VSPACE=5 HEIGHT=10 WIDTH=116 ALT="View all our sponsors"></A></TD>
+<TD WIDTH=4><IMG SRC="/images/colour/red.gif" WIDTH=4 HEIGHT=113 BORDER=0 ALT=""></TD>
+</TR>
+</TABLE> 
+</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#A41F1F" WIDTH=150><IMG SRC="/images/colour/red.gif" WIDTH=150 HEIGHT=1 BORDER=0 ALT=""></TD>
+<TD BGCOLOR="#FFFFFF" WIDTH=5 ROWSPAN=5 VALIGN=TOP ALIGN=CENTER><IMG SRC="/images/colour/red.gif" WIDTH=5 HEIGHT=1 BORDER=0 ALT=""></TD>
+<TD BGCOLOR="#A41F1F" WIDTH=606><IMG SRC="/images/colour/red.gif" WIDTH=606 HEIGHT=1 BORDER=0 ALT=""></TD>
+<TD BGCOLOR="#FFFFFF" WIDTH=5 ROWSPAN=5 VALIGN=TOP ALIGN=CENTER><IMG SRC="/images/colour/red.gif" WIDTH=5 HEIGHT=1 BORDER=0 ALT=""></TD>
+</TR>
+<TR>
+<TD WIDTH=150 ROWSPAN=2 VALIGN=TOP ALIGN=CENTER>
+<A HREF="/user/register.html"><IMG SRC="/images/navbar/register.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Register ]"></A><BR>
+<CENTER><TABLE WIDTH=130 CELLSPACING=2 CELLPADDING=2 BORDER=0>
+<TR><FORM METHOD=POST ACTION="/user/bin/login"><TD><IMG SRC="/user/images/login.gif" WIDTH=57 HEIGHT=18 ALT="Login:"></TD><TD><INPUT TYPE=TEXT NAME="login" VALUE="" MAXLENGTH=32 SIZE=8></TD></TR>
+<TR><TD><IMG SRC="/user/images/passwd.gif" WIDTH=57 HEIGHT=18 ALT="Passwd:"></FONT></TD><TD><INPUT TYPE=PASSWORD NAME="passwd" VALUE="" MAXLENGTH=32 SIZE=8></TD></TR>
+<TR><TD COLSPAN=2 ALIGN=CENTER><INPUT TYPE=HIDDEN NAME="url" VALUE="/groups//images/logo/linuxorg.gif"><INPUT TYPE=IMAGE SRC="/images/button/login.gif" ALIGN=MIDDLE BORDER=0 WIDTH=65 HEIGHT=25 ALT="[ Login ]"></TD></FORM></TR></TABLE></CENTER>
+
+<A HREF="/apps/index.html"><IMG SRC="/images/navbar/applications.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Applications ]"></A><BR>
+<A HREF="/docs/index.html"><IMG SRC="/images/navbar/documentation.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Documentation ]"></A><BR>
+<A HREF="/dist/index.html"><IMG SRC="/images/navbar/distributions.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Distributions ]"></A><BR>
+<A HREF="/dist/download_info.html"><IMG SRC="/images/navbar/download.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Download Info ]"></A><BR>
+<A HREF="/info/index.html"><IMG SRC="/images/navbar/geninfo.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ General Info ]"></A><BR>
+<A HREF="/books/index.html"><IMG SRC="/images/navbar/bookstore.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Book Store ]"></A><BR>
+<P><IMG SRC="/images/header/advert.gif" BORDER=0 WIDTH=61 HEIGHT=10 ALT="Advertisement"><BR><A HREF="http://www.linux.org/advert/bin/click?02:0373:0148:F43ED0FEDCCFB0FB02C36979"><IMG SRC="http://www.linux.org/advert/bin/image?02:0373:0148:F43ED0FEDCCFB0FB02C36979" WIDTH=125 HEIGHT=125 BORDER=0 ALT="Who won the best workstation award?"></A><P>
+<A HREF="/lessons/index.html"><IMG SRC="/images/navbar/courses.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Courses ]"></A><BR>
+<A HREF="/news/index.html"><IMG SRC="/images/navbar/news.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ News ]"></A><BR>
+<A HREF="/people/index.html"><IMG SRC="/images/navbar/people.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ People ]"></A><BR>
+<A HREF="/hardware/index.html"><IMG SRC="/images/navbar/hardware.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Hardware ]"></A><BR>
+<A HREF="/vendor/index.html"><IMG SRC="/images/navbar/vendors.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Vendors ]"></A><BR>
+<P><IMG SRC="/images/header/advert.gif" BORDER=0 WIDTH=61 HEIGHT=10 ALT="Advertisement"><BR><A HREF="http://www.linux.org/advert/bin/click?02:0181:0192:F43ED0FEDCCFB0FB09C3699C"><IMG SRC="http://www.linux.org/advert/bin/image?02:0181:0192:F43ED0FEDCCFB0FB09C3699C" WIDTH=88 HEIGHT=31 BORDER=0></A><P>
+<A HREF="/projects/index.html"><IMG SRC="/images/navbar/projects.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Projects ]"></A><BR>
+<A HREF="/events/index.html"><IMG SRC="/images/navbar/events.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Events ]"></A><BR>
+<A HREF="/groups/index.html"><IMG SRC="/images/navbar/usergroups.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ User Groups ]"></A><BR>
+<A HREF="/user/index.html"><IMG SRC="/images/navbar/user_area.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ User Area ]"></A><BR>
+<P><A HREF="/books/bin/showbook?ISBN=0764539388&VENDOR=1"><IMG SRC="/books/images/0764539388.jpg" WIDTH=100 HEIGHT=125 BORDER=0 ALT="Red Hat Linux 9 Bible"></A><BR><P>
+
+<A HREF="/about/index.html"><IMG SRC="/images/navbar/aboutus.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ About Us ]"></A><BR>
+<A HREF="/index.html"><IMG SRC="/images/navbar/homepage.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Home Page ]"></A><BR>
+<A HREF="/advert/index.html"><IMG SRC="/images/navbar/advertise.gif" WIDTH=130 HEIGHT=25 BORDER=0 VSPACE=1 ALT="[ Advertise ]"></A><BR>
+<BR>
+</TD>
+<TD BGCOLOR="#FFFFFF" VALIGN=TOP ALIGN=LEFT>
+<IMG SRC="/images/colour/white.gif" WIDTH=606 HEIGHT=5 BORDER=0 ALT=""><BR>
+<!-- content -->
+Status: 404 Not Found
+

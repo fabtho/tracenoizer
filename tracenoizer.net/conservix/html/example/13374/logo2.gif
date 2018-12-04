@@ -1,0 +1,227 @@
+
+<html>
+
+<head>
+<title>404 page - College of Journalism and Communications</title>
+<link rel="stylesheet" href="/jouweb.css" type="text/css">
+<meta http-equiv="Refresh" content="10;URL=/default.asp">
+</head>
+
+<body bgcolor="#ffffff" marginheight="0" marginwidth="0" leftmargin="0" topmargin="0" background="/images/Line_BG4.gif">
+<!-- Begin header.asp include -->
+<script language="JavaScript1.2">
+<!--
+var arrow_ar = new Array();
+arrow_ar[0] = new Image(1,1)
+arrow_ar[1] = new Image(10,20)
+
+arrow_ar[0].src = "/images/spacer.gif";
+arrow_ar[1].src = "/images/triC.gif";
+// -->
+</script>
+<script language="JavaScript">
+<!--
+function openWindow(url, name, attributes) {
+  popupWin = window.open(url, name, attributes)
+}
+// -->  
+</script>
+
+<table cellpadding="0" cellspacing="0" width="740" bgcolor="#ffffff" align="left" bordercolor="#FFFFFF" border="0">
+<tr>
+<td colspan="6" width="742" height="1" bgcolor="white"><img src="/images/spacer.gif" width="1" height="1"></td>  
+</tr>
+  <tr> 
+<td rowspan="12" width="1" bgcolor="white"><img src="/images/spacer.gif" width="1" height="1"></td>  
+<td colspan="4" width="740">
+<a href="/default.asp"><img src="/images/head6a.gif" width="740" height="90" border="0" alt="College of Journalism and Communications"></a></td>
+<td rowspan="12" width="1" bgcolor="white"><img src="/images/spacer.gif" width="1" height="1"></td>  
+  </tr>
+<tr>
+<td colspan="4" width="740" height="1" bgcolor="white"><img src="/images/spacer.gif" width="1" height="1"></td>  
+</tr>
+  <tr> 
+    <td colspan="4" height="20" bgcolor="#FF9933" background="/images/orange_bev.gif" align="right" class="orangebar">
+    <p><b><a href="/faculty/employment.asp">employment</a><img src="/images/spacer.gif" width="24" height="10"><a href="/tour/default.asp">virtual tour</a><img src="/images/spacer.gif" width="24" height="10"><a href="/sitemap.asp">site 
+      map</a><img src="/images/spacer.gif" width="24" height="10"><a href="/contact.asp">contact 
+      us</a><img src="/images/spacer.gif" width="18" height="10"></b></p>
+  </td>
+  </tr>
+<tr>
+<td colspan="4" width="740" height="1" bgcolor="white"><img src="/images/spacer.gif" width="1" height="1"></td>  
+</tr>
+  <tr> 
+  <td valign="top" bgcolor="#003399" background="/images/Line_BG4.gif" width="165" height="340" rowspan="2"> 
+  <table width="165" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><a href="/about/default.asp"
+                        onMouseOver="z_toggle('about_arr'); MM_showMenu(window.mm_menu_0312100804_0,167,0,null,'about');" 
+						onMouseOut="MM_startTimeout(); z_toggle('about_arr')"><img width=155 height=20 name="about" src="/images/about5.gif" border=0 alt="About the College"></a></td>
+          <td><img src="/images/triC.gif" id="about_arr" width="10" height="20" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/academic/default.asp"
+                        onMouseOver="z_toggle('acad_arr'); MM_showMenu(window.mm_menu_0312120039_0,167,0,null,'academic');" 
+						onMouseOut="MM_startTimeout(); z_toggle('acad_arr');"><img width=155 height=20 name="academic" src="/images/academic5.gif" border=0 alt="Academic Programs"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="acad_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/admissions/default.asp"
+                        onMouseOver="z_toggle('admiss_arr'); MM_showMenu(window.mm_menu_0312144309_5,167,0,null,'admissions');" 
+						onMouseOut="MM_startTimeout(); z_toggle('admiss_arr');"><img width=155 height=20 name='admissions' src="/images/admissions5.gif" border=0 alt="Admissions"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="admiss_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/alumni/default.asp"
+                        onMouseOver="z_toggle('alum_arr'); MM_showMenu(window.mm_menu_0312144834_4,167,0,null,'alumni');" 
+						onMouseOut="MM_startTimeout(); z_toggle('alum_arr');"><img width=155 height=20 name='alumni' src="/images/alumni5.gif" border=0 alt="Alumni Services"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="alum_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/centers/default.asp"
+	  					onMouseOver="z_toggle('center_arr'); MM_showMenu(window.mm_menu_0312145124_3,167,0,null,'centers');" 
+						onMouseOut="MM_startTimeout(); z_toggle('center_arr');"><img width=155 height=20 name='centers' src="/images/centers5.gif" border=0 alt="Centers and Institutes"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="center_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/IPP/continuinged.asp"
+		  	onMouseOver="z_toggle('conted_arr');"
+			onMouseOut="z_toggle('conted_arr');"><img src="/images/continuinged5.gif" alt="Continuing Education" width="155" height="20" border="0" name="conted"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="conted_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/faculty/default.asp"
+                        onMouseOver="z_toggle('faculty_arr'); MM_showMenu(window.mm_menu_0312145533_2,167,0,null,'faculty');" 
+						onMouseOut="MM_startTimeout(); z_toggle('faculty_arr');"><img width=155 height=20 name='faculty' src="/images/faculty5.gif" border=0 alt="Faculty and Staff"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="faculty_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/grad/default.asp"
+                        onMouseOver="z_toggle('grad_arr'); MM_showMenu(window.mm_menu_0313094144_3,167,0,null,'graduate');" 
+						onMouseOut="MM_startTimeout(); z_toggle('grad_arr');"><img width=155 height=20 name='graduate' src="/images/graduate5.gif" border=0 alt="Graduate Studies"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="grad_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/highschool/default.asp"
+                        onMouseOver="z_toggle('hischool_arr'); MM_showMenu(window.mm_menu_0313094858_1,167,0,null,'hischool');" 
+						onMouseOut="MM_startTimeout(); z_toggle('hischool_arr');"><img width=155 height=20 name='hischool' src="/images/hischool5.gif" border=0 alt="High School Programs"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="hischool_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/IPP/default.asp"
+		  	onMouseOver="z_toggle('intl_arr');"
+			onMouseOut="z_toggle('intl_arr');"><img width=155 height=20 name='intl' src="/images/international5.gif" border=0 alt="International Programs"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="intl_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/pubs/default.asp"
+	  					onMouseOver="z_toggle('pub_arr'); MM_showMenu(window.mm_menu_0313095026_0,167,0,null,'pubs');" 
+						onMouseOut="MM_startTimeout(); z_toggle('pub_arr');"><img width=155 height=20 name='pubs' src="/images/pubs5.gif" border=0 alt="Publications"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="pub_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/resources/radiotv.asp"
+                        onMouseOver="z_toggle('radio_arr'); MM_showMenu(window.mm_menu_0312145951_0,167,0,null,'Radio');" 
+						onMouseOut="MM_startTimeout(); z_toggle('radio_arr');"><img width=155 height=20 name='Radio' src="/images/RadioStations.gif" border=0 alt="Radio Stations"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="radio_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/resources/default.asp"
+                        onMouseOver="z_toggle('studres_arr'); MM_showMenu(window.mm_menu_0313094538_2,167,0,null,'resources');" 
+						onMouseOut="MM_startTimeout(); z_toggle('studres_arr');"><img width=155 height=20 name='resources' src="/images/resources5.gif" border=0 alt="Student Resources"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="studres_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><a href="/resources/radiotv.asp"
+                        onMouseOver="z_toggle('TV_arr'); MM_showMenu(window.mm_menu_0312145813_1,167,0,null,'TV');" 
+						onMouseOut="MM_startTimeout(); z_toggle('TV_arr');"><img width=155 height=20 name='TV' src="/images/TVStations.gif" border=0 alt="TV Stations"></a></td>
+          <td><img src="/images/triC.gif" width="10" height="20" id="TV_arr" style="display:none;"></td>
+        </tr>
+        <tr>
+          <td><img width="155" height="20" src="/images/spacer.gif" border="0" ></td>
+          <td><img src="/images/spacer.gif" width="10" height="20"></td>
+        </tr>
+        <tr>
+          <td><img width=155 height=20 name="search" src="/images/search.gif" border=0 alt="Search"></td>
+          <td><img src="/images/spacer.gif" width="10" height="20"></td>
+        </tr>
+        <tr>
+          <td valign="top" align="left">
+            <form name="gs" method=GET action="http://search.ufl.edu/web">
+              <div style="margin-left: 4px;"><nobr>
+                <p>
+                  <input type="text" name="query" size="15" maxlength="2033" style="width:120px;font-size:10px;" value="">
+                  <input type="image" border="0" name="Go" src="/images/gobutton.gif" width="20" height="20" alt="Go" align="absmiddle">
+                  <input type="hidden" name="site" value="www.jou.ufl.edu">
+              </nobr></div>
+            </form>
+          </td>
+          <td><img src="/images/spacer.gif" width="10" height="20"></td>
+        </tr>
+      </table></td>
+<td width="572" height="18" colspan="3"><img src="/images/spacer.gif" width="572" height="18"></td></tr>	  
+<tr><td width="18"><img src="/images/spacer.gif" width="18" height="18"></td>
+    <td width="536" height="282" valign="top" class="content">
+      <!-- End header.asp include -->
+
+<!-- http://www.jou.ufl.edu/404page.asp?404;http://www.jou.ufl.edu/index.asp -->
+      <h1>Page Not Found</h1>
+      <p>The page you requested is not available on our web site. In 10 seconds, 
+        you will be redirected to our <a href="default.asp">home page</a></p>
+      <p>&nbsp; 
+      <p>
+	
+              <!-- Begin footer.asp include -->
+<img src="/images/spacer.gif" width="536" height="1"> 
+      </td>
+<td width="18"><img src="/images/spacer.gif" width="18" height="18"></td>
+</tr>
+<tr>
+<td colspan="4" width="740" height="1" bgcolor="white"><img src="/images/spacer.gif" width="1" height="1"></td>  
+</tr>
+  <tr> 
+  <td colspan="4" height="20" background="/images/orange_bev.gif" bgcolor="#FF9933"><img src="/images/spacer.gif" width="1" height="1"></td>
+  </tr>
+<tr>
+<td colspan="4" width="740" height="1" bgcolor="white"><img src="/images/spacer.gif" width="1" height="1"></td>  
+</tr>
+  <tr> 
+  <td colspan="4" height="20" valign="middle" background="/images/Blue_bev.gif" align="center" bgcolor="#003366" class="bluebar"> 
+    <p>College of Journalism and Communications &#149; University of Florida &#149; 
+      Gainesville, Florida</p></td>
+</tr>
+<tr>
+<td colspan="4" width="740" height="1" bgcolor="white"><img src="/images/spacer.gif" width="1" height="1"></td>  
+</tr>
+<tr> 
+    <td colspan="4" class="footer" bgcolor="#FFFFFF" align="left"> 
+      <p><img src="/images/UF150wdmk.gif" width="200" height="55" border="0" align="right" alt="University of Florida wordmark">&copy; 
+      2003 <a href="/default.asp">College of Journalism and Communications</a><br>
+      <a href="/credits.asp">Web site credits and history</a> &#149; <a href="/privacy.asp">Privacy 
+      Policy</a><br>
+This page was last updated Tuesday, May 6, 2003.
+</p></td>
+</tr>
+<tr>
+<td colspan="6" width="740" height="1" bgcolor="white"><img src="/images/spacer.gif" width="1" height="1"></td>  
+</tr>
+</table>
+  <map name="Jou"> 
+    <area shape="rect" coords="552,13,730,60" href="/">
+	<area shape="rect" coords="0,0,552,90" href="default.asp">
+  </map>
+  <map name="Jou2"> 
+    <area shape="rect" coords="552,13,730,60" href="/">
+	<area shape="rect" coords="0,0,552,90" href="../default.asp">
+  </map>
+
+<script language="JavaScript1.2" src="/includes/mm_menus.js" type='text/javascript'></script>
+<script language="JavaScript1.2" src="/includes/mm_menu.js" type='text/javascript'></script>
+<script language="JavaScript1.2">mmLoadMenus();</script>
+
+<!-- End footer.asp include -->
+
+
+</body>
+
+</html>

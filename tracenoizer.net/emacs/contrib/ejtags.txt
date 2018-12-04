@@ -1,0 +1,11 @@
+#JDE jtags support for exhuberant ctags,
+#From: Stuart Popejoy <stuart(at)pinksheets.com>
+
+# OLD:
+# ${etags_dir}etags  -l none -a -o ${java_dir}/TAGS  \
+# "--regex=$class1" "--regex=$class2"  "--regex=$constructor"
+
+# NEW:
+# reflag='/b'
+# ${etags_dir}etags  --langdef=jtags --language-force=jtags -a -f ${java_dir}/TAGS  \
+# "--regex-jtags=$class1$reflag" "--regex-jtags=$class2$reflag" "--regex-jtags=$constructor$reflag"

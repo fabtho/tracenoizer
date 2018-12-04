@@ -1,0 +1,15 @@
+sh: -c: line 1: syntax error near unexpected token `http://www.tusculum.edu/athletics/baseball/releases/BB_08-07-03(W'
+sh: -c: line 1: `puf -Tl 2 -Td 4 -Tc 4 -lb 200000 -nw -t 3  -P temp/34475/19/  http://www.tusculum.edu/athletics/baseball/releases/BB_08-07-03(Webb).htm &'
+--00:14:10--  http://www.tracenoizer.org/modelanleg.php?main_id=34475
+           => `modelanleg.php?main_id=34475'
+Resolving www.tracenoizer.org... done.
+Connecting to www.tracenoizer.org[195.176.254.172]:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K                                                           8.79 KB/s
+
+00:14:10 (8.79 KB/s) - `modelanleg.php?main_id=34475' saved [9]
+
+DBD::mysql::st execute failed: You have an error in your SQL syntax near 's Homepage<br></font><br><br><br><div align="center"><img height="123" width="73' at line 1 at /home/tracenoizer/public_html/trace_centralV4.pl line 650.
+sh: endee.txt: Permission denied

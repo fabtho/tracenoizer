@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+   <title>water.usgs.gov Message</title>
+   <link rel="stylesheet"   href="/water.css">
+<head>
+
+<body>
+   <table width="100%"><tr><td bgcolor="#006f41">
+      <a href="http://www.usgs.gov">
+      <img src="http://water.usgs.gov/icons/water_banner2.gif"         alt="U.S. Geological Survey" border=0></a>
+      </td></tr></table>
+<p>You have asked to retrieve a U.S. Geological Survey page,
+but the page code given,
+<strong>images/menu.gif</strong>,
+is not in our list of registered pages.</p>
+<p>If you are developing HTML pages, please see 
+<a href="http://water.usgs.gov/pubs/">
+How to Reference Registered On-Line USGS Pages in Your HTML Documents</a>.</p>
+
+<p><hr>
+<a href="http://water.usgs.gov/">
+Return to USGS water home page</a>.
+</body>
+</html>

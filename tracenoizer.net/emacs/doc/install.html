@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--Time-stamp: <2003-06-12 10:28:11 bingalls> --><!--$Id: install.html,v 1.25 2003/05/24 17:36:59 bingalls Exp $-->
+<!--Copyright © 1998,2002 Bruce Ingalls bingalls(at)users.sf.net-->
+<!--See the EMacro project file COPYING for license-->
+<!--This file is not (yet) part of Emacs or XEmacs.-->
+<head>
+<meta name="description"
+ content="EMacro is an easy .emacs configuration file for Emacs and XEmacs"/>
+<meta name="keywords" content=".emacs editor configuration"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="icon" href="images/em_ico.png" type="image/png"/>
+
+<title>Install Guide</title>
+<style type="text/css">
+span.emacro {color: blue}
+</style>
+<script type="text/javascript">
+<!--
+var user;
+var host;
+var topDomain;
+
+function spamBlock(user, host, topDomain)
+{
+ document.write('<a href="'+'mailto:'+user+'@'+host+'.'+topDomain+'">' +
+ user + '@' + host + '.' + topDomain + '</a>');
+}
+// -->
+</script>
+</head>
+
+<body>
+<h1>Quick Install Info</h1>
+<ul>
+  <li><a href="#Quick">Quick Start</a></li>
+  <li><a href="#Upgrade">Upgrade Essentials</a></li>
+  <li><a href="#System">System Requirements</a></li>
+</ul>
+
+<h3>Detailed Install</h3>
+<ul>
+  <li><a href="#Detailed">Detailed Install</a></li>
+  <li><a href="#Required">Required System Information</a></li>
+  <li><a href="#Tested">Tested Platforms</a></li>
+  <li><a href="#Description">Description</a></li>
+</ul>
+
+<h3>Configuration</h3>
+<ul>
+  <li><a href="#How">How <span class="emacro">EMacro</span> Works</a></li>
+  <li><a href="#Supported">Supported Third Party Programs</a></li>
+  <li><a href="#load-path">load-path</a></li>
+  <li><a href="#Configuration">Configuration</a></li>
+  <li><a href="#Other">Other Configuration Files</a></li>
+  <li><a href="#Mac">Mac OS</a></li>
+  <li><a href="#Install">The Install Questions Explained</a></li>
+</ul>
+
+<h2><a name="Quick">Quick Start</a></h2>
+<h3>Package Install</h3>
+<p>
+The emacro*.exe for Microsoft Windows needs no outside help. The
+<span class="emacro">EMacro</span> packages for Linux-compatible systems
+install into <code>/etc/skel</code>. Each existing user should run
+<code>setuphome.sh</code> to copy <span class="emacro">EMacro</span> from
+<code>/etc/skel</code> into their accounts. <code>setuprpm.sh</code> helps
+install the rpm package. Cygwin users should be able to use the Slackware
+package, but this has had little testing.
+</p>
+<h3>emacro*.tar.gz Install</h3>
+<p>
+Just as easy: extract emacro*.tar.gz to your $<i>HOME</i> directory.
+MS Windows shell users run <code>%HOME%\emacs\bin\w32\e-install.bat</code>
+<br />
+Everyone else (including Cygwin) runs
+<code>$HOME/emacs/bin/unix/install</code>. If you have Cygwin or similar 
+Unix-like shell for MS Windows, this script is preferred to the DOS batch file.
+<br />
+The above simply rename(s) <code>~/init.el</code> to <code>~/.emacs</code>
+<br />
+Note the leading <i>dot</i> preceding <code>.emacs</code>
+<br />
+If you are new to Emacs keybindings, grab cua.el from <a href="emacs.html">
+emacs.html</a> and put it in the <code>~/emacs/packages/</code> directory,
+before starting Emacs with <span class="emacro">EMacro</span>.
+<br />
+Still having problems? See the <a href="#Detailed">Detailed Install</a>.
+</p>
+<hr />
+<h2><a name="Upgrade">Upgrade Essentials</a></h2>
+<p>
+If you are upgrading an existing <b>.emacs</b>, you will move your code into
+<code>~/emacs/e-postload.el</code>
+<br />
+You can also move code into <code>e-preload.el</code>, if it needs to execute
+before <span class="emacro">EMacro</span>. Next, follow the <a
+href="#Detailed">install directions</a>.
+<br />
+What follows are directions for upgrading an existing <span
+class="emacro">EMacro</span> install. Be sure to backup your files! In
+particular, you should save and re-use the following files in your [~/emacs/]
+preferences directory. They are very much like user data. Older users may have
+to rename files from another directory, which still work the same way.
+</p>
+<ul>
+   <li>e-custom.el</li>
+   <li>e-preload.el</li>
+   <li>e-prefs.el</li>
+   <li>e-postload.el</li>
+   <li>e-xcustom.el</li>
+</ul>
+<p>You may also have changed</p>
+<ul>
+   <li>e-path.el</li>
+</ul>
+<p>
+In other words, you will <i>likely</i> want to discard any new version of these
+files, and overwrite them with your existing version. For preload.el and
+postload.el, consider just making a call to your file:
+</p><p>
+&nbsp; <code>(load-file "/home/emacs/packages/myCode.el")</code>
+</p>
+<p>
+Next, remove all bytecompiled elisp and cache files. This should do the trick:
+</p>
+<ul>
+  <li><code>cd $HOME/emacs</code></li>
+  <li><code>bin/unix/refresh</code></li>
+  <li><code>bin/w32/refresh</code></li>
+</ul>
+<p>
+Where <i>w32</i> is for Microsoft Operating Systems; <i>unix</i>, for any
+other OS. These scripts simply remove ~/emacs/**/*.elc, and
+~/emacs/preferences/e-*cache.el.
+</p>
+<p>
+<span class="emacro">EMacro</span> contains much sample commented code, which
+may solve your problems. Rather than simply uncommenting this code, consider
+copying it to a file that e-postload.el invokes, which is there for user code,
+not to be touched by upgrades. You could put code into e-postload.el directly,
+but this prevents your code from accidental overwriting, when you unpack the
+next upgrade.
+</p>
+<p>
+Tools-&gt;Compare from the menu, or <code>M-x ediff</code> is a valuable tool,
+to see what has changed in any file.
+</p>
+
+<hr />
+<h2><a name="System">System Requirements</a></h2>
+<p>
+<span class="emacro">EMacro</span> uses less than 2 Meg of disk space, and likely
+even less RAM memory, in addition to Emacs or XEmacs's requirements.
+</p>
+<h3>If you use Microsoft Windows</h3>
+<p>I recommend setting <code>%HOME%</code>. Otherwise, Emacs (or XEmacs)
+generally considers <code>C:\</code> to be your home directory.</p>
+<p>You will need tar &amp; gzip to extract the
+<span class="emacro">EMacro</span> files. Cygwin has many useful tools,
+including tar and gzip. It is available free from
+<a href="http://sources.redhat.com/cygwin/">
+http://sources.redhat.com/cygwin/</a>.
+After installing it, run the bash shell. Extract the archive with commands
+like:
+</p>
+<ul>
+  <li><code>cd</code></li>
+  <li><code>tar -xzf <span class="emacro">EMacro</span>*.tar.gz</code></li>
+</ul>
+<p>There is also the <i>free</i> (GPL) <a href="http://www.7-zip.com/">7-zip
+</a>.
+<br />
+There are other archive programs at no cost, but do not have <i>free</i>
+licenses:
+</p>
+<ul>
+  <li><a href="http://www.filzip.com/en/index.html">FilZip</a></li>
+  <li><a href="http://www.ultimatezip.com/">Ultimate Zip</a></li>
+</ul>
+<p>XEmacs users should also download the latest sumo tarball for
+<a href="http://www.xemacs.org">XEmacs</a>.
+</p>
+
+<hr />
+<h2><a name="Detailed">Detailed Install</a></h2>
+<p>
+If you have a file named .emacs or _emacs in your HOME directory, you might
+wish to rename it. If you successfully unpacked EMacro, you should have a file
+called <b><code>$HOME/init.el</code></b>. Rename this
+<b><code>.emacs</code></b>. Microsoft Windows also accepts the name <b><code>
+_emacs</code></b>, if you have problems renaming it. If you had a previous
+.emacs, you can move your code into <code>~/emacs/e-postload.el</code>
+(preferred) or <code>~/emacs/e-preload.el</code>.
+<br />
+<i>Note!</i> <span class="emacro">EMacro</span> cannot support the code you add
+to e-postload.el nor e-preload.el, nor its impact!
+<br />
+If you are upgrading, you should make backup copies of the following files in
+the preferences directory:
+</p>
+<ul>
+   <li>e-custom.el</li>
+   <li>e-prefs.el</li>
+   <li>e-xcustom.el</li>
+</ul>
+<p>You may also need to backup</p>
+<ul>
+   <li>e-path.el</li>
+   <li>e-preload.el</li>
+   <li>e-postload.el</li>
+</ul>
+<p>
+Note that older versions of <span class="emacro">EMacro</span> had similar
+files in other directories. You should be able to rename your old files to the
+new names, and move them into the new directories (preferences), and be on your
+way.
+<br />
+<span class="emacro">EMacro</span> works by searching your <code>PATH</code>
+and your <code>load-path</code>, and caching the results. See the section on
+<a href="#Configuration">Configuration</a> for details. <span class="emacro">
+EMacro</span> also prompts you the first time, for things like your login name,
+and saves these results into <code>~/emacs/preferences/e-prefs.el</code>
+</p>
+
+<hr />
+<h3><a name="Required">Required System Information</a></h3>
+<p>Be sure to have the following information available:</p>
+<ul>
+   <li>Server name for usenet news</li>
+   <li>Usenet news login name</li>
+   <li>Email address to send email from emacs</li>
+   <li>Initial window height (preferred size on graphical screen)</li>
+   <li>Printer and print server name</li>
+   <li>Pop3 email receiving server name</li>
+   <li>Smtp email sending server name</li>
+   <li>Database hostname (i.e. SID)</li>
+   <li>Database login name</li>
+</ul>
+<p>
+PATH should be set with all <a href="#Supported Third Party Programs">Supported
+Third Party Programs</a>, such as Netscape, so that <span class="emacro">
+EMacro</span> can find them.
+</p><p>
+I recommend that you install the latest sumo tarball, if you use XEmacs.
+Emacs, as a standard, ships with a complete set of elisp libraries, but this is
+an issue with XEmacs, as it does not. <span class="emacro">EMacro</span> has
+been tested with XEmacs standard distribution of almost no libraries. Testing
+for missing libraries has become a maintenance nightmare, and
+<span class="emacro">EMacro</span> may require the sumo tarball in the future.
+</p><p>
+<span class="emacro">EMacro</span> starts by prompting you for some values. If
+you make a mistake, you can delete or edit preferences.el.
+</p><p>
+Note that there is a bug in the Mac OS port of Emacs <code>append-to-file()
+</code>, that it will not create new files. You will have to create empty files
+in <span class="emacro">EMacro</span>'s emacs/preferences folder (directory)
+called
+</p>
+<ul>
+<li>e-prefs.el</li>
+<li>e-gcache.el (Emacs) or e-xcache.el (XEmacs)</li>
+</ul>
+<p>
+Otherwise, remove *.elc and ?cache.el files, which you can do by
+</p>
+<ul>
+  <li><code>cd $HOME/emacs</code></li>
+  <li><code>./refresh</code></li>
+</ul>
+<p>
+which simply removes ?cache.el and *.elc.
+<br />
+Bytecompiling is great for catching errors, but it also can cause problems,
+when moving between Gnu Emacs and [Gnu] XEmacs, and different versions of
+Emacs / XEmacs.
+</p><p>
+Be sure to check for any byte-compile messages.
+You might also see a list of packages which will enhance emacs.
+You can see the log of minibuffer messages with C-h l in XEmacs.
+In Gnu Emacs you need to switch to *Messages* buffer.
+</p><p>
+If you have a good web connection, you can easily update Emacs.
+Download and run
+<a href="http://www.anc.ed.ac.uk/~stephen/emacs/ell.el">
+http://www.anc.ed.ac.uk/~stephen/emacs/ell.el </a>
+Restarting <span class="emacro">EMacro</span> will search for some of these
+elisp macro libraries.
+</p>
+
+<hr />
+<h3><a name="Tested">Tested Platforms</a></h3>
+<p>
+The following platforms have had some testing, with recent Emacs / XEmacs
+versions. Be sure to check <a href="release_notes.html">release_notes.html</a>
+for up-to-date configurations
+</p>
+<ul>
+   <li>Free BSD (on AMD/Intel PCs)</li>
+   <li>Linux (on AMD/Intel PCs)</li>
+   <li>Mac OS (Classic) 8.x &amp; 9.x</li>
+   <li>Mac OS X (terminal/console app)</li>
+   <li>Microsoft Windows 9x/ME, NT v4, 2000</li>
+   <li>Sun Solaris</li>
+</ul>
+<p>
+Emacs v21 or higher is strongly recommended for Mac OS X. Mac Emacs and Emacs
+On Aqua are not at full production quality, and have not their ports in synch
+with recent releases. I recommend against these unsupported (by EMacro)
+packages. See the <a href="#Mac">Mac OS</a> section for further caveats.<br />
+Expect problems with xemacs-gtk (still beta), but should work adequately.
+</p>
+
+<hr />
+<h3><a name="Description">Description</a></h3>
+<p>
+<span class="emacro">EMacro</span> should be the only startup file you will need
+for any emacs. It also makes it easy for you to learn how to customize emacs.
+You should also be able to tweak XEmacs without breaking GNU Emacs, 
+and other combinations, such as a .emacs common to linux/windows dual boot.
+<span class="emacro">EMacro</span> has been profiled for speed through caching
+and lazy loading.
+</p>
+<p>
+Be sure to back up your .emacs file. If you configure from the menu, emacs
+writes to this file, and might cause problems. On MS Windows, the .emacs file
+might also be called "_emacs". Windows users may have to use the command
+prompt to rename the file to ".emacs". The default location on MS Windows is
+"C:\ ", if the %HOME% variable does not point to a path. For MS Windows, or
+unix like systems, you can check for the HOME environment variable by typing
+<code>set</code> at the command line. For Unix, $HOME should already be set.
+</p>
+<p>
+Put all the *.el files in your load-path (new downloads go into
+~emacs/packages).
+<br />
+Put all third party support programs in your PATH. For example, MS Windows NT,
+2000, ME users who want to use Internet Explorer support, should go into
+Control Panel -&gt; System; MS Windows 95 and 98 users would edit autoexec.bat
+to add <code>C:\Program Files\Plus!\Microsoft Internet</code> to PATH, in order
+to launch Internet Explorer from Emacs.
+You should change load-path.el to add all the directories where you keep *.el
+elisp macro libraries.
+On NT, launch the control panel, choose system -> environment.
+For other MS Windows, put something like the following in your 
+c:\autoexec.bat file:
+<br />
+<code>set HOME=C:\home</code>
+Put .emacs in the directory set by environment variable HOME.
+Create a subdirectory (folder) such as "/home/emacs", and put the remaining 
+files there.
+</p>
+<p>
+Setting the <code>%HOME%</code> environment variable will make your life
+easy. However, if you don't, note that the precompiled binary for XEmacs
+v21.1.10 uses <code>c:\users\default</code> for its default directory. We also
+tested <span class="emacro">EMacro</span> without <code>%HOME%</code> set, by
+putting .emacs there, and the remainder in <code>c:\emacs</code>.
+</p>
+
+<hr />
+<h2>Configuration</h2>
+<h3><a name="How">How <span class="emacro">EMacro</span> Works</a></h3>
+<p>
+Only the first time you start <span class="emacro">EMacro</span>, it asks you
+some questions. See <a href="#Install">Install Questions Explained</a> for more
+info. <span class="emacro">EMacro</span> is designed to work out of the box,
+requiring no elisp programming. Be sure to run <code>e-refresh</code> to remove
+<code>~/emacs/preferences/*cache.el</code> if you've run
+<span class="emacro">EMacro</span> before.
+</p>
+<p>
+<span class="emacro">EMacro</span>
+tries to be smart, by searching for binaries in your <code>PATH</code>, and for
+elisp libraries in your <code>load-path</code>
+<br />
+Since searching the load-path is slow, <span class="emacro">EMacro</span>
+caches the results in either <code>~/emacs/preferences/e-cache.el</code>
+(Emacs) or <code>~/emacs/preferences/e-xcache.el</code> (XEmacs). If you change
+your elisp libraries, you should remove these files. This is what <code>
+~/emacs/bin/unix/e-refresh</code> or <code>~/emacs/bin/w32/e-refresh.bat</code>
+do(es).
+</p>
+<p>
+<span class="emacro">EMacro</span> lists elisp libraries in the *cache.el
+files, which support "Plug &amp; Play". Just download these into the
+<code>load-path </code>, such as the <code>~/emacs/packages/</code> directory,
+then remove their listings from the cache file, (such as by running
+<code>e-refresh</code>) and restart Emacs/XEmacs.
+</p>
+<p>
+Note that listings in the cache are in no particular order, and may be freely
+edited or deleted. If you run into problems, you should run <code>e-refresh
+</code> before contacting us for help.
+</p>
+
+<hr />
+<h3><a name="Supported">Supported Third Party Programs</a></h3>
+<ul>
+   <li>
+       <b>General</b>
+       <ul>
+          <li>Ghostview</li>
+          <li>Ispell and the older ispell4</li>
+          <li>Jikes</li>
+          <li>Telnet</li>
+       </ul>
+   </li>
+   <li>
+       <b>Shells (for MS Windows)</b>
+       <ul>
+          <li>Bash</li>
+	  <li>Ksh</li>
+          <li>Zsh</li>
+       </ul>
+   </li>
+   <li>
+       <b>Browsers</b>
+       <ul>
+	 <li>Galeon</li>
+	 <li>Grail</li>
+	 <li>Internet Explorer</li>
+	 <li>Lynx</li>
+	 <li>Mozilla</li>
+	 <li>Netscape</li>
+	 <li>W3 (Emacs's embedded browser)</li>
+       </ul>
+   </li>
+   <li>
+       <b>Databases</b>
+       <ul>
+          <li>Informix</li>
+          <li>Ingres</li>
+	  <li>Microsoft SQL Server</li>
+          <li>Mysql</li>
+          <li>Oracle</li>
+          <li>Postgres</li>
+          <li>Solid</li>
+          <li>Sybase</li>
+       </ul>
+   </li>
+</ul>
+
+<hr />
+<h3><a name="load-path">load-path</a></h3>
+<p>
+The <code>load-path</code> Emacs variable works just like the <code>PATH</code>
+environment variable. Emacs cannot find <code>*.el</code> nor
+<code>*.elc</code> elisp libraries, unless they are in a directory listed in
+the load-path. You can inspect any Emacs variable, by typing
+<br />
+<code>C-h v</code><br />
+<code>load-path</code>
+<br />
+You can simply put all your downloaded optional elisp libraries in
+<code>~/emacs/packages/</code><br />
+You might wish to edit <code>~/e-path.el</code> to add additional paths.
+However, you can avoid this trivial, but optional elisp editing, by installing
+Tiny-Path, part of <a href="http://tiny-tools.sf.net/"> Tiny-Tools</a> to
+automatically build your load-path. Again, put this optional library in
+<code>~/emacs/packages/</code>
+<br />
+One last issue: some packages, such as Tiny-Tools &amp; JDEE put their *.el
+elisp libraries in a subdirectory named lisp. You should look at the source
+code for <code>~/emacs/e-path.el</code>, to see how <span
+class="emacro">EMacro</span> deals with these. Typically, <span
+class="emacro">EMacro</span> expects you to create a link to these files. For
+example, you would do
+<br />
+<code>ln -s ~/emacs/packages/emacs-tiny-tools-2002.0805/
+~/emacs/tiny-tools/</code>
+<br />
+or
+<br />
+<code>ln -s ~/emacs/packages/jde-latest/ ~/emacs/jde/</code>
+<br />
+For Microsoft Windows users, you will have to rename the directories. <span
+class="emacro">EMacro</span>'s e-path.el is currently coded to put
+~/emacs/tiny-tools/lisp/*.el and ~/emacs/jde/lisp/*.el (as well as
+~/emacs/packages/ into your load-path. However, you can change or add
+appropriate paths to your load-path, by editing <code>~/emacs/e-path.el</code>
+</p>
+
+<hr />
+<h3><a name="Configuration">Configuration</a></h3>
+<p>
+Be sure to set your PATH environment variable.
+<span class="emacro">EMacro</span> will search it for support programs, such as
+jikes, ghostscript and ispell.
+</p>
+<p>
+"M-x" means Meta-x. The Meta key is usually 'Esc', and sometimes 'Alt' 
+Be sure to try both left or right Alt keys.
+You may find it easier to customize emacs via the menu
+</p>
+<table>
+   <tr><td>Emacs older than v21</td><td>Help->Customize</td></tr>
+   <tr><td>XEmacs and Emacs v21+</td><td>Options->Customize</td></tr>
+</table>
+<p>
+Else use the command &nbsp; <code>C-h C</code> or <code>M-x customize</code>
+You can find where elisp macro packages are being loaded, by
+</p>
+<ul>
+   <li><code>M-x locate-library RET package RET</code></li>
+</ul>
+<p>
+Get the latest packages from [Gnu] XEmacs's menu: Options->Manage Packages.
+Gnu Emacs also supports third party libraries from
+<a href="http://www.anc.ed.ac.uk/~stephen/emacs/ell.html">
+http://www.anc.ed.ac.uk/~stephen/emacs/ell.html</a>
+See also <a href="./emacs.html"> emacs.html </a> in this distribution.
+</p>
+<p>
+There is an optional small unix shell script called <b><code>e-edit</code></b>,
+or for XEmacs, <b><code>e-xedit</code></b> which speeds up Emacs, when you run
+a second (or more) copy, by attaching to an already running Emacs. You can
+place it in your $PATH, as is, or replace the Emacs/XEmacs filesystem link with
+this script. Be sure to edit the script, so that it calls the real Emacs, that
+is, the file softlink <code>emacs</code> was pointing to.
+</p>
+<p>
+Finally, <span class="emacro">EMacro</span> searches the Emacs variable <code>
+load-path</code> for optional libraries. The results are written to
+<code>~/emacs/preferences/e-cache.el</code> or <code>e-xcache.el</code>, if you
+run XEmacs.
+You should look at them to see which libraries you should download, to enhance
+Emacs.
+<br />
+Example: You open <code>e-cache.el</code> in Emacs, and see the line
+<br />
+<code>(defconst cache-cua nil)	;For CUA key support, get cua.el from
+&lt;url:http://www.cua.dk/cua.html&gt;</code>
+<br />
+You download <code>cua.el</code> into <code>~/emacs/packages/</code> (which is
+in the load-path), and delete <code>e-cache.el</code>. <span class="emacro">
+EMacro</span> rebuilds this cache when you restart Emacs, and now you can use
+<code>C-c, C-x &amp; C-v</code> for copy, cut &amp; paste. (Note: cua.el does
+not currently work with XEmacs)
+</p>
+
+<hr />
+<h3><a name="Other">Other Configuration Files</a></h3>
+<p>
+Note that <b>~</b> = $<i>HOME</i>, the directory in your HOME environment
+variable.
+</p>
+<ul>
+  <li>
+    <b>/etc/hosts</b> [xemacs] - should have at least the following
+    <br />
+    <code>127.0.0.1 &nbsp; localhost</code>
+  </li>
+  <li>
+    <b>~/.authinfo</b> - used by gnus
+    <br />
+    <code>machine (newsServerName) login (myLoginName) password
+    (myPassword)</code>
+    <br />
+    Then do `chmod 600 ~/.authinfo` to make it difficult to read your password
+  </li>
+  <li>
+    <b>~/.diary</b> [calendar] - generated by M-x insert-diary-entry
+    <code>
+    Friday Go home from work<br />
+    December 31 1999 New Year Eve<br />
+    10:00 Making a list<br />
+    18:00 Checking it twice<br />
+    </code>
+    If you want to set To Do reminders, to fire a few days ahead, you will
+    have to embed elisp code in ~/diary (assuming <code>diary-file</code> has
+    its default value). Use<br />
+    <code>C-h f</code><br />
+    <code>diary-remind</code><br />
+    for details. The format of the elisp statement to remember a week ahead, to
+    get paid on the 15th of each month is<br />
+    <code>%%(diary-remind '(diary-date t 15 2001) 7) Pick up check</code><br />
+    See <i>Help - Emacs Manual</i> for more examples.
+  </li>
+  <li>
+    <b>~/.gnus</b> Format is like a .emacs file, and could be called from
+    .emacs
+  </li>
+  <li>
+    <b>~/.netrc</b> [ange-ftp(gnu emacs); efs(xemacs)]
+    <br />
+    <code>machine name.domain.com login myname password mypasswd</code>
+    <br />
+    Note that (especially) password is optional, and usually not
+    recommended. See ftp man(ual) page for more info.
+  </li>
+  <li>
+    <b>~/.nntp</b> [gnus]
+    <br />
+    <code>gnu.emacs.help:</code>
+    <br />
+    You can also use programs like <i>tin</i> and <i>Mozilla</i> to seek out
+    newsgroups and generate/populate this file.
+  </li>
+  <li>
+    <b>~/.vm</b>
+    <br />
+    <code>(bbdb-insinuate-vm)
+    <br />
+    (bbdb-insinuate-message)</code>
+  </li>
+  <li>
+    <b>~/.w3/default.css</b> - try just this one line
+    <br />
+    <code>a { text-decoration: underline; }</code>
+  </li>
+</ul>
+
+<hr />
+<h3><a name="Mac">Mac OS</a></h3>
+<p>
+Recent versions of Mac OS X XEmacs should work, but have not been tested.
+</p>
+<p>
+Classic Mac OS (v8-9) users need to read the FAQ documentation, distributed
+with the Mac OS port, in order to set environment variables. In particular, you
+need to know how to set $HOME. The easiest solution is to put <span
+class="emacro">EMacro</span> in the same <tt>mac</tt> folder as the executable
+emacs application, itself, then rename init.el to .emacs
+</p>
+<p>
+<span class="emacro">EMacro</span> will load, but not all parts of Mac Emacs
+v21 are working. For example, start-process() has not been ported, so
+(gnu)server and launching help from the menu will not work. You can, of course,
+simply open your browser, yourself. 
+</p><p>
+Note that some of these features do work on the older Mac Emacs v20.6.
+</p><p>Here are the steps to get <span class="emacro">EMacro</span> to load:
+</p> 
+<ol>
+<li>(Re)Move server.el &amp; server.elc out of the lisp folder. These will not
+work in the current Mac Emacs v21.1 port.</li>
+<li>Create the following empty files in the preferences folder. Alternately,
+you can put <b>;</b> comments in them:</li>
+</ol>
+<ul>
+  <li>e-cache.el</li>
+  <li>e-prefs.el</li>
+</ul>
+<p>
+The first time <span class="emacro">EMacro</span> is run on Classic Mac OS
+(v8-9), it will complain that it cannot run <code>ps</code>. This is expected
+behavior that goes away, as <span class="emacro">EMacro</span> looks to its
+cache on subsequent runs.
+</p><p>
+Currently, only Netscape is supported for launching <span class="emacro">
+EMacro</span>'s html help files, for Classic Mac OS (v8-9). I
+welcome contributions of applescript, to support other browsers.
+</p>
+<p>
+Customize does not seem to work in Classic Mac Emacs v21.
+</p>
+
+<hr />
+<h3><a name="Install">The Install Questions Explained</a></h3>
+<p>
+Only the first time you start <span class="emacro">EMacro</span>, it asks you
+some questions, and saves the results into <code>
+~/emacs/preferences/e-prefs.el</code>. If you make a mistake, you can either
+edit this file, delete it, or delete the lines that are wrong. Order of lines
+in this file is not important.
+</p>
+<p>
+Here are all the <i>possible</i> questions that you will asked, when starting
+<span class="emacro">EMacro</span>. Note that
+<span class="emacro">EMacro</span> tries to be smart, so you might <b> not see
+all</b> these questions.
+</p>
+<ul><li>Do you want Emacs to access the internet?</li></ul>
+<p>
+If you use Emacs (hereafter includes XEmacs) to read email or NNTP news,
+<span class="emacro">EMacro</span> will prompt to conveniently save your login,
+and server info. You can still access the internet with Emacs, even if you say
+<i>n</i>. However, this enables loading e-net.el, which helps automate remote
+editing through EFS/Ange-FTP, or TRAMP and SSH connections, browsing html
+files, including EMacro help, telnet inside Emacs, and Watson, which lets you
+click and net-search on phrases in an Emacs buffer.
+</p>
+<ul><li>Do you have fast access to the internet?</li></ul>
+<p>
+If you do have a modem, and you say <b>y</b>, this likely won't be much of an
+aggravation. If you say <b>n</b>, the consequences follow.
+<br />
+<span class="emacro">EMacro</span> includes a function, where you can click on
+text it recognizes as an URL, and can launch it. However, if you have a modem,
+which goes through a long dialup process to connect to the internet, or you
+have no net connection, say <b>n</b>. This also enables parsing of XML
+documents, using remote DTDs. You can test this, by loading <code>
+~/emacs/contrib/test.xml</code> which loads <code>
+http://emacro.sf.net/dtd/test.dtd</code>. This requires additional elisp
+libraries in your load-path, (put them in <code>~/emacs/packages/</code>, if
+unsure), in particular <code>html-helper-mode.el, w3.el</code> and <code>
+advice.el</code>
+</p>
+<ul><li>What's your login name?</li></ul>
+<p>
+This is the default to save you typing, when you are asked later, what your
+email, NNTP news, and SQL login IDs are.
+</p>
+<ul><li>What's your full name?</li></ul>
+<p>
+This is what appears in your email header.
+</p>
+<ul><li>What's your network domain?</li></ul>
+<p>
+This is the a default, to save you typing. <span class="emacro">EMacro</span>
+is hosted at <code>http://emacro.sourceforge.net</code> so its network domain
+is <code>sourceforge.net</code>
+</p>
+<ul><li>What's your email address?</li></ul>
+<p>
+My email address (as an example) is <code>
+<script type="text/javascript">
+<!--
+spamBlock("bingalls", "users.sf", "net");
+// -->
+</script>
+</code>
+If you still have problems with this one, contact your System Administrator, or
+visit the store where you bought your computer from.
+</p>
+<ul><li>What's your smtp email sending server name?</li></ul>
+<p>
+You need this, so that Emacs can send email. You may need to contact your
+System Administrator, or Internet Service Provider. Example values are <code>
+smtp-server.YourDomain.com</code> or <code>mailserver.sourceforge.net</code>.
+You might find these values in other email clients, which you might already
+have working.
+</p>
+<ul><li>What's your pop3 email receiving server name?</li></ul>
+<p>
+Commonly, this is the same server name as for sending email. If you use IMAP
+for receiving email, contact the author, so we can test and develop a solution
+for you. Proprietary email systems, such as Microsoft Exchange are not
+currently supported.
+</p>
+<ul><li>What's your nntp usenet news server name?</li></ul>
+<p>
+Not all systems have news servers. You may need to contact your System
+Administrator or Internet Service Provider. Example values are <code>
+nntp-server.foobar.com</code> or <code>newsserver.sourceforge.net</code>
+</p>
+<ul><li>What's your nntp usenet news login id?</li></ul>
+<p>
+Typically, this is the same as your <i>system</i> login ID, which is usually
+the same as your email address, up to the <b>@</b> sign. Thus, my email address
+is
+<script type="text/javascript">
+<!--
+spamBlock("bingalls", "users.sf", "net");
+// -->
+</script>
+<br />
+My login ID would be <code>bingalls</code>
+</p>
+<ul><li>Print letter or a4 (metric) paper size?</li></ul>
+<p>
+The size of paper you load into your default printer.
+Answer <b>letter</b> if you live in the USA or in the country sometimes known
+as Burma. The rest of the world uses the metric <b>a4</b>. Read the
+documentation for (ps-)print.el, for other sizes, such as legal or b4
+</p>
+<ul><li>What's your printer name?</li></ul>
+<p>
+This is the device name your plain text printer. Example values for unix are
+<code>/dev/lp0</code> or <code>/dev/rp1</code>. Windows users can get their
+properties from the printer control panel. Examples are <code>PRN</code> or
+<code>//server/hplaser</code>
+<br />
+I recommend that Microsoft Windows users use forward slashes, as using native
+backslashes need to be escaped, and become hard to understand.
+</p>
+<ul><li>What's your postscript printer name?</li></ul>
+<p>
+Commonly the same as your regular printer name. Just take the default, if you
+don't have a postscript printer. If you have ghostscript in your <code>PATH
+</code>, use the same name as your regular printer.
+</p>
+<ul><li>What is your print command?</li></ul>
+<p>
+Unsure Linux (and compatibles) users, can just accept the default.
+Windows users should consider using
+<a href="http://www.cygwin.com/">Cygwin</a>. They can put <code>
+~/emacs/contrib/lpr</code> in their <code>PATH</code>, or take a look at
+<a href="http://www.gnu.org/software/emacs/windows/faq6.html#printing-emacs">
+http://www.gnu.org/software/emacs/windows/faq6.html#printing-emacs</a>
+for help.
+</p>
+<ul><li>How many spaces should tabs indent code?</li></ul>
+<p>
+This is the default, when you hit <i>tab</i> in programming source code.
+</p>
+<ul><li>What brand SQL do you use?</li></ul>
+<p>
+EMacro detected <code>isql</code>(.exe) in your <code>PATH</code> but does not
+know whether to provide support for Microsoft, Sybase or Borland's Interbase.
+</p>
+<ul><li>What is your database login ID?</li></ul>
+<p>
+Contact your Database Administrator. Typically, this is the same as your system
+login ID, as above. Note that <span class="emacro">EMacro</span> currently
+supports the following databases:
+</p>
+
+<ul>
+<li>Oracle</li>
+<li>Sybase SQL Server</li>
+<li>Microsoft SQL Server</li>
+<li>Borland Interbase</li>
+<li>Mysql</li>
+<li>PostgreSQL</li>
+<li>Solid</li>
+<li>Informix</li>
+<li>Ingres</li>
+</ul>
+
+<p>
+For your convenience, <span class="emacro">EMacro</span> allows you to store
+the password to your database account in clear text. The EMacro team, nor its
+affiliates are not responsible for such consequences, including data loss.
+</p>
+<ul><li>What is your database server host name?</li></ul>
+<p>
+This is the DNS name for the machine that is running your sql database. An
+example is <code>sqlserver.sourceforge.net</code>
+</p>
+<ul><li>What is your database name on the server?</li></ul>
+<p>
+A database <i>system</i> might have multiple databases on its server. Example
+names include
+<br />
+<code>accounting</code>
+<br />
+<code>sales</code>
+<br />
+<code>rosebud</code>
+<br />
+Contact your Database Administrator for more help.
+</p>
+
+<p>
+<span class="emacro">EMacro</span> tries to automatically guess, and use your
+full screen height, then saves the result in <code>
+~/emacs/preferences/e-prefs.el</code> as <code>(setq use-height <i>24</i>)
+</code>, where, instead of <i>24</i>, your actual screen height is used. If you
+set this height to <b>0</b> (zero) instead, <span class="emacro">EMacro</span>
+will always automatically guess your desktop height. On X Window systems, this
+takes can delay startup by about 1 second, while
+<span class="emacro">EMacro</span> checks for taskbars which take up desktop
+space. Note further, that <span class="emacro">EMacro</span> assumes that
+desktop taskbars are at the top or default bottom.
+</p>
+
+</body>
+</html>

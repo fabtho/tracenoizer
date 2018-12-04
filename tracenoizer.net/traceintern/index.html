@@ -1,0 +1,76 @@
+<html>
+<head>
+<META HTTP-EQUIV="refresh" CONTENT="0;URL=http://www.altavista.com"> 
+</head>
+<body>
+<center>
+<SCRIPT LANGUAGE="javascript">
+{
+var myURL='http://www.coastline.com/webhosting';
+var myDomain='altavist.com';
+var myWidth='700';
+var myHeight='250';
+var myDelay='0';
+var myMinTimeOut='1440';
+var myCookieChk='yes';
+var myForcePage='2';
+var myErrorCapture='on';
+var dc=document;
+var dt=new Date();
+
+var buster=dt.getSeconds()+dt.getMinutes()*100+dc.location.href.length;
+
+if(myErrorCapture=='on'){window.onerror = capture;}
+
+function capture(){return true}
+
+if(dc.domain.indexOf(myDomain)==-1){myDomain='';}
+
+if(myCookieChk=='yes'){dc.cookie='h2=o; path=/;';}
+
+if(myDomain.length>0){myDomain='domain=.'+myDomain+'; ';}
+
+var ck=dc.cookie;
+var id=ck.indexOf('yum_yum');
+
+if(id<=0&&(myCookieChk=='no'||(myCookieChk=='yes'&&ck.indexOf('2=o')>0)))
+  {
+  setTimeout('fastClickpopWindow()',myDelay*1000);
+  }
+
+function fastClickpopWindow()
+  {
+  dt.setTime(dt.getTime()+(myMinTimeOut*60*1000));
+  dc.cookie='oatmeal_ck=yum_yum; path=/; '+myDomain+'expires='+ dt.toGMTString();
+  var pop='width='+myWidth+',height='+myHeight+',titlebar=1,toolbar=1,location=1,';
+  pop+='menubar=1,scrollbars=1,resizable=1,channelmode=0,directories=0,status=1';
+
+/*  if(parseFloat(navigator.appVersion)>=4 && navigator.userAgent.indexOf('AOL')==-1)
+    {
+    var myTI=screen.height/2-myHeight/2;
+    var myLI=screen.width/2-myWidth/2;
+    myURL=myURL+'&top='+myTI+'&left='+myLI+'&pop=slider';
+    pop+=',top=3000,left=3000';
+    } */
+
+  if(navigator.userAgent.indexOf('AOL')==-1)
+    {
+    var xw=window.open('','cool'+buster, pop, true);
+    xw.blur();
+    xw.location=myURL;
+    for (var i=1; i<20*myForcePage+2; i++)
+      {
+      setTimeout('self.focus();',i*50);
+      }
+    }
+    else{ var xw=window.open(myURL,'cool'+buster, pop, true);
+    }
+  }
+}
+
+
+ </SCRIPT>
+</center>    
+</body>
+</html>
+ <!-- compressed/chunked -->

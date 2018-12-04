@@ -1,0 +1,667 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<META name="keywords" content="Realitis, Hicom, iSDX, CRM, Unified Messaging, Contact Centres, Video Conferencing, Telecommunications, Mobile Business, Telecoms, HiPath, Siemens Online, Xpressions">
+
+
+
+
+
+
+
+<HTML lang="en">
+<HEAD> 
+<TITLE>Siemens Communications Relationship Portal</TITLE>
+<SCRIPT language="javascript" src="/relationship/scripts/default.js"></SCRIPT> 
+<SCRIPT language="JavaScript">
+	if (isIe5()) {
+	  document.writeln("<link rel=\"stylesheet\" type=\"text/css\" href=\"/relationship/scripts/IE5.css\">");
+	} else if (isIe5Plus()) {			
+	  document.writeln("<link rel=\"stylesheet\" type=\"text/css\" href=\"/relationship/scripts/IE5plus.css\">");
+	} else if (isNs6Plus()) {			
+	  document.writeln("<link rel=\"stylesheet\" type=\"text/css\" href=\"/relationship/scripts/NS6plus.css\">");
+	} else {
+	  document.writeln('<h1>Your browser type or version is not supported by the Relationship Portal.</h1>');
+	}
+</SCRIPT>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+</HEAD>
+
+
+
+<BODY bgcolor="#ffcc99">
+
+
+				
+
+
+		<DIV id="keyvisual"><IMG src="/relationship/images/key_visual.jpg" border=0></DIV>
+		<DIV id="banner"><IMG id="mainlogo" src="/relationship/images/ocd_siemens_logo.gif" width=128 height=54 border=0></DIV>
+		
+
+
+
+<DIV id="help">
+
+	<DIV id="helplinks">
+
+	
+	<IMG src="/relationship/images/ocd_white.gif" width="1" height="9" border="0" hspace="1">
+
+	<A class="wlink" href=/relationship/home.jsp?folder=80256B21004F51A9&ai=47226266>Help</A>
+	<IMG src="/relationship/images/ocd_blank.gif" width="7" height="1"><IMG src="/relationship/images/ocd_white.gif" width="1" height="9" border="0" hspace="1">
+
+	<A class="wlink" href=http://www.siemens.com/page/1,3771,223620-1-999_4_0-0,00.html target=new>Investor Relations</A>
+	<IMG src="/relationship/images/ocd_blank.gif" width="7" height="1"><IMG src="/relationship/images/ocd_white.gif" width="1" height="9" border="0" hspace="1">						
+
+	</DIV>
+	
+</DIV>
+		
+
+
+
+<DIV id="logo">
+<DIV id="logotext">Siemens<br>Communications<br>Relationship Portal</DIV>
+</DIV>
+
+		
+
+
+
+<SCRIPT language="JavaScript">
+	var win=null;
+	function formHandler(form){
+		var URL = document.form.site.options[document.form.site.selectedIndex].value;
+			if (URL != "")  {
+		        win = window.open(URL, "", "");
+  			    win.focus();
+		    }
+	}
+
+</SCRIPT>
+
+
+
+<DIV id="quickjump">
+	<FORM name="form">
+	<DIV id="jump-select">
+	<SELECT id="site" style="font-size: 12px; height: 18px" onChange="javascript:formHandler()">
+    <OPTION value="" selected>Siemens links
+    <OPTION value="">------------------------------------------ 
+  			        
+			<OPTION value="http://www.hipath.com">Siemens ICN HiPath  			        
+  			        
+			<OPTION value="http://www.siemens.com">Siemens AG  			        
+  			        
+			<OPTION value="http://www.siemens.co.uk">Siemens PLC  			        
+  			        
+			<OPTION value="http://www.siemenscomms.co.uk/online/index.htm">Siemens Online  			        
+  			        
+			<OPTION value="http://www.siemens.com/page/1,3771,252934-1-0_1_0-0,00.html">Siemens ICN  			        
+  			        
+			<OPTION value="http://www.siemens.co.uk/jobs/">Careers  			        
+  			        
+			<OPTION value="http://www.siemenscomms-ipsc.co.uk">Siemens IP Service Centre  			        
+  			        
+			<OPTION value="http://www.solution1.co.uk">Siemens Solution 1  			        
+  			        
+			<OPTION value="http://www.sbs.siemens.co.uk">Siemens SBS  			        
+  			        
+			<OPTION value="http://www.ic.siemens.com/mobile-business">Siemens ICM  			        
+  			        
+			<OPTION value="http://www.siemenscomms-tac.co.uk/">Siemens Networked Solutions Group   			        
+ 	
+	</SELECT>
+	</DIV>
+	</FORM>
+</DIV>
+
+		
+<DIV id="advancedsearch"></DIV>
+		
+
+
+<DIV  id="search">
+	<FORM method="post" name="fulltextsearch" action="/relationship/home.jsp?action=searchtools&id=01">
+	<DIV id="searchentry">
+		<INPUT type="text" value="Search..." onfocus="clearText(this)" name="query" maxlength="40" size="8" style="font-size: 12px; width: 90px; height: 20px"> 
+		<INPUT type="hidden" name="StatusField" value="StartSearch"> 
+		<A class="go" href="javascript:document. fulltextsearch.submit()">GO</A>
+	</DIV>	
+	</FORM>
+</DIV>
+
+		
+
+
+
+
+
+
+
+<DIV id="channelbar">
+
+	<DIV id="channels">
+	<TABLE cellspacing="4" cellpadding="0" border="0">
+    <TR>
+    
+	
+				<TD valign="center">
+					<img src="images/ocd_white.gif" width="1" height="9" border="0">
+				</TD>
+		        <TD valign="center"nowrap>
+		        	<A class="glink" href="/relationship/home.jsp?folder=80256B5A00599370&ai=47226266">Carrier Services</A>
+				</TD>
+				<TD valign="center">
+				</TD>
+	
+				<TD valign="center">
+					<img src="images/ocd_white.gif" width="1" height="9" border="0">
+				</TD>
+		        <TD valign="center"nowrap>
+		        	<A class="glink" href="home.jsp?folder=80256A9B005F252C&ai=47226266">Convergence</A>
+				</TD>
+				<TD valign="center">
+				</TD>
+	
+				<TD valign="center">
+					<img src="images/ocd_white.gif" width="1" height="9" border="0">
+				</TD>
+		        <TD valign="center"nowrap>
+		        	<A class="glink" href="/relationship/home.jsp?folder=80256A8C005E9E8E&ai=47226266">Products</A>
+				</TD>
+				<TD valign="center">
+				</TD>
+	
+				<TD valign="center">
+					<img src="images/ocd_white.gif" width="1" height="9" border="0">
+				</TD>
+		        <TD valign="center"nowrap>
+		        	<A class="glink" href="/relationship/home.jsp?folder=80256A9C003DC418&ai=47226266">Services</A>
+				</TD>
+				<TD valign="center">
+				</TD>
+	
+				<TD valign="center">
+					<img src="images/ocd_white.gif" width="1" height="9" border="0">
+				</TD>
+		        <TD valign="center"nowrap>
+		        	<A class="glink" href="/relationship/home.jsp?folder=80256A9C003DE8D9&ai=47226266">Solutions</A>
+				</TD>
+				<TD valign="center">
+				</TD>
+
+	</TR>
+	</TABLE>
+</DIV>
+
+
+
+
+
+
+
+	
+
+<DIV id="breadcrumb">
+
+	<TABLE border="0" cellspacing="0" cellpadding="0">
+    <TBODY>
+        <TR>
+            <TD><img src="images/ocd_blank.gif" width="9" height="1" border="0">
+				
+			</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD valign="top">
+
+	            	<SPAN class="bclink">
+ 		           		<A class="bclink" href="/relationship/home.jsp?folder=80256A8C005E9E8E&ai=47226266">Products</A>
+	
+   		         	</SPAN> 				
+                     
+ 			</TD>
+            <TD><img src="images/ocd_blank.gif" width="4" height="1" border="0"></TD>
+        </TR>
+    </TBODY>
+	</TABLE>
+</DIV>
+
+
+</DIV>
+		
+
+
+
+
+
+
+
+<DIV id="info">
+</DIV>
+
+
+
+
+
+		<DIV id="content">
+			<A name="top"></A>
+			<DIV id="bluefix"> 
+			
+
+
+
+
+<DIV
+    id="page" class="ocdstandardtext"><BR>
+ 
+
+	
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+<SCRIPT language="javascript">
+
+var Open = ""
+var Closed = ""
+
+function preload(){
+	if(document.images){
+		Open = new Image(16,13)    
+		Closed = new Image(16,13)
+		Open.src = "images/ocd_link2_black_r.gif"
+		Closed.src = "images/ocd_link2_black_r.gif"
+	}
+}
+
+function showhide(what,what2){
+	if (what.style.display=='none'){
+		what.style.display='';
+		what2.src="images/ocd_link2_black_r.gif"
+	} else{
+		what.style.display='none'
+		what2.src="images/ocd_link2_black_r.gif"
+	}
+}
+
+</SCRIPT>
+
+	
+
+
+<DIV class="ocdstandardtext">
+
+
+
+
+<TABLE>
+	<H1>Products</H1>
+</TABLE>
+
+
+
+
+
+<DIV>
+
+Siemens Communications delivers a market leading portfolio of
+products and solutions for&nbsp;Enterprise customers. The portfolio
+is designed to meet the requirements of businesses from SME to
+global organisations. 
+
+<p>Siemens Communications have experience in delivering solutions
+both in the UK and on an International basis. When delivering
+International solutions, usually as managed or outsourced
+services,&nbsp;we are&nbsp;able to utilise the global reach of
+Siemens in satisfying the needs of our customers.</p>
+
+<p>The Siemens Enterprise portfolio focuses on a number of key
+areas:</p>
+
+<p><a href="home.jsp?folder=80256A8D00450014" target=
+"_main"><strong>Communication
+Systems</strong></a><strong>&nbsp;-</strong> Included in this
+portfolio are the market leading Realitis and converged HiPath
+platforms.&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td><A href='/relationship/home.jsp?folder=80256A9900553868&ai=47226266' title=''><IMG src='/relationship/file?id=i31&ai=47226266' alt='Realitis DX ' border=0></A></td>
+<td>&nbsp;</td>
+<td><A href='/relationship/home.jsp?folder=80256B410040F9F3&ai=47226266' title=''><IMG src='/relationship/file?id=i32&ai=47226266' alt='HiPath 3000 ' border=0></A><br>
+
+<A href='/relationship/home.jsp?folder=80256A8D0045F944&ai=47226266' title=''><IMG src='/relationship/file?id=i33&ai=47226266' alt='HiPath 4000' border=0></A><br>
+
+<A href='/relationship/home.jsp?folder=80256A8D0045CCA8&ai=47226266' title=''><IMG src='/relationship/file?id=i34&ai=47226266' alt='HiPath 5000 ' border=0></A></td>
+</tr>
+</table>
+
+<p><a href="home.jsp?folder=80256A9B0059BF50" target=
+"_main"><strong>Contact Centres</strong></a><br>
+Siemens Communications offers you a range of contact centre
+solutions, which provide you with the platform to migrate your
+business from a simple ACD call handling environment, to full
+multi-media and <a href="home.jsp?folder=80256B3C005CEEFC" target=
+"_main">Customer Relationship Management</a> (CRM) integration.<br>
+<br>
+<a href="home.jsp?folder=80256A9C0045E4E3" target=
+"_main"><strong>Multi-media messaging</strong></a><br>
+Multimedia messaging and voice processing solutions are implemented
+to enhance customer communications by ensuring that calls are
+handled in the most effective possible way.<br>
+<br>
+<a href="home.jsp?folder=80256A920055C99F" target=
+"_main"><strong>Videoconferencing</strong></a><br>
+Videoconferencing is now playing an essential role in today's
+business world. Employees from dispersed locations can be brought
+together as effective teams, allowing items of common interest to
+be discussed, ideas to be considered and joint decisions to be made
+more efficiently.<br>
+<br>
+<a href="home.jsp?folder=80256A8D0045B584" target=
+"_main"><strong>Secure Communications</strong></a><br>
+An effective security solution will protect critical information
+assets, whilst at the same time connecting and securing all
+elements of a virtual enterprise network; infrastructure,
+applications and services.<br>
+<br>
+<a href="home.jsp?folder=80256A9B005A7BB8" target=
+"_main"><strong>Identity Management</strong></a><br>
+Organisations can save millions of pounds by implementing a meta
+directory. All companies manage multiple information sources on
+employees, customers, networks, applications, products and services
+and many more. Siemens world leading meta directories combine data
+from various physical directories into one logical directory,
+providing users with simple access to up-to-date information and
+reducing the management overload.</p>
+
+</DIV>
+
+
+<P>
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+</DIV>
+<BR>
+<BR>
+
+
+
+
+
+
+
+
+
+<BR>
+<BR>
+</DIV>
+ 
+			
+
+
+
+
+
+<DIV id="footer">
+	<TABLE width="432" align="center" cellpadding="0" cellspacing="0" border="0">
+	<TR valign="bottom">
+		<TD align="right" colspan="3" valign="bottom">
+		
+
+		<A href="/relationship/home.jsp?folder=80256A8C005E9E8E&ai=47226266#top">
+        <DIV class="ocdblackbold" style="position: relative; top: 6px">Up<img src="images/ocd_pageup.gif" width="13" height="9" border="0"></DIV>
+        </A>
+
+	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</TD>
+	</TR>
+	
+    <TR valign="bottom" width="100%" style="height: 1px">
+		<TD colspan="3">
+			<HR style="color: grey; margin-bottom: 0px; position: relative; top: 3px" size="1" width="432">
+		</TD>
+	</TR>
+	
+    <TR style="height: 11px">
+		<TD width="33%" nowrap>
+		</TD>        
+					
+		<TD nowrap>
+			<IMG src="/relationship/images/ocd_grey.gif" width="1" height="11" border=0>&nbsp;
+			<A class="ocdstandardtext" href="/relationship/home.jsp?folder=80256B210050AF09&ai=47226266">Legal</A>
+		</TD>
+				
+        <TD width="33%"nowrap>
+        <IMG src="/relationship/images/ocd_grey.gif" width="1" height="11" border=0>&nbsp;&copy; Siemens plc 2002</TD>
+    </TR>
+</TABLE>
+</DIV>
+
+			</DIV>
+		</DIV>
+ 
+		
+
+
+
+
+
+
+
+<DIV id="navigator">
+	<DIV id="navitems">
+		<TABLE style="margin-bottom: 0px">
+	    <TR>
+        	<TD valign="top"><img src="images/ocd_link1_right_white.GIF" width="9" height="7" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+	        <TD>
+	        
+	        <A class="wlink" href="/relationship/home.jsp?ai=47226266">Home</A>
+
+	  		</TD>
+	    </TR>
+		</TABLE>		
+	
+	<img src="images/ocd_blank.gif" width="9" height="1" border="0"><hr width="120" style="color: #ffffff" size="1"><img src="images/ocd_blank.gif" width="9" height="1" border="0">
+		<B><A class="wlink">Products</A></B>
+		<P style="margin-top: 5px">
+		<TABLE style="margin-top: 0px; margin-bottom: 0px" border="0">						
+
+    	<TR valign="top">
+        	<TD valign="top"><img src="images/ocd_link2_white_r.gif" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+	        <TD><A class="wlink" href="/relationship/home.jsp?folder=80256A8D00450014&ai=47226266">Communication   Systems</A><BR/></TD>
+		</TR>	
+
+    	<TR valign="top">
+        	<TD valign="top"><img src="images/ocd_link2_white_r.gif" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+	        <TD><A class="wlink" href="/relationship/home.jsp?folder=80256A9B0059BF50&ai=47226266">Contact Centres</A><BR/></TD>
+		</TR>	
+
+    	<TR valign="top">
+        	<TD valign="top"><img src="images/ocd_link2_white_r.gif" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+	        <TD><A class="wlink" href="/relationship/home.jsp?folder=80256A9C0045E4E3&ai=47226266">Messaging</A><BR/></TD>
+		</TR>	
+
+    	<TR valign="top">
+        	<TD valign="top"><img src="images/ocd_link2_white_r.gif" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+	        <TD><A class="wlink" href="/relationship/home.jsp?folder=80256A920055C99F&ai=47226266">Videoconferencing</A><BR/></TD>
+		</TR>	
+
+    	<TR valign="top">
+        	<TD valign="top"><img src="images/ocd_link2_white_r.gif" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+	        <TD><A class="wlink" href="/relationship/home.jsp?folder=80256A9B005A7BB8&ai=47226266">Identity Management</A><BR/></TD>
+		</TR>	
+
+    	<TR valign="top">
+        	<TD valign="top"><img src="images/ocd_link2_white_r.gif" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+	        <TD><A class="wlink" href="/relationship/home.jsp?folder=80256A8D0045B584&ai=47226266">Secure Communications</A><BR/></TD>
+		</TR>	
+
+    	<TR valign="top">
+        	<TD valign="top"><img src="images/ocd_link2_white_r.gif" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+	        <TD><A class="wlink" href="/relationship/home.jsp?folder=80256C2A003A4E73&ai=47226266">Solution One</A><BR/></TD>
+		</TR>	
+
+    	<TR valign="top">
+        	<TD valign="top"><img src="images/ocd_link2_white_r.gif" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+	        <TD><A class="wlink" href="/relationship/home.jsp?folder=80256B6C0059EE89&ai=47226266">Jargon Buster</A><BR/></TD>
+		</TR>	
+
+    	<TR valign="top">
+        	<TD valign="top"><img src="images/ocd_link2_white_r.gif" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+	        <TD><A class="wlink" href="/relationship/home.jsp?folder=80256AC00031689D&ai=47226266">Assura</A><BR/></TD>
+		</TR>	
+
+		</TABLE>
+<img src="images/ocd_blank.gif" width="9" height="1" border="0"><hr width="120" style="color: #ffffff" size="1">
+
+	<TABLE style="margin-top: 0px">		
+			
+			<TR>
+				<TD valign="top"><img src="images/ocd_link1_right_white.GIF" width="9" height="7" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+				<TD><A class="wlink" href="http://www.siemens.co.uk/jobs/" target=new>Careers</A><BR></TD>
+			</TR>
+
+			<TR>
+				<TD valign="top"><img src="images/ocd_link1_right_white.GIF" width="9" height="7" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+				<TD><A class="wlink" href="/relationship/home.jsp?folder=80256AEF005B5CE2&ai=47226266">About Us</A><BR></TD>
+			</TR>
+
+			<TR>
+				<TD valign="top"><img src="images/ocd_link1_right_white.GIF" width="9" height="7" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+				<TD><A class="wlink" href="/relationship/home.jsp?folder=80256AF70041298C&ai=47226266">News</A><BR></TD>
+			</TR>
+
+			<TR>
+				<TD valign="top"><img src="images/ocd_link1_right_white.GIF" width="9" height="7" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+				<TD><A class="wlink" href="/relationship/home.jsp?folder=80256AEF0059E764&ai=47226266">Design Services</A><BR></TD>
+			</TR>
+
+	</TABLE>
+	
+	<FORM style="margin-top: -3px" method="post" name="contactInformation" action="/relationship/MCWorkflow">
+		<INPUT type="hidden" name="StatusField" value="ContactInformation">
+		<TABLE>
+		<TR>			
+			
+   	        <TD valign="top"><img src="images/ocd_link1_right_white.GIF" width="9" height="7" border="0" style="position:relative; top:3"><img src="images/ocd_blank.gif" width="0" height="1" border="0"></TD>
+			<TD><A class="wlink" href="javascript:document.contactInformation.submit();">Contact Us</A></TD>
+			
+		</TR>
+		</TABLE>
+	</FORM>
+	</DIV>
+</DIV>
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<SCRIPT language="javascript">
+
+var Open = ""
+var Closed = ""
+
+function preload() {
+	if(document.images) {
+		Open = new Image(16,13)    
+		Closed = new Image(16,13)
+		Open.src = "images/ocd_link2_black_r.gif"
+		Closed.src = "images/ocd_link2_black_r.gif"
+	}
+}
+
+
+function showhide(what,what2){
+	if (what.style.display=='none') {
+		what.style.display='';
+		what2.src="images/ocd_link2_black_r.gif"
+	} else{
+		what.style.display='none'
+		what2.src="images/ocd_link2_black_r.gif"
+	}
+}
+
+
+
+</SCRIPT>
+
+<DIV id="options">
+
+	<DIV id="loginoptions">
+	
+
+
+
+
+If you are an existing Customer, Partner or are from our Indirect Channel and have been allocated a 'Username' and 'Password' please click on Login below to enter the login page.
+<BR>
+<BR>
+
+
+
+
+	<DIV>
+		<img src="images/ocd_link1_right_black.gif" width="9" height="7" border="0">
+		<INPUT type="hidden" name="StatusField" value="Login">
+		<A class="ocdblackbold" href='https://www.siemenscomms.co.uk/relationship/home.jsp?action=securelogin'>Login</A>
+	</DIV>
+	
+
+<HR style="color: white; margin-bottom: 0px; text-align: left; position: relative; top: 2" size="1" width="120"><img src="images/ocd_link1_right_black.gif" width="9" height="7" border="0">
+<INPUT type="hidden" name="StatusField" value="Forgotten">
+<A class="ocdmenublack" href="/relationship/home.jsp?action=entitlement&id=09">Forgotten password?</A>
+
+
+<BR>
+
+	</DIV>
+</DIV>
+
+
+
+
+</BODY>
+</HTML>

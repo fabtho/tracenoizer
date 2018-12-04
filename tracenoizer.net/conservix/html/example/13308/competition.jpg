@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" media="all" type="text/css" href="../style/index_ie.css">
+<title>IRIS Software</title>
+<meta HTTP-EQUIV="expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT">
+</head>
+
+<body style="margin:10px;">
+
+<h1>There has been a problem!</h1>
+
+<p><b>Page requested:</b> <i>
+<script language="JavaScript">
+var spage;
+spage = location.href;
+document.write(spage)
+</script>
+<noscript>Your browser security settings do not allow the error information to be shown.</noscript>
+</i></p>
+
+<p>The page you have requested from <b>www.iris.co.uk</b> is not available. Please double check that you have typed in the address correctly.</p>
+
+<p>To help us fix any potential problems, please send an error report by clicking the button below. You will not be required to give any information, as the report is completed automatically.</p>
+
+<form action="http://www.iris.co.uk/errors/error_done.asp" method="post" name="email" id="email" target="_self" class="drop">
+<input type="hidden" name="Type" id="Type" value="Error 404">
+<input type="hidden" name="Address" id="Address" value="">
+<input type="submit" name="email" id="email" value="Send error report" class="drop">
+</form>
+
+<script language="JavaScript">email.Address.value = spage;</script>
+
+<p>If you would like to send an email to the webmaster, please use <a href="mailto:webmaster@iris.co.uk">webmaster@iris.co.uk</a>.</p>
+
+<p><hr size="1" color="#000000"></p>
+
+<h1>Menu</h1>
+
+<p>To help you get back to the IRIS website, here are links to our main pages.</p>
+
+<a href="http://www.iris.co.uk" target="_self">Frontpage (www.iris.co.uk)</a><br>
+<a href="http://www.iris.co.uk/_customers/default.asp" target="_self">Customers homepage</a><br>
+<a href="http://www.iris.co.uk/_smes/default.asp" target="_self">Small Business Software</a><br>
+<a href="http://www.iris.co.uk/products/default.asp" target="_self">Products homepage</a><br>
+<a href="http://www.iris.co.uk/customers/default.asp" target="_self">Case Studies</a><br>
+<a href="http://www.iris.co.uk/news/default.asp" target="_self">News</a><br>
+<a href="http://www.iris.co.uk/training/default.asp" target="_self">Training</a><br>
+<a href="http://www.iris.co.uk/contact/default.asp" target="_self">Contacts</a><br>
+<a href="http://www.iris.co.uk/links/default.asp" target="_self">Links</a><br>
+<a href="http://www.iris.co.uk/publications/default.asp" target="_self">Publications</a><br>
+<a href="http://www.iris.co.uk/sitemap/default.asp" target="_self">Sitemap</a><br>
+<a href="http://www.iris.co.uk/seminars/default.asp" target="_self">Seminars</a><br>
+</body>
+</html>

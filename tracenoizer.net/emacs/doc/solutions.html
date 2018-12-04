@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--Time-stamp: <2003-06-12 12:08:34 bingalls> --><!--$Id: solutions.html,v 1.23 2003/05/24 17:37:00 bingalls Exp $-->
+<!--Copyright © 1998,2002 Bruce Ingalls bingalls(at)users.sf.net-->
+<!--See the EMacro project file COPYING for license-->
+<!--This file is not (yet) part of Emacs or XEmacs.-->
+<head>
+<meta name="description"
+ content="EMacro is an easy .emacs configuration file for Emacs and XEmacs"/>
+<meta name="keywords" content=".emacs editor configuration"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="icon" href="images/em_ico.png" type="image/png"/>
+
+<title>Solutions: Common Problem Guide</title>
+<!-- Changed by: , 09-Jan-2003 -->
+<style type="text/css">
+span.emacro {color: blue}
+</style>
+</head>
+<body>
+<h1>Solutions: Common Problem Guide</h1>
+<ul>
+<li><a href="#faq">FAQ: Frequently Asked Questions</a></li>
+<li><a href="#emacs">.emacs - Where Does It Go?</a></li>
+<li><a href="#Bug">Bug/Problem Checklist</a></li>
+<li><a href="#Byte">Byte Compile Errors</a></li>
+<li><a href="#Check">Check How Emacs Was Compiled</a></li>
+<li><a href="#Clashing">Clashing Libraries</a></li>
+<li><a href="#Copy">Copy, Cut &amp; Paste</a></li>
+<li><a href="#Display">Display</a></li>
+<li><a href="#Dos">Dos/Mac ^M End Of Lines</a></li>
+<li><a href="#Emacs">Emacs Together With XEmacs</a></li>
+<li><a href="#Environment">Environment Variables</a></li>
+<li><a href="#Feature">Feature Does Not Work!</a></li>
+<li><a href="#Gnus">Gnus News</a></li>
+<li><a href="#Hanging">Hanging / Stuck</a></li>
+<li><a href="#Help">Help Browsing In Text Mode</a></li>
+<li><a href="#Indenting">Indenting Code</a></li>
+<li><a href="#Internationalization">Internationalization</a></li>
+<li><a href="#Key">Key Bindings</a></li>
+<li><a href="#Load">Load Errors</a></li>
+<li><a href="#Missing">Missing Packages</a></li>
+<li><a href="#Network">Network Warnings / Slow Loading</a></li>
+<li><a href="#Printing">Printing</a></li>
+<li><a href="#Remote">Remote Editing: Ange-Ftp(Gnu Emacs) Efs([Gnu]
+	XEmacs)</a></li>
+<li><a href="#RPM">RPM (Red Hat) Install of XEmacs</a></li>
+<li><a href="#Terminal">Terminal</a></li>
+<li><a href="#Watson">Watson</a></li>
+<li><a href="#Web">Web Browsing</a></li>
+<li><a href="#Xmodmap">Xmodmap Keyboard Sample</a></li>
+<li><a href="#Xml">XML or HTML problems</a></li>
+</ul>
+
+<hr />
+<p>
+In order to view this from <span class="emacro">EMacro</span>'s help menu, you
+must install the full tarball, in particular, browse-url.el, advice.el, term.el
+and thingatpt.el
+</p>
+
+<h1>Solutions</h1>
+
+<hr />
+<h2>
+<a name="faq">
+FAQ: Frequently Asked Questions
+</a>
+</h2>
+<p>
+Check <a href="resources.html#docs">the local resources.html doc</a> or
+<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/emacro/emacs/doc/resources.html?rev=HEAD&amp;content-type=text/html#docs">
+online</a> for links to FAQs.
+</p>
+
+<hr />
+<h2>
+<a name="emacs">
+.emacs - Where Does It Go?
+</a>
+</h2>
+<p>
+Your ".emacs" file might also be called "_emacs" on MS Windows. You should set
+the environment variable "HOME" (Skip this, if you run classic Mac OS
+v8-9). You can inspect this variable by entering at a prompt:
+<br />
+	<code>set</code>
+<br />
+This is your home directory. <span class="emacro">EMacro</span> is kicked off by a file called ".emacs".
+You can see this hidden file on Linux compatible systems by entering
+<br />
+	<code>cd; ls -a</code>
+</p>
+
+<hr />
+<h2>
+<a name="Bug">
+Bug/Problem Checklist
+</a>
+</h2>
+<ul>
+<li>Know the 'Control G' (C-G) keys. This is your escape key for exiting
+commands in the minibuffer (status line). Hitting the Esc key 3 times works
+similarly.</li>
+<li>Life in XEmacs is better, when you download the latest sumo tarball from
+<a href="http://www.xemacs.org/">http://www.xemacs.org/</a></li>
+<li>Check the <a href="#faq">FAQs</a></li>
+<li>Get the latest version of all software. Note that you may have
+better luck from  <a href="resources.html">local resources docs</a> or
+<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/emacro/emacs/doc/resources.html?rev=HEAD&amp;content-type=text/html">
+online</a> than the links that <span class="emacro">EMacro</span> generates in
+*cache.el.</li>
+<li>Be sure to check the PROBLEMS file in your site's emacs directory.
+<a href="release_notes.html">release_notes.html</a> or
+<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/emacro/emacs/doc/release_notes.html?rev=HEAD&amp;content-type=text/html">
+online</a> may also help.</li>
+
+<li><span class="emacro">EMacro</span>'s source code is neatly organized. You may find commented code that
+fixes your solution. Try the following:
+<br />
+<code>M-x grep</code> [return]
+<br />
+<code>grep -n "problem keyword" ~/emacs/emacro/*.el</code>  or
+<br />
+<code>grep -n "problem keyword" ~/emacs/programmer/*.el</code>
+<br />Emacro should have already loaded the grep.el or igrep.el library.
+</li>
+
+<li>Try running
+<br />
+<code>cd %HOME%\emacs\bin\w32</code>   #For Microsoft Windows
+<br />
+<code>cd ~/emacs/bin/unix/</code>   #For all other systems
+<br />
+<code>e-refresh</code></li>
+</ul>
+<p>
+Finally, if you still need help with <span class="emacro">EMacro</span>, be sure to provide me with the
+following:
+<br />
+Version of <span class="emacro">EMacro</span> &nbsp; <code>C-h v</code>
+<br /><code>emacro-version</code>
+<br />
+Version and Name of operating system
+<br />
+<code>uname -a</code> (on unix)
+<br />
+Version and Emacs or XEmacs
+<br />
+<code>M-x version</code>
+<br />
+Ideally, you should be able to reproduce any error with a freshly logged in
+system, and should have the latest stable release of everything.
+</p>
+
+<hr />
+<h2>
+<a name="Byte">
+Byte Compile Errors
+</a>
+</h2>
+<p>
+I recommend against bytecompiling <span class="emacro">EMacro</span>, unless you are trying to track down
+a bug. This is because *.elc files are less portable, and offer <span class="emacro">EMacro</span> no
+increase in speed. Bytecompiling is useful for some other programs, such as
+<i>semantic</i>, which is used in JDEE.
+<span class="emacro">EMacro</span> goes to great lengths to avoid byte-compiler warnings.
+In general, <i>errors</i> marked by <b>!!</b> are serious, <i>warnings</i> are
+not. Try running the <i>e-refresh</i> script, to remove *cache.el files.
+</p><p>
+If you see the error
+<br />
+<i>!! End of stream ((#&lt;buffer " *Compiler Input*"&gt;))</i>
+<br />
+this means that you have an unbalanced parenthesis or quote.
+You can generally, and easily find an unbalaced quote, by refreshing font-lock,
+choosing <i>Tools</i> menu -&gt; <i>Refresh colors</i>, or with
+<br />
+<code>M-x font-lock-fontify-buffer</code>
+<br />
+You can find an unbalanced parenthesis with
+<br />
+<code>C-home</code>
+<br />
+(top of file). Repeat by holding
+<br />
+<code>M-C-n</code>
+<br />
+until Emacs complains with a beep. Note that an unbalanced single quote is
+often proper in lisp.
+</p>
+
+<hr />
+<h2>
+<a name="Check">
+Check How Emacs Was Compiled
+</a>
+</h2>
+<p>M-x describe-installation</p>
+
+<hr />
+<h2>
+<a name="Clashing">
+Clashing Libraries
+</a>
+</h2>
+<p>
+Show duplicate libraries in multiple directories:
+<br />
+<code>M-x list-load-path-shadows</code>
+<br />
+You can hit 'C-x e' at the end of
+<br />
+<code>(member (format "%semacs/packages/" use-home) load-path)</code>
+<br />
+or simply,
+<br />
+<code>(member "/home/my-login/emacs/packages/" load-path)</code>
+<br />
+to see if that directory is in your load-path. Of course, you can also do
+<br />
+<code>C-h v</code>
+<br />
+<code>load-path</code>
+<br />
+and search the results.
+</p>
+
+<hr />
+<h2>
+<a name="Copy">
+Copy, Cut &amp; Paste
+</a>
+</h2>
+<p>
+You really should visit the FAQs (Frequently Asked Questions) for problems
+like these. This one is common enough to annoy many new users. Download
+CUA-mode.el, run <i>e-refresh</i> to remove *cache.el. If you are running GNU
+Emacs, you should be pleased with the results. You cannot use native Emacs
+shortcuts on selected text, such as <code>C-x C-l</code> to lowercase a region.
+Instead, you would have to use long commands, such as <code>M-x downcase-region
+</code>. <span class="emacro">EMacro</span> does not support the older, buggy version of cua-mode for
+XEmacs.
+<br />
+Emacs supports the true CUA standard: ('C-' means Control key; 'S-' means
+Shift)
+</p>
+<table>
+<tr><td>C-insert</td><td>copy</td></tr>
+<tr><td>S-delete</td><td>cut</td></tr>
+<tr><td>S-insert</td><td>paste</td></tr>
+</table>
+<p>
+Microsoft, Motif, IBM &amp; others adhere to this standard. Microsoft, however, has
+been steering users to C-c, C-x, C-v keybindings.
+</p>
+
+<hr />
+<h2>
+<a name="Display">
+Display
+</a>
+</h2>
+<p>
+If you are in text mode, and the display looks wierd, hit <code>C-l</code>
+</p><p>
+There appears to be a bug in older XEmacs, in X window, where the right side
+does not display. This goes away when you generate a refresh event, such as 
+resizing. You probably need to choose a smaller "use-height" in configure.el
+</p><p>
+Some adjustments must be done through your operating system. You may need to
+edit <code>~/.Xdefaults</code>, on Linux compatible OSes. You can view the
+system resources with <code>xrdb -query</code> and for emacs with <code>appres
+emacs</code>. Check also the environment variables <code>XUSERFILESEARCHPATH,
+XAPPLRESDIR, XFILESEARCHPATH</code> for Xdefaults. Also look at <code>
+~/.Xresources</code>
+</p>
+<p>Here is some sample .Xdefault entries, to change the menubar font:
+<br />
+<code>#Emacs only?</code>
+<br />
+<code>Emacs*menubar*Font: -*-helvetica-bold-r-*-*-*-60-80-80-*-*-*-*</code>
+<br />
+<code>#XEmacs only?</code>
+<br />
+<code>Emacs*XlwMenu.Font: -*-arial-bold-i-normal--*-120-*-*-*-*-iso8859-*
+</code>
+</p>
+
+<hr />
+<h2>
+<a name="Dos">
+Dos/Mac ^M End Of Lines
+</a>
+</h2>
+<p>
+<code>C-x RET f undecided-dos RET</code>
+<br />
+Your best bet is to call dos2unix. This is available on Solaris, and as a
+contributed package at <a href="http://www.rpmfind.org/">
+http://www.rpmfind.org/</a> or at <a href="http://www.redhat.com/mirrors.html">
+http://www.redhat.com/mirrors.html</a>
+<br />
+You can also remove them with
+</p>
+<table>
+<tr><td><i>C-%</i></td><td>(shortcut for <i>M-x query-replace</i>)</td></tr>
+<tr><td><i>C-q C-m</i></td><td>(literally insert a ^M)</td></tr>
+<tr><td><i>RET</i></td>
+	<td>(hit enter again to replace with nothing)</td></tr>
+<tr><td>!</td><td>(replace all)</td></tr>
+</table>
+
+<hr />
+<h2>
+<a name="Emacs">
+Emacs Together With XEmacs
+</a>
+</h2>
+<p>
+If you use both Gnu Emacs &amp; [Gnu] XEmacs or even 2 versions on the same system,
+do not bytecompile your .el files.
+</p>
+
+<hr />
+<h2>
+<a name="Variables">
+Environment Variables
+</a>
+</h2>
+<p>
+These are optional, but may help in running Emacs remotely. I include some
+example paths.
+</p>
+<table>
+<tr><td>EMACSPATH</td><td>/usr/local/share/emacs</td></tr>
+<tr><td>EMACSDATA</td><td>$EMACSPATH/etc</td></tr>
+<tr><td>EMACSDOC</td><td>$EMACSPATH/21.0/etc/DOC-21.0.1</td></tr>
+<tr><td>EMACSLOADPATH</td>
+	<td>$EMACSPATH/21.0/site-lisp:$EMACSPATH/21.0/lisp</td></tr>
+<tr><td>EMACSLOCKDIR</td><td>~/.lock/</td></tr>
+<tr><td>INFOPATH</td><td>/usr/local/share/info</td></tr>
+</table>
+
+<hr />
+<h2>
+<a name="Feature">
+Feature Does Not Work!
+</a>
+</h2>
+<p>
+<span class="emacro">EMacro</span> probes your system for libraries &amp; programs, as each .el file is
+loaded. If you move or add such files, you'd do best to run the
+<i>e-refresh</i> script, to remove *.elc and *cache.el, then restart Emacs or
+XEmacs.
+</p>
+
+<hr />
+<h2>
+<a name="General">
+General Errors
+</a>
+</h2>
+<p>
+If you get wierd, unexplained errors, try increasing the following elisp
+limits. Use <code>C-h v</code> to inspect them:
+<br /><code>max-lisp-eval-depth</code>
+<br/>
+<code>max-specpdl-size</code>
+</p>
+
+<hr />
+<h2>
+<a name="Gnus">
+Gnus News
+</a>
+</h2>
+<p>
+Try this to debug your connection, also in <code>M-x shell</code>:
+<br />
+<code>telnet news.myNewsServer.com nntp</code>
+</p>
+
+<hr />
+<h2>
+<a name="Hanging">
+Hanging / Stuck
+</a>
+</h2>
+<p>
+If Emacs is not responding, type <code>C-g</code> or <code>Esc</code> three
+times.
+</p>
+
+<hr />
+<h2>
+<a name="gzip">
+Gzip Error
+</a>
+</h2>
+<p>
+If you see this error message:
+</p>
+<p>
+<code>Searching for program: no such file or directory, gzip</code>
+</p>
+<p>
+This means that you have a compressed library (e.g. cua.el.gz) in your
+Emacs load-path, and that <code>gzip</code> is not in a directory in
+your PATH environment variable.
+</p>
+
+<hr />
+<h2>
+<a name="Help">
+Help Browsing In Text Mode
+</a>
+</h2>
+<p>
+You should install the Emacs W3 HTML browser from
+<a href="http://www.cs.indiana.edu/elisp/w3/docs.html">
+http://www.cs.indiana.edu/elisp/w3/docs.html</a>. If you have lynx in your PATH
+then you can edit <code>~/preferences/e-prefs.el</code> with this line:
+<br />
+<code>(defconst use-browser 'lynx)</code>
+<br />
+The line should be entered exactly as above, including the single unbalanced
+single quote. To restore your graphical mode browser, you can remove or comment
+out this line, by preceding it with a <b>;</b> semicolon.
+</p>
+
+<hr />
+<h2>
+<a name="Indenting">
+Indenting Code
+</a>
+</h2>
+<p>See "Code Indentation/Formatting Styles" in programmer.el</p>
+
+<hr />
+<h2>
+<a name="Internationalization">
+Internationalization
+</a>
+</h2>
+<p>
+<span class="emacro">EMacro</span> supports i18n / internationalization, but
+more help from the community, on testing files in the contrib directory is
+needed. See also <a href="tips.html#Japanese">tips.html</a> or
+<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/emacro/emacs/doc/tips.html?rev=HEAD&amp;content-type=text/html#Japanese">
+online</a>.
+</p>
+<p>
+Make sure, that not <b>every one</b> character is part of the latin-1 encoding.
+For example, saving certain web pages that use \240 as a space character will
+cause problems. Results will vary between console and X Window modes.
+</p>
+
+<hr />
+<h2>
+<a name="Key">
+Key Bindings
+</a>
+</h2>
+<p>
+You can view what keys were just pressed, with <code>C-h l</code>. Also, try
+<code>M-: (read-key-sequence "")</code> before pressing a key, to see what is
+generated.
+</p>
+<p>
+Fixing X window key bindings. Get XKeycaps from 
+<a href="http://www.jwz.org/xkeycaps/">http://www.jwz.org/xkeycaps/</a> or see
+<a href="resources.html">resources.html</a> or
+<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/emacro/emacs/doc/resources.html?rev=HEAD&amp;content-type=text/html">
+online</a>.  Also check unix style help: <code>man -s1
+xmodmap</code> or <code>man -s1 xev</code>
+</p>
+<p>
+Another keyboard project is Linux Easy Access Keyboard at
+<a href="http://lineak.sf.net/">http://lineak.sf.net/</a>
+</p>
+<p>
+Keybindings are annoying with Classic Mac OS 9.x. I have not done enough
+testing on Mac OS X, to see if it works better.
+For example, the 'end' key generates a control-d, which works well as an
+existing Emacs standard for delete-char (forward). This will not improve,
+without help from the Mac community.
+</p>
+<p>
+For international use, also see about turning off dead keys.
+</p>
+
+<hr />
+<h2>
+<a name="Load">
+Load Errors
+</a>
+</h2>
+<p>
+Running <code>emacs -debug-init</code> or <code>xemacs -debug-init</code> from
+the command line will help you track down problems. The <code>-q --no-site-file
+</code> flags will allow you turn off your .emacs (
+<span class="emacro">EMacro</span>) and shared init files, respectively.
+<br />
+Do not try to run an older version of Emacs with *.elc files that have been
+byte-compiled by a newer version. Sometimes it helps to remove ~/emacs/*.elc
+files then restart, which will recompile them.
+<br />
+Also, make sure that you do not have compressed files or compiled of the same
+name, especially in the same directory, eg: ~/emacs/e-macro.el and
+~/emacs/e-macro.el.gz or ~/emacs/e-macro.elc
+<br />
+It may help to increase the size of <code>max-specpdl-size</code> and
+<code>max-lisp-eval-depth</code>. See the top of <code>e-config.el</code> for
+suggested sizes to uncomment.
+</p>
+
+<hr />
+<h2>
+<a name="Missing">
+Missing Packages
+</a>
+</h2>
+<p>
+Visit the Emacs Lisp List. See <a href="resources.html">resources.html</a> or
+<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/emacro/emacs/doc/resources.html?rev=HEAD&amp;content-type=text/html">
+online</a>
+<br />
+<i>e-refresh</i> in the bin directory may help.
+</p>
+
+<hr />
+<h2>
+<a name="Network">
+Network Warnings / Slow Loading
+</a>
+</h2>
+<p>
+Emacs may be waiting for the network to time out, to get info.
+Put a fully qualified domain name for your machine in <i>/etc/hosts</i>,
+and tell the <i>/etc/resolv</i> routines to look in /etc/hosts before
+looking at the network. Check that your host name is /etc/hostname.
+On Microsoft Windows, look at c:\winnt\system32\drivers\etc\hosts or
+c:\winnt\system32\drivers\etc\lmhosts
+</p>
+<p>
+If you are running XEmacs, try upgrading to at least 21.4.4 and rebuild using
+<code>--with-ipv6-cname=no</code>.
+</p>
+
+<hr />
+<h2>
+<a name="Printing">
+Printing
+</a>
+</h2>
+<h3>Flushing Postscript jobs</h3>
+<p>
+Try printing a quit job, to eject the last page. Ghostscript provides this
+default location:
+<code>/usr/local/share/ghostscript/7.05/lib/quit.ps</code>
+</p>
+<h3>MS Windows Printing Remotely Over a LAN</h3>
+<p>
+The first step to problems with any third party program is to get it to work
+from the command line. If you use MS Windows's SMB networking, try this:
+<br />
+<code>print -d\\printer\portName e-macro.el</code>
+</p>
+<h3>Graphical Approach:</h3>
+<p>
+Where emacro.el is a plain text file in the current directory, and
+<code>\\printer\portName</code> comes from <i>Control Panel -> Printers -></i>
+default printer <i>-> Printer -> Properties -> Ports -> Port</i>
+</p>
+<h3>Command Line:</h3>
+<p>
+<code>NET HELP</code> will list the networking commands.
+If you know your server name, 'NET VIEW SERVER' will list its printer(s).
+<code>NET USE LPT1: \\servername\sharename</code> will map your printer to the
+default local port
+</p><p>
+<span class="emacro">EMacro</span> prompts, creates and stores this printer name in
+<i>~/emacs/preferences/e-prefs.el</i>. You can see how it is used in
+<i>~/emacs/emacro/e-w32.el</i>
+</p>
+<p>
+Check the Emacs Customize options:
+</p>
+<dl>
+<dt>Wp group</dt>
+<dt>LPR group</dt>
+<dd>printer name option = LPT1:</dd>
+<dt>PS print group</dt>
+<dd>ps printer name option = LPT1:</dd>
+</dl>
+<p>
+Be sure to also take a look at <i>~/emacs/contrib/lpr</i>.
+Below is another useful reference. See also the <a href="#faq">FAQs</a>
+<a href="http://www.gnu.org/software/emacs/windows/big.html#printing">
+  http://www.gnu.org/software/emacs/windows/big.html#printing</a>
+</p>
+
+<hr />
+<h2>
+<a name="Remote">
+Remote Editing: Ange-FTP(Gnu Emacs) EFS([Gnu] XEmacs)
+</a>
+</h2>
+<p>
+See <a href="tips.html#Shell">tips.html</a> or
+<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/emacro/emacs/doc/tips.html?rev=HEAD&amp;content-type=text/html#Shell">
+online</a> on opening a command line shell in Emacs.
+</p>
+<ul>
+<li>Check from the shell, that you can FTP to the remote site</li>
+<li>Check that the shell you use (e.g. /bin/zsh) is in the host's /etc/shells
+</li>
+<li>Is the server running ftpd daemon/service? If it runs rlogin/rcp or is
+secured with ssh/scp then get TRAMP from
+<a href="http://tramp.sf.net/">http://tramp.sf.net/</a></li>
+</ul>
+<p>
+For older versions on MS Windows you need to download a patched ftp.exe.
+First, do a
+<br />
+<code>M-x shell [return]</code>
+<br />
+then run ftp (or telnet, etc to check these, instead). Older emacs have a bug
+that reveals your password to the screen. If this does not work, try
+<br />
+<code>M-x eshell</code>
+<br />
+Switching from wu-ftpd to ProFTPd may also help.
+</p>
+<p>
+If you have problems with TRAMP, try a normal logon, if you are using SSH, for
+example. TRAMP does have a debug flag; EMacro may have some code in the <code>
+contrib</code> directory. If you are getting multiple prompts like
+<br /><code>
+otp-md5 123 wp8507 ext
+S/Key Password:</code>
+<br />
+before you get the actual password prompt, try switching to SSH version one:
+<br />
+<code>ssh -1</code>
+</p>
+
+<hr />
+<h2>
+<a name="RPM">
+RPM (Red Hat) Install of XEmacs
+</a>
+</h2>
+<p>
+Here are the minimal steps to install XEmacs on Red Hat versions 7.x. This
+assumes that you've downloaded files from <a href="http://www.rpmfind.net/">
+http://www.rpmfind.net</a> or that you mounted into the appropriate directories
+in your CD ROM. You may wish to install addtional files, such as xemacs-info.
+You may need to adjust filenames for your particular version.
+</p>
+<ol>
+  <li>su #log in as root</li>
+  <li>rpm -Uvh Canna-libs*.i386.rpm</li>
+  <li>rpm -Uvh xemacs-2*.i386.rpm</li>
+</ol>
+
+<hr />
+<h2>
+<a name="Terminal">
+Terminal
+</a>
+</h2>
+<p>
+<span class="emacro">EMacro</span> will work in a TTY text terminal, such as
+<code>emacs -nw'</code>.
+However, keybindings may not work very well. You may need to try a console, or
+other stty or termcap settings. See also <a href="tips.html">tips.html</a> or
+<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/emacro/emacs/doc/tips.html?rev=HEAD&amp;content-type=text/html">
+online</a>
+</p>
+
+<hr />
+<h2>
+<a name="Watson">
+Watson
+</a>
+</h2>
+<p>
+If Watson does not work, resulting in timer warnings in the minibuffer, try
+disabling Tiny Tools (see section).
+</p>
+
+<hr />
+<h2>
+<a name="Web">
+Web
+</a>
+</h2>
+<p>
+Thanks to Max Polk for his solution to get browse-url() to open only one
+Netscape 6 window. Note that Netscape 6 has nonstandard MS Windows Registry
+settings.
+<br />
+<b>WARNING:</b> Do not attempt the following, if you are unfamiliar with
+editing the registry! Note that some versions of Microsoft Windows mistake
+restoring a backed up copy of the registry for a license violation and will not
+allow recovery!! You (and Microsoft) take full responsiblity, if you attempt
+the following. Back up your data before proceeding. This also has not had
+recent testing, and may have changed.
+<br />
+For starters, Netscape does not support DDE, so you will likely do well to
+remove all Netscape references to DDE. You should leave just the command entry
+in
+<br />
+<code>HKEY_CLASSES_ROOT\MozillaHTML\shell\open</code>
+<br />
+to only
+<br />
+<code>C:\path\NETSCP6.EXE -url "%1"</code>
+</p>
+
+<hr />
+<h2>
+<a name="Xmodmap">
+Xmodmap Keyboard Sample
+</a>
+</h2>
+<p>
+From: <a href="mailto:kullstam@ne.mediaone.net">Johan Kullstam</a>
+
+Xfree86 with 101 key mapping uses alt for meta. Xfree86 with 104 key mapping
+uses alt for alt and windows key for meta. Note that sometimes only your right
+alt key is the meta key.
+<br />
+Use this to make alt-key meta-modifier and windows-key the super-modifier.
+</p>
+<pre>
+$ cat /etc/xmodmap 
+
+keycode 64 = Meta_L
+keycode 113 = Meta_R
+keycode 115 = Super_L
+keycode 116 = Super_R
+add mod4 = Super_L Super_R
+keycode 117 = Menu
+</pre>
+
+<hr />
+<h2>
+<a name="Xml">
+XML or HTML problems
+</a>
+</h2>
+<p>If you are seeing something like</p>
+<pre>
+External entity html not found
+  Public identifier -//W3C//DTD XHTML 1.0 Strict//EN
+  System identifier http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd
+</pre>
+<p>
+This is because you are running some variation of sgml-mode (xml, psgml). The
+parser has problems getting your remote DTD or schema. One solution is to
+download a local copy of the DTD, and change your XML (or HTML/SGML)
+code. <span class="emacro">EMacro</span> does support remote references to
+DTDs, and can fix this, without changing your XML code. You can see the
+conditions for this to work, in the code at the bottom of
+<code>~/emacs/programmer/e-xml.el</code> . I recommend html-helper-mode,
+anyway. Also required is w3. See <a href="resources.html">resources.html</a> to
+get these files. Finally, you must tell EMacro in
+<code>~/emacs/preferences/e-prefs.el</code> that <code>use-modem</code> is
+<code>nil</code> (false) and that <code>use-net</code> is <code>t</code>. In
+other words, you told the <span class="emacro">EMacro</span> startup wizard
+that you have a fast internet connection.
+</p>
+
+</body>
+</html>

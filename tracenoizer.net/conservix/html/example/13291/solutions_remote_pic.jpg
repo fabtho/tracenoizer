@@ -1,0 +1,251 @@
+<!-- 172.16.2.50 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Citrix.com &raquo; We&#8217;re sorry, but the page you requested cannot be found&#8230;</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<SCRIPT language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+var MM_contentVersion = 4;
+var plugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+if ( plugin ) {
+		var words = navigator.plugins["Shockwave Flash"].description.split(" ");
+	    for (var i = 0; i < words.length; ++i)
+	    {
+		if (isNaN(parseInt(words[i])))
+		continue;
+		var MM_PluginVersion = words[i]; 
+	    }
+	var MM_FlashCanPlay = MM_PluginVersion >= MM_contentVersion;
+}
+else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 
+   && (navigator.appVersion.indexOf("Win") != -1)) {
+	document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n'); //FS hide this from IE4.5 Mac by splitting the tag
+	document.write('on error resume next \n');
+	document.write('MM_FlashCanPlay = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash." & MM_contentVersion)))\n');
+	document.write('</SCR' + 'IPT\> \n');
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</SCRIPT>
+
+<LINK href="/site/resources/ionCitrixCom.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('/site/resources/nav/legalNotice_ON.gif','/site/resources/nav/privacyStatement_ON.gif','/site/resources/nav/corporateGovernance_ON.gif','/site/resources/nav/myCitrix_ON.gif','/site/resources/nav/partners_ON.gif','/site/resources/nav/contact_ON.gif','/site/resources/nav/customerCare_ON.gif','/site/resources/nav/aboutCitrix_ON.gif','/site/resources/nav/howToBuy_ON.gif','/site/resources/nav/siteMap_ON.gif','/site/resources/nav/advanced_ON.gif','/site/resources/nav/productsAndSolutions_ON.gif','/site/resources/nav/supportAndServices_ON.gif','/site/resources/nav/newsAndEvents_ON.gif','/site/resources/nav/home_ON.gif')">
+<A name="top"></A>
+<TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+		<TR>
+        		<TD bgcolor="#CC0000"><IMG src="/site/resources/spacer.gif" width="1" height="8"></TD>
+        		<TD bgcolor="#CC0000" width="760"><IMG src="/site/resources/spacer.gif" width="760" height="8"></TD>
+        		<TD bgcolor="#CC0000"><IMG src="/site/resources/spacer.gif" width="1" height="8"></TD>
+		</TR>
+		<TR>
+        		<TD><IMG src="/site/resources/spacer.gif" width="1" height="8"></TD>
+        		<TD width="760"><IMG src="/site/resources/content/homeLogo_band.gif" alt="Citrix Systems, Inc. -- Software that allows easy and secure access to information and applications." width="760" height="80"></TD>
+        		<TD><IMG src="/site/resources/spacer.gif" width="1" height="8"></TD>
+		</TR>
+		<TR bgcolor="#CCCCCC">
+        		<TD><IMG src="/site/resources/spacer.gif" width="1" height="4"></TD>
+        		<TD width="760"><IMG src="/site/resources/spacer.gif" width="760" height="4"></TD>
+        		<TD><IMG src="/site/resources/spacer.gif" width="1" height="4"></TD>
+		</TR>
+        <TR>
+        		<TD><IMG src="/site/resources/spacer.gif" width="1" height="25"></TD>
+        		<TD width="760"><TABLE width="760" border="0" cellspacing="0" cellpadding="0">
+        						<TR>
+        								<TD width="190">
+	<TABLE  border="0" cellspacing="0" cellpadding="0">
+	<TR><TD width="59" background="/site/resources/nav/spacer_topLevel.gif"><IMG src="/site/resources/nav/search.gif" width="59" height="25"></TD>
+	<FORM name="search" method="post" action="javascript:return false" onSubmit="MM_openBrWindow('http://search.citrix.com/query.html?qt='+search.qt.value,'search','scrollbars=yes,resizable=yes,width=570,height=450')">
+	  <TD width="20" background=""><INPUT name="qt" type="text" id="qt" size="12" maxlength="60" class="formlabel"></TD>
+	  <TD background="" class="formlabel">&nbsp;<INPUT name="searchButton" type="image" id="searchButton" src="/site/resources/nav/button_search.gif" alt="Click to Search" width="19" height="25" border="0"></TD>
+	</FORM></TR></TABLE>
+								  </TD>
+        								<TD width="30"><A href="/index.asp" onMouseOver="MM_swapImage('home','','/site/resources/nav/home_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/home_OFF.gif" alt="Home Page" name="home" width="30" height="25" border="0" id="home"></A></TD>
+        								<TD width="20"><IMG src="/site/resources/spacer.gif" width="20" height="25"></TD>
+        								<TD width="63"><A href="/site/howToBuy/index.asp" onMouseOver="MM_swapImage('howToBuy','','/site/resources/nav/howToBuy_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/howToBuy_OFF.gif" alt="How to Buy" name="howToBuy" width="63" height="25" border="0" id="howToBuy"></A></TD>
+        								<TD width="20"><IMG src="/site/resources/spacer.gif" width="20" height="25"></TD>
+        								<TD width="67"><A href="/site/aboutCitrix/index.asp" onMouseOver="MM_swapImage('aboutCitrix','','/site/resources/nav/aboutCitrix_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/aboutCitrix_OFF.gif" alt="About Citrix" name="aboutCitrix" width="67" height="25" border="0" id="aboutCitrix"></A></TD>
+        								<TD width="20"><IMG src="/site/resources/spacer.gif" width="20" height="25"></TD>
+        								<TD width="81"><A href="/site/customerCare/index.asp" onMouseOver="MM_swapImage('customerCare','','/site/resources/nav/customerCare_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/customerCare_OFF.gif" alt="Customer Care" name="customerCare" width="81" height="25" border="0" id="customerCare"></A></TD>
+        								<TD width="20"><IMG src="/site/resources/spacer.gif" width="20" height="25"></TD>
+        								<TD width="45"><A href="/site/contact/index.asp" onMouseOver="MM_swapImage('contact','','/site/resources/nav/contact_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/contact_OFF.gif" alt="Contact" name="contact" width="45" height="25" border="0" id="contact"></A></TD>
+        								<TD width="20"><IMG src="/site/resources/spacer.gif" width="20" height="25"></TD>
+        								<TD width="48"><A href="/site/partners/index.asp" onMouseOver="MM_swapImage('partners','','/site/resources/nav/partners_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/partners_OFF.gif" alt="Partners" name="partners" width="48" height="25" border="0" id="partners"></A></TD>
+        								<TD width="20"><IMG src="/site/resources/spacer.gif" width="20" height="25"></TD>
+        								<TD width="45"><A href="/site/siteMap.asp" onMouseOver="MM_swapImage('siteMap','','/site/resources/nav/siteMap_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/siteMap_OFF.gif" alt="Site Map" name="siteMap" width="45" height="25" border="0" id="siteMap"></A></TD>
+        								<TD width="21"><IMG src="/site/resources/spacer.gif" width="21" height="25"></TD>
+        								<TD width="50"><A href="https://secureportal.citrix.com/" target="new" onMouseOver="MM_swapImage('myCitrix','','/site/resources/nav/myCitrix_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/myCitrix_OFF.gif" alt="My Citrix" name="myCitrix" width="50" height="25" border="0" id="myCitrix"></A></TD>
+				  </TR>
+        						<TR>
+        								<TD background="/site/resources/nav/spacer_topLevel.gif"><IMG src="/site/resources/spacer.gif" width="190" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+        								<TD background=""><IMG src="/site/resources/spacer.gif" width="5" height="5"></TD>
+				  </TR>
+        						</TABLE>
+		  </TD>
+        		<TD><IMG src="/site/resources/spacer.gif" width="1" height="25"></TD>
+  </TR>
+  <TR> 
+	<TD><IMG src="/site/resources/spacer.gif" width="1" height="11"></TD>
+	<TD width="760"><IMG src="/site/resources/nav/spacer_beneath2ndTier.gif" width="760" height="11"></TD>
+	<TD><IMG src="/site/resources/spacer.gif" width="1" height="11"></TD>
+  </TR>
+  <TR> 
+	<TD>&nbsp;</TD>
+	<TD width="760"><TABLE width="760" border="0" cellspacing="0" cellpadding="0">
+		<TR valign="top"> 
+		  <TD width="190"><TABLE width="190" border="0" cellpadding="0" cellspacing="0" background="/site/resources/nav/spacer_topLevel.gif">
+			  <TR> 
+				<TD colspan="2" background="/site/resources/nav/spacer_topLevel.gif"><A href="/site/PS/index.asp" onMouseOver="MM_swapImage('productsAndSolutions','','/site/resources/nav/productsAndSolutions_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/productsAndSolutions_OFF.gif" alt="Products &amp; Solutions" name="productsAndSolutions" width="190" height="16" border="0" id="productsAndSolutions"></A></TD>
+			  </TR>
+			  <TR> 
+				<TD colspan="2" background="/site/resources/nav/spacer_topLevel.gif"><IMG src="/site/resources/nav/spacer_topLevel.gif" width="190" height="3"></TD>
+			  </TR>
+			  <TR> 
+				<TD colspan="2"><A href="/site/SS/index.asp" onMouseOver="MM_swapImage('supportAndServices','','/site/resources/nav/supportAndServices_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/supportAndServices_OFF.gif" alt="Support &amp; Services" name="supportAndServices" width="190" height="16" border="0" id="supportAndServices"></A></TD>
+			  </TR>
+			  <TR> 
+				<TD colspan="2"><IMG src="/site/resources/nav/spacer_topLevel.gif" width="190" height="3"></TD>
+			  </TR>
+			  <TR>
+              		<TD colspan="2"><A href="/site/NE/index.asp" onMouseOver="MM_swapImage('newsAndEvents','','/site/resources/nav/newsAndEvents_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/newsAndEvents_OFF.gif" alt="News &amp; Events" name="newsAndEvents" width="190" height="16" border="0" id="newsAndEvents"></A></TD>
+	  		</TR>
+			  <TR> 
+				<TD width="20"><IMG src="/site/resources/spacer.gif" width="20" height="2"></TD>
+				<TD width="170"><IMG src="/site/resources/spacer.gif" width="170" height="2"></TD>
+			  </TR>
+			</TABLE></TD>
+		  <TD width="570"><TABLE width="570" border="0" cellspacing="0" cellpadding="0">
+		  		<TR>
+                		<TD colspan="5" class="bodycopy"><P class="headline">We&#8217;re
+                						very	sorry!</P>
+                				<P>The page
+   						you requested cannot be found.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           </P>
+                				<UL>
+                						<LI>If you
+                										typed the URL yourself,
+                								please make sure	that the spelling	is correct. </LI>
+                						<LI>If you
+                										clicked on a link to
+                								get here, there	may be a problem with	the link. </LI>
+                						<LI>Try
+                								using your browser's &#8220;back&#8221; button
+                								 to return to your previous page
+                								and choose	a different link
+                								on that	page.</LI>
+                				</UL>
+                                        We apologize for the inconvenience!</TD>
+	  		  </TR>
+          		<TR>
+          				<TD colspan="5"><IMG src="/site/resources/spacer.gif" width="570" height="10"></TD>
+			  </TR>
+          		<TR>
+          				<TD colspan="5" bgcolor="#CCCCCC"><IMG src="/site/resources/spacer.gif" width="570" height="1"></TD>
+			  </TR>
+          		<TR>
+          				<TD><IMG src="/site/resources/content/404_siteMap.gif" width="180" height="29"></TD>
+          				<TD><IMG src="/site/resources/spacer.gif" width="15" height="16"></TD>
+          				<TD><IMG src="/site/resources/content/404_siteFeedback.gif" width="180" height="29"></TD>
+          				<TD><IMG src="/site/resources/spacer.gif" width="15" height="16"></TD>
+          				<TD><IMG src="/site/resources/content/404_homePage.gif" width="180" height="29"></TD>
+			  </TR>
+          		<TR>
+          				<TD valign="top" class="blurb"><P>Use the site map to help
+          								you find what you&#8217;re looking for.</P>
+				  </TD>
+          				<TD>&nbsp;</TD>
+          				<TD valign="top" class="blurb"><P>Use the site feedback form to
+          								report the problem for follow-up
+          								by our team.</P>
+				  </TD>
+          				<TD>&nbsp;</TD>
+          				<TD valign="top" class="blurb"><P>Start at the Citrix.com home
+          								page and browse through content on the
+          								site.</P>
+				  </TD>
+			  </TR>
+          		<TR>
+          				<TD colspan="5"><IMG src="/site/resources/spacer.gif" width="570" height="10"></TD>
+			  </TR>
+          		<TR>
+          				<TD valign="top" class="navigation"><A href="/site/siteMap.asp">Site
+          								Map<IMG src="/site/resources/content/readMore.gif" alt="More News" width="14" height="11" border="0" align="absmiddle"></A></TD>
+          				<TD>&nbsp;</TD>
+          				<TD valign="top" class="navigation"><A href="/site/contact/siteFeedback.asp">Site
+          								Feedback<IMG src="/site/resources/content/readMore.gif" alt="More Events" width="14" height="11" border="0" align="absmiddle"></A></TD>
+          				<TD>&nbsp;</TD>
+          				<TD valign="top" class="navigation"><A href="/index.asp">Home
+          								Page<IMG src="/site/resources/content/readMore.gif" alt="More Case Studies" width="14" height="11" border="0" align="absmiddle"></A></TD>
+			  </TR>
+          		</TABLE></TD></TR>
+	  </TABLE></TD>
+	<TD>&nbsp;</TD>
+  </TR>
+  <TR> 
+	<TD><IMG src="/site/resources/spacer.gif" width="1" height="16"></TD>
+	<TD><IMG src="/site/resources/spacer.gif" width="760" height="16"></TD>
+	<TD><IMG src="/site/resources/spacer.gif" width="1" height="16"></TD>
+  </TR>
+  <TR> 
+	<TD><IMG src="/site/resources/spacer.gif" width="1" height="20"></TD>
+	<TD width="760" align="right"><TABLE width="570" border="0" cellspacing="0" cellpadding="0">
+		<TR>
+		  <TD><IMG src="/site/resources/nav/thirdLevel_spacer.gif" width="282" height="20"></TD>
+		  <TD><A href="/site/aboutCitrix/legal/legalNotice.asp" onMouseOver="MM_swapImage('legalNotice','','/site/resources/nav/legalNotice_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/legalNotice_OFF.gif" alt="Legal Notice" name="legalNotice" width="60" height="20" border="0" id="legalNotice"></A></TD>
+		  <TD><IMG src="/site/resources/nav/thirdLevel_spacer.gif" width="13" height="20"></TD>
+		  <TD><A href="/site/aboutCitrix/legal/privacyStatement.asp" onMouseOver="MM_swapImage('privacyStatement','','/site/resources/nav/privacyStatement_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/privacyStatement_OFF.gif" alt="Privacy Statement" name="privacyStatement" width="89" height="20" border="0" id="privacyStatement"></A></TD>
+		  <TD><IMG src="/site/resources/nav/thirdLevel_spacer.gif" width="13" height="20"></TD>
+		  <TD><A href="/site/aboutCitrix/legal/corporateGovernance.asp" onMouseOver="MM_swapImage('corporateGovernance','','/site/resources/nav/corporateGovernance_ON.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="/site/resources/nav/corporateGovernance_OFF.gif" alt="Corporate Governance" name="corporateGovernance" width="113" height="20" border="0" id="corporateGovernance"></A></TD>
+		</TR>
+    </TABLE></TD>
+	<TD><IMG src="/site/resources/spacer.gif" width="1" height="20"></TD>
+  </TR>
+  <TR> 
+	<TD><IMG src="/site/resources/spacer.gif" width="1" height="17"></TD>
+	<TD width="760" align="right"><IMG src="/site/resources/nav/copyright.gif" alt="Copyright Citrix Systems, Inc. All rights reserved." width="400" height="17"></TD>
+	<TD><IMG src="/site/resources/spacer.gif" width="1" height="17"></TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>

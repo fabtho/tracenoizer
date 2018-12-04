@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>deine meinung dazu</title>
+<style type="text/css">
+a { text-decoration:none; }
+div { font-family:Arial,Helvetica,sans-serif; }
+td { font-family:Arial,Helvetica,sans-serif; }
+</style>
+</head>
+<body bgcolor="white">
+<div align=left>
+<table width="100%">
+<tr>
+<td>
+<b><font size="+1">warning</font></b>
+<br>
+<font size="-1">Posted by <a href="mailto:">mister x</a> on 2002-02-21 7:09:44pm</font></div>
+</td>
+<td valign="bottom" align="right">
+<div align=right><font size="-2"><a href="#post">Post a reply</a> | <a href="#tree">View replies</a> | <a href="index_general_de.php">Back to deine meinung dazu</a></font></div>
+</td>
+</tr>
+</table>
+<hr>
+this is just to say that you should be careful who you<br>
+piss on. you are trespassing into a sector where you<br>
+can easily be prosecuted for the personal content of<br>
+your website (even if we did not have your threat<br>
+letters, which we do). just because you are a nutcase<br>
+does not mean you have to be a pain in the ass to<br>
+other people and/or drag them into your miserable<br>
+little delusion of a depression. besides, it's not<br>
+even a good animation.<br>
+so, will my asking nicely be sufficient for you to<br>
+take that shit off your page or do I have to do it?<br>
+greetings, <br>
+<br>
+a friend in high places<br>
+<br>
+ps<br>
+think very closely, before you take any rash action.<br>
+should it be necessary to take this case to a court,<br>
+your schooling career could be seriously endangered,<br>
+as we will not be able to refrain from informing your<br>
+(and my client's, whether you like that or not,<br>
+future) school that you are a dangerous freak and that<br>
+you should be treadted accordingly.<br>
+alles klar?<br>
+<br>
+ <br>
+
+<hr>
+<a name="tree">
+<div align="left">
+thread tree:<br>
+<font size="-1">
+<ul>
+<li><b>[english: i hate ... ] warning</b> - <b>mister x</b> - <i>2002-02-21 7:09:44pm</i>
+<ul>
+<li><a href="index_general_de.php?action=view&id=2"><b>Re: warning</b></a> - <b>franz bieberkopf </b> - <i>2002-02-21 7:23:11pm</i>
+</ul>
+</ul>
+
+</font>
+</div>
+<hr>
+<a name="post">
+<div align="left">
+<br><b>Add A Reply:</b><br>
+<form method=POST>
+<input type=hidden name=action value=add>
+<input type=hidden name=thread value="1">
+<input type=hidden name=parent value="1">
+<table>
+<tr>
+<td>name:</td><td><input type=text name=name></td>
+</tr>
+<tr>
+<td>email:</td><td><input type=text name=email></td>
+</tr>
+<tr>
+<td>subject:</td><td><input type=text name=subject value="Re: warning"></td>
+</tr>
+<tr>
+<td valign=top>message:</td><td><textarea wrap="virtual" name="message" cols=40 rows=10>
+>this is just to say that you should be careful who you>piss on. you are trespassing into a sector where you>can easily be prosecuted for the personal content of>your website (even if we did not have your threat>letters, which we do). just because you are a nutcase>does not mean you have to be a pain in the ass to>other people and/or drag them into your miserable>little delusion of a depression. besides, it's not>even a good animation.>so, will my asking nicely be sufficient for you to>take that shit off your page or do I have to do it?>greetings, >>a friend in high places>>ps>think very closely, before you take any rash action.>should it be necessary to take this case to a court,>your schooling career could be seriously endangered,>as we will not be able to refrain from informing your>(and my client's, whether you like that or not,>future) school that you are a dangerous freak and that>you should be treadted accordingly.>alles klar?>> >
+
+</textarea></td>
+</tr>
+</table>
+<br>
+<input type=submit>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--Time-stamp: <03/07/08 12:58:04 bingalls> --><!--$Id: release_procedures.html,v 1.23 2003/05/24 17:37:00 bingalls Exp $-->
+<!--Copyright © 1998,2002 Bruce Ingalls bingalls(at)users.sf.net-->
+<!--See the EMacro project file COPYING for license-->
+<!--This file is not (yet) part of Emacs or XEmacs.-->
+<head>
+<meta name="description"
+ content="EMacro is an easy .emacs configuration file for Emacs and XEmacs"/>
+<meta name="keywords" content=".emacs editor configuration"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="icon" href="images/em_ico.png" type="image/png"/>
+
+<title>Release Procedures</title></head>
+<body>
+<pre>
+
+This distribution is available at
+<a href="http://emacro.sf.net/">http://emacro.sf.net/</a>
+<a href="http://www.dotemacs.de/">http://www.dotemacs.de/</a>
+
+RELEASE PROCEDURES is an internal reminder for developers. These are last steps
+to check, before releasing EMacro.
+
+1 Update the emacro-version variable in ~/emacs/emacro/e-macro.el and in
+   ~/emacs/contrib/unixdist/emacro.list and ~/emacs/contrib/w32dist/emacro.iss
+2 Clean e-*custom.el, e-*cache.el, e-postload.el, e-prefs.el, e-preload.el
+3 Check manifest.html
+4 add-change-log-entry()
+5 Update release_notes.html
+6 Check that all files can bytecompile
+7 Check copyright dates annually
+8 Test these conditions:
+  A) XEmacs without its sumo tarball
+  B) Test with and without EMacro libs and other libs, such as tiny-tools
+  C) Also test with and without support programs including gnuserv, sql, etc.
+  D) Test with no e-prefs.el nor e-*custom.el
+
+</pre>
+</body>
+</html>

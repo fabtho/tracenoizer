@@ -1,0 +1,3338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- layout credits goto http://bluerobot.com/web/layouts/layout2.html -->
+
+<head>
+<title>Bitflux Blog :: January :: 2003</title>
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="reply-to" content="chregu@bitflux.ch" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta content="TRUE" name="MSSmartTagsPreventParsing" />
+<meta name="ICBM" content="47.37950, 8.52760" />
+<meta name="DC.title" content="blog.bitflux.ch" />
+<style type="text/css" media="screen">
+@import url( http://www.bitflux.ch/css/styles-site.css);
+@import url( http://www.bitflux.ch/css/styles-photo-tile.css);
+</style>
+<link rel="stylesheet" type="text/css" href="/css/main.css"/>                                        
+
+<!--<link rel="stylesheet" type="text/css" media="print" href="print.css" />-->
+<link rel="alternate" type="application/rdf+xml" title="RDF" href="http://blog.bitflux.ch/b2rdf.php" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.bitflux.ch/b2rss2.php" />
+<link rel="pingback" href="http://blog.bitflux.ch/xmlrpc.php" />
+<script type="text/javascript" src="./livesearch.js">
+</script>
+<script language="javascript" type="text/javascript">
+<!--
+function b2open (macagna) {
+    window.open(macagna, '_blank', 'width=400,height=400,scrollbars=yes,status=yes');
+}
+//-->
+</script>
+
+</head>
+<body bgcolor='#FFFFFF' text='#000000' onload="liveSearchInit()">
+
+<table border="0"  width="773"  cellspacing="0" cellpadding="0">
+<tr valign="bottom" bgcolor="#00cc00">
+<td height="55" width="22" valign="bottom"><img src="/images/spacer.gif" width="22" height="55"/></td>
+<td height="55" width="535"><img src="/images/logo.gif" width="120" height="27" border="0"></td>
+<td height="55" width="177">&nbsp;</td>
+<td height="55" width="38" class="caption">&nbsp;</td>
+</tr>
+
+<tr bgcolor="#00cc00"><td colspan="4" height="4" width="100%"><img src="/images/spacer.gif" width="10" height="4"/></td></tr>
+<tr bgcolor="#00cc00"><td colspan="4" height="1" width="100%"><img src="/images/spacer.gif" width="1" height="1"/></td></tr>
+</table>
+<!--UdmComment-->
+<table border="0" cellspacing="0" cellpadding="0" width="773"><tr valign="center" align="left" bgcolor="#66ff33">
+<td width="30" height="21" align="left"><img src="/images/spacer.gif" width="30" height="21"/></td>
+<td height="21" width="11" align="left"><img src="/images/nav_rand1black.gif" width="11" height="14"></td>
+<td height="21" nowrap="nowrap" class="topnavigation" align="left"><a href="/" class="topnavigationactive">Home</a></td>
+<td height="21" width="19" align="left"><img src="/images/nav_randblack.gif" width="19" height="14"></td>
+<td height="21" nowrap="nowrap"  class="topnavigation" align="left"><a href="http://www.bitflux.ch/" class="topnavigation">Bitflux Main Site</a></td>
+
+<td height="21" width="19" align="left"><img src="/images/nav_randblack.gif" width="19" height="14"></td>
+<td height="21" nowrap="nowrap"  class="topnavigation" align="left"><a href="http://www.bitflux.ch/search/" class="topnavigation">Bitflux Web Search</a></td>
+
+<td height="21" width="19" align="left"><img src="/images/nav_randblack.gif" width="19" height="14"></td>
+<td height="21" nowrap="nowrap"  class="topnavigation" align="left"><a href="/b2rss.php" class="topnavigation">Blog (RSS)</a></td>
+<td height="21" width="19" align="left"><img src="/images/nav_randblack.gif" width="19" height="14"></td>
+<td height="21" nowrap="nowrap" class="topnavigation" align="left"><a href="/b2rdf.php" class="topnavigation">Blog (RDF)</a></td>
+
+
+<td height="21" width="19" align="left"><img src="/images/nav_randblack.gif" width="19" height="14"></td>
+<td width="50%" height="21" align="left">&nbsp;</td>
+</tr></table>
+<img src="/images/spacer.gif" width="50" height="22"/>
+
+<table width='773' border='0' cellpadding='0' cellspacing='0'>
+  <tr><td align="left" width="32">
+<img src="images/spacer.gif" width="26"/>
+</td>
+                <td align="left" width="187" valign="top" class="navigation">
+		
+
+<!--UdmComment-->
+<p class="navigationindent">&raquo; <a href="call.html" class="navigation">All</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c6.html" class="navigation">Apple</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c2.html" class="navigation">Bitflux</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c10.html" class="navigation">Bitflux CMS</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c11.html" class="navigation">Bitflux Editor</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c5.html" class="navigation">Blogging</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c17.html" class="navigation">Education</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c20.html" class="navigation">JavaScript</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c18.html" class="navigation">Kaywa</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c15.html" class="navigation">Mobile</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c14.html" class="navigation">Moblogging</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c3.html" class="navigation">Mozilla</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c19.html" class="navigation">Open Source</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c9.html" class="navigation">Oscom</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c1.html" class="navigation">Other</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c7.html" class="navigation">PHP</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c8.html" class="navigation">Politics</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c4.html" class="navigation">SlideML</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c13.html" class="navigation">SVG+SMIL</a>       </p><p class="navigationindent">           &raquo; 	<a href="/c12.html" class="navigation">Things Japanese</a>       </p><img src="/images/144line.gif" class="line"><br />
+<table cellpadding="0" cellspacing="0" width="125">
+<tr><td class="navigation">
+<span class='titel2'  >Latest Entries</span><p class="navigationindent">&raquo; <a href="./p1760.html" class="navigation">Parsing non-well-formed XML documents considered harmful ...</a>       </p><p class="navigationindent">&raquo; <a href="./p1758.html" class="navigation">www.messerli3d.com</a>       </p><p class="navigationindent">&raquo; <a href="./p1757.html" class="navigation">Parsing non-well-formed XML documents in PHP 5.1</a>       </p><p class="navigationindent">&raquo; <a href="./p1756.html" class="navigation">PHP 5.0.1 is out</a>       </p><p class="navigationindent">&raquo; <a href="./p1755.html" class="navigation">Registration for OSCOM.4 opens</a>       </p><p class="navigationindent">&raquo; <a href="./p1754.html" class="navigation">PHP De Luxe - PHP5 Edition </a>       </p><p class="navigationindent">&raquo; <a href="./p1753.html" class="navigation">Safari and XSLT</a>       </p><p class="navigationindent">&raquo; <a href="./p1752.html" class="navigation">XSLT sucks ;)</a>       </p><p class="navigationindent">&raquo; <a href="./p1750.html" class="navigation">www.berghilfe.ch</a>       </p><p class="navigationindent">&raquo; <a href="./p1749.html" class="navigation">PHP Conf: XML on Speed/Crack </a>       </p>
+</td></tr></table>
+<!--/UdmComment-->
+<img src="images/spacer.gif" width="180" height="1"/>
+
+</td>
+<td  width='320' valign='top' align='left'>
+<img  src="/images/spacer.gif" height="7" /><br />
+<!-- // b2 loop start -->
+	
+
+<div class='blogdate'>31.01.03</div>
+<a name="79"></a><br />
+<span class="blogtitel">The Open-Sourced Conference</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:roge&#114;&#64;&#98;itf&#108;u&#120;&#46;&#99;h">roger</a>   @ 09:09:59  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+The OSCOM board decided to open-source part of the conference organisation. See the incoming proposals <a href="http://www.oscom.org/Conferences/Cambridge/Proposals/">here</a>.<br />
+And read more in Gregor's great post: <a href="http://blog.oscom.org/archive/000014.html">The Open-Sourced Conference</a>.<p class="blogmeta"> 
+
+ 
+<a href="/p79.html#comments">Comments (0)</a> 
+<a href="/p79.html#trackbacks">TrackBack (0)</a> 
+<a href="/p79.html#pingbacks">PingBack (0)</a> 
+<a href="/p79.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=79&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=79&amp;more=1&amp;c=1"
+    dc:title="The Open-Sourced Conference"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/79"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="78"></a><br />
+<span class="blogtitel">OSCOM 3: Pictures from Cambridge</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;o&#103;&#101;r&#64;&#98;itflu&#120;.&#99;h">roger</a>   @ 08:46:19  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<a href="http://cyber.law.harvard.edu/nesson.html">Charles Nesson</a> just sent in these pictures which show the site where OSCOM 3 will take place from May 28 to May 30, 2003.<br />
+<br />
+<img src="http://blog.bitflux.ch/images/Harvard_01.jpg" border="0" width="300" alt="Harvard" /><br />
+The view of <a href="http://www.harvardsquare.com">Harvard Square</a> from the front of the building where our major meeting room is located, to give an idea about how close the site is to the Square.<br />
+<br />
+<img src="http://blog.bitflux.ch/images/Building.jpg" border="0" alt="Building" width="300" /><br />
+The front of the building<br />
+<br />
+<img src="http://blog.bitflux.ch/images/AmesCourt.jpg" border="0" width="300" alt="Ames Court" /><br />
+Ames Courtroom<br />
+<br />
+<b>For more information</b>, see the <a href="http://www.oscom.org/Conferences/Cambridge/">OSCOM Website</a>.<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p78.html#comments">Comments (0)</a> 
+<a href="/p78.html#trackbacks">TrackBack (0)</a> 
+<a href="/p78.html#pingbacks">PingBack (0)</a> 
+<a href="/p78.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=78&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=78&amp;more=1&amp;c=1"
+    dc:title="OSCOM 3: Pictures from Cambridge"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/78"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>30.01.03</div>
+<a name="77"></a><br />
+<span class="blogtitel">Ping- und Trackback</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:roger&#64;bit&#102;l&#117;&#120;&#46;&#99;h">roger</a>   @ 09:31:26  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c5.html" title="category: Blogging"><span class="storyCategory">Blogging</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Recently I was asked what is the difference between Ping- and Trackback. I tried to find an answer, but in the end, I just "talked around the hot pudding" (literal translation from german;)...<br />
+<br />
+Some references:<br />
+<a href="http://www.movabletype.org/docs/mttrackback.html">Trackback</a><br />
+<a href="http://www.hixie.ch/specs/pingback/pingback">Pingback</a><br />
+<a href="http://www.intertwingly.net/blog/1096.html">Sam Ruby discussing Trackback 2.0</a><p class="blogmeta"> 
+
+ 
+<a href="/p77.html#comments">Comments (1)</a> 
+<a href="/p77.html#trackbacks">TrackBack (0)</a> 
+<a href="/p77.html#pingbacks">PingBack (0)</a> 
+<a href="/p77.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=77&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=77&amp;more=1&amp;c=1"
+    dc:title="Ping- und Trackback"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/77"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>29.01.03</div>
+<a name="76"></a><br />
+<span class="blogtitel">mod_dav added to phpapache.dmg</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;hr&#101;gu&#64;&#98;itflux.&#99;&#104;">chregu</a>   @ 08:44:38  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c6.html" title="category: Apple"><span class="storyCategory">Apple</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+After a request by Alexis (Poncet?), I added mod_dav for WebDAV support to phpapache.dmg. If you're having problems with it, please tell me, I didn't really check it out :)<br />
+<br />
+Furthermore I put the packages on a more appropriate URL. Although the old ones still work for some time:<br />
+<br />
+<a href="http://dl.bitflux.org/phpapache.dmg">http://dl.bitflux.org/phpapache.dmg</a><br />
+<a href="http://dl.bitflux.org/phplibraries.dmg">http://dl.bitflux.org/phplibraries.dmg</a><br />
+<br />
+More information to the packages can be found <a href="http://blog.bitflux.ch/p54.html">here</a><p class="blogmeta"> 
+
+ 
+<a href="/p76.html#comments">Comments (0)</a> 
+<a href="/p76.html#trackbacks">TrackBack (0)</a> 
+<a href="/p76.html#pingbacks">PingBack (0)</a> 
+<a href="/p76.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=76&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=76&amp;more=1&amp;c=1"
+    dc:title="mod_dav added to phpapache.dmg"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/76"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>28.01.03</div>
+<a name="75"></a><br />
+<span class="blogtitel">drag'n'drop for Next Generation Bitflux Editor</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:c&#104;r&#101;gu&#64;b&#105;&#116;&#102;&#108;u&#120;.ch">chregu</a>   @ 19:47:35  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c11.html" title="category: Bitflux Editor"><span class="storyCategory">Bitflux Editor</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Finally, I started today working on the Next Generation Bitflux Editor. I surfed around for a good Javascript Widget Library and came across at <a href="http://www.domapi.com">domapi</a>. It looks very promising (although i'm not very satisfied with the attached licence, but we can live with that..) and I started playing around.<br />
+<br />
+As we want to improve the GUI-Experience, I tried first the dragndrop feature and it's really cool. See <a href="http://trash.chregu.tv/domapi/examples/label.htm">http://trash.chregu.tv/domapi/examples/label.htm</a> for my first experiments.<br />
+<br />
+You can drag one box onto another and then the element gets inserted before this. You can also drag a box to the trash and then it's gone. I think, this has some real potential. No need for dirty menus, just do drag'n'drop... The demo above is just a prove of concept, so BXE-NG will certainly look and work a lot different.<br />
+<br />
+and by the way, it works in IE/win and Mozilla, 'though it looks better on Mozilla :)<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p75.html#comments">Comments (1)</a> 
+<a href="/p75.html#trackbacks">TrackBack (0)</a> 
+<a href="/p75.html#pingbacks">PingBack (0)</a> 
+<a href="/p75.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=75&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=75&amp;more=1&amp;c=1"
+    dc:title="drag\'n\'drop for Next Generation Bitflux Editor"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/75"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>27.01.03</div>
+<a name="74"></a><br />
+<span class="blogtitel">Moblogging and Mblog</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;o&#103;&#101;r&#64;&#98;&#105;tf&#108;ux.&#99;h">roger</a>   @ 21:40:13  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c5.html" title="category: Blogging"><span class="storyCategory">Blogging</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+In late 2002 I mailed with Emmanuel. I asked him to add the new address of our <a href="http://www.bitfluxeditor.org">Bitflux Editor Site</a> in his <a href="http://doping.sics.se/prof/archives/000073.html">blog about Wysiwyg XML Editors</a>. Now, I just found <a href="http://doping.sics.se/prof/archives/000419.html">this blog about Moblogging/Mblogs</a>. In an excerpt what Mblog(ging) should be, Emmanuel writes: <br />
+1. Being able to blog from anywhere at any time. <br />
+2. Being able to read any blog, from anywhere at any time. <br />
+3. Being able to blog more than text (pictures, sounds, whatever). <br />
+4. Adding some geodetic dimensions to blogs, just as another dimension as time already is.<p class="blogmeta"> 
+
+ 
+<a href="/p74.html#comments">Comments (0)</a> 
+<a href="/p74.html#trackbacks">TrackBack (0)</a> 
+<a href="/p74.html#pingbacks">PingBack (0)</a> 
+<a href="/p74.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=74&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=74&amp;more=1&amp;c=1"
+    dc:title="Moblogging and Mblog"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/74"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="72"></a><br />
+<span class="blogtitel">Miss Monorom @ Bitflux</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;&#111;g&#101;r&#64;bi&#116;flu&#120;.c&#104;">roger</a>   @ 15:44:06  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c5.html" title="category: Blogging"><span class="storyCategory">Blogging</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<table width="170"><tr><td><div class="phototitle">&#160;<a class="ito" href="mailto:monorom@bitflux.ch">Miss Monorom@Bitflux</a></div><a class="ito" href="http://blog.bitflux.ch/images/missmonoromatbitflux.jpg" alt="Miss Monorom@Bitflux" style="border:0"/><p><div class="caption"></div></p><p><div class="photo"><img src="http://blog.bitflux.ch/images/missmonoromatbitflux_small.jpg" border="0" width="160" height="120" /></div></p></a><br />
+</td></tr></table><p class="blogmeta"> 
+
+ 
+<a href="/p72.html#comments">Comments (2)</a> 
+<a href="/p72.html#trackbacks">TrackBack (0)</a> 
+<a href="/p72.html#pingbacks">PingBack (0)</a> 
+<a href="/p72.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=72&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=72&amp;more=1&amp;c=1"
+    dc:title="Miss Monorom @ Bitflux"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/72"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="69"></a><br />
+<span class="blogtitel">New XML Developement List for PHP created</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;&#104;&#114;&#101;gu&#64;b&#105;&#116;fl&#117;&#120;.&#99;&#104;">chregu</a>   @ 10:46:56  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c7.html" title="category: PHP"><span class="storyCategory">PHP</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+After some discussion on php5-dev (not archived publicly), there was a desicion to create a new mailing list for the discussion of the future developement of xml support in PHP. Mainly it will be about a new domxml extension. The current domxml extension has a quite incosistent API and and I made some proposals, how a new one should look like.<br />
+<br />
+A short summary of my suggestions can be found in the <br />
+<a href="http://cvs.php.net/co.php/php4/TODO-PHP5?login=2&amp;r=1.1">PHP CVS Web</a><br />
+<br />
+And here's the messsage of Sterling about this:<br />
+"A mailing list for discussing the future of PHP and XML development has been created.  You can subscribe by sending a message to php-xml-dev-subscribe@lists.php.net (normal ezmlm commands apply).  This mailing list is _only_ intended for actual php extension and api development, user support questions should remain on php-general@lists.php.net."<br />
+<br />
+Hope to see you there ;)<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p69.html#comments">Comments (0)</a> 
+<a href="/p69.html#trackbacks">TrackBack (0)</a> 
+<a href="/p69.html#pingbacks">PingBack (1)</a> 
+<a href="/p69.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=69&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=69&amp;more=1&amp;c=1"
+    dc:title="New XML Developement List for PHP created"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/69"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="68"></a><br />
+<span class="blogtitel">Gulf War 2 (aka World War 2.5) </span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:c&#104;regu&#64;b&#105;t&#102;l&#117;x&#46;c&#104;">chregu</a>   @ 10:38:37  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c8.html" title="category: Politics"><span class="storyCategory">Politics</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+From <a href="http://www.idleworm.com/">idleworm.com</a>:<br />
+"<a href="http://www.idleworm.com/nws/2002/11/iraq2.shtml">This is a projection</a> of the most likely outcome of a new war in the Gulf. I used sophisticated temporal algorithms and historical semiotic analysis to achieve an accuracy rating of 99.999%. It's the mother of all Flash games. "<br />
+<br />
+Well done and I really hope, it doesn't end this way...<p class="blogmeta"> 
+
+ 
+<a href="/p68.html#comments">Comments (0)</a> 
+<a href="/p68.html#trackbacks">TrackBack (0)</a> 
+<a href="/p68.html#pingbacks">PingBack (0)</a> 
+<a href="/p68.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=68&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=68&amp;more=1&amp;c=1"
+    dc:title="Gulf War 2 (aka World War 2.5) "
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/68"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="67"></a><br />
+<span class="blogtitel">Moblogging &amp; Business</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:rog&#101;r&#64;&#98;it&#102;l&#117;x&#46;ch">roger</a>   @ 01:15:02  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c5.html" title="category: Blogging"><span class="storyCategory">Blogging</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<a href="http://neasia.nikkeibp.com/wcs/leaf?CID=onair/asabt/fw/221124">Built-in Camera Mobile Phones Increasingly Used for Business Purposes</a><br />
+<br />
+Quotes:<br />
+Increased use of camera-installed mobile phones in businesses is something that was unexpected to a marketing officer at NTT DoCoMo. He commented that the company is surprised by the strong corporate demand for such image services, because the firm initially targeted consumers as potential users. <br />
+<br />
+Many companies agree that a camera mobile phone is not a versatile tool. They say such phones are effective if companies use them for specific purposes, and try to take advantage of their higher portability and operability, as well as lower cost related to introduction.<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p67.html#comments">Comments (0)</a> 
+<a href="/p67.html#trackbacks">TrackBack (0)</a> 
+<a href="/p67.html#pingbacks">PingBack (0)</a> 
+<a href="/p67.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=67&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=67&amp;more=1&amp;c=1"
+    dc:title="Moblogging & Business"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/67"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>26.01.03</div>
+<a name="66"></a><br />
+<span class="blogtitel">Janglish Panglish </span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;o&#103;&#101;&#114;&#64;b&#105;&#116;&#102;l&#117;&#120;.c&#104;">roger</a>   @ 16:05:19  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c12.html" title="category: Things Japanese"><span class="storyCategory">Things Japanese</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+This <a href="http://www.chanpon.org/archives/2002/07/18/janglish_panglish.html">Janglish Panglish</a> article from T. Kaori Kitao discusses the abundance of lean words (gairaigo), especially of the english type, used in Japanese. <br />
+<br />
+First some german lean words are listed which I like to quote here:<br />
+&#171;noiro'oze (Neurose, neurosis), te'ema (Thema, theme), enerugisshu (energisch, energetic)&#187;<br />
+<br />
+Btw: the Chapon site was started by <a href="http://www.itofisher.com/PEOPLE/mito/">Ito Mizuko</a>.<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p66.html#comments">Comments (0)</a> 
+<a href="/p66.html#trackbacks">TrackBack (0)</a> 
+<a href="/p66.html#pingbacks">PingBack (0)</a> 
+<a href="/p66.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=66&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=66&amp;more=1&amp;c=1"
+    dc:title="Janglish Panglish "
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/66"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="65"></a><br />
+<span class="blogtitel">RSS discussed in the W3C RDF Primer Working Draft</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;o&#103;&#101;r&#64;bi&#116;&#102;lu&#120;&#46;&#99;h">roger</a>   @ 02:37:24  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<a href="http://www.w3.org/TR/2003/WD-rdf-primer-20030123/#rss">6.4 RSS 1.0: RDF Site Summary</a>.<p class="blogmeta"> 
+
+ 
+<a href="/p65.html#comments">Comments (0)</a> 
+<a href="/p65.html#trackbacks">TrackBack (0)</a> 
+<a href="/p65.html#pingbacks">PingBack (0)</a> 
+<a href="/p65.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=65&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=65&amp;more=1&amp;c=1"
+    dc:title="RSS discussed in the W3C RDF Primer Working Draft"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/65"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>25.01.03</div>
+<a name="64"></a><br />
+<span class="blogtitel">Takeover of Obtree Technologies Inc. </span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ro&#103;&#101;&#114;&#64;bitf&#108;&#117;&#120;.c&#104;">roger</a>   @ 23:53:43  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Takeover of <a href="http://www.obtree.com/">Obtree</a> by <a href="http://www.ixos.de">Ixos Software AG</a>. <br />
+<br />
+The IXOS site is not available at the moment. <br />
+... After reading the NZZ, I understood why:<br />
+<a href="http://www.nzz.ch/2003/01/25/vm/page-newzzDBDTEXDD-12.html">Gef&#228;hrlicher Wurm n&#252;tzt Sicherheitsl&#252;cke</a><br />
+Angegriffen wurden ausschliesslich gr&#246;ssere Server, auf denen die Microsoft-Datenbanksoftware ohne die j&#252;ngsten Sicherheits- Aktualisierungen betrieben wurde. Private Internet-Nutzer bemerkten die Wirkung des b&#246;sartigen Programmcodes vor allem an extrem langsamen oder still stehenden Online-Verbindungen, ihre PCs waren in der Regel nicht direkt gesch&#228;digt.<br />
+<br />
+  <br />
+<b>Reuters about the takeover</b><br />
+<a href="http://www.reuters.com/newsArticle.jhtml?type=topNews&amp;storyID=2102365">UPDATE 1-Germany's Ixos buys two European rivals</a>: <br />
+The news confirmed earlier Reuters reports that Ixos, a specialist supplier of document management solutions [...], would buy Obtree for a modest amount.<br />
+<br />
+Ixos said it would pay 0.36 euros per share in cash for 96.4 percent of Obtree, which provides content management products. This corresponds to 5.3 million euros for a 100 percent interest, it said.<br />
+<br />
+Obtree, which pulled a planned flotation in the autumn of 2000 as the Swiss market for initial public offerings started to dry up, has been looking for a financial partner for months but the Internet bear trap made many parties reluctant to move.<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p64.html#comments">Comments (0)</a> 
+<a href="/p64.html#trackbacks">TrackBack (0)</a> 
+<a href="/p64.html#pingbacks">PingBack (0)</a> 
+<a href="/p64.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=64&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=64&amp;more=1&amp;c=1"
+    dc:title="Takeover of Obtree Technologies Inc. "
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/64"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="63"></a><br />
+<span class="blogtitel">Other's Japan (Justin Hall)</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;og&#101;&#114;&#64;b&#105;tf&#108;&#117;&#120;.c&#104;">roger</a>   @ 21:26:49  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c12.html" title="category: Things Japanese"><span class="storyCategory">Things Japanese</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+After revisiting the Japan subsite of Justin Hall, I had this idea: Make different entries of the Japan which other people have seen.<br />
+<br />
+For the next installements I have in mind Philippe Vergne, Etoy, this Barbara person which toured in the name of a New Yorker Art Museum... (if you see who I mean, drop me a comment)<br />
+<br />
+So, here is the link to <a href="http://www.links.net/vita/trip/japan/">Justin Hall's Japan</a>.<br />
+Enjoy!<p class="blogmeta"> 
+
+ 
+<a href="/p63.html#comments">Comments (0)</a> 
+<a href="/p63.html#trackbacks">TrackBack (0)</a> 
+<a href="/p63.html#pingbacks">PingBack (0)</a> 
+<a href="/p63.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=63&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=63&amp;more=1&amp;c=1"
+    dc:title="Other\'s Japan (Justin Hall)"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/63"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="62"></a><br />
+<span class="blogtitel">J-Graphic Design (2)</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;ge&#114;&#64;b&#105;t&#102;l&#117;&#120;.c&#104;">roger</a>   @ 14:21:28  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c12.html" title="category: Things Japanese"><span class="storyCategory">Things Japanese</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<img src="http://blog.bitflux.ch/images/comstruct.gif" border="0" alt="Comstruct" align="left" hspace="5" vspace="5" width="152" height="57" />In search of Japanese Graphic Design, I found another interesting site:<br />
+<br />
+<b>Comstruct</b><br />
+<a href="http://www.comstruct.org/coms/index.html">Comstruct</a> = communication + structure.<br />
+ They have also a blog or should I better say a <a href="http://www.comstruct.org/coms/diary/index.html">nikki</a>.<br />
+<br />
+Some of Comstruct's client's sites:<br />
+<a href="http://www.prism-mag.com/">Prism</a><br />
+<a href="http://www.tdb-tv.com/">TDB Tv</a><br />
+<br />
+<b>Bunpei Ginza Ltd.</b><br />
+<a href="http://www.bunpei.com">Bunpei Ginza Ltd.</a> which I found by browsing the Comstruct site.<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p62.html#comments">Comments (0)</a> 
+<a href="/p62.html#trackbacks">TrackBack (0)</a> 
+<a href="/p62.html#pingbacks">PingBack (0)</a> 
+<a href="/p62.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=62&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=62&amp;more=1&amp;c=1"
+    dc:title="J-Graphic Design (2)"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/62"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>24.01.03</div>
+<a name="61"></a><br />
+<span class="blogtitel">Semantic Web Metadata for e-learning</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;&#103;er&#64;&#98;i&#116;&#102;&#108;&#117;&#120;.ch">roger</a>   @ 12:23:40  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<a href="http://www2002.org/CDROM/alternate/744/index.html">Semantic Web Metadata for e-Learning - Some Architectural Guidelines</a> which I found via an introduction to <a href="http://www.elearnspace.org/Articles/contentmanagement.htm">Content Management</a>.<br />
+<br />
+I haven't read all of it, but these paragraphs from the <a href="http://kmr.nada.kth.se/">Knowledge Management Research group</a> sounded quite interesting:<br />
+[...] At the same time, it has become increasingly evident that the educational community will not be accepting Semantic Web technology for meta-data very quickly, although the potential benefits are many. For example, only recently has the popular IEEE LOM (learning object metadata) been expressed in RDF [29], and in spite of this, most implementors and researchers remain with XML Schema-based technology for meta-data.<br />
+<br />
+Additionally, many e-learning applications are highly monolithic and seriously lacking in flexibility [38,49]. The kind of intelligent computer support enabled by Semantic Web descriptions, such as software agents and self-describing systems, is not taken into account in the design.<br />
+<br />
+In short, we have reached the somewhat surprising and perhaps paradoxical situation that the e-learning community is lacking in knowledge representation technology. For this reason, Semantic Web technology has not been extensively used and studied for educational applications, and there is therefore a need for a detailed analysis of the needs of the e-learning community concerning Semantic Web infrastructures.<br />
+<br />
+This paper is an attempt to close the gap by documenting our experiences from building e-learning applications using Semantic Web technology. [...] Projects reach from low-level RDF schema design and database interfacing, via distributed architectures to various forms of end-user tools for content management, navigation and querying.<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p61.html#comments">Comments (0)</a> 
+<a href="/p61.html#trackbacks">TrackBack (0)</a> 
+<a href="/p61.html#pingbacks">PingBack (0)</a> 
+<a href="/p61.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=61&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=61&amp;more=1&amp;c=1"
+    dc:title="Semantic Web Metadata for e-learning"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/61"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="60"></a><br />
+<span class="blogtitel">Joi Ito, a GLOT in Davos</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ro&#103;&#101;&#114;&#64;bit&#102;&#108;&#117;x.&#99;&#104;">roger</a>   @ 11:37:29  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c8.html" title="category: Politics"><span class="storyCategory">Politics</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Hey, that's my first blog in the category "Politics". As you can imagine, Davos is a very fenced place at the moment. And every aircraft can be shot from the sky, as Chregu already mentioned. And there are <a href="http://www.woz.ch/wozhomepage/davos/davos_c4j03.htm">folks</a> who would get into Davos, <a href="http://www.woz.ch/wozhomepage/davos/davos_c4j03.htm">some</a> who can't and <a href="http://www.weforum.org/site/knowledgenavigator.nsf/Content/A">others</a> which are already there...<br />
+One who is in Davos, is famous blogger Joichi Ito. He was invited as a GLOT, a Global Leader Of Tomorrow. Together with other "Young Japanese Leaders" he will launch the "Blueprint for Japan 2020":<br />
+In a <a href="http://joi.ito.com/archives/2003/01/05/the_cycle_of_resistance_to_change_in_japan.html">blog from January 5</a>, he has drawn <a href="http://joi.ito.com/archives/images/blueprint%20chart.jpg">a rough-and-ready chart</a> about the "Relationships of various problems in Japan".<br />
+<br />
+In another <a href="http://joi.ito.com/archives/2002/12/16/world_blogging_forum_and_the_tao_of_conferences.html">blog about blogging conferences and Davos</a>, he remembered talking with Dave Winer about "Blogging in Meatspace", which then became a <a href="http://davenet.userland.com/2002/12/11/weblogsInMeatspace">post</a>. <br />
+<br />
+Should I know change the category again - to OSCOM?<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p60.html#comments">Comments (2)</a> 
+<a href="/p60.html#trackbacks">TrackBack (0)</a> 
+<a href="/p60.html#pingbacks">PingBack (0)</a> 
+<a href="/p60.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=60&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=60&amp;more=1&amp;c=1"
+    dc:title="Joi Ito, a GLOT in Davos"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/60"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="59"></a><br />
+<span class="blogtitel">PEAR libraries included </span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;h&#114;e&#103;u&#64;bi&#116;&#102;lux&#46;c&#104;">chregu</a>   @ 11:10:54  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c6.html" title="category: Apple"><span class="storyCategory">Apple</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+I included some of the most used PEAR-libraries in the <a href="http://trash.chregu.tv/phpapache.dmg">PHP/Apache download</a>. They got forgotten in the first release..<br />
+<br />
+Adding additional packages is also very easy:<br />
+/usr/local/bxphp/bin/pear install PackageName<br />
+and you should be done ;)<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p59.html#comments">Comments (0)</a> 
+<a href="/p59.html#trackbacks">TrackBack (0)</a> 
+<a href="/p59.html#pingbacks">PingBack (0)</a> 
+<a href="/p59.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=59&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=59&amp;more=1&amp;c=1"
+    dc:title="PEAR libraries included "
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/59"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="58"></a><br />
+<span class="blogtitel">RDF and Creative Commons</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;g&#101;&#114;&#64;bitf&#108;u&#120;&#46;&#99;&#104;">roger</a>   @ 11:00:06  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+There is another debate about the "Creative Commons use of RDF" going on between <a href="http://www.xml.com/pub/a/2003/01/15/creative.html">Kendall Grant Clark</a> and <a href="http://creativecommons.org/weblog/archive/2003/01/#3588">Ben Adida</a> from Creative Commons.<p class="blogmeta"> 
+
+ 
+<a href="/p58.html#comments">Comments (0)</a> 
+<a href="/p58.html#trackbacks">TrackBack (0)</a> 
+<a href="/p58.html#pingbacks">PingBack (0)</a> 
+<a href="/p58.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=58&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=58&amp;more=1&amp;c=1"
+    dc:title="RDF and Creative Commons"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/58"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="57"></a><br />
+<span class="blogtitel">J-Pictionary</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;o&#103;er&#64;&#98;i&#116;&#102;&#108;u&#120;.&#99;h">roger</a>   @ 10:06:13  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c12.html" title="category: Things Japanese"><span class="storyCategory">Things Japanese</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+After Chregu's cool post about japanese smileys, I am naturally challenged (*^_^*)<br />
+As we all know now how to make japanese smileys, I thought it would be cool to propose another sort of dictionary - a... <a href="http://www8.plala.or.jp/y-naka/jiten.html">Japanese Pictionary</a>! ( ^_^ )<br />
+Nakayama-san and Jeff Clark claim:<br />
+"Our dictionary is useful and fun--and that's how studying should be!"<br />
+<br />
+If you miss something, just send them a mail and they will add it. They did so for me. I asked them to add zoni, the New Year's soup. And there <a href="http://www8.plala.or.jp/y-naka/jiten-z.html">it</a> is.<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p57.html#comments">Comments (0)</a> 
+<a href="/p57.html#trackbacks">TrackBack (0)</a> 
+<a href="/p57.html#pingbacks">PingBack (0)</a> 
+<a href="/p57.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=57&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=57&amp;more=1&amp;c=1"
+    dc:title="J-Pictionary"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/57"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>23.01.03</div>
+<a name="56"></a><br />
+<span class="blogtitel">Japanese Smileys</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ch&#114;e&#103;&#117;&#64;bitf&#108;u&#120;&#46;c&#104;">chregu</a>   @ 22:50:38  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c12.html" title="category: Things Japanese"><span class="storyCategory">Things Japanese</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Something Japanese once by me ;)<br />
+From <a href="http://www.schockwellenreiter.de/2003/01/23.html#05">Der Schockwellenreiter</a>: <a href="http://club.pep.ne.jp/~hiroette/en/facemarks/index.html">Japanese Smileys</a>, very funny looking ones indeed...<p class="blogmeta"> 
+
+ 
+<a href="/p56.html#comments">Comments (4)</a> 
+<a href="/p56.html#trackbacks">TrackBack (0)</a> 
+<a href="/p56.html#pingbacks">PingBack (0)</a> 
+<a href="/p56.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=56&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=56&amp;more=1&amp;c=1"
+    dc:title="Japanese Smileys"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/56"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="55"></a><br />
+<span class="blogtitel">Is RSS still XML? And what if not?</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;&#103;e&#114;&#64;b&#105;t&#102;lu&#120;.c&#104;">roger</a>   @ 22:20:00  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+After Mark Pilgrim's article <a href="http://www.xml.com/pub/a/2003/01/22/dive-into-xml.html">Parsing RSS At All Costs</a> there followed a lively discussion at the end of the article and on some blogs.<br />
+<br />
+To make a quick resume, the "pragmatic" Mark says give people what they want, let them mess things up, instead of pushing them to do wellformed RSS. His "heretical" solution is "don't use an XML parser", use a "parse-at-all-costs RSS parser". The then explains how he did such a parser written in Phyton.<br />
+<br />
+Naturally, that was quite a blow for some (me included), especially from a CMS point of view, where you have to think "metadata", "in the long term", "cross-media" etc.<br />
+<br />
+Some good arguments heard in the discussion IMHO: <br />
+<br />
+<a href="http://www.docuverse.com/blog/donpark">Don Park</a>: <a href="http://www.docuverse.com/blog/donpark/2003/01/23.html#a162">Dealing with bad RSS as a community</a><ul><li>RSS feed proxy services with 'tidy' (parse-at-all-cost) and occasional validaton service becomes common place allowing either the feed producer or the consumer to deal with ill-formed RSS. </li><br />
+<li>Encourage development and use of RSS/XML writer libraries instead of writing out tags and contents directly.</li></ul><a href="http://www.citnames.com/blog/">Danny Ayers</a><br />
+An alternative to using a 'flat' XML parser with RSS 1.0 is to use an RDF parser such as ARP (Java) or the one the one which comes with cwm (Python). Not a great deal of use for feeds from the wild like those you discuss (if it's invalid XML/RSS then it'll fall at the first hurdle), but for known sources this should be a preferred option.<br />
+<br />
+<a href="http://www.kuro5hin.org/story/2003/1/3/19542/66524#toolswillsaveus">Dare Obasanjo</a><br />
+The solutions from my point of view would rely on pressuring sites and tools that produce invalid RSS feeds to correct them and creating tools like the RSS validator produced by yourself and Sam Ruby (which is an excellent contribution to the community). <br />
+<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p55.html#comments">Comments (0)</a> 
+<a href="/p55.html#trackbacks">TrackBack (0)</a> 
+<a href="/p55.html#pingbacks">PingBack (0)</a> 
+<a href="/p55.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=55&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=55&amp;more=1&amp;c=1"
+    dc:title="Is RSS still XML? And what if not?"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/55"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="54"></a><br />
+<span class="blogtitel">Download Apache/PHP/Sablotron/libxml/GD in one neat package </span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:c&#104;r&#101;&#103;u&#64;&#98;&#105;&#116;&#102;&#108;&#117;&#120;.c&#104;">chregu</a>   @ 19:00:51  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c6.html" title="category: Apple"><span class="storyCategory">Apple</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Actually, there are two, if you do not have the needed libraries. But you don't need to compile anything, you don't need the Apple Developer Tools and you don't need to install fink (but it's no problem if you have).<br />
+<br />
+Instructions:<br />
+If you don't have fink installed get first <a href="http://trash.chregu.tv/phplibraries.dmg">http://trash.chregu.tv/phplibraries.dmg</a>, open it, click on the package and go throug the installation process. It installs some libraries into the /sw folder.<br />
+<br />
+After that, get <a href="http://trash.chregu.tv/phpapache.dmg">http://trash.chregu.tv/phpapache.dmg</a> and do the same as above. After the installationprocess you're webbrowser will start and it goes directly to http://localhost:8081/info.php and it should show up the output of phpinfo() if everything went well. And that's it. you can start developping PHP Scripts with full XML-Support now ;)<br />
+<br />
+What does it? <br />
+It installs an apache binary, the Sablotron binaries and the PHP 4.3 libphp4.so module into /usr/local/bxphp/. The apache stuff is under /usr/local/bxphp/apache, therefore you find your DocumentRoot under /usr/local/bxphp/apache/htdocs and the conf files under /usr/local/bxphp/apache/conf (php.ini as well).<br />
+<br />
+I hope this is of some use for some people. If you need more extensions, have questions or comments how it could be done better, just make some comments below. I'll try to improve it :) If you wanted to know, how I did it, read <a href="http://blog.bitflux.ch/p46.html">http://blog.bitflux.ch/p46.html</a>.<p class="blogmeta"> 
+
+ 
+<a href="/p54.html#comments">Comments (9)</a> 
+<a href="/p54.html#trackbacks">TrackBack (1)</a> 
+<a href="/p54.html#pingbacks">PingBack (1)</a> 
+<a href="/p54.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=54&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=54&amp;more=1&amp;c=1"
+    dc:title="Download Apache/PHP/Sablotron/libxml/GD in one neat package "
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/54"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="53"></a><br />
+<span class="blogtitel">First Moblog with a Nokia 7650</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ro&#103;&#101;&#114;&#64;bi&#116;f&#108;&#117;x.c&#104;">roger</a>   @ 18:07:18  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c5.html" title="category: Blogging"><span class="storyCategory">Blogging</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<table width="170"><tr><td><div class="phototitle">&#160;<a class="ito" href="mailto:patrick@bitflux.ch">Patrick@Bitflux</a></div><a class="ito" href="http://blog.bitflux.ch/images/Foto(02).jpg" style="border:0"><p><div class="caption"></div></p><p><div class="photo"><img src="http://blog.bitflux.ch/images/patrick120_160.jpg" border="0" width="160" height="120" /></div></p></a><br />
+</td></tr></table><p class="blogmeta"> 
+
+ 
+<a href="/p53.html#comments">Comments (0)</a> 
+<a href="/p53.html#trackbacks">TrackBack (0)</a> 
+<a href="/p53.html#pingbacks">PingBack (1)</a> 
+<a href="/p53.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=53&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=53&amp;more=1&amp;c=1"
+    dc:title="First Moblog with a Nokia 7650"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/53"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="52"></a><br />
+<span class="blogtitel">Which phone for SVG Mobile? </span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;&#103;&#101;&#114;&#64;&#98;i&#116;&#102;&#108;&#117;&#120;&#46;c&#104;">roger</a>   @ 12:19:13  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c13.html" title="category: SVG+SMIL"><span class="storyCategory">SVG+SMIL</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+SVG Mobile implementations was a hot topic at the last SVG conference: Not only started Chris Lilley his keynote with a demonstration of several SVG mobile implementations, but KDDI Corp. <a href="http://jamaps1.kddlabs.co.jp/press/eng.html">showed</a> what is already common for some people in Japan (where the mobile market was always much stronger than the "Desktop Computer Internet").  <br />
+<br />
+As <b>Mobile SVG Profiles: SVG Tiny and SVG Basic</b> is a <a href="http://www.w3.org/TR/2003/REC-SVGMobile-20030114/">W3C Recommendation</a> since January 14, we should have a closer look what phones to choose:<br />
+<br />
+After checking the <a href="http://www.w3.org/2003/01/svg11-faq">SVG 1.1 and SVG Mobile Frequently Asked Questions site</a>, I would probably opt for a Nokia 7650. With the same phone it should also be possible to do some <a href="http://haavi.iki.fi/roadcam/">Moblogging</a>.<p class="blogmeta"> 
+
+ 
+<a href="/p52.html#comments">Comments (0)</a> 
+<a href="/p52.html#trackbacks">TrackBack (0)</a> 
+<a href="/p52.html#pingbacks">PingBack (0)</a> 
+<a href="/p52.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=52&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=52&amp;more=1&amp;c=1"
+    dc:title="Which phone for SVG Mobile? "
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/52"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="50"></a><br />
+<span class="blogtitel">The Center for Open Source in Government </span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;oge&#114;&#64;b&#105;&#116;&#102;l&#117;x&#46;&#99;h">roger</a>   @ 09:38:45  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+In a recent discussion with Oscomer's, we concluded 2003 will be the year where Open Source CMS will really become mainstream.<br />
+<br />
+Now I just discovered Urs Gehrig's <a href="http://www.circle.ch/blog/p570.html">latest post</a>:<br />
+The Center for Open Source in Government is proud to present a conference on "Open Source for National and Local eGovernment Programs in the U.S. and EU" held in Washington, DC, USA, March. 17 - 19, 2003. <br />
+<br />
+Btw: An OSCOM roadshow in Washington with the help of Michelle from <a href="http://www.xoops.org/">Xoops</a> was once on the agenda...<p class="blogmeta"> 
+
+ 
+<a href="/p50.html#comments">Comments (0)</a> 
+<a href="/p50.html#trackbacks">TrackBack (0)</a> 
+<a href="/p50.html#pingbacks">PingBack (0)</a> 
+<a href="/p50.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=50&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=50&amp;more=1&amp;c=1"
+    dc:title="The Center for Open Source in Government "
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/50"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="48"></a><br />
+<span class="blogtitel">Blogdex </span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ro&#103;er&#64;bi&#116;flu&#120;.&#99;&#104;">roger</a>   @ 08:57:31  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c5.html" title="category: Blogging"><span class="storyCategory">Blogging</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+You probably all know <a href="http://blogdex.media.mit.edu/">Blogdex</a>, Cameron Marlow's index of the most popular links from blogs. As Blogdex visited us recently, I went to their site and subscribed our blog.<br />
+<br />
+Going back in history: soon after Blogdex started, USA Today, published an article about blogging (2001-08-28). Here is an excerpt:<br />
+"People who run blogs are really interested in showing the world what they're interested in," says Cameron Marlow, 24, a grad student at MIT's innovative Media Lab, who this summer created Blogdex, which tracks the pages to which bloggers link.<br />
+"Before, you never had people publishing personal content regularly," Marlow says. "Now there's this huge set of people writing their opinions, their timely news. They do it for a general audience, which is amazing. They produce a huge amount of content."<br />
+<br />
+As I was on Blogdex, I found this link which I copy tel quel. Give it a try - just for fun:<br />
+<a href="http://www.imaginationatwork.com/Imagine?_nolivecache">Coolest toy I've seen in ages!</a><p class="blogmeta"> 
+
+ 
+<a href="/p48.html#comments">Comments (0)</a> 
+<a href="/p48.html#trackbacks">TrackBack (0)</a> 
+<a href="/p48.html#pingbacks">PingBack (0)</a> 
+<a href="/p48.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=48&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=48&amp;more=1&amp;c=1"
+    dc:title="Blogdex "
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/48"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>22.01.03</div>
+<a name="47"></a><br />
+<span class="blogtitel">RSS 1.0 and Searching</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;o&#103;er&#64;&#98;&#105;t&#102;&#108;&#117;&#120;&#46;&#99;&#104;">roger</a>   @ 21:18:34  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<a href="http://www.searchtools.com/">Avi Rappaport's</a> "Open Source Search and Content Management"    <a href="http://www.searchtools.com/slides/oscom/index.html">presentation</a> at OSCOM Berkeley:<br />
+<br />
+<b><a href="http://www.searchtools.com/slides/oscom/OSCOM2002-15.html">Recommended Standard: RSS 1.0</a></b><br />
+<ul><li>Allows long content, full documents not just pointers</li><br />
+  <li>No 15 item limit</li><br />
+  <li>Metadata fields and tags</li><br />
+  <li>Widely implemented standard</li><br />
+</ul><b>Conclusion: Open Source CMSs Can Be Search-Friendly</b><ul><li>Keyword Searching is important</li><br />
+<li>CMS features automatically improve searchability: <br />
+ Metadata makes searching better</li><br />
+<li>There are open source engines for every taste</li><br />
+<li>Use RSS 1.0 to syndicate to search indexers</li></ul><br />
+Thanks to <a href="http://www.breakbeans.com/special/OSCOM2/day1">Michiharu's Photos</a>, which inspired me to search these slides and thanks to Avi for bringing up the idea.<br />
+<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p47.html#comments">Comments (0)</a> 
+<a href="/p47.html#trackbacks">TrackBack (0)</a> 
+<a href="/p47.html#pingbacks">PingBack (0)</a> 
+<a href="/p47.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=47&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=47&amp;more=1&amp;c=1"
+    dc:title="RSS 1.0 and Searching"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/47"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="46"></a><br />
+<span class="blogtitel">Sablotron, I did it :)</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;&#104;r&#101;&#103;&#117;&#64;&#98;&#105;&#116;fl&#117;&#120;&#46;&#99;h">chregu</a>   @ 18:59:50  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c6.html" title="category: Apple"><span class="storyCategory">Apple</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Finally, it works! switching to gcc2/g++2 when compiling sablotron did it. Mmmh, it's strange anyway, since I was under the assumption, everything is compiled with gcc3 under OSX and fink..<br />
+<br />
+Tomorrow, I will put something to download online. With this, you should be able to get PHP with full XML-Support running without needing fink or the Apple Developer Tools. This should make it also easier to run Bitflux CMS on Mac OS X without going through install-hell ;)<br />
+<br />
+For the curious, there is a little HOWTO at <a href="http://trash.chregu.tv/bxphp2.txt">http://trash.chregu.tv/bxphp2.txt</a> about what i did and how i got it working (you need some libaries from fink to use the HOWTO)<br />
+<br />
+Have fun<p class="blogmeta"> 
+
+ 
+<a href="/p46.html#comments">Comments (1)</a> 
+<a href="/p46.html#trackbacks">TrackBack (0)</a> 
+<a href="/p46.html#pingbacks">PingBack (0)</a> 
+<a href="/p46.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=46&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=46&amp;more=1&amp;c=1"
+    dc:title="Sablotron, I did it :)"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/46"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="45"></a><br />
+<span class="blogtitel">Sablotron on OS X continued..</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;&#104;&#114;eg&#117;&#64;&#98;&#105;&#116;&#102;&#108;ux&#46;&#99;&#104;">chregu</a>   @ 17:39:16  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c6.html" title="category: Apple"><span class="storyCategory">Apple</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+I had this great idea today to provide everything in one neat package (Apache , PHP, libxml2, sablotron, etc) for all OS X users out there, which don't want to go into the deeps of installing <a href="http://fink.sf.net">fink</a>.<br />
+<br />
+It worked quite well and I came reasonably far. It even worked some times, but Sablotron is really really bugging me. I'm able to compile and install it, but later, when I wanted to link it against php, funny errors showed up... Reading mailinglists, it has clearly something to do with the changed ABI in g++3, but I don't think I ever used anything else on my OS X machine. Well, I have managed to compile Sablotron once which can be linked against PHP and I still have those binaries, but I'm not able to reproduce it... OMG ;)<br />
+<br />
+Anyway, my idea from this morning (see above) works basically, except with Sablotron and this makes it a little bit useless since it's needed for Bitflux CMS. I will give it some more tries and keep this blog updated ;)<p class="blogmeta"> 
+
+ 
+<a href="/p45.html#comments">Comments (0)</a> 
+<a href="/p45.html#trackbacks">TrackBack (0)</a> 
+<a href="/p45.html#pingbacks">PingBack (0)</a> 
+<a href="/p45.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=45&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=45&amp;more=1&amp;c=1"
+    dc:title="Sablotron on OS X continued.."
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/45"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="44"></a><br />
+<span class="blogtitel">Moblogging</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;oger&#64;bit&#102;&#108;&#117;x&#46;ch">roger</a>   @ 14:59:49  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c5.html" title="category: Blogging"><span class="storyCategory">Blogging</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+I first discovered Moblogging on <a href="http://joi.ito.com/moblog/">Joi Ito's Blog</a>. What impressed me, was naturally the mobile blogging idea, as well as using photos for your logs.<br />
+<br />
+At the moment my sister is making a long world trip (see her <a href="http://www.nadiaundjuerg.ch">Website</a> which is some kind of a blog) and if she could blog just out of nowhere,  this would be great.<br />
+<br />
+I also think that moblogging can be very effective during conferences. To see what I mean, just check out OSCOM Berkelely by Michiharu 'Michi' Sakurai: <a href="http://www.breakbeans.com/special/OSCOM2/day1">First Day</a>, <a href="http://www.breakbeans.com/special/OSCOM2/day2">Second Day</a>, <a href="http://www.breakbeans.com/special/OSCOM2/day3">Third Day</a>.<br />
+<br />
+Add immediacy, cross-linking, commenting, syndicating etc. and you can imagine how interesting that could be:)<br />
+<br />
+Joi Ito recently (January 22, 2003) said this about moblogging: <br />
+For example, if you leave messages and images in locations for people. For instance, if you go to a restaurant, you can push a button and it pulls up all of the interesting things people have written while they were there and threads you to other places those people have been. If you're going to a place, you search for people who have moblogged from that location, finding links to their images and maybe their weblogs. In an "augmented reality" (see my brother-in-law Scott Fisher's work on this. He's actually done a system of using mobile phones to annotate space with content.) sort of way, it's like annotating the real world. That's how I look at it. I'm this little thing crawling around the earth, annotating it with images, sounds and text. You leverage being mobile by being able to add location. This database can be viewed by time/location/ID and we can create meta information from that. (Yes, there are security/privacy issues.)<br />
+<br />
+Other Resources:<br />
+<a href="http://www.thefeature.com/index.jsp?url=article.jsp?pageid=24815">Justin Hall's &#171;From Weblog to Moblog&#187;</a><br />
+<a href="http://radio.weblogs.com/0114939/outlines/moblog.html">Joi Ito's Moblog Resources</a><br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p44.html#comments">Comments (0)</a> 
+<a href="/p44.html#trackbacks">TrackBack (0)</a> 
+<a href="/p44.html#pingbacks">PingBack (0)</a> 
+<a href="/p44.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=44&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=44&amp;more=1&amp;c=1"
+    dc:title="Moblogging"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/44"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="43"></a><br />
+<span class="blogtitel">Sugoi! Amazon Japan is great:)</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;&#103;&#101;&#114;&#64;&#98;i&#116;&#102;l&#117;&#120;&#46;ch">roger</a>   @ 10:55:12  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c12.html" title="category: Things Japanese"><span class="storyCategory">Things Japanese</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+On January 8, I ordered some children books and DVD's (more on the contents later) for my son at Amazon.co.jp. This was my first japanese order, so I was pretty excited ordering and very interested how long it would take.<br />
+<br />
+Amazon.co.jp wrote me that it would take 3 to 4 weeks. So I expected the books and DVD's for early February...<br />
+<br />
+Today - to my surprise - the postman already brought the parcel. Wow or in japanese "Sugoi".<p class="blogmeta"> 
+
+ 
+<a href="/p43.html#comments">Comments (0)</a> 
+<a href="/p43.html#trackbacks">TrackBack (0)</a> 
+<a href="/p43.html#pingbacks">PingBack (0)</a> 
+<a href="/p43.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=43&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=43&amp;more=1&amp;c=1"
+    dc:title="Sugoi! Amazon Japan is great:)"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/43"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="42"></a><br />
+<span class="blogtitel">Print is next on the SVG Roadmap</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ro&#103;&#101;&#114;&#64;bi&#116;&#102;l&#117;&#120;&#46;ch">roger</a>   @ 09:50:56  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c13.html" title="category: SVG+SMIL"><span class="storyCategory">SVG+SMIL</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Dean Jackson: The SVG working group has made the first draft of the SVG Roadmap available. It's not complete, doesn't have all the details on the expected new work, but it should give the general idea on the direction of SVG.<br />
+<a href="http://www.w3.org/Graphics/SVG/Roadmap.html">www.w3.org/Graphics/SVG/Roadmap.html</a><br />
+<br />
+If you want to know what that could mean see <a href="http://www.bitflux.ch/publikationen/svgopen.html#SVG:PageDescriptionLanguageundUIControls">my article</a> on the first SVG conference last year or the <a href="http://www.svgopen.org/abstracts/danilo_fujisawa__svg_as_page_description_language.html">abstract</a> and <a href="http://www.svgopen.org/papers/2002/danilo_fujisawa__svg_as_page_description_language/">paper</a> "SVG as a Page Description Language" from the Canon guys.<br />
+<br />
+Btw: The <a href="http://www.svgopen.org/">second SVG conference</a> is in Vancouver, on July 13-18, 2003.<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p42.html#comments">Comments (0)</a> 
+<a href="/p42.html#trackbacks">TrackBack (0)</a> 
+<a href="/p42.html#pingbacks">PingBack (0)</a> 
+<a href="/p42.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=42&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=42&amp;more=1&amp;c=1"
+    dc:title="Print is next on the SVG Roadmap"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/42"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="41"></a><br />
+<span class="blogtitel">More on PHP on OS X</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ch&#114;e&#103;u&#64;b&#105;&#116;&#102;&#108;u&#120;&#46;c&#104;">chregu</a>   @ 08:01:38  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c6.html" title="category: Apple"><span class="storyCategory">Apple</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+O'Reilly has a <a href="http://www.onlamp.com/pub/a/php/2003/01/17/phpcookbook.html">short article</a>, about how to install PHP 4.3 on Mac OS X.<br />
+<br />
+At <a href="http://www.entropy.ch/software/macosx/php/">entropy.ch</a>, there is also some information and there is more precompiled software you'll most certainly need (mysql etc.)<p class="blogmeta"> 
+
+ 
+<a href="/p41.html#comments">Comments (0)</a> 
+<a href="/p41.html#trackbacks">TrackBack (0)</a> 
+<a href="/p41.html#pingbacks">PingBack (0)</a> 
+<a href="/p41.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=41&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=41&amp;more=1&amp;c=1"
+    dc:title="More on PHP on OS X"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/41"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>21.01.03</div>
+<a name="40"></a><br />
+<span class="blogtitel">Paul is blogging too</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;g&#101;r&#64;&#98;i&#116;&#102;lux.ch">roger</a>   @ 22:26:02  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Found <a href="http://www.zopestories.com/2003/01/14/item01">Paul's blog</a> via Google, though he gave me a hint via the mailinglist.<br />
+<br />
+... aggregation of all the blogs with an Oscom category on the <a href="http://www.oscom.org">OSCOM site</a> would be cool...<p class="blogmeta"> 
+
+ 
+<a href="/p40.html#comments">Comments (4)</a> 
+<a href="/p40.html#trackbacks">TrackBack (0)</a> 
+<a href="/p40.html#pingbacks">PingBack (0)</a> 
+<a href="/p40.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=40&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=40&amp;more=1&amp;c=1"
+    dc:title="Paul is blogging too"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/40"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="39"></a><br />
+<span class="blogtitel">Seasonal Greetings</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;&#103;&#101;&#114;&#64;&#98;itfl&#117;&#120;&#46;ch">roger</a>   @ 20:51:44  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c12.html" title="category: Things Japanese"><span class="storyCategory">Things Japanese</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+While it's the New Year, the cold continues.[*]<br />
+<br />
+Japanese letters start most often with a seasonal greeting like this. Do japanese blogs as well?<br />
+<br />
+By googling quickly I found this post from <a href="http://groups.yahoo.com/group/clivia-enthusiast/message/2902">Masashi Yamaguchi</a> which starts: &#171;This is Masashi from Japan, it is too hot &amp; humid here, I am worrying about my clivias since some plants are not in good condition because of this hot summer.&#187; <br />
+<br />
+I hope you like this oxymoronic post;)<br />
+<br />
+[*] Shinshun to wa mooshinagara, mada mada samusa ga tsuzuite orimasu ga<p class="blogmeta"> 
+
+ 
+<a href="/p39.html#comments">Comments (0)</a> 
+<a href="/p39.html#trackbacks">TrackBack (0)</a> 
+<a href="/p39.html#pingbacks">PingBack (0)</a> 
+<a href="/p39.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=39&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=39&amp;more=1&amp;c=1"
+    dc:title="Seasonal Greetings"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/39"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="38"></a><br />
+<span class="blogtitel">Mediagonal, new partner of Bitflux</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;&#111;&#103;er&#64;bi&#116;f&#108;&#117;x&#46;&#99;h">roger</a>   @ 18:29:35  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c2.html" title="category: Bitflux"><span class="storyCategory">Bitflux</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Mediagonal AG, formerly known as <a href="http://www.g-meinschaft.ch/">g-meinschaft</a> teams up with Bitflux, which means: more things get done better and quicker - which is cool for everyone.<br />
+<br />
+And as Mediagonal is based in Fribourg, a city where french is spoken as well a german (the famous "Roeschtigraben" is right around the corner), the Bitflux CMS gets a foothold in the latin world.<br />
+<br />
+Btw: Gerhard and Hannes impressed us with some "Docbook light" implementations of the Bitflux Editor.<br />
+<br />
+Next time, we let Hannes and Gerhard speak here...<br />
+ <br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p38.html#comments">Comments (0)</a> 
+<a href="/p38.html#trackbacks">TrackBack (0)</a> 
+<a href="/p38.html#pingbacks">PingBack (0)</a> 
+<a href="/p38.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=38&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=38&amp;more=1&amp;c=1"
+    dc:title="Mediagonal, new partner of Bitflux"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/38"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="37"></a><br />
+<span class="blogtitel">Compiling Sablotron, PHP and Apache on Mac OS X to get Bitflux CMS working</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;hre&#103;&#117;&#64;&#98;i&#116;&#102;lu&#120;&#46;ch">chregu</a>   @ 17:34:12  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c6.html" title="category: Apple"><span class="storyCategory">Apple</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Al "nomorename" asked on the mailinglist, how to get Bitflux CMS working on Max OS X. I wrote some <a href="http://lists.bitflux.ch/pipermail/bitflux-cms/2003-January/000262.html">short summary</a>, how I did it. It's not a complete step-by-step howto, but it could help some people looking for this ;)<p class="blogmeta"> 
+
+ 
+<a href="/p37.html#comments">Comments (0)</a> 
+<a href="/p37.html#trackbacks">TrackBack (0)</a> 
+<a href="/p37.html#pingbacks">PingBack (0)</a> 
+<a href="/p37.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=37&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=37&amp;more=1&amp;c=1"
+    dc:title="Compiling Sablotron, PHP and Apache on Mac OS X to get Bitflux CMS working"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/37"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="36"></a><br />
+<span class="blogtitel">Akinori OISHI in France</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;&#103;er&#64;b&#105;t&#102;lu&#120;&#46;c&#104;">roger</a>   @ 17:01:09  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c12.html" title="category: Things Japanese"><span class="storyCategory">Things Japanese</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<img src="http://blog.bitflux.ch/images/akinori.png" border="0" alt="Akinori Oishi" /><br />
+After a very cool meeting we had with the guys from the g-meinschaft/mediagonal (more on that in a later post), I quickly checked my email and got a response from Akinori "Microfilms" Oishi. Yesterday I sent him a mail, because I very much like his microfilms.<br />
+<br />
+He is now in <a href="http://www.prism-mag.com/data/mail/03/vol3_mail13_e.html">France</a> and knows Zurich very well.<br />
+&#171;Now I live in France...  Zurich, I've been there several times.  I have some good friends, and I love your city, the beautiful lake ! And do you know Vectorama (<a href="http://www.vectorama.org">www.vectorama.org</a>) ? They are from Luzern and so nice guys, I am working a lot with them !&#187;<br />
+<br />
+Akinori, if you come next time to Zurich, let us know. And then he also sent his life with rice:<br />
+<br />
+Ma vie avec du riz ...<br />
+<br />
+   :::::::::::::::::::<br />
+   :::::::::::::::::::<br />
+   :::::::::::::::::::<br />
+   :::::::::::::::::::<br />
+<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p36.html#comments">Comments (0)</a> 
+<a href="/p36.html#trackbacks">TrackBack (0)</a> 
+<a href="/p36.html#pingbacks">PingBack (0)</a> 
+<a href="/p36.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=36&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=36&amp;more=1&amp;c=1"
+    dc:title="Akinori OISHI in France"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/36"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="35"></a><br />
+<span class="blogtitel">Paul's list of what we need</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ro&#103;er&#64;bi&#116;&#102;lux.c&#104;">roger</a>   @ 09:30:19  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+[...] Open source can and should produce better alternatives for these needs. My list of things that I think we need better answers for:<ul><li><b>A. Integration.</b> How do we connect to all the other content being created in your company? Can we connect and interoperate with each other?</li><br />
+<li><b>B. Ease of use.</b> Can we create a secretary-friendly interface?</li><br />
+<li><b>C. Sharing.</b> How do ad-hoc groups come together and collaborate in a rich way?</li><br />
+<li><b>D. Knowledge.</b> Can we find new ways to assemble the big picture from large volumes of diverse content?</li></ul><br />
+How can OSCOM, particularly OSCOM 3 address these issues? Some personal answers:<ul><li><b>A. Integration.</b> RSS, SlideML, SoftwareML,... ? </li><br />
+<li><b>B. Ease of use.</b> Blogs, Wysiwyg XML Editors, ...?</li><br />
+<li><b>C. Sharing.</b> OSCOM, interesting projects, ...?</li><br />
+<li><b>D. Knowledge.</b>  RDF, ...?</li></ul><br />
+For the whole article, see:<br />
+<a href="http://techupdate.zdnet.com/techupdate/stories/main/0,14179,2884921-2,00.html">Zdnet Article from Paul and Gregor</a><br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p35.html#comments">Comments (0)</a> 
+<a href="/p35.html#trackbacks">TrackBack (0)</a> 
+<a href="/p35.html#pingbacks">PingBack (0)</a> 
+<a href="/p35.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=35&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=35&amp;more=1&amp;c=1"
+    dc:title="Paul\'s list of what we need"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/35"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>20.01.03</div>
+<a name="34"></a><br />
+<span class="blogtitel">Kamon (Family Crests)</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;&#111;ge&#114;&#64;b&#105;&#116;flu&#120;.&#99;h">roger</a>   @ 22:40:13  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c12.html" title="category: Things Japanese"><span class="storyCategory">Things Japanese</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<img src="http://blog.bitflux.ch/images/kamon2.jpg" border="0" alt="Kamon" /><br />
+<br />
+Have you ever heard about Kamon or japanese family crests? If not, find an introduction here: <a href="http://www.japan-society.org/crest_jssdt.html">http://www.japan-society.org/crest_jssdt.html</a>.<br />
+<br />
+For an overview, see: <br />
+<a href="http://www.asgy.co.jp/kamon/family/family.html">http://www.asgy.co.jp/kamon/family/family.html</a>, where the origin of the kamon are shown as well<br />
+and<br />
+<a href="http://www1.sphere.ne.jp/enshoji/kamon1000.htm">http://www1.sphere.ne.jp/enshoji/kamon1000.htm</a>.<br />
+<br />
+Maybe you are particularly interested in <a href="http://www.insects.org/ced4/japanese_crests.html">bug crests</a>. <br />
+<br />
+<br />
+My personal favorite at the moment is:<p align="center"><img src="http://blog.bitflux.ch/images/favorite_kamon_01.gif" border="0" alt="Favorite Kamon" /></p><p class="blogmeta"> 
+
+ 
+<a href="/p34.html#comments">Comments (10)</a> 
+<a href="/p34.html#trackbacks">TrackBack (0)</a> 
+<a href="/p34.html#pingbacks">PingBack (0)</a> 
+<a href="/p34.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=34&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=34&amp;more=1&amp;c=1"
+    dc:title="Kamon (Family Crests)"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/34"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="33"></a><br />
+<span class="blogtitel">Some J-Graphic Design</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;ger&#64;b&#105;&#116;&#102;lu&#120;.c&#104;">roger</a>   @ 16:01:43  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c12.html" title="category: Things Japanese"><span class="storyCategory">Things Japanese</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+<b>Bascule</b><br />
+<img src="http://blog.bitflux.ch/images/bascule_01.gif" border="0" alt="Bascule" align="left" vspace="5" hspace="5" /><br />
+<br />
+Explore Bascule: <a href="http://www.bascule.co.jp">http://www.bascule.co.jp</a>.<br />
+<br />
+<br />
+<b>Microfilms</b><br />
+<img src="http://blog.bitflux.ch/images/portrait_aki98.jpg" border="0" alt="Portrait" align="left" vspace="5" hspace="5"/> Send a mail to <a href="mailto:aki98@iamas.ac.jp">aki98@iamas.ac.jp</a>, if you like Microfilms:<br />
+<a href="http://www.iamas.ac.jp/~aki98/index.html">http://www.iamas.ac.jp/~aki98/index.html</a><br />
+<br />
+<br />
+<br />
+<br />
+<b>Hoppe</b><br />
+ <img src="http://blog.bitflux.ch/images/smilehouse3s.gif" border="0" alt="Hoppe" align="left" vspace="5" hspace="5"/><br />
+HOPPE is an International Non Profit Organization runs by artists, designers, illustrators, photographers and other creatives who have come together to share their ideas and contribute them to communities.<br />
+<a href="http://www.hoppe.jp/">http://www.hoppe.jp/</a><br />
+<br />
+<br />
+<b>Everyday Icons</b><br />
+<img src="http://blog.bitflux.ch/images/flower.gif" border="0" alt="Everyday_Icons" align="left" vspace="5" hspace="5" /><br />
+Everyday Icons for your daily life: Ever searched for folder icons or disk icons? At Everyday Icons, you find them in every color.<br />
+<a href="http://www.everydayicons.jp/">http://www.everydayicons.jp/</a><br />
+<br />
+<br />
+<b>Radical Suzuki</b><br />
+... and his Real Tokyo Girls Web Comic<br />
+<a href="http://www.big.or.jp/~radical/real_tokyo_girls.html">http://www.big.or.jp/~radical/real_tokyo_girls.html</a><br />
+<br />
+<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p33.html#comments">Comments (0)</a> 
+<a href="/p33.html#trackbacks">TrackBack (0)</a> 
+<a href="/p33.html#pingbacks">PingBack (0)</a> 
+<a href="/p33.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=33&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=33&amp;more=1&amp;c=1"
+    dc:title="Some J-Graphic Design"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/33"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="32"></a><br />
+<span class="blogtitel">SlideML to PDF</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ro&#103;e&#114;&#64;b&#105;tf&#108;&#117;x.&#99;&#104;">roger</a>   @ 08:50:24  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c4.html" title="category: SlideML"><span class="storyCategory">SlideML</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+So far you had to use the 2docbook.xsl to make a PDF out of your SlideML. Since today, Michi Wechner provided us with a xsl which directly transforms SlideML to FO respectively to PDF.<br />
+<br />
+Subscribe to slideml@oscom.org (you find the mailinglist on http://www.oscom.org and http://www.bitflux.ch/slideml/mailinglist.html) to get it or wait till it's uploaded on the site.<br />
+<br />
+Michi wrote:<br />
+I have written a FO (Formatting Object) for SlideML (to generate PDF) and attached it. You might want to use. It's a quick hack, but maybe a good start ;-)<br />
+<br />
+You can see it in action at:<br />
+<a href="http://demo.wyona.org/wyona-cms/slides/">http://demo.wyona.org/wyona-cms/slides/</a><br />
+<br />
+ <p class="blogmeta"> 
+
+ 
+<a href="/p32.html#comments">Comments (0)</a> 
+<a href="/p32.html#trackbacks">TrackBack (0)</a> 
+<a href="/p32.html#pingbacks">PingBack (1)</a> 
+<a href="/p32.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=32&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=32&amp;more=1&amp;c=1"
+    dc:title="SlideML to PDF"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/32"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="31"></a><br />
+<span class="blogtitel">PHP-Gipfeltreffen</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ch&#114;&#101;g&#117;&#64;b&#105;&#116;&#102;l&#117;x.&#99;&#104;">chregu</a>   @ 07:27:09  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c7.html" title="category: PHP"><span class="storyCategory">PHP</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Das 1. PHP-Gipfeltreffen findet vom 23. - 25. Mai irgendwo in den Alpen statt. Datum vormerken und laufend die neusten Neuigkeiten von <a href="http://www.php-gipfeltreffen.ch">http://www.php-gipfeltreffen.ch</a> holen.<br />
+PS: Bitflux wird h&#246;chstwahrscheinlich dort einen Vortrag geben, Thema ist aber noch nicht konkret festgelegt.<p class="blogmeta"> 
+
+ 
+<a href="/p31.html#comments">Comments (0)</a> 
+<a href="/p31.html#trackbacks">TrackBack (0)</a> 
+<a href="/p31.html#pingbacks">PingBack (0)</a> 
+<a href="/p31.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=31&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=31&amp;more=1&amp;c=1"
+    dc:title="PHP-Gipfeltreffen"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/31"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>19.01.03</div>
+<a name="30"></a><br />
+<span class="blogtitel">Fosdem and the BXE (2)</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;g&#101;&#114;&#64;&#98;&#105;&#116;f&#108;&#117;&#120;.&#99;&#104;">roger</a>   @ 20:40:20  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c11.html" title="category: Bitflux Editor"><span class="storyCategory">Bitflux Editor</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+From Brian King, author of <a href="http://www.oreilly.com/catalog/mozilla/">Creating Applications with Mozilla</a>, Sun, 19 Jan 2003 17:34:30 +0100:<br />
+<br />
+I am pleased to announce the Mozilla Track at the Free and Open Source Developer's Conference 2003 in Brussels, 8/9 February.<br />
+<br />
+Bitflux will be there, represented by Christian who is giving a talk on the technical issues involved in the relationship beteen Bitflux and Mozilla.<br />
+<br />
+I will be giving a talk on the main Fosdem floor about Mozilla as Application Platform, and there will be other technical talks in the Mozilla room including Native Database Support by Jan Varga, Bugzilla Tips &amp; Tricks by Gervase Markham and Cascades: Creating an XUL+JS Based Mozilla Extension by Daniel Glazman.<br />
+<br />
+There will be lots of other interesting stuff happening, so if you are thinking of attending, please contact me and we can talk some more.<br />
+<br />
+More information at:<br />
+<a href="http://eu.mozdev.org/Brussels2003/">http://eu.mozdev.org/Brussels2003/</a><br />
+<a href="http://fosdem.org">http://fosdem.org</a><br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p30.html#comments">Comments (0)</a> 
+<a href="/p30.html#trackbacks">TrackBack (0)</a> 
+<a href="/p30.html#pingbacks">PingBack (0)</a> 
+<a href="/p30.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=30&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=30&amp;more=1&amp;c=1"
+    dc:title="Fosdem and the BXE (2)"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/30"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>16.01.03</div>
+<a name="29"></a><br />
+<span class="blogtitel">Bitflux CMS does aggregation</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;&#104;&#114;e&#103;&#117;&#64;b&#105;&#116;&#102;&#108;u&#120;&#46;ch">chregu</a>   @ 19:31:56  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c10.html" title="category: Bitflux CMS"><span class="storyCategory">Bitflux CMS</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+With the introduction of our new Blog, it was time to add aggregation possibilities to Bitflux CMS. And it's here now. See http://bitfluxeditor.org for an example. It does automatically integrate the latest headlines from this Blog.<br />
+<br />
+We did the aggregation code not in popoon, 'though did would have been a good thing from the technical point of view and shouldn't be a big deal to do it there (there is support for map:aggregate already). But we decided to do it in the bitflux generator, or better said in the structure2xml generator, 'cause this way it's more integrated in the cms and you just have to add the aggregation source to the structure.xml. If you want more details, ask on one of our mailinglists ;)<br />
+<br />
+chregu<p class="blogmeta"> 
+
+ 
+<a href="/p29.html#comments">Comments (0)</a> 
+<a href="/p29.html#trackbacks">TrackBack (0)</a> 
+<a href="/p29.html#pingbacks">PingBack (0)</a> 
+<a href="/p29.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=29&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=29&amp;more=1&amp;c=1"
+    dc:title="Bitflux CMS does aggregation"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/29"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>15.01.03</div>
+<a name="27"></a><br />
+<span class="blogtitel">OSCOM Blog is alive</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:r&#111;ger&#64;b&#105;&#116;fl&#117;x.&#99;h">roger</a>   @ 23:34:22  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+So now it becomes interesting;) The OSCOM Board started blogging. <br />
+<br />
+See for yourself:<br />
+<a href="http://blog.oscom.org">http://blog.oscom.org</a><br />
+<br />
+I am excited about the prospects that "mapping out the OSCOM blog space" will bring to the next OSCOM conference in Harvard (May 28 to May 30, 2003).<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p27.html#comments">Comments (0)</a> 
+<a href="/p27.html#trackbacks">TrackBack (0)</a> 
+<a href="/p27.html#pingbacks">PingBack (0)</a> 
+<a href="/p27.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=27&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=27&amp;more=1&amp;c=1"
+    dc:title="OSCOM Blog is alive"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/27"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="26"></a><br />
+<span class="blogtitel">Unipublic uses Bitflux Editor</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ro&#103;&#101;&#114;&#64;bitf&#108;&#117;&#120;.ch">roger</a>   @ 22:04:30  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c11.html" title="category: Bitflux Editor"><span class="storyCategory">Bitflux Editor</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Today the University of Zurich announced their use of the Bitflux Editor for Unipublic. The Bitflux Editor is used here in combination with the <a href="http://www.wyona.org">Wyona CMS</a>.<br />
+<br />
+Quote:<br />
+Das eigentliche Verfassen des Artikels geschieht mit dem Bitflux Editor, einer weiteren Software, die ins Wyona CMS integriert wurde. Der XML-basierte Bitflux Editor erlaubt das Erstellen und Aktualisieren eines Artikels mit einem Webbrowser direkt in der Webseite. Er wurde von der Z&#252;rcher Firma Bitflux entwickelt und von der Universit&#228;t Z&#252;rich, zusammen mit der ETH Z&#252;rich und Wyona, der Open Source Gemeinschaft zur Verf&#252;gung gestellt.<br />
+<br />
+Das Wyona CMS und der Bitflux Editor sind Open Source, d.h. sie k&#246;nnen ohne Entgelt verwendet, abge&#228;ndert und weiterentwickelt werden, da der Programmcode frei verf&#252;gbar ist. Damit unterstreicht die Universit&#228;t Z&#252;rich ihre Strategie, im Internetbereich freie Software einzusetzen. Open-Source-Software spart nicht nur Kosten, weil keine Lizenzgeb&#252;hren anfallen, sie minimiert auch die Abh&#228;ngigkeit von einem einzelnen Hersteller und erlaubt die selbst&#228;ndige und flexible Anpassung an die universit&#228;ren Bed&#252;rfnisse.<br />
+<br />
+See their german press release at:<br />
+<a href="http://www.unipublic.unizh.ch/campus/uni-news/2003/0738/">http://www.unipublic.unizh.ch/ campus/uni-news/2003/0738/</a><p class="blogmeta"> 
+
+ 
+<a href="/p26.html#comments">Comments (0)</a> 
+<a href="/p26.html#trackbacks">TrackBack (0)</a> 
+<a href="/p26.html#pingbacks">PingBack (0)</a> 
+<a href="/p26.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=26&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=26&amp;more=1&amp;c=1"
+    dc:title="Unipublic uses Bitflux Editor"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/26"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="25"></a><br />
+<span class="blogtitel">Bitflux is going to Fosdem 2003</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:c&#104;&#114;&#101;g&#117;&#64;&#98;&#105;&#116;f&#108;ux&#46;c&#104;">chregu</a>   @ 14:52:20  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c11.html" title="category: Bitflux Editor"><span class="storyCategory">Bitflux Editor</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+We are most certainly going to <a href="http://fosdem.org">Fosdem</a> 2003 in Brussels in February.<br />
+If everything goes fine, we will have a talk about <a href="http://bitfluxeditor.org">Bitflux Editor</a> at the <a href="http://eu.mozdev.org/Brussels2003/">Mozilla Track</a>.<br />
+Watch this space for more details. <p class="blogmeta"> 
+
+ 
+<a href="/p25.html#comments">Comments (0)</a> 
+<a href="/p25.html#trackbacks">TrackBack (0)</a> 
+<a href="/p25.html#pingbacks">PingBack (0)</a> 
+<a href="/p25.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=25&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=25&amp;more=1&amp;c=1"
+    dc:title="Bitflux is going to Fosdem 2003"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/25"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="24"></a><br />
+<span class="blogtitel">Gregors Blog - In search of OSCOM Bloggers</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;&#111;&#103;e&#114;&#64;&#98;i&#116;f&#108;u&#120;&#46;&#99;&#104;">roger</a>   @ 09:31:48  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+It's odd I started with John Palfrey's blog, especially as I mentioned Gregor in this post. At the OSCOM board, Gregor is definitely the one who adopted blogging first. That it now became one of the topics for OSCOM 3 is just natural - under his influence.<br />
+<br />
+Therefore visit:<br />
+<a href="http://greg.abstrakt.ch/index.php?module=articles&amp;func=view">Gregor's Blog</a><p class="blogmeta"> 
+
+ 
+<a href="/p24.html#comments">Comments (0)</a> 
+<a href="/p24.html#trackbacks">TrackBack (0)</a> 
+<a href="/p24.html#pingbacks">PingBack (0)</a> 
+<a href="/p24.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=24&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=24&amp;more=1&amp;c=1"
+    dc:title="Gregors Blog - In search of OSCOM Bloggers"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/24"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>14.01.03</div>
+<a name="23"></a><br />
+<span class="blogtitel">work@bitflux</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;&#104;reg&#117;&#64;bi&#116;f&#108;&#117;x&#46;&#99;&#104;">chregu</a>   @ 16:51:56  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c2.html" title="category: Bitflux"><span class="storyCategory">Bitflux</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+UPDATE: We are not looking anymore. We found someone ;)<br />
+<br />
+Bitflux GmbH is seeking a skilled PHP-developer for a permanent employment.<br /><br />
+Requirements:<ul><li>Very good knowledge in PHP and OO programming in PHP.</li><li>XSLT/XML experience.</li><li>CMS experience.</li><li>Javascript knowledge</li><li>	Reading and writing skills in english. </li><li>Must be able to work in Zurich.</li><li>Start: As soon as possible ;)</li></ul>If you're interested, send your application (in german or english) to <a href="mailto:work@bitflux.ch">work@bitflux.ch</a><p class="blogmeta"> 
+
+ 
+<a href="/p23.html#comments">Comments (0)</a> 
+<a href="/p23.html#trackbacks">TrackBack (0)</a> 
+<a href="/p23.html#pingbacks">PingBack (1)</a> 
+<a href="/p23.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=23&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=23&amp;more=1&amp;c=1"
+    dc:title="work@bitflux"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/23"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="22"></a><br />
+<span class="blogtitel">Wanted: Oscom 3 blogs </span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;&#111;g&#101;&#114;&#64;bit&#102;l&#117;x&#46;&#99;h">roger</a>   @ 09:48:33  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c9.html" title="category: Oscom"><span class="storyCategory">Oscom</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Oscom 3 (see http://www.oscom.org) will take place on May 28 to May 30 in Harvard.<br />
+<br />
+At the moment I am in search of OSCOM bloggers. So please drop me a mail or a comment to this blog, if you find out about OSCOM bloggers.<br />
+<br />
+The first one, Gregor found, is John Palfrey, which is in the OSCOM 3 organizing committee. See <a href="http://radio.weblogs.com/0117678/">John Palfrey's blog</a>.<br />
+<br />
+<br />
+Btw: Oscom will also have it's own blog soon.<p class="blogmeta"> 
+
+ 
+<a href="/p22.html#comments">Comments (0)</a> 
+<a href="/p22.html#trackbacks">TrackBack (0)</a> 
+<a href="/p22.html#pingbacks">PingBack (0)</a> 
+<a href="/p22.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=22&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=22&amp;more=1&amp;c=1"
+    dc:title="Wanted: Oscom 3 blogs "
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/22"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="20"></a><br />
+<span class="blogtitel">Hunting season</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;hre&#103;u&#64;bi&#116;fl&#117;x.ch">chregu</a>   @ 08:49:03  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c6.html" title="category: Apple"><span class="storyCategory">Apple</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+After everyone published his comments about Apple's new webbrowser <a href="http://apple.com/safari">Safari</a>, I have to do that as well ;)<br />
+Safari is a very nice and fast browser and it renders most of the pages as one would expect (expect this page, where the menu above is somehow too wide, but this should be fixed in the next release). I personally would have preferred if apple had chosen Gecko as there HTML-Engine, but apparently they don't listen to me ;) But the only real pity about this is, that we most certainly will never be able or have the time to port <a href="http://bitfluxeditor.org">Bitflux Editor</a> to Safari. Does anyone have an idea, if Safari supports something like ContentEditable or has DOM-Range support?<br />
+More annoying points (but it's still beta..)<ul><li>Self signed SSL Certificates are not accepted</li><li>Some cookies are not accepted (there's a workaround for that)</li><li>and most importantly: No tabbed browsing....</li></ul>Conclusion: I already use Safari as my everyday Browser (since it has the nowadays very important built-in Popup-Blocker), but for more advanced stuff and accessing our SSL-enabled pages, I'll stick to Mozilla/Chimera for the time being.<br />
+<br />
+Update: <a href="http://www.hut.fi/u/hsivonen/os-x-browsers.html">http://www.hut.fi/u/hsivonen/os-x-browsers.html</a> shows, that Safari doesn't support neither XSLT nor CSS-on-XML nor DOM-in-XML. So, bye-bye BXE on Safari :(<p class="blogmeta"> 
+
+ 
+<a href="/p20.html#comments">Comments (1)</a> 
+<a href="/p20.html#trackbacks">TrackBack (0)</a> 
+<a href="/p20.html#pingbacks">PingBack (0)</a> 
+<a href="/p20.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=20&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=20&amp;more=1&amp;c=1"
+    dc:title="Hunting season"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/20"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>13.01.03</div>
+<a name="19"></a><br />
+<span class="blogtitel">WEF I</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:chr&#101;&#103;u&#64;&#98;&#105;&#116;&#102;&#108;ux.ch">chregu</a>   @ 22:37:38  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c8.html" title="category: Politics"><span class="storyCategory">Politics</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Gefunden bei <a href="http://www.sunflyer.ch/">sunflyer XII</a>. Irgendwie wird's langsam wirklich tragisch.. Leider ist momentan luftfahrt.ch down, aber der Sache soll sp&#228;ter nachgegangen werden....:<br /><b>[Daily-WEF-News]</b> <a href="http://www.weforum.org/">WEF vom 23. bis 28. Januar 2003 in Davos</a>. Sehr h&#252;bsche <a href="http://www.luftfahrt.ch/news/06.01.2003wefarmee.htm">Meldung</a> dazu: <i>"...hat die Schweizer Regierung erstmals eine Anordnung erlassen, die es der Armee erlaubt, w&#228;hrend des Forums verd&#228;chtige Luftfahrzeuge ohne Vorwarnung im gesperrten Davoser Luftraum abzuschiessen."</i><p class="blogmeta"> 
+
+ 
+<a href="/p19.html#comments">Comments (0)</a> 
+<a href="/p19.html#trackbacks">TrackBack (0)</a> 
+<a href="/p19.html#pingbacks">PingBack (0)</a> 
+<a href="/p19.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=19&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=19&amp;more=1&amp;c=1"
+    dc:title="WEF I"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/19"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="14"></a><br />
+<span class="blogtitel">Blogging and reading news with NetNewsWire Pro</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;&#104;&#114;egu&#64;&#98;&#105;tf&#108;ux&#46;c&#104;">chregu</a>   @ 14:37:40  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c5.html" title="category: Blogging"><span class="storyCategory">Blogging</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+I just downloaded <a href="http://ranchero.com/">NetNewsWire Pro</a> 1.0b7 and it's a great tool. Besides having an overview of all your RSS feeds (this is the main intention of NetNewsWire, with the Pro edition you can also blog directly to your server (and this is, what I'm doing now). Cool stuff and check it out, if you have a Mac and OS X ;)<p class="blogmeta"> 
+
+ 
+<a href="/p14.html#comments">Comments (0)</a> 
+<a href="/p14.html#trackbacks">TrackBack (0)</a> 
+<a href="/p14.html#pingbacks">PingBack (0)</a> 
+<a href="/p14.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=14&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=14&amp;more=1&amp;c=1"
+    dc:title="Blogging and reading news with NetNewsWire Pro"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/14"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="8"></a><br />
+<span class="blogtitel">Etoy at Kunsthalle St. Gallen</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ro&#103;&#101;r&#64;bit&#102;&#108;&#117;x&#46;ch">roger</a>   @ 12:19:29  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c1.html" title="category: Other"><span class="storyCategory">Other</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+On Saturday I visited the Etoy exhibition in St. Gallen. Etoy Zai and Etoy Monorom presented the Etoy Corporation, the Etoy Value System, their most famous actions/happenings...  Very interesting to hear the whole story and not only news fragments ermerging from time to time. <br />
+<br />
+I particularly liked the pachinko fizzle story. It a story about etoy value vs pinpall value vs money, the korean mafia, police, how to circumvent the law... but you better ask an agent to tell you the story...<br />
+<br />
+We also had a look into the Etoy Tank - a stranded whale in front of the Kunsthalle. If you are a shareholder, you could also sleep in there. It looks quite amazing... especially when the night is falling, as a retroprojection screen which covers the whole surface of one of the smaller tank sides gives an insight into the code that is hacked live by Etoy members.<br />
+<br />
+If you want to get more infos about the exhibition, go to: <br />
+<a href="http://www.k9000.ch/index_follow_e.html">http://www.k9000.ch/index_follow_e.html</a>.<br />
+<br />
+You have to hurry, though - the exhibition closes January, 19. And then Etoy is off to <a href="http://www.palaisdetokyo.com/">Paris</a> and two other destinations which I cannot remember anymore.<br />
+<p class="blogmeta"> 
+
+ 
+<a href="/p8.html#comments">Comments (0)</a> 
+<a href="/p8.html#trackbacks">TrackBack (0)</a> 
+<a href="/p8.html#pingbacks">PingBack (0)</a> 
+<a href="/p8.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=8&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=8&amp;more=1&amp;c=1"
+    dc:title="Etoy at Kunsthalle St. Gallen"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/8"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="7"></a><br />
+<span class="blogtitel">PHP5 is coming :)</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:chr&#101;&#103;u&#64;&#98;&#105;&#116;&#102;&#108;&#117;&#120;&#46;ch">chregu</a>   @ 11:38:06  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c7.html" title="category: PHP"><span class="storyCategory">PHP</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Not really soon, but the PHP developers decided to deliver snapshots and cvs-checkouts with the Zend Engine 2 per default and name it php-5.0.0-dev. There will be no new major releases with ZE1 in the future (bug fix releases within 4.3 as exception).<br />
+<br />
+The developers are hoping to gain the needed momentum for ZE2 with this step. There is still a lot to be done until PHP 5 can be released, therefore there is no scheduled release date yet.<p class="blogmeta"> 
+
+ 
+<a href="/p7.html#comments">Comments (0)</a> 
+<a href="/p7.html#trackbacks">TrackBack (0)</a> 
+<a href="/p7.html#pingbacks">PingBack (0)</a> 
+<a href="/p7.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=7&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=7&amp;more=1&amp;c=1"
+    dc:title="PHP5 is coming :)"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/7"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="6"></a><br />
+<span class="blogtitel">PHP Conference Amsterdam</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;hr&#101;g&#117;&#64;&#98;&#105;&#116;f&#108;ux.c&#104;">chregu</a>   @ 11:30:38  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c7.html" title="category: PHP"><span class="storyCategory">PHP</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+The <a href="http://www.phpconference.com/">PHP Conference Spring Edition</a> takes part in Amsterdam. No prices yet, but Call for Papers :)<p class="blogmeta"> 
+
+ 
+<a href="/p6.html#comments">Comments (1)</a> 
+<a href="/p6.html#trackbacks">TrackBack (0)</a> 
+<a href="/p6.html#pingbacks">PingBack (0)</a> 
+<a href="/p6.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=6&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=6&amp;more=1&amp;c=1"
+    dc:title="PHP Conference Amsterdam"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/6"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="5"></a><br />
+<span class="blogtitel">Titanium PowerBooks and Serial Devices</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;&#104;r&#101;gu&#64;&#98;it&#102;l&#117;x&#46;&#99;h">chregu</a>   @ 11:18:50  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c6.html" title="category: Apple"><span class="storyCategory">Apple</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Since I have some "legacy" devices with serial connections (a Palm-compatible HandEra 330 and a Siemens S45 mobile phone) and  my new Powerbook hasn't IrDA anymore, I was looking for a solution to get them hooked up nevertheless...  The only solution was a serial converter for the USB port, but they are very hard to find, at least if you want Mac OS X support. But on Saturday I finally managed to find a serial2usb converter which works. juhuu ;)<br />
+<br />
+I bought it at the Manor here in Zurich. At first I was very doubtful, that it would work. The brand was something I never heard of: "Colbis PDA Accessories", but the guy at the shop was very positive...<br />
+<br />
+Then the odysee began: First it was one of those mini-cds in the package and they do not work with slot-in drives... Finding another drive and looking at the content, wohoo, there is a Macintosh folder. Inspecting it. Only OS9... great. Trying to find "Colbis" on the internet, but this "company" doesn't look like having an internet-page at all...  Then I looked at the Windows manual and saw the name Prolific on the screenshots. Finally, googling for that did give me some useful <a href="http://www.prolific.com.tw">results</a>. And they had a usb2serial thingie called PL-2303 and the best part, it had an OS X driver (you can download it from <a href="http://tech.prolific.com.tw/visitor/fcabdl.asp?fid=22034068">here</a> or <a href="http://tech.prolific.com.tw/visitor/v_fileBrw.asp">here</a> and search for pl-2303 or <a href="http://trash.chregu.tv/md_pl2303_v106.zip">here</a> (this is maybe not the latest driver, it's what I downloaded and put on my webserver) ). Downloaded it and guess what, it worked :)<br />
+<br />
+The rest was common stuff, Palm's Hotsync manager recognized it as usb2serial port and syncing went smooth. Getting it to work with iSync was another issue, but reading <a href="http://groups.google.com/groups?selm=jimglidewell-0110021224020001%40green.sdc.cs.boeing.com">this</a> helped a lot.<br />
+<br />
+And setting up GPRS with the Siemens S45 was no great deal either, thanks to <a href="http://www.snailshell.de/internetmobil/">snailshell.de</a>. If you're not from Germany, you have to change one line in one of the modem scripts, to get it working with your provider. (in my case it was 'write "AT+CGDCONT=1,\34IP\34,\34internet\34\13"' to get a connection with Sunrise).<br />
+<br />
+Hope this entry helps anyone out there :)<p class="blogmeta"> 
+
+ 
+<a href="/p5.html#comments">Comments (2)</a> 
+<a href="/p5.html#trackbacks">TrackBack (0)</a> 
+<a href="/p5.html#pingbacks">PingBack (0)</a> 
+<a href="/p5.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=5&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=5&amp;more=1&amp;c=1"
+    dc:title="Titanium PowerBooks and Serial Devices"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/5"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>11.01.03</div>
+<a name="4"></a><br />
+<span class="blogtitel">RSS 0.92 and 1.0</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:ro&#103;&#101;r&#64;&#98;&#105;&#116;&#102;lu&#120;.ch">roger</a>   @ 21:39:16  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c5.html" title="category: Blogging"><span class="storyCategory">Blogging</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Recently we discussed blogging on the <a href="http://www.oscom.org/pipermail/general/2002-December/thread.html">OSCOM mailing list</a>. (By the way blogging and RDF will be major topics for the next OSCOM conference in Harvard.) As most of you bloggers out there already know, there are several RSS formats used, which are not fully compatible. <br />
+<br />
+"Dive into" Mark Pilgrim  wrote an article about the different formats <a href="http://www.xml.com/pub/a/2002/12/18/dive-into-xml.html">here</a> which is very cool. Thanx Mark<br />
+<br />
+As RDF is very important to us, we offer our blogs at the moment in two formats - in RDF/RSS 1.0. [rdf] and in Dave Winer's popular 0.92 [rss] <br />
+<br />
+Take what you need... <p class="blogmeta"> 
+
+ 
+<a href="/p4.html#comments">Comments (0)</a> 
+<a href="/p4.html#trackbacks">TrackBack (0)</a> 
+<a href="/p4.html#pingbacks">PingBack (0)</a> 
+<a href="/p4.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=4&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=4&amp;more=1&amp;c=1"
+    dc:title="RSS 0.92 and 1.0"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/4"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+<div class='blogdate'>10.01.03</div>
+<a name="3"></a><br />
+<span class="blogtitel">About our Blog Software</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;&#104;&#114;eg&#117;&#64;bit&#102;&#108;ux&#46;&#99;&#104;">chregu</a>   @ 17:56:34  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c5.html" title="category: Blogging"><span class="storyCategory">Blogging</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+If anyone is wondering, we're using <a href="http://cafelog.com">b2</a> as our blog-software. It's written in PHP (what else) and has a lot of features. It looks like it's quite potential, 'though I miss some stuff (mainly multiple categories for one entry), but maybe I'll hack them in on one day.<br />
+<br />
+BTW, if anyone knows a XML/XSLT based blogging tool (written in PHP preferably), tell us about. I'm searching since months for something like that to integrate it in <a href="http://bitflux.ch/developer/cms/popoon.html">Popoon</a>, but maybe I have to write it by myself...<p class="blogmeta"> 
+
+ 
+<a href="/p3.html#comments">Comments (0)</a> 
+<a href="/p3.html#trackbacks">TrackBack (0)</a> 
+<a href="/p3.html#pingbacks">PingBack (0)</a> 
+<a href="/p3.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=3&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=3&amp;more=1&amp;c=1"
+    dc:title="About our Blog Software"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/3"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="2"></a><br />
+<span class="blogtitel">Blogging from the Sidebar</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#114;&#111;g&#101;r&#64;&#98;i&#116;&#102;l&#117;&#120;&#46;ch">roger</a>   @ 15:23:44  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c3.html" title="category: Mozilla"><span class="storyCategory">Mozilla</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Just discovered that I can blog from my Mozilla sidebar. After having logged into the b2admin, I went to "My Profile" and there I clicked "Add the b2 Sidebar". That was all. <br />
+<br />
+Cool.<p class="blogmeta"> 
+
+ 
+<a href="/p2.html#comments">Comments (0)</a> 
+<a href="/p2.html#trackbacks">TrackBack (0)</a> 
+<a href="/p2.html#pingbacks">PingBack (0)</a> 
+<a href="/p2.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=2&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=2&amp;more=1&amp;c=1"
+    dc:title="Blogging from the Sidebar"
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/2"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	
+
+
+<a name="1"></a><br />
+<span class="blogtitel">We blog...</span> <br />
+<img  width="320" src="/images/320line.gif" style="margin-bottom: -5px;" /><br />
+<table width="100%" border="0" cellpadding="0"  cellspacing="0"><tr valign="top"><td class="storyCategory">
+by <a href="mailto:&#99;h&#114;&#101;g&#117;&#64;&#98;i&#116;&#102;&#108;&#117;x&#46;&#99;h">chregu</a>   @ 14:50:02  
+  
+   </td><td align="right"  class="storyCategory"> <a href="/c2.html" title="category: Bitflux"><span class="storyCategory">Bitflux</span></a> </td>
+   </tr></table>
+
+   
+<p class="blog">
+Watch this space.<p class="blogmeta"> 
+
+ 
+<a href="/p1.html#comments">Comments (0)</a> 
+<a href="/p1.html#trackbacks">TrackBack (0)</a> 
+<a href="/p1.html#pingbacks">PingBack (0)</a> 
+<a href="/p1.html">Permalink</a>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+    rdf:about="index.php?p=1&amp;more=1&amp;c=1"
+    dc:identifier="index.php?p=1&amp;more=1&amp;c=1"
+    dc:title="We blog..."
+    trackback:ping="http://blog.bitflux.ch/b2trackback.php/1"
+</rdf:RDF><!-- this includes the trackbacks -->
+
+<!-- this includes the pingbacks -->
+	
+<!-- this includes the comments and a form to add a new comment -->
+	
+</p>
+
+
+
+
+
+<!-- // this is just the end of the motor - don't touch that line either :) -->
+	 
+
+
+</div>
+
+
+</td>
+<td width="90">&nbsp;</td>
+<td width="150" valign="top">
+<form onsubmit="return liveSearchSubmit()" style=margin:0px;" name="searchform" method="get" action="/index.php"
+>
+
+<span class="titel2">Bitflux Blog</span><br />
+Ponderings from the Inner Sanctum    <img src="/images/144line.gif" class="line"><br />
+    <span class='titel2'>Latest Moblog</span><a style="text-decoration: none" href="/c14.html"><br /><img border="0" width="100" src="/images/100/mob412223edb6fdb_47GF0170.jpg" /></a><br /><span class="blogmeta">17.08.04 17:25:53</span><br />
+<img src="/images/144line.gif" class="line"><br />
+
+<span class="titel2">Blog LiveSearch:</span><br />
+
+<input type="text" id="livesearch" name="s" size="15" autocomplete="off"
+
+ onkeypress="liveSearchStart()"
+
+/>
+ <div id="LSResult" style="display: none;"><div id="LSShadow"></div></div>
+<!--<input type="submit" name="submit" value="search" />-->
+
+<!--UdmComment-->
+<img src="/images/144line.gif" class="line"><br />
+
+<span class="titel2" ><a style="color: #333333;" href="http://del.icio.us/chregu" title="my latest bookmarks">del.icio.us bookmarks</a></span>
+
+<div class="navigationindentblogroll">&raquo; 
+<a class="navigation" href="http://www.frozentech.com/content/livecd.php">List of Linux Live CDs</a></div>
+<div class="navigationindentblogroll">&raquo; 
+<a class="navigation" title="By Chris Shiflett" href="http://shiflett.org/articles/foiling-cross-site-attacks"> Foiling Cross-Site Attacks</a></div>
+<div class="navigationindentblogroll">&raquo; 
+<a class="navigation" href="http://www.hut.fi/u/hsivonen/doctype.html">Activating the Right Layout Mode Using the Doctype Declaration</a></div>
+<div class="navigationindentblogroll">&raquo; 
+<a class="navigation" href="http://www.dpawson.co.uk/xsl/sect3/index.html">FO FAQuestions</a></div>
+<div class="navigationindentblogroll">&raquo; 
+<a class="navigation" href="http://www.mozillazine.org/talkback.html?article=5063">Mozilla Adds Undetectable document.all Support</a></div>
+<div class="navigationindentblogroll">&raquo; 
+<a class="navigation" href="http://www.janis.or.jp/users/segabito/">&quot;SUPER MARYO WORLD&quot; - Javascript Virtual Machine</a></div>
+<div class="navigationindentblogroll">&raquo; 
+<a class="navigation" href="http://www.w3.org/TR/2004/NOTE-DOM-Level-3-XPath-20040226/">Document Object Model (DOM) Level 3 XPath Specification</a></div>
+<div class="navigationindentblogroll">&raquo; 
+<a class="navigation" href="http://www.joelonsoftware.com/articles/Unicode.html">The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)</a></div>
+<div class="navigationindentblogroll">&raquo; 
+<a class="navigation" title="redemption in a blog" href="http://blog.codefront.net/archives/2004/07/13/rss_feed_integration_in_firefox.php">RSS feed integration in Firefox</a></div>
+<div class="navigationindentblogroll">&raquo; 
+<a class="navigation" href="http://www.partimage.org/doc/index-4.html">The PartImage Handbook</a></div>
+
+
+<img src="/images/144line.gif" class="line" ><br />
+
+
+<span class="titel2">Archives</span><br />
+<a href="/200408">August 2004</a><br />
+<a href="/200407">July 2004</a><br />
+<a href="/200406">June 2004</a><br />
+<a href="/200405">May 2004</a><br />
+<a href="/200404">April 2004</a><br />
+<a href="/200403">March 2004</a><br />
+<a href="/200402">February 2004</a><br />
+<a href="/200401">January 2004</a><br />
+<a href="/200312">December 2003</a><br />
+<a href="/200311">November 2003</a><br />
+<a href="/200310">October 2003</a><br />
+<a href="/200309">September 2003</a><br />
+<a href="/200308">August 2003</a><br />
+<a href="/200307">July 2003</a><br />
+<a href="/200306">June 2003</a><br />
+<a href="/200305">May 2003</a><br />
+<a href="/200304">April 2003</a><br />
+<a href="/200303">March 2003</a><br />
+<a href="/200302">February 2003</a><br />
+<a href="/200301">January 2003</a><br />
+
+<img src="/images/144line.gif" class="line"><br />
+<span class="titel2">Calendar</span><br />
+<table class="b2calendartable" summary="Monthly calendar with links to each day's posts">
+<caption class="b2calendarmonth"><a href="http://blog.bitflux.ch/?m=200311" style="text-decoration: none;">&lt;</a>&nbsp;&nbsp;January 2003&nbsp;&nbsp;<a href="http://blog.bitflux.ch/?m=200302" style="text-decoration: none;">&gt;</a></caption>
+<tr class="b2calendarrow">
+<th class="b2calendarheadercell" abbr="Monday">Mo</th><th class="b2calendarheadercell" abbr="Tuesday">Tu</th><th class="b2calendarheadercell" abbr="Wednesday">We</th><th class="b2calendarheadercell" abbr="Thursday">Th</th><th class="b2calendarheadercell" abbr="Friday">Fr</th><th class="b2calendarheadercell" abbr="Saturday">Sa</th><th class="b2calendarheadercell" abbr="Sunday">Su</th></tr>
+<tr class="b2calendarrow">
+<td class="b2calendaremptycell">&nbsp;</td><td class="b2calendaremptycell">&nbsp;</td><td class="b2calendarcell">1</td>
+<td class="b2calendarcell">2</td>
+<td class="b2calendarcell">3</td>
+<td class="b2calendarcell">4</td>
+<td class="b2calendarcell">5</td>
+</tr>
+<tr class="b2calendarrow">
+<td class="b2calendarcell">6</td>
+<td class="b2calendarcell">7</td>
+<td class="b2calendarcell">8</td>
+<td class="b2calendarcell">9</td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030110" class="b2calendarlinkpost">10</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030111" class="b2calendarlinkpost">11</a></td>
+<td class="b2calendarcell">12</td>
+</tr>
+<tr class="b2calendarrow">
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030113" class="b2calendarlinkpost">13</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030114" class="b2calendarlinkpost">14</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030115" class="b2calendarlinkpost">15</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030116" class="b2calendarlinkpost">16</a></td>
+<td class="b2calendarcell">17</td>
+<td class="b2calendarcell">18</td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030119" class="b2calendarlinkpost">19</a></td>
+</tr>
+<tr class="b2calendarrow">
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030120" class="b2calendarlinkpost">20</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030121" class="b2calendarlinkpost">21</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030122" class="b2calendarlinkpost">22</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030123" class="b2calendarlinkpost">23</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030124" class="b2calendarlinkpost">24</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030125" class="b2calendarlinkpost">25</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030126" class="b2calendarlinkpost">26</a></td>
+</tr>
+<tr class="b2calendarrow">
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030127" class="b2calendarlinkpost">27</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030128" class="b2calendarlinkpost">28</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030129" class="b2calendarlinkpost">29</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030130" class="b2calendarlinkpost">30</a></td>
+<td class="b2calendarcell"><a href="http://blog.bitflux.ch/20030131" class="b2calendarlinkpost">31</a></td>
+<td class="b2calendaremptycell">&nbsp;</td><td class="b2calendaremptycell">&nbsp;</td></tr>
+</table><img src="/images/144line.gif" class="line"><br />
+<span class="titel2">Buttons</span><br /><br />
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+<license rdf:resource="http://creativecommons.org/licenses/by/1.0" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by/1.0">
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+</License>
+
+</rdf:RDF>
+
+-->
+
+
+
+	
+
+
+<!--
+<h4>other:</h4>
+
+<a href="b2login.php">login</a><br />
+<a href="b2register.php">register</a><br />
+<br />
+-->
+
+<a class="btn cc" href="http://creativecommons.org/licenses/by/1.0" title="Create Commons Licensed 'Attribution'"><span>CC</span> Licensed</a>
+<p />
+<!--<a class="btn rss" href="http://feeds.archive.org/validator/check?url=http://blog.bitflux.ch/b2rdf.php" title=""><span>RSS</span> Valid</a>
+<p />-->
+<a class="btn rss" href="/b2rss.php" title="RSS Feed"><span>RSS</span> 0.92</a>
+<p />
+<a class="btn rss" href="/b2rdf.php" title="RDF Feed"><span>RSS</span> 1.0</a>
+<p />
+<a class="btn rss" href="/b2rss2.php" title="RSS Feed"><span>RSS</span> 2.0</a>
+<p />
+
+
+
+<p />
+
+<a class="btn geo" href="http://geourl.org/near/?p=http://blog.bitflux.ch/" title="check out my neighbors in meatspace"><span>GEO</span> URL</a>
+<p />
+<a class="btn mt" href="http://xml.mfd-consult.dk/foaf/explorer/?foaf=http://blog.bitflux.ch/foaf/chregu.rdf" title="FOAF chregu"><span>FOAF</span> chregu</a>                               
+<p />
+<!--<a class="btn mt" href="http://www.blogshares.com/blogs.php?blog=http%3A%2F%2Fblog.bitflux.ch%2F&user=4153" title="BlogShares listed"><span>B$</span> Listed</a>                               
+<p />-->
+<!--<a class="btn mt" href="http://cafelog.com" title="Powered by B2"><span>B$</span> Listed</a>                               
+<p />-->
+<!--
+<a class="btn technorati" href="http://www.technorati.com/cosmos/links.html?rank=&url=http%3A%2F%2Fblog.bitflux.ch%2F&sub=Get+Link+Cosmos"><span>&gt;&gt;&gt;</span> Technorati</a>
+-->
+<!--<p />
+<a class="btn mt" href="http://cafelog.com" title="Powered by B2"><span>B2</span> Powered</a>                               
+-->
+<img src="/images/144line.gif" class="line"><br />
+
+<a href="http://mozilla.org/products/firefox/"><img src="img/takebacktheweb_small.png" border="0"/></a>
+
+<!--
+<script language="javascript" type="text/javascript" 
+src="http://technorati.com/embed/psgvh3h97e.js"> </script>-->
+<!--/UdmComment-->
+</form>
+
+</td></tr></table>
+<a href="/partmaps/"><img src="/images/spacer.gif"
+    border="0"></a>
+<a href="/partmaps2/"><img src="/images/spacer.gif"
+    border="0"></a>
+</body>
+</html>
+

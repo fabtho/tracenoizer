@@ -1,0 +1,23 @@
+
+# Input file for HTTP::WebTest module.
+ 
+# Global parameters
+###################
+
+save_output = yes
+accept_cookies = yes
+# debug = yes
+ignore_case = yes
+# show_html = yes
+text_forbid = ( Premature end of script headers
+                Error processing directive
+              )
+# terse = summary
+
+# Test block parameters
+#######################
+
+test_name = Non-existent URL
+   url = www.this_domain_does_not_exist.com
+   text_require = ( foobar )
+end_test

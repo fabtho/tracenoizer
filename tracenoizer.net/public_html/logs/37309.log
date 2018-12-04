@@ -1,0 +1,15 @@
+----> connection to db tracenoizer established 
+----> insert into input (in_main_id,in_keyword) values (37309,Marius Pleep) 
+status setzt zu 0 
+----> suche mit "Marius Pleep"
+----> this is the actual searchterm : 
+
+----> in this part 0 urls found 
+---->  new searchterm: Pleep Marius 
+----> suche mit "Pleep Marius"
+----> this is the actual searchterm : 
+
+----> in this part 0 urls found 
+---->  0 urls found and put into downloadlist 
+---->  0 urls found no further processes
+status setzt zu 9 

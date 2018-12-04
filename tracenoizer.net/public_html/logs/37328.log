@@ -1,0 +1,15 @@
+----> connection to db tracenoizer established 
+----> insert into input (in_main_id,in_keyword) values (37328,Georg Schröder) 
+status setzt zu 0 
+----> suche mit "Georg Schröder"
+----> this is the actual searchterm : 
+
+----> in this part 0 urls found 
+---->  new searchterm: Schröder Georg 
+----> suche mit "Schröder Georg"
+----> this is the actual searchterm : 
+
+----> in this part 0 urls found 
+---->  0 urls found and put into downloadlist 
+---->  0 urls found no further processes
+status setzt zu 9 

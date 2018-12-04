@@ -1,0 +1,14 @@
+sh: -c: line 1: syntax error near unexpected token `http://www.musiciansgallery.com/start/health/cunningham(a'
+sh: -c: line 1: `puf -Tl 2 -Td 4 -Tc 4 -lb 200000 -nw -t 3  -P temp/34470/26/  http://www.musiciansgallery.com/start/health/cunningham(andrew).html '
+--02:04:44--  http://www.tracenoizer.org/modelanleg.php?main_id=34470
+           => `modelanleg.php?main_id=34470'
+Resolving www.tracenoizer.org... done.
+Connecting to www.tracenoizer.org[195.176.254.172]:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K                                                           8.79 KB/s
+
+02:04:44 (8.79 KB/s) - `modelanleg.php?main_id=34470' saved [9]
+
+sh: endee.txt: Permission denied

@@ -1,0 +1,74 @@
+MINI HOWTO INSTALL EMACS V21.1.x ON RED HAT 7.2
+
+Copyright © 2002, bingalls@sf.net
+Time-stamp: <2002-03-05 22:09:56 bingalls>
+This doc will likely be removed when the next version of Red Hat becomes
+available.
+
+Building Emacs v21.1.x, from source code is much easier, than with previous
+versions of Emacs. Likely the fastest and easiest means for RH 7.2, you will
+also find the latest versions first in source code format.
+
+Download Emacs from <url: http://www.gnu.org/order/ftp.html >
+Latest betas are at <url: http://savannah.gnu.org/ >
+	rpm -e emacs		#Removing old Emacs version may help
+	tar -xzf emacs*.tar.gz
+	cd emacs*
+	./configure --help	#To change options like destination dir
+	./configure
+	make
+	make install
+
+One advantage to RPM packages, is that source code is not easy to uninstall.
+Unfortunately, there are Linux users who feel that gcc v3.1 is not as stable as
+gcc v2.9. I cannot take responsibility, if replacing glibc and binutils with
+newer versions cause erratic behavior.
+I personally have not had problems. Note that I upgraded these libraries on a
+freshly installed copy of RH 7.2.
+
+To
+install the Emacs RPM, download the following packages from
+<url: http://www.rpmfind.net/ >
+	binutils-2.11.92.0.12-9.i386.rpm
+	cpp-3.1-0.17.i386.rpm
+	gcc-3.1-0.17.i386.rpm
+	gcc-c++-3.1-0.17.i386.rpm
+	gdb-5.1-3.i386.rpm
+	gettext-0.10.40-4.i386.rpm
+	glibc-2.2.90-3.i386.rpm
+	glibc-common-2.2.90-3.i386.rpm
+	glibc-devel-2.2.90-3.i386.rpm
+	libpng-1.2.1-1.i386.rpm
+	libgcc-3.1-0.17.i386.rpm
+	libstdc++-3.1-0.17.i386.rpm
+	libstdc++-devel-3.1-0.17.i386.rpm
+
+	emacs-21.1-4.i386.rpm
+	emacs-el-21.1-4.i386.rpm
+
+I recommend removing older versions of these libraries for this complicated
+install, as it helps identify clashes, and relieve dependencies. Example:
+	rpm -e emacs
+
+In general, you will want to Upgrade libraries:
+	rpm -Uvh gettext-0.10.40-4.i386.rpm
+
+However, you will likely need two copies of libpng:
+	rpm -ivh libpng-1.2.1-1.i386.rpm
+NOTE! This will prevent you from upgrading software that depends on libpng,
+which is much. Red Carpet users, this means you! However, you can temporarily
+remove Emacs and the new libpng, then reinstall, after an upgrade.
+
+
+The only tricky step, is that you will have to upgrade all the glibc libraries
+in the same command, i.e. simultaneously:
+	rpm -Uvh binutils-2.11.92.0.12-9.i386.rpm glibc-2.2.90-3.i386.rpm \
+		glibc-common-2.2.90-3.i386.rpm glibc-devel-2.2.90-3.i386.rpm
+
+Emacs is the last library to be installed. The html pages at rpmfind.net help
+show the order of dependency.
+You can also use the graphical gnorpm program. However, glibc libraries should
+be handled more delicately, as most programs and libraries depend on
+them. Using the command line should give you better error reporting than
+gnorpm.
+

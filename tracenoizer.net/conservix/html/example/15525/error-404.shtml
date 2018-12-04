@@ -1,0 +1,336 @@
+<html>
+<head>
+<META NAME="Generator" CONTENT="Stone's WebWriter 3">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Cache-Control" content="no-cache"> 
+<meta http-equiv="Pragma" content="no-cache">
+<META NAME="revisit-after" CONTENT="7 days">
+<META NAME="reply-to" CONTENT="webmaster@nordic-interactive.org">
+<META NAME="keywords" CONTENT="School, hypermedia, nomadic, computing, recognition, pattern,multimedia">
+<META NAME="description" CONTENT="Nordic Interactive provides a single point of contact for researchers,
+business and institutions that seek information on Nordic research,
+development and education within the field of interactive digital
+technology. Nordic Interactive is a network community">
+
+<META NAME="Generator" CONTENT="Stone's WebWriter 3">
+<META NAME="robots" CONTENT="FOLLOW,NOINDEX">
+<title>Nordic Interactive - ERROR: Page NOT Found</title>
+<Link rel="Stylesheet" Type="text/css" href="/ni2.css">
+
+<SCRIPT language=JavaScript src="/scripts/danroMenu094.js"></SCRIPT>
+<SCRIPT language=JavaScript>
+
+	// the menus
+	topmenu1=new menu('topmenu1');
+	topmenu2=new menu('topmenu2');
+	topmenu3=new menu('topmenu3');
+	topmenu4=new menu('topmenu4');
+	topmenu5=new menu('topmenu5');
+
+
+	// the contents and links
+
+  // the contents and links
+
+topmenu1.contents=["Vision and Mission","Membership","Members Showcase","Cooperation Partners","Bylaws","Contact NI"];
+topmenu1.links=["/about/visionmission.shtml","/about/membership.shtml","/about/mem-showcase.shtml","/about/coop-partners.shtml","/about/bylaws.shtml","/about/contact.shtml"];
+topmenu2.contents=["Jobs","Mailing Lists"];
+topmenu2.links=["/noticeboard/jobs.shtml","/noticeboard/mailinglists.shtml"];
+topmenu3.contents=["Research School","Research Projects","NI Networks","Network Calendar","NIC2001"];
+topmenu3.links=["/researchschool/researchschool.shtml","/resproj/","/ninetworks/ninetworks.shtml","/niguide/calendar/autocalendar.shtml?sec=1","http://www.nic2001.org"];
+topmenu4.contents=["Calendar","Funding","Links"];
+topmenu4.links=["/niguide/calendar/autocalendar.shtml","/funding/funding.shtml","/niguide/links/dk-links.shtml"];
+topmenu5.contents=["Advanced Search","Simple Search"];
+topmenu5.links=["dims","dut"];
+
+</SCRIPT>
+
+<!------------- START MENU ATRRIBUTES ----------------> 
+<SCRIPT language=JavaScript>
+<!--
+		
+	//#####################################
+	// main attributes for the menus
+	
+
+	// --------- ### MENU 1 ### -----------
+	topmenu1.bgColor="#737373";
+	topmenu1.borderColor="#000000";
+	topmenu1.bgColor2="#000000";
+	topmenu1.font="arial, verdana, Sans-Serif"
+	
+	// Choose font size
+	if ((window.navigator.platform.substring(0,3)=="Mac") || (navigator.appName.charAt(0)=="N")) {
+		topmenu1.fontSize=11;	
+	}else{
+		topmenu1.fontSize=10;
+	}
+
+	topmenu1.fontColor="#FFFFFF"
+	topmenu1.time="500"
+
+	// --------- ### MENU 2 ### -----------
+	topmenu2.bgColor="#737373";
+	topmenu2.borderColor="#000000";
+	topmenu2.bgColor2="#000000";
+	topmenu2.font="arial, verdana, Sans-Serif"
+	
+	// Choose font size
+	if ((window.navigator.platform.substring(0,3)=="Mac") || (navigator.appName.charAt(0)=="N")) {
+		topmenu2.fontSize=11;	
+	}else{
+		topmenu2.fontSize=10;
+	}
+
+	topmenu2.fontColor="#FFFFFF"
+	topmenu2.time="500"
+
+	// --------- ### MENU 3 ### -----------
+	topmenu3.bgColor="#737373";
+	topmenu3.borderColor="#000000";
+	topmenu3.bgColor2="#000000";
+	topmenu3.font="arial, verdana, Sans-Serif"
+	
+	// Choose font size
+	if ((window.navigator.platform.substring(0,3)=="Mac") || (navigator.appName.charAt(0)=="N")) {
+		topmenu3.fontSize=11;	
+	}else{
+		topmenu3.fontSize=10;
+	}
+
+	topmenu3.fontColor="#FFFFFF"
+	topmenu3.time="500"
+
+
+	// --------- ### MENU 4 ### -----------
+	topmenu4.bgColor="#737373";
+	topmenu4.borderColor="#000000";
+	topmenu4.bgColor2="#000000";
+	topmenu4.font="arial, verdana, Sans-Serif"
+	
+	// Choose font size
+	if ((window.navigator.platform.substring(0,3)=="Mac") || (navigator.appName.charAt(0)=="N")) {
+		topmenu4.fontSize=11;	
+	}else{
+		topmenu4.fontSize=10;
+	}
+
+	topmenu4.fontColor="#FFFFFF"
+	topmenu4.time="500"
+
+	// --------- ### MENU 5 ### -----------
+	topmenu5.bgColor="#737373";
+	topmenu5.borderColor="#000000";
+	topmenu5.bgColor2="#000000";
+	topmenu5.font="arial, verdana, Sans-Serif"
+	
+	// Choose font size
+	if ((window.navigator.platform.substring(0,3)=="Mac") || (navigator.appName.charAt(0)=="N")) {
+		topmenu5.fontSize=11;	
+	}else{
+		topmenu5.fontSize=10;
+	}
+
+	topmenu5.fontColor="#FFFFFF"
+	topmenu5.time="500"
+
+
+	// special attributes for the menus
+	
+	if ((window.navigator.platform.substring(0,3)=="Mac") || (navigator.appName.charAt(0)=="N")) {
+	
+	topmenu1.offX=160;
+	topmenu1.offY=79;
+	topmenu1.width=85;
+}else{
+	topmenu1.offX=162;
+	topmenu1.offY=79;
+	topmenu1.width=85;
+}
+	
+if ((window.navigator.platform.substring(0,3)=="Mac") || (navigator.appName.charAt(0)=="N")) {
+	
+	topmenu2.offX=254;
+	topmenu2.offY=79;
+	topmenu2.width=85;
+}else{	
+	topmenu2.offX=257;
+	topmenu2.offY=79;
+	topmenu2.width=85;
+}	
+
+if ((window.navigator.platform.substring(0,3)=="Mac") || (navigator.appName.charAt(0)=="N")) {
+	topmenu3.offX=352;
+	topmenu3.offY=79;
+	topmenu3.width=85;
+}else{
+	topmenu3.offX=354;
+	topmenu3.offY=79;
+	topmenu3.width=85;
+}
+
+if ((window.navigator.platform.substring(0,3)=="Mac") || (navigator.appName.charAt(0)=="N")) {
+	
+	topmenu4.offX=460;
+	topmenu4.offY=79;
+	topmenu4.width=87;
+}else{
+	topmenu4.offX=462;
+	topmenu4.offY=79;
+	topmenu4.width=87;
+}
+
+
+if ((window.navigator.platform.substring(0,3)=="Mac") || (navigator.appName.charAt(0)=="N")) {
+	
+	topmenu5.offX=503;
+	topmenu5.offY=80;
+	topmenu5.width=75;
+}else{
+	topmenu5.offX=517;
+	topmenu5.offY=83;
+	topmenu5.width=60;
+}
+//-->
+</SCRIPT>
+<!------------- STOP MENU ATRRIBUTES ----------------> 
+
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#003399" vlink="#A40029" alink="#003399" leftmargin="10" topmargin="10" marginwidth="10" marginheight="10">
+<a name="topofpage"></a> 
+<table width="640" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left">
+  <tr> 
+    <td align="center" valign="bottom" colspan="2"><a href="http://www.nordic-interactive.org"><img src="/gfx/logo-top.gif" width="57" height="50" border="0" alt="Nordic Interactive Home Page"></a></td>
+    <td width="286" valign="middle" align="center"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+    <td width="228" valign="middle" align="center"><font size="2" face="Arial, Helvetica, sans-serif">[ 
+      <a class="discrete" href="/subscribe/ni-newsletter.shtml">Nordic Interactive Newsletter</a> ]</font></td>
+  </tr>
+  <tr valign="bottom"> 
+    <td width="123" align="center" valign="middle" colspan="2"><a href="http://www.nordic-interactive.org"><img src="/gfx/logo-sub.gif" width="123" height="16" border="0" alt="Nordic Interactive Home Page"></a></td>
+    <td colspan="2"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="center" valign="middle"> 
+          <td nowrap bgcolor="#737373" background="/gfx/fade-menu.gif" align="right" width="4%"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
+          <td nowrap bgcolor="#737373" width="18%"><font face="Arial, Helvetica, sans-serif" size="2"><a href="/menu/menu1.shtml" class="menu" onMouseOut=topmenu1.cancel() onMouseOver=topmenu1.show()>About 
+            NI</a></font></td>
+          <td  nowrap bgcolor="#737373" width="20%" ><font face="Arial, Helvetica, sans-serif" size="2"><a href="/menu/menu2.shtml" class="menu"onMouseOut=topmenu2.cancel() onMouseOver=topmenu2.show()>Notice 
+            Board</a><a href="#" class="menu" onmouseout=topmenu2.cancel() onmouseover=topmenu2.show()></a></font></td>
+          <td  nowrap bgcolor="#737373" width="18%" ><font size="-1" face="Arial, Helvetica, sans-serif"><a href="/menu/menu3.shtml" class="menu" onmouseout=topmenu3.cancel() onmouseover=topmenu3.show()>Activities</a> 
+            </font></td>
+          <td  nowrap bgcolor="#737373" width="21%" ><font face="Arial, Helvetica, sans-serif" size="2"><a href="/menu/menu4.shtml" class="menu" onMouseOut=topmenu4.cancel() onMouseOver=topmenu4.show()>NI 
+            Guide</a> <a href="#" class="menu" onmouseout=topmenu4.cancel() onmouseover=topmenu4.show()></a></font></td>
+          <td bgcolor="#000000" nowrap width="13%"><font face="Arial, Helvetica, sans-serif" size="2"><a href="/search.shtml?max=50&result=short" class="menu">&nbsp;&nbsp;Search!&nbsp;&nbsp;</a></font></td>
+          <td bgcolor="#000000" nowrap width="6%" align="right"><img src="/gfx/pynt.gif" width="18" height="19"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td align="right" valign="top" colspan="2"><img src="/gfx/transp.gif" width="1" height="5"></td>
+    <td colspan="2"><img src="/gfx/transp.gif" width="1" height="5"></td>
+  </tr>
+
+
+<!-- Minus AutoDato -->
+ <tr> 
+    <td width="123" valign="top" colspan="2"><br><br><br><br><br><br>
+<!--	<div align="right"> 
+      <table width="96%" border="0" cellspacing="0" cellpadding="1">
+        <tr> 
+          <td bgcolor="#000000"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#EFEFEF">
+              <tr align="center" > 
+                  <td valign="top"><font face="Arial, Helvetica, sans-serif"><b><font size="3">Upcoming<br>
+                  Events</font></b>
+									<hr width="100%" NOSHADE size="1"></font>
+								</td>
+              </tr>
+              <tr bgcolor="#EFEFEF"> 
+                <td  align="left" valign="top"> 
+                  <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="/ninetworks/futurehome/futurehome.shtml">7 - 8 June</a><br>
+		    Future Home Work Shop in Oslo.</font></p>
+                   <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="/researchschool/nires/nires5.shtml"> 
+                    26 - 31 May</a><br>
+                    Nordic Interactive Research School 5 in Oslo.</font></p> 
+                  <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="http://www.nic2001.org">31 Oct. - 3 Nov.</a><br>
+                    NIC2001 - Nordic Interactive Conference 2001</font></p>          
+                  
+                   
+                  </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+</div> -->
+
+
+      <div align="center"><br>
+        <a href="http://www.nordisk-industrifond.no" target="_blank"><img src="/gfx/nni_180.gif" width="100" height="52" border="0" alt="Nordic Industrial Fund Home Page"></a> 
+        <br>
+        <font size="-2" face="Arial, Helvetica, sans-serif">Nordic Interactive is supported by Nordic Industrial Fund</font>
+				<br><br><br>
+       
+				</div>
+    </td>
+    <td colspan="2" align="left" valign="top" > 
+
+
+      <table width="97%" border="0" cellspacing="0" cellpadding="4" bgcolor="#FFFFFF" align="right">
+        <tr align="left" valign="top"> 
+          <td> 
+            <h1><font face="Arial, Helvetica, sans-serif">ERROR 404 - Page NOT 
+              found</font></h1>
+            <p><font size="-1" face="Arial, Helvetica, sans-serif">The requested 
+              page was no longer found on this site, or the page has been moved. 
+              </font></p>
+            <p><font size="-1" face="Arial, Helvetica, sans-serif">Please use 
+              the menu bar to navigate or use our <a href="/search.shtml">Search 
+              Engine</a> to find the missing page.</font></p>
+            <p><font size="-1" face="Arial, Helvetica, sans-serif">If you were 
+              looking for a page at the <a href="http://www.nic2001.org">NIC2001</a> 
+              site, please use this <a href="http://www.nordic-interactive.org/cgi-bin/nordic-interactive/mynamazu/nic2001/namazu.cgi">Search 
+              Engine</a> instead.</font></p>
+            <p><font size="-1" face="Arial, Helvetica, sans-serif">Contact <a href="mailto:webmaster@nordic-interactive.org">webmaster@nordic-interactive.org</a> 
+              for further help on finding the requested page.</font></p>
+            <p><font size="-1" face="Arial, Helvetica, sans-serif">We are sorry 
+              for your inconvenience.</font></p>
+            <p><font size="-1" face="Arial, Helvetica, sans-serif">Nordic Interactive</font></p>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+<!-- Cut bottom -->
+  <tr valign="bottom" align="center"> 
+    <td bgcolor="#FFFFFF" valign="middle" colspan="2" align="center"><img src="/gfx/transp.gif" width="1" height="5">&nbsp;
+	</td>
+    <td bgcolor="#FFFFFF" colspan="2" align="right" valign="middle"><font face="Arial, Helvetica, sans-serif" size="-2"><a href="#topofpage">Top 
+      of Page</a>&nbsp;&nbsp;</font></td>
+  </tr>
+  <tr valign="bottom" > 
+    <td width="23" bgcolor="#000000" align="center" valign="middle" nowrap><img src="/gfx/tnyp.gif" width="18" height="19"></td>
+    <td width="100" bgcolor="#000000" align="center" valign="middle" nowrap><a href="/index.shtml" class="menu"><font face="Arial, Helvetica, sans-serif" size="2">Home</font></a></td>
+    <td colspan="2"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td nowrap bgcolor="#737373" valign="middle" align="center"><a href="/sitemap.shtml" class="menu"><font face="Arial, Helvetica, sans-serif" size="2">Site 
+            Map </font></a></td>
+          <td nowrap bgcolor="#737373" valign="middle" align="center"><a href="/about/contact.shtml" class="menu"><font face="Arial, Helvetica, sans-serif" size="2">Contact</font></a></td>
+          <td nowrap bgcolor="#737373" valign="middle" align="center"><a href="/index.shtml" class="menu"><font face="Arial, Helvetica, sans-serif" size="2">News</font></a></td>
+          <td nowrap bgcolor="#737373" valign="middle" align="center"><a href="/media.shtml" class="menu"><font face="Arial, Helvetica, sans-serif" size="2">Media</font></a></td>
+          <td nowrap bgcolor="#737373" align="right"><img src="/gfx/transp.gif" width="1" height="19" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr valign="bottom" > 
+    <td bgcolor="#FFFFFF" align="center" valign="middle" nowrap colspan="2">&nbsp;</td>
+     </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,52 @@
+#!/bin/sh
+#-*-Shell-Script-*-	Time-stamp: <2003-02-16 10:37:38 bingalls>
+#Copyright © 1998, 2003 by Bruce Ingalls bingalls(at)users.sourceforge.net
+#See file COPYING for GPL license.
+# $Id$
+#<url: http://emacro.sourceforge.net/ > <url: http://www.dotemacs.de/ >
+
+if [ ! -d "$HOME/emacs" ]; then
+    echo "EMacro expects the directory $HOME/emacs to exist."
+    exit
+fi
+
+echo "This script clears EMacro's cache."
+echo "Run "`basename $0`" every time you change any *.el"
+echo "Emacs (or XEmacs) libraries on the filesystem"
+
+if [ -f $HOME/emacs/preferences/e-cache.el* ]
+then
+    rm -f $HOME/emacs/preferences/e-cache.el*
+fi
+
+if [ -f $HOME/emacs/preferences/e-xcache.el* ]
+then
+    rm -f $HOME/emacs/preferences/e-xcache.el*
+fi
+
+#Obsolete code below may disappear, as EMacro no longer bytecompiles code
+if [ -f $HOME/emacs/emacro/*.elc ]
+then
+	rm $HOME/emacs/emacro/*.elc
+fi
+
+if [ -f $HOME/emacs/preferences/*.elc ]
+then
+	rm $HOME/emacs/preferences/*.elc
+fi
+
+if [ -f $HOME/emacs/programmer/*.elc ]
+then
+	rm $HOME/emacs/programmer/*.elc
+fi
+
+# Less likely annoyances:
+if [ -f $HOME/.emacs.elc ]
+then
+	rm $HOME/.emacs.elc
+fi
+
+if [ -f $HOME/.xemacs/*.elc ]
+then
+	rm $HOME/.xemacs/*.elc
+fi
