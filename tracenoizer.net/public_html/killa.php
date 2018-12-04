@@ -32,7 +32,7 @@ $dir = $ac_path."/".$main_id;
 
 //echo $dir;
 
-deldir($dir);
+//deldir($dir);
 
 function deldir($dir){
  $current_dir = opendir($dir);
