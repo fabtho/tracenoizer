@@ -1,23 +1,15 @@
 <?php
 
-
-
-mysql_connect("localhost","web","w2kkadb");
-mysql_select_db("tracenoizer");
-
-
-
-
+include_once('db_connect.php');
 
 
 $query2 = ('SELECT main_date, main_weblink, main_ac_id, main_st_id FROM main WHERE main_id="'.$main_id.'"');
 
-
-
 //$query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id FROM main WHERE main_id=4253");
-$query2_id = mysql_query($query2);
+$query2_id = mysqli_query($connection, query2);
 
-$row = mysql_fetch_array($query2_id);
+
+$row = mysqli_fetch_array($query2_id);
 
 $state = $row[main_st_id];
 
