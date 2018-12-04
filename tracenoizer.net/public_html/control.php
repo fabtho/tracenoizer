@@ -101,7 +101,7 @@ if ($NumMembers2==0){
 
 	//get status descriptions
 	$stati= mysql_db_query("tracenoizer", "select st_string from status");
-	while($row = mysql_fetch_array($stati)){
+	while($row = mysqli_fetch_array($stati)){
 		$st_strings[] = $row["st_string"];
 	}
 
@@ -142,7 +142,7 @@ echo '
 	<tr>
 		<td valign="top">Your Clones: </td>
 		<td>';
-			while ($list = mysql_fetch_array($query3_id)) {
+			while ($list = mysqli_fetch_array($query3_id)) {
 			$nr = $list[main_id];
 				echo '<a href="#'.$nr.'" class="nav">U'.$userID.' - '.$nr.'M</a><br>
 				';
@@ -156,7 +156,7 @@ echo '
 ';
 
 //clones-----------------------------------------------------------
-	while ($row = mysql_fetch_array($query2_id)) {
+	while ($row = mysqli_fetch_array($query2_id)) {
 		$nr = $row[main_id];
 		$state = $row[main_st_id];
 		for($st = 0; $st < count($st_strings); $st++){
@@ -178,7 +178,7 @@ echo '
 							$query4 = ("SELECT keyword, keyword_infog, keyword_size FROM keyword WHERE keyword_main_id = '$nr' ");
 							$query4_id = mysql_query($query4);
 							
-							while ($comp = mysql_fetch_array($query4_id)) {
+							while ($comp = mysqli_fetch_array($query4_id)) {
 							$thema = $comp[keyword];
 							$infog = round (100 * $comp[keyword_infog]);
 							$size = round ($comp[keyword_size] / 25);

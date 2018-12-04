@@ -6,7 +6,7 @@ $connect = mysql_connect("localhost","web","w2kkadb");
 
 $query = mysql_db_query("tracenoizer", "select  ac_http, ac_path from accounts  where ac_id='$main_ac_id'"); 
 
-while($row = mysql_fetch_array($query)){ 
+while($row = mysqli_fetch_array($query)){ 
 	$ac_path = $row[ac_path]; 
 	$ac_http = $row[ac_http];
 }  

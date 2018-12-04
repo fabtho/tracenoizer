@@ -15,7 +15,7 @@ $userID = $_GET['userID'];
 
 //get status descriptions
 	$stati= mysql_db_query("tracenoizer", "select st_string from status");
-	while($row = mysql_fetch_array($stati)){
+	while($row = mysqli_fetch_array($stati)){
 		$st_strings[] = $row["st_string"];
 	}
 
@@ -32,7 +32,7 @@ echo '
 $query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id, main_id FROM main WHERE main_usr_id = $userID ");
 $query2_id = mysql_query($query2);
 
-$row = mysql_fetch_array($query2_id);
+$row = mysqli_fetch_array($query2_id);
 
 $state = $row[main_st_id];
 
@@ -70,7 +70,7 @@ $query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id, main_id FROM
 	$query2_id = mysql_query($query2);
 
 
-	while ($row = mysql_fetch_array($query2_id)) {
+	while ($row = mysqli_fetch_array($query2_id)) {
 		$nr = $row[main_id];
 		$state = $row[main_st_id];
 		for($st = 0; $st < count($st_strings); $st++){
@@ -113,7 +113,7 @@ $query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id, main_id FROM
 							$query4 = ("SELECT keyword, keyword_infog, keyword_size FROM keyword WHERE keyword_main_id = '$nr' ");
 							$query4_id = mysql_query($query4);
 							
-							while ($comp = mysql_fetch_array($query4_id)) {
+							while ($comp = mysqli_fetch_array($query4_id)) {
 							$thema = $comp[keyword];
 							$infog = round (100 * $comp[keyword_infog]);
 							$size = round ($comp[keyword_size] / 25);
