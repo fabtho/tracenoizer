@@ -10,17 +10,19 @@
 
 
 
-use Net::Google;
-use constant LOCAL_GOOGLE_KEY => "HQT6+fFQFHJvj5Rin+Fh6WXYimfvC89S";
+#use Net::Google;
+#use constant LOCAL_GOOGLE_KEY => "HQT6+fFQFHJvj5Rin+Fh6WXYimfvC89S";
 
 use Mail::Mailer;
 use Net::FTP;
 use DBI;
+use DBD::mysql;
+use Config::IniFiles;
 srand;
 use Time::localtime;
 
-open (STDOUT,">logs/$ARGV[0].log");
-open (LOG,">logs/$ARGV[0].log");
+# open (STDOUT,">logs/$ARGV[0].log");
+# open (LOG,">logs/$ARGV[0].log");
 
 #######################funktioncall##########################
 #
@@ -28,6 +30,9 @@ open (LOG,">logs/$ARGV[0].log");
 
 #$echo =`env`;
 #print $echo;
+
+$cfg = Config::IniFiles->new( -file => "config.ini" );
+
 connect_db();
 
 $filenumber = 0;
@@ -71,10 +76,11 @@ clearmake();
 
 
 sub connect_db{
-    my $server = "localhost";
-    my $db = "tracenoizer";
-
-    $dbh = DBI->connect ("DBI:mysql:$db:$server",'web','w2kkadb');
+    my $server = $cfg->val('db', 'mysql_hostname');
+    my $db = $cfg->val('db', 'mysql_table');
+    my $user = $cfg->val('db', 'mysql_username');
+    my $pw = $cfg->val('db', 'mysql_password');
+    $dbh = DBI->connect("DBI:mysql:$db:$server:3306", "$user", "$pw") or die "Connection Error: $DBI::errstr\n";
     if (not $dbh){
 	print "----> no connection to the db";
     }
