@@ -13,6 +13,9 @@
 #use Net::Google;
 #use constant LOCAL_GOOGLE_KEY => "HQT6+fFQFHJvj5Rin+Fh6WXYimfvC89S";
 
+# use strict; use warnings;
+use WWW::Google::CustomSearch;
+ 
 use Mail::Mailer;
 use Net::FTP;
 use DBI;
@@ -162,12 +165,70 @@ sub search{
     }
 }
 
+#########################sub linkload()#######################
+# sucht links und speichert sie in url.txt
+sub linkload{
 
+    my $api_key = $cfg->val('search', 'google_api_key');
+    my $cx = $cfg->val('search', 'search_engine_identifier');
+    my $engine  = WWW::Google::CustomSearch->new(api_key=>$api_key, cx=>$cx);
+
+    my $string = "\"$_[0]\"";
+
+    print "----> suche mit $string\n";
+     
+    my $result  = $engine->search($string);
+
+    print "Search time: ", $result->searchTime, "\n";
+    print "totalResults: ", $result->totalResults, "\n";
+    print "Kind: ", $result->kind, "\n";
+    print "Items: ", $result->items, "\n";
+
+
+    if (defined $result) {
+        my $page_count = 2;
+        my $page_no    = 0;
+        print "Result Count: ", $result->totalResults, "\n";
+        while (defined $result && ($page_no <= $page_count)) {
+                print "+++++++++++++++++++++++++++++++++++\n\n";
+                print "Page [$page_no]:\n\n";
+                foreach my $item (@{$result->items}) {
+                print "Item Kind: ", $item->kind, "\n" if defined $item->kind;
+                print "Snippet: ", $item->snippet, "\n";
+                print "Item Link: ", $item->link, "\n" if defined $item->link;
+                print "Item Display Link: ", $item->displayLink, "\n" if defined $item->displayLink;
+                print "Item Formatted URL: ", $item->formattedUrl, "\n" if defined $item->formattedUrl;
+                print "Item Title: ", $item->title, "\n" if defined $item->title;
+                push (@URL, $item->link);
+            }
+            print "----------------------------------\n\n";
+            sleep 2;
+            my $page = $result->nextPage;
+            $result  = $page->fetch;
+            $page_no++;
+        }
+    }
+
+    foreach $name (@URL) {
+        print "url=$name.\n";
+    }
+
+    my $searchmachine= $_[0];
+
+    # alt
+
+    print "----> this is the actual searchterm : $searchterm\n";
+    my $anzahl_url  = @URL;
+
+    print "\n----> in this part $anzahl_url urls found \n";
+
+    return($anzahl_url);
+}
 
 
 #########################sub linkload()#######################
 # sucht links und speichert sie in url.txt
-sub linkload{
+sub linkload_depracicated_2018_12_07{
 
     my $google = Net::Google->new(key=>LOCAL_GOOGLE_KEY);
     my $search = $google->search();
