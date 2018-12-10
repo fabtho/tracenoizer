@@ -92,7 +92,7 @@ cd src
 make install
 `
 
-installs puf to /usr/local/bin/puf
+puff cannot get https content, so replaced with curl in fc2374dfcc58f149bea3109ff5bc9d2620cd55dd 
 
 
 ### rainbow
@@ -110,6 +110,23 @@ src:
 http://www.cs.cmu.edu/~mccallum/bow/src/
 http://archive.is/otho7
 http://archive.is/download/otho7.zip
+
+
+### use of compiled version from 2003
+
+
+I have a compiled version from 2003, after installing some 32 bit library I was able to run it again.
+
+`
+apt-get install lib32z1
+`
+
+
+### compile rainbow (not working)
+
+Rainbow is not to compile with gcc version 5 on Ubuntu 12. There are some errors. By uncommenting them, I was able to reduce them, but was not able to get a executable code. And even there would be some function missing. Also failed to compile with older gcc version.
+
+https://askubuntu.com/questions/923337/installing-an-older-gcc-version3-4-3-on-ubuntu-14-04-currently-4-8-installed
 
 `
 wget http://www.cs.cmu.edu/~mccallum/bow/src/bow-20020213.tar.gz
@@ -134,17 +151,6 @@ array.c:195:4: note: in expansion of macro ‘bow_error’
     ^
 Makefile:90: recipe for target 'array.o' failed
 make: *** [array.o] Error 
-`
-
-rainbow is not to compile with gcc version 5 on Ubuntu 12. There are some errors. By uncommenting them, I was able to reduce them, but was not able to get a executable code. And even there would be some funtion missing. Also faild to compile with older gcc version.
-
-https://askubuntu.com/questions/923337/installing-an-older-gcc-version3-4-3-on-ubuntu-14-04-currently-4-8-installed
-
-
-I have a compiled version from 2003, after installing some 32 bit library I was able to run it again.
-
-`
-apt-get install lib32z1
 `
 
 ## Suchmaschinen Anbindung
