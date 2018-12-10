@@ -115,7 +115,7 @@ http://archive.is/download/otho7.zip
 wget http://www.cs.cmu.edu/~mccallum/bow/src/bow-20020213.tar.gz
 tar -zxf bow-20020213.tar.gz
 cd bow-20020213
-CC='gcc -traditional'  ./configure --prefix=/usr/local
+CPPFLAGS='-w' CC='gcc -traditional'  ./configure --prefix=/usr/local/
 make
 `
 make throws this error:
@@ -136,10 +136,21 @@ Makefile:90: recipe for target 'array.o' failed
 make: *** [array.o] Error 
 `
 
+rainbow is not to compile with gcc version 5 on Ubuntu 12. There are some errors. By uncommenting them, I was able to reduce them, but was not able to get a executable code. And even there would be some funtion missing. Also faild to compile with older gcc version.
+
+https://askubuntu.com/questions/923337/installing-an-older-gcc-version3-4-3-on-ubuntu-14-04-currently-4-8-installed
+
+
+I have a compiled version from 2003, after installing some 32 bit library I was able to run it again.
+
+`
+apt-get install lib32z1
+`
+
 ## Suchmaschinen Anbindung
 
 For every run there are two searches,  "Firstname Secondname" and "Secondname Firstname"
 
 Runns
 
-4
+6

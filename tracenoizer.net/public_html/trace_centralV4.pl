@@ -211,11 +211,11 @@ sub linkload{
     }
 
     foreach $name (@URL) {
-        print "url=$name."\n";
+        print "url = $name\n";
     }
 
     my $searchmachine= $_[0];
-l
+
     # alt
 
     print "----> this is the actual searchterm : $string\n";
@@ -281,15 +281,18 @@ sub get_files{
 	print $main_id."\n";
 	mkdir("temp/$main_id",0777) || print "----> konnte dir temp/$main_id nicht machen: $!\n";
     for (my $k=0 ;$k< @URL;$k++){
-	my $url = $URL[$k];
-	print "----> download the url : $url\n";
-	mkdir("temp/$main_id/$k",0777) || print "----> konnte dir temp/$main_id/$k nicht machen: $!\n";
-	if ((@URL - 20) < $k){
-	    system "puf -Tl 2 -Td 4 -Tc 4 -lb 200000 -nw -t 3  -P temp/$main_id/$k/  $url ";
-	} else {
-	    system "puf -Tl 2 -Td 4 -Tc 4 -lb 200000 -nw -t 3  -P temp/$main_id/$k/  $url &";
-	}
+    	my $url = $URL[$k];
+    	print "----> download the url : $url\n";
+    	mkdir("temp/$main_id/$k",0777) || print "----> konnte dir temp/$main_id/$k nicht machen: $!\n";
+        system "curl -o temp/$main_id/$k/index.html $url &";
+        # puff is not able to  get https 
+    	# if ((@URL - 20) < $k){
+    	#    system "puf -Tl 2 -Td 4 -Tc 4 -lb 200000 -nw -t 3  -P temp/$main_id/$k/  $url ";
+    	# } else {
+    	#    system "puf -Tl 2 -Td 4 -Tc 4 -lb 200000 -nw -t 3  -P temp/$main_id/$k/  $url &";
+    	# }
     }
+    sleep 4;
 }
 
 
@@ -327,7 +330,7 @@ sub url_loop{
 		    }
 		    close (FILE);
 		    # print $html;
-		    system "rm","-Rf","$k", "&";
+		    # system "rm","-Rf","$k", "&";
 		    my @existurl = satz_extract($html,$k);		    
 		    if  ($existurl[0] != 0){
 			look_img($html,$existurl[0],$existurl[1]);
@@ -336,7 +339,9 @@ sub url_loop{
 			}
 		}else{
 		    print "----> folder $k is empty\n";
-		    system "rm","-Rf","$k", "&";
+            # system "rm","-Rf","$k", "&";
+            # much safer
+		    system "rmdir","$k";
   	 	}
 	    }		
     chdir("../..");
