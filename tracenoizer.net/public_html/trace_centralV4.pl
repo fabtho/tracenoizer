@@ -57,7 +57,7 @@ url_loop();
 
 #exit;
 makemodel();
-exit;
+#exit;
 
 modelask();
 #exit;
@@ -292,7 +292,7 @@ sub get_files{
     	#    system "puf -Tl 2 -Td 4 -Tc 4 -lb 200000 -nw -t 3  -P temp/$main_id/$k/  $url &";
     	# }
     }
-    sleep 4;
+    sleep 10;
 }
 
 
@@ -330,7 +330,11 @@ sub url_loop{
 		    }
 		    close (FILE);
 		    # print $html;
-		    # system "rm","-Rf","$k", "&";
+            # very basic check to make sure no rm -rf /*
+            if ($var =~ /^\d+?$/) {
+                # system "rm","-Rf","$k/index.html", "&";
+                system "rm", "$k/index.html", "&";
+            }
 		    my @existurl = satz_extract($html,$k);		    
 		    if  ($existurl[0] != 0){
 			look_img($html,$existurl[0],$existurl[1]);
@@ -339,9 +343,14 @@ sub url_loop{
 			}
 		}else{
 		    print "----> folder $k is empty\n";
+            # very basic check to make sure no rm -rf /*
+            if ($var =~ /^\d+?$/) {
+                system "rmdir","$k", "&";
+                # system "rm","-Rf","$k", "&";
+            }
             # system "rm","-Rf","$k", "&";
             # much safer
-		    system "rmdir","$k";
+		    #system "rmdir","$k";
   	 	}
 	    }		
     chdir("../..");
@@ -561,11 +570,12 @@ $output = `$rainbow`;
 print "-----> rainbowpid $makemodel_pid \n";
 
 #$output =`./rainbow --append-stoplist-file=/home/tracenoizer/traceintern/stoplist -H -d /home/tracenoizer/public_html/model -i /home/tracenoizer/public_html/temp/$main_id/* 2>&1`;
-$output =`./rainbow --append-stoplist-file=/home/tracenoizer/traceintern/stoplist -H -d /home/tracenoizer/public_html/model -i /home/tracenoizer/public_html/temp/$main_id/*`;
+#$output =`./rainbow --append-stoplist-file=/home/tracenoizer/traceintern/stoplist -H -d /home/tracenoizer/public_html/model -i /home/tracenoizer/public_html/temp/$main_id/*`;
+
+# $output =`./rainbow --append-stoplist-file=stoplist -H -d model -i temp/$main_id/*`;
 
 print "-----> rainbow output: $output \n";
 
-exit;
 
 #system "printenv";
     print "----> statistic model is made\n";
