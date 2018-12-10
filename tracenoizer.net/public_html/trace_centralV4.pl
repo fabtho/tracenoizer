@@ -137,6 +137,7 @@ sub onesearch{
 
 
 #########################sub search #########################################################################
+# 2018-11-10: Sprache wird nicht mehr verwendet!
 #die form des aufrufes muss die folgende sein
 #perl search.pl sprache "searchterm"
 #es gibt de,en,fr,it
@@ -187,7 +188,7 @@ sub linkload{
 
     if (defined $result) {
         my $page_count = 2;
-        my $page_no    = 0;
+        my $page_no    = 1;
         print "Result Count: ", $result->totalResults, "\n";
         while (defined $result && ($page_no <= $page_count)) {
                 print "+++++++++++++++++++++++++++++++++++\n\n";
@@ -210,14 +211,14 @@ sub linkload{
     }
 
     foreach $name (@URL) {
-        print "url=$name.\n";
+        print "url=$name."\n";
     }
 
     my $searchmachine= $_[0];
-
+l
     # alt
 
-    print "----> this is the actual searchterm : $searchterm\n";
+    print "----> this is the actual searchterm : $string\n";
     my $anzahl_url  = @URL;
 
     print "\n----> in this part $anzahl_url urls found \n";
@@ -277,7 +278,7 @@ $search->safe(0);
 
 sub get_files{
 	statussetz(1);
-	print $main_id."/n";	
+	print $main_id."\n";
 	mkdir("temp/$main_id",0777) || print "----> konnte dir temp/$main_id nicht machen: $!\n";
     for (my $k=0 ;$k< @URL;$k++){
 	my $url = $URL[$k];

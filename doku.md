@@ -69,3 +69,77 @@ Installation of googel CostumSearch for perl
 cpan
 install WWW::Google::CustomSearch
 ```
+
+## Software
+
+### puf - Parallel URL fetcher 
+
+puf is able to download in parallel, thus faster then wget or curl
+
+in 2001 tracenoizer used puf-0.9.1beta6.tar
+
+see install_tracnoizer.tar for original software used
+
+https://sourceforge.net/projects/puf/
+
+`
+tar -zxf puf-1.0.0.tar.gz
+cd puf-1.0.0
+./configure
+make
+cd src
+./puf -h
+make install
+`
+
+installs puf to /usr/local/bin/puf
+
+
+### rainbow
+
+Rainbow is a program that performs statistical text classification.
+
+Docu:
+
+https://www.cs.cmu.edu/~mccallum/bow/rainbow/
+http://archive.is/Wjp6o
+http://archive.is/download/Wjp6o.zip
+
+src:
+
+http://www.cs.cmu.edu/~mccallum/bow/src/
+http://archive.is/otho7
+http://archive.is/download/otho7.zip
+
+`
+wget http://www.cs.cmu.edu/~mccallum/bow/src/bow-20020213.tar.gz
+tar -zxf bow-20020213.tar.gz
+cd bow-20020213
+CC='gcc -traditional'  ./configure --prefix=/usr/local
+make
+`
+make throws this error:
+
+`
+^./bow/libbow.h: At top level:
+./bow/libbow.h:2071:26: error: array type has incomplete element type ‘struct argp_child’
+ extern struct argp_child bow_argp_children[];
+                          ^
+array.c: In function ‘bow_array_new_with_entry_size_from_data_fp’:
+./bow/libbow.h:1591:5: warning: function with qualified void return type called
+     _bow_error (FORMAT , ## ARGS);   \
+     ^
+array.c:195:4: note: in expansion of macro ‘bow_error’
+    bow_error ("Proper header not found in file.");
+    ^
+Makefile:90: recipe for target 'array.o' failed
+make: *** [array.o] Error 
+`
+
+## Suchmaschinen Anbindung
+
+For every run there are two searches,  "Firstname Secondname" and "Secondname Firstname"
+
+Runns
+
+4
