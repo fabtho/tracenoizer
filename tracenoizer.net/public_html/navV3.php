@@ -1,9 +1,20 @@
 
 
-
-
 <?php
 //echo ($usr_id $main_id); 
+
+$usr_id = (int) $_GET["usr_id"];
+$main_id = (int) $_GET["main_id"];
+
+if ($usr_id == 0){
+	$usr_id = (int) $_POST["usr_id"];
+	$main_id = (int) $_POST["main_id"];
+}
+
+$status = $_POST["status"];
+$usr_name = $_POST["usr_name"];
+$usr_pw = $_POST["usr_pw"];
+$confpwd = $_POST["confpwd"];
 
 switch($status)
 
@@ -56,7 +67,6 @@ want more clones, run TraceNoizer again. <br>
 				include_once('db_connect.php');
 				
 				$get = 'select usr_id from users where usr_name="'.$usr_name.'"';
-
 				$result = mysqli_query($db_connection, $get) or die (mysqli_error());
 
 				$usr_exist = mysqli_fetch_row($result);
@@ -123,13 +133,11 @@ want more clones, run TraceNoizer again. <br>
 
 				$put = 'update users set usr_name="'.$usr_name.'",usr_pw="'.$usr_pw.'",usr_mail="'.$usr_mail.'" where usr_id='.$usr_id.'';
 
-				//echo $put;
 
 				//mysqli_query($db_connection, 'update users set usr_name="'.$usr_name.'",usr_pw="'.$usr_pw.'",usr_mail="'.$usr_mail.'" where usr_id='.$usr_id.'') or die (mysqli_error());
 
 				mysqli_query($db_connection, $put) or die (mysqli_error());
 
-				
 
 				//system ("/usr/bin/perl /home/tracenoizer/public_html/forwardV3up.pl $usr_id $main_id");	
 
