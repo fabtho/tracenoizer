@@ -2,5 +2,8 @@ tracenoizer.net/config.ini
 tracenoizer.net/public_html/model
 tracenoizer.net/public_html/logs
 tracenoizer.net/public_html/temp
+db/tracenoizer_dump.sql
+db/tracenoizer_dump.sql.gz
+
 software/rainbow/bow-20020213/
 software/puf/puf-1.0.0

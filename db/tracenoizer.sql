@@ -152,6 +152,8 @@ CREATE TABLE `main` (
 ) ENGINE=MyISAM AUTO_INCREMENT=37356 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+ALTER TABLE `main` ADD PRIMARY KEY (`main_id`),
+
 --
 -- Table structure for table `status`
 --
@@ -165,6 +167,19 @@ CREATE TABLE `status` (
   KEY `st_id` (`st_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+
+INSERT INTO status (st_id, st_string) VALUES (0,' searching for links about you');
+INSERT INTO status (st_id, st_string) VALUES (1,' downloading the websites ');
+INSERT INTO status (st_id, st_string) VALUES (2,' extracting data out of the websites ');
+INSERT INTO status (st_id, st_string) VALUES (3,' preparing analyse');
+INSERT INTO status (st_id, st_string) VALUES (4,' analysing ');
+INSERT INTO status (st_id, st_string) VALUES (5,' producing new websites about you ');
+INSERT INTO status (st_id, st_string) VALUES (6,'temp clone generated');
+INSERT INTO status (st_id, st_string) VALUES (7,' online');
+INSERT INTO status (st_id, st_string) VALUES (8,' your clone has been killed ');
+INSERT INTO status (st_id, st_string) VALUES (9,'<br><br> no links found for you <br> tracenoizing is not necessery !! ');
+INSERT INTO status (st_id, st_string) VALUES (10,'<br><br> there are too little information about you <br> tracenoizing is not necessery !! ');
 
 --
 -- Table structure for table `text`
