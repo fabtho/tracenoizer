@@ -34,7 +34,7 @@ open (LOG,">logs/$ARGV[0].log");
 #$echo =`env`;
 #print $echo;
 
-$cfg = Config::IniFiles->new( -file => "config.ini" );
+$cfg = Config::IniFiles->new( -file => "../config.ini" );
 
 connect_db();
 
@@ -565,7 +565,7 @@ print "----- >$rainbow.\n";
 $output = `$rainbow`;
 
 
-#$makemodel_pid = open(MAKEMODEL, "$rainbow |");
+# $makemodel_pid = open(MAKEMODEL, "$rainbow |");
 
 print "-----> rainbowpid $makemodel_pid \n";
 
@@ -858,7 +858,6 @@ sub on_page{
     $seite = $seite."</font></body></html>\n";
     $seite = $seite."</font></body></html>\n";
     $seite=~ s/'/&apos;/g;
-
     my $update = $dbh->prepare("update keyword set keyword_html = '$seite' where keyword_main_id  = '$main_id' and keyword = '$keyword' ");
     $update->execute;
     open (FILE,">temp/$main_id/$keyword.html");

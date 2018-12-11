@@ -1,8 +1,0 @@
-[db]
-mysql_hostname=
-mysql_username=
-mysql_password=
-mysql_table=
-[search]
-google_api_key=
-search_engine_identifier=
