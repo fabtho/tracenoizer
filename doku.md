@@ -16,21 +16,31 @@
 
 ## Main difference to 2011 Version (Running on tracenoizer.net) 
 
- * ' replace with &apos; in html code to prevent this bug:
+### replace with &apos; in html code to prevent this bug:
 
 `DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'll do our best to improve things and get you the information you need. . Franz M' at line 1 at trace_centralV4.pl line 860.
 `
 
-# mysql anbindung php neu machen
+### config.ini
 
+Now confidential configurations like db connection and api key are not hardcoded and written down in several files anymore.
+
+config.ini is the file where db config and api keys are stored, see tracenoizer.net/config.ini.example
+
+### db connection is centralized in new file
+
+see tracenoizer.net/db_connect.php
+
+### update mysql connection
+
+now mysqli_ is used, not outdated  mysql_ used
+ 
 
 # mysql perl anpassen machen
 
-
-
 testen mit, 1 ist user_id von  Datenbank
 ```
-/usr/bin/perl trace_centralV4.pl 1 'Fabian Thommen'
+/usr/bin/perl trace_centralV4.pl 1 'Vorname Nachname'
 ```
 
 
@@ -68,16 +78,6 @@ install Config::IniFiles
 
 https://developers.google.com/custom-search/v1/cse/list
 
-### Testcommands & important URL
-
-```
-perl trace_centralV4.pl 14 'Franz Mueller'
-```
-
-http://tracenoizer.net/control_firstV4.php?userID=4
-
-http://tracenoizer.net/control_firstV4.php?userID=4
-
 #### Other Stuff
 
 https://stackoverflow.com/questions/4082966/what-are-the-alternatives-now-that-the-google-web-search-api-has-been-deprecated
@@ -88,13 +88,15 @@ cpan
 install WWW::Google::CustomSearch
 ```
 
-## CSE for Tracenoizer
+#### Google Custom Search API (CSE) for Tracenoizer
 
-Account of taywagmbh@gmail.com (Do not send any mail to this account, its not checked regularly)
+Account of sammlung.tracenoizer@gmail.com (Do not send any mail to this account, its not checked)
 
 https://cse.google.com/cse/all
 
-Public Search: https://cse.google.com/cse?cx=013759284485729961814:pom8ffrsn_u
+Public Search: https://cse.google.com/cse?cx=005586137235572118471:emva1jwhri4
+API Call Stats: https://console.developers.google.com/apis/dashboard?folder&project=tracenoizer
+
 
 ## Software
 
@@ -104,9 +106,7 @@ puf is able to download in parallel, thus faster then wget or curl
 
 in 2001 tracenoizer used puf-0.9.1beta6.tar
 
-see install_tracnoizer.tar for original software used
-
-https://sourceforge.net/projects/puf/
+see install_tracnoizer.tar for original software used or here https://sourceforge.net/projects/puf/
 
 `
 tar -zxf puf-1.0.0.tar.gz
@@ -125,24 +125,24 @@ puff cannot get https content, so replaced with curl in fc2374dfcc58f149bea3109f
 
 Rainbow is a program that performs statistical text classification.
 
-Docu:
+Documentation:
 
-https://www.cs.cmu.edu/~mccallum/bow/rainbow/
-http://archive.is/Wjp6o
-http://archive.is/download/Wjp6o.zip
+ * https://www.cs.cmu.edu/~mccallum/bow/rainbow/
+ * http://archive.is/Wjp6o
+ * http://archive.is/download/Wjp6o.zip
 
-src:
+Source Code:
 
-http://www.cs.cmu.edu/~mccallum/bow/src/
-http://archive.is/otho7
-http://archive.is/download/otho7.zip
+ * http://www.cs.cmu.edu/~mccallum/bow/src/
+ * http://archive.is/otho7
+ * http://archive.is/download/otho7.zip
 
-
-### use of compiled version from 2003
-
+### Usage of compiled version from 2003
 
 I have a compiled version from 2003, after installing some 32 bit library I was able to run it again.
 
+tracenoizer/tracenoizer.net/public_html/rainbow
+      
 `
 apt-get install lib32z1
 `
@@ -178,6 +178,14 @@ array.c:195:4: note: in expansion of macro ‘bow_error’
 Makefile:90: recipe for target 'array.o' failed
 make: *** [array.o] Error 
 `
+
+### Testcommands & important URL
+
+```
+perl trace_centralV4.pl 14 'Franz Mueller'
+```
+
+http://tracenoizer.net/control_firstV4.php?userID=4
 
 ## Suchmaschinen Anbindung
 
