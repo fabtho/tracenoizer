@@ -1,25 +1,6 @@
-
-## Tracenoizer im Web (Stand Jan. 2017)
-
-2001:
-
- * Plug-In: http://www.iplugin.ch/kalender/archiv/archiv/detail/article/tracenoizerorg/
-
-## Ausstellung von Tracenoizer
-
- * 2002 Kontrollfelder - Programmieren als künstlerische Praxis, hartware medien kunst verein in Dortmund/Deutschland (020227_tracenoizer_mailingliste)
-
-
-
-### restauration
-
+# Restauration for Tracenoizer in 2018
 
 ## Main difference to 2011 Version (Running on tracenoizer.net) 
-
-### replace with &apos; in html code to prevent this bug:
-
-`DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'll do our best to improve things and get you the information you need. . Franz M' at line 1 at trace_centralV4.pl line 860.
-`
 
 ### config.ini
 
@@ -27,27 +8,31 @@ Now confidential configurations like db connection and api key are not hardcoded
 
 config.ini is the file where db config and api keys are stored, see tracenoizer.net/config.ini.example
 
-### db connection is centralized in new file
+### update mysql connection for PHP 7
+
+now mysqli_ is used, not outdated  mysql_ used
+
+### db connection for php is centralized in new file
 
 see tracenoizer.net/db_connect.php
 
-### update mysql connection
+### Handling of POST and GET is changed. 
 
-now mysqli_ is used, not outdated  mysql_ used
+In the old days $var could be used directly from url?var=test. Now PHP only allows $_GET['var'] or  $_POST['var'] 
+ 
+### Google Custom Search is used for Search
+
+see below
+
+### replace with &apos; in html code to prevent this bug:
+
+```DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'll do our best to improve things and get you the information you need. . Franz M' at line 1 at trace_centralV4.pl line 860.```
  
 
-# mysql perl anpassen machen
 
-testen mit, 1 ist user_id von  Datenbank
-```
-/usr/bin/perl trace_centralV4.pl 1 'Vorname Nachname'
-```
+## trace_centralV4.pl should also use config.ini for DB Conenction
 
-
-## trace_centralV4.pl sollte auch config.ini nutzen für db info
-
-damit kein pw im code, also auch config.ini auslesen
-cpan benutzen und  Config::IniFiles installieren, von https://metacpan.org/pod/Config::IniFiles
+Using Config::IniFiles from cpan (https://metacpan.org/pod/Config::IniFiles)
 
 ```
 cpan
@@ -58,29 +43,17 @@ to see all installed modules, use this
 cpan -l
 ```
 
-
 ```
 install Config::IniFiles
 ```
 
-
 ## trace_centralV4.pl restore google search
 
-### Links
-
-#### Google Cpan Modules
+### Google Cpan Modules
 
 * https://metacpan.org/pod/WWW::Google::CustomSearch
 * https://metacpan.org/pod/WWW::Google::CustomSearch::Result
 * https://metacpan.org/pod/WWW::Google::CustomSearch::Item
-
-#### Google Custom Search API
-
-https://developers.google.com/custom-search/v1/cse/list
-
-#### Other Stuff
-
-https://stackoverflow.com/questions/4082966/what-are-the-alternatives-now-that-the-google-web-search-api-has-been-deprecated
 
 Installation of Google CostumSearch for perl
 ```
@@ -88,15 +61,22 @@ cpan
 install WWW::Google::CustomSearch
 ```
 
-#### Google Custom Search API (CSE) for Tracenoizer
+### Google Custom Search API (CSE) for Tracenoizer
+
+https://stackoverflow.com/questions/4082966/what-are-the-alternatives-now-that-the-google-web-search-api-has-been-deprecated
 
 Account of sammlung.tracenoizer@gmail.com (Do not send any mail to this account, its not checked)
 
-https://cse.google.com/cse/all
+ * https://cse.google.com/cse/all
+ * https://developers.google.com/custom-search/v1/cse/list
 
-Public Search: https://cse.google.com/cse?cx=005586137235572118471:emva1jwhri4
-API Call Stats: https://console.developers.google.com/apis/dashboard?folder&project=tracenoizer
+ * Public Search: https://cse.google.com/cse?cx=005586137235572118471:emva1jwhri4
+ * API Call Stats: https://console.developers.google.com/apis/dashboard?folder&project=tracenoizer
 
+
+### Usage
+
+For every run there are two searches,  "Firstname Secondname" and "Secondname Firstname"
 
 ## Software
 
@@ -119,7 +99,6 @@ make install
 `
 
 puff cannot get https content, so replaced with curl in fc2374dfcc58f149bea3109ff5bc9d2620cd55dd 
-
 
 ### rainbow
 
@@ -146,7 +125,6 @@ tracenoizer/tracenoizer.net/public_html/rainbow
 `
 apt-get install lib32z1
 `
-
 
 ### compile rainbow (not working)
 
@@ -185,12 +163,19 @@ make: *** [array.o] Error
 perl trace_centralV4.pl 14 'Franz Mueller'
 ```
 
+```
 http://tracenoizer.net/control_firstV4.php?userID=4
+```
 
-## Suchmaschinen Anbindung
 
-For every run there are two searches,  "Firstname Secondname" and "Secondname Firstname"
 
-Runns
+## Tracenoizer im Web (Stand Jan. 2017)
 
-6
+2001:
+
+ * Plug-In: http://www.iplugin.ch/kalender/archiv/archiv/detail/article/tracenoizerorg/
+
+## Ausstellung von Tracenoizer
+
+ * 2002 Kontrollfelder - Programmieren als künstlerische Praxis, hartware medien kunst verein in Dortmund/Deutschland (020227_tracenoizer_mailingliste)
+
