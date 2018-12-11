@@ -13,6 +13,14 @@
 
 ### restauration
 
+
+## Main difference to 2011 Version (Runngin on tracenoizer.net) 
+
+ * ' replace with &apos; in html code to prevent this bug:
+ 
+`DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'll do our best to improve things and get you the information you need. . Franz M' at line 1 at trace_centralV4.pl line 860.
+`
+
 # mysql anbindung php neu machen
 
 
@@ -46,7 +54,7 @@ install Config::IniFiles
 ```
 
 
-## trace_centralV4.pl googel anfragen neu machen
+## trace_centralV4.pl restore google search
 
 ### Links
 
@@ -64,11 +72,18 @@ https://developers.google.com/custom-search/v1/cse/list
 
 https://stackoverflow.com/questions/4082966/what-are-the-alternatives-now-that-the-google-web-search-api-has-been-deprecated
 
-Installation of googel CostumSearch for perl
+Installation of Google CostumSearch for perl
 ```
 cpan
 install WWW::Google::CustomSearch
 ```
+
+## CSE for Tracenoizer
+
+Account of taywagmbh@gmail.com (Do not send any mail to this account, its not checked regularly)
+
+https://cse.google.com/cse/all
+
 
 ## Software
 
