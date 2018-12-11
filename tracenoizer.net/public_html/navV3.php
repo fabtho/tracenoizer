@@ -128,13 +128,8 @@ want more clones, run TraceNoizer again. <br>
 				} else { 
 
 				
-				
-				
-
 				$put = 'update users set usr_name="'.$usr_name.'",usr_pw="'.$usr_pw.'",usr_mail="'.$usr_mail.'" where usr_id='.$usr_id.'';
 
-
-				//mysqli_query($db_connection, 'update users set usr_name="'.$usr_name.'",usr_pw="'.$usr_pw.'",usr_mail="'.$usr_mail.'" where usr_id='.$usr_id.'') or die (mysqli_error());
 
 				mysqli_query($db_connection, $put) or die (mysqli_error());
 
@@ -144,8 +139,8 @@ want more clones, run TraceNoizer again. <br>
 				
 
 								
-
-				system ("/usr/bin/perl uploadV3.pl $usr_id $main_id");
+				// no upload yet 2018-12-11
+				//system ("/usr/bin/perl uploadV3.pl $usr_id $main_id");
 				
 				echo '<html><head><meta http-equiv="refresh" content="0;URL=uploadcontrolV3.php?main_id='.$main_id.'"></head></html>';
 				
