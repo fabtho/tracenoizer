@@ -14,10 +14,10 @@
 ### restauration
 
 
-## Main difference to 2011 Version (Runngin on tracenoizer.net) 
+## Main difference to 2011 Version (Running on tracenoizer.net) 
 
  * ' replace with &apos; in html code to prevent this bug:
- 
+
 `DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'll do our best to improve things and get you the information you need. . Franz M' at line 1 at trace_centralV4.pl line 860.
 `
 
@@ -60,13 +60,23 @@ install Config::IniFiles
 
 #### Google Cpan Modules
 
-https://metacpan.org/pod/WWW::Google::CustomSearch
-https://metacpan.org/pod/WWW::Google::CustomSearch::Result
-https://metacpan.org/pod/WWW::Google::CustomSearch::Item
+* https://metacpan.org/pod/WWW::Google::CustomSearch
+* https://metacpan.org/pod/WWW::Google::CustomSearch::Result
+* https://metacpan.org/pod/WWW::Google::CustomSearch::Item
 
 #### Google Custom Search API
 
 https://developers.google.com/custom-search/v1/cse/list
+
+### Testcommands & important URL
+
+```
+perl trace_centralV4.pl 14 'Franz Mueller'
+```
+
+http://tracenoizer.net/control_firstV4.php?userID=4
+
+http://tracenoizer.net/control_firstV4.php?userID=4
 
 #### Other Stuff
 
@@ -84,6 +94,7 @@ Account of taywagmbh@gmail.com (Do not send any mail to this account, its not ch
 
 https://cse.google.com/cse/all
 
+Public Search: https://cse.google.com/cse?cx=013759284485729961814:pom8ffrsn_u
 
 ## Software
 
