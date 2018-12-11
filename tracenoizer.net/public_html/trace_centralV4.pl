@@ -24,8 +24,8 @@ use Config::IniFiles;
 srand;
 use Time::localtime;
 
-# open (STDOUT,">logs/$ARGV[0].log");
-# open (LOG,">logs/$ARGV[0].log");
+open (STDOUT,">logs/$ARGV[0].log");
+open (LOG,">logs/$ARGV[0].log");
 
 #######################funktioncall##########################
 #
@@ -714,7 +714,7 @@ sub start_page{
 	<div align=\"center\">
 	<font face=\"arial\" size=\"3\" color=\"#000000\">
 	<font size=\"6\">";
-    my @anrede = ("<br>HELLO dear surfer<br>I am $suchwort and this is my page<br>","<br>Welcome to $suchwort\'s Homepage<br>",
+    my @anrede = ("<br>HELLO dear surfer<br>I am $suchwort and this is my page<br>","<br>Welcome to $suchwort&apos;s Homepage<br>",
 		  "<br>Homepage of $suchwort<br>","<br>Hi, thank you for visiting my Site<br>$suchwort Home<br>");
     $seite = $seite.$anrede[int(rand(@anrede))]."</font>";
     my $image = get_image($allthemas[rand(2)]);
