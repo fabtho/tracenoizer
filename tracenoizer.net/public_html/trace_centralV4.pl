@@ -189,24 +189,32 @@ sub linkload{
     if (defined $result) {
         my $page_count = 2;
         my $page_no    = 1;
+        my $result_count = 0;
         print "Result Count: ", $result->totalResults, "\n";
-        while (defined $result && ($page_no <= $page_count)) {
-                print "+++++++++++++++++++++++++++++++++++\n\n";
-                print "Page [$page_no]:\n\n";
-                foreach my $item (@{$result->items}) {
-                print "Item Kind: ", $item->kind, "\n" if defined $item->kind;
-                print "Snippet: ", $item->snippet, "\n";
-                print "Item Link: ", $item->link, "\n" if defined $item->link;
-                print "Item Display Link: ", $item->displayLink, "\n" if defined $item->displayLink;
-                print "Item Formatted URL: ", $item->formattedUrl, "\n" if defined $item->formattedUrl;
-                print "Item Title: ", $item->title, "\n" if defined $item->title;
-                push (@URL, $item->link);
+        
+        if ($result->totalResults != 0) {
+            while (defined $result && ($page_no <= $page_count)) {
+                    print "+++++++++++++++++++++++++++++++++++\n\n";
+                    print "Page [$page_no]:\n\n";
+                    foreach my $item (@{$result->items}) {
+                        print "Item Kind: ", $item->kind, "\n" if defined $item->kind;
+                        print "Snippet: ", $item->snippet, "\n";
+                        print "Item Link: ", $item->link, "\n" if defined $item->link;
+                        print "Item Display Link: ", $item->displayLink, "\n" if defined $item->displayLink;
+                        print "Item Formatted URL: ", $item->formattedUrl, "\n" if defined $item->formattedUrl;
+                        print "Item Title: ", $item->title, "\n" if defined $item->title;
+                        push (@URL, $item->link);
+                        $result_count++;
+                    }
+                    if ($result->totalResults < $result_count + 10) {
+                        print "Result Count: ", $result_count, "\n";
+                        last;
+                    }
+                    sleep 0.1;
+                    my $page = $result->nextPage;
+                    $result  = $page->fetch;
+                    $page_no++;
             }
-            print "----------------------------------\n\n";
-            sleep 2;
-            my $page = $result->nextPage;
-            $result  = $page->fetch;
-            $page_no++;
         }
     }
 
@@ -565,7 +573,7 @@ print "----- >$rainbow.\n";
 $output = `$rainbow`;
 
 
-# $makemodel_pid = open(MAKEMODEL, "$rainbow |");
+$makemodel_pid = open(MAKEMODEL, "$rainbow |");
 
 print "-----> rainbowpid $makemodel_pid \n";
 
