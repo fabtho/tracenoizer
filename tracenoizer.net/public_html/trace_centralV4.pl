@@ -856,6 +856,9 @@ sub on_page{
     }
     $seite = $seite."</font><font size=-6> <a class=\"nav\" href=\"$main_weblink\">.</a><br><br>\n";
     $seite = $seite."</font></body></html>\n";
+    $seite = $seite."</font></body></html>\n";
+    $seite=~ s/'/&apos;/g;
+
     my $update = $dbh->prepare("update keyword set keyword_html = '$seite' where keyword_main_id  = '$main_id' and keyword = '$keyword' ");
     $update->execute;
     open (FILE,">temp/$main_id/$keyword.html");
