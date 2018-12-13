@@ -1,12 +1,22 @@
-# Restauration for Tracenoizer in 2018
+# Restoration for Tracenoizer in 2018
 
-## Main difference to 2011 Version (Running on tracenoizer.net) 
+## Difference to 2011 version 
+
+###  What's the 2011 version of Tracenoizer
+
+On an old server tracenoizer.net was running until August 9. 2011. (Date from a .log file timestamp). This version was not working, because search API was defunct for years.
+
+### Conservation Strategy
+
+ * Code was not polished in any way to look good. 
+ * Biggest change code wise: centralization of DB-Connection / Google API / Handling of GET/POST in PHP
+ * Security was enhanced in parts, where code had to be touched anyway. I tried to make it in the part, where new code is used, to keep most old code intact. 
 
 ### config.ini
 
-Now confidential configurations like db connection and api key are not hardcoded and written down in several files anymore.
+Now confidential configurations like db connection and API keys are not hard coded and written down in several files anymore.
 
-config.ini is the file where db config and api keys are stored, see tracenoizer.net/config.ini.example
+config.ini is the file where db config and api keys are stored, see [tracenoizer.net/config.ini.example](tracenoizer.net/config.ini.example)
 
 ### update mysql connection for PHP 7
 
@@ -14,23 +24,27 @@ now mysqli_ is used, not outdated  mysql_ used
 
 ### db connection for php is centralized in new file
 
-see tracenoizer.net/db_connect.php
+see [tracenoizer.net/db_connect.php](tracenoizer.net/db_connect.php)
+
 
 ### Handling of POST and GET is changed. 
 
-In the old days $var could be used directly from url?var=test. Now PHP only allows $_GET['var'] or  $_POST['var'] 
+In the old days $var could be used directly from url?var=test. Since years PHP only allows $_GET['var'] or $_POST['var'] 
  
 ### Google Custom Search is used for Search
 
 see below
 
-### replace with &apos; in html code to prevent this bug:
+### puff replaced with curl
+
+see below
+
+### replace with &apos; in html code to prevent this bug caused by ':
 
 ```DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'll do our best to improve things and get you the information you need. . Franz M' at line 1 at trace_centralV4.pl line 860.```
  
 
-
-## trace_centralV4.pl should also use config.ini for DB Conenction
+## trace_centralV4.pl uses config.ini for DB connection
 
 Using Config::IniFiles from cpan (https://metacpan.org/pod/Config::IniFiles)
 
@@ -76,13 +90,16 @@ Account of sammlung.tracenoizer@gmail.com (Do not send any mail to this account,
 
 ### Usage
 
-For every run there are two searches,  "Firstname Secondname" and "Secondname Firstname"
+For every run there are two searches,  "forename surname" and "surname forename"
 
 ## Software
 
-### puf - Parallel URL fetcher 
+### puf - Parallel URL fetcher (replaced by curl)
 
-puf is able to download in parallel, thus faster then wget or curl
+puff cannot get https content, so replaced with curl in fc2374dfcc58f149bea3109ff5bc9d2620cd55dd
+
+
+puf is able to download in parallel, thus faster than wget or curl
 
 in 2001 tracenoizer used puf-0.9.1beta6.tar
 
@@ -98,7 +115,7 @@ cd src
 make install
 `
 
-puff cannot get https content, so replaced with curl in fc2374dfcc58f149bea3109ff5bc9d2620cd55dd 
+
 
 ### rainbow
 
@@ -128,7 +145,7 @@ apt-get install lib32z1
 
 ### compile rainbow (not working)
 
-Rainbow is not to compile with gcc version 5 on Ubuntu 12. There are some errors. By uncommenting them, I was able to reduce them, but was not able to get a executable code. And even there would be some function missing. Also failed to compile with older gcc version.
+Rainbow is not to compile with gcc version 5 on Ubuntu 12. There are some errors. By uncommenting them, I was able to reduce them, but was not able to get a executable code. And even there would be some function missing. Also, code failed to compile with older gcc version.
 
 https://askubuntu.com/questions/923337/installing-an-older-gcc-version3-4-3-on-ubuntu-14-04-currently-4-8-installed
 
