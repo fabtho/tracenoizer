@@ -42,7 +42,7 @@ $filenumber = 0;
 
 #$ARGV[0] = $main_id, $ARCV[1]= $searchterm
 
-
+# this needs a test for $ARGV[0] int and no special chars for $ARGV[1]
 onesearch($ARGV[0],$ARGV[1]);
 
 #$main_id = 33009;
@@ -191,7 +191,7 @@ sub linkload{
         my $page_no    = 1;
         my $result_count = 0;
         print "Result Count: ", $result->totalResults, "\n";
-        
+
         if ($result->totalResults != 0) {
             while (defined $result && ($page_no <= $page_count)) {
                     print "+++++++++++++++++++++++++++++++++++\n\n";
