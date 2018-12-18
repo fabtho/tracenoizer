@@ -2,21 +2,18 @@
 
 include_once('db_connect.php');
 
+$main_id = $_GET['main_id'];
+$main_id = mysqli_real_escape_string($db_connection, $main_id);
 
 $query2 = ('SELECT main_date, main_weblink, main_ac_id, main_st_id FROM main WHERE main_id="'.$main_id.'"');
 
-//$query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id FROM main WHERE main_id=4253");
-$query2_id = mysqli_query($db_connection, query2);
-
+$query2_id = mysqli_query($db_connection, $query2);
 
 $row = mysqli_fetch_array($query2_id);
-
-$state = $row[main_st_id];
-
-//echo $state;
+$state = $row['main_st_id'];
 
 
-if ($state==7){
+if ($state==6){
 
 echo '
 <html>

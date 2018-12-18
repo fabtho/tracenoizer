@@ -338,11 +338,8 @@ sub url_loop{
 		    }
 		    close (FILE);
 		    # print $html;
-            # very basic check to make sure no rm -rf /*
-            if ($var =~ /^\d+?$/) {
-                # system "rm","-Rf","$k/index.html", "&";
-                system "rm", "$k/index.html", "&";
-            }
+            # system "rm","-Rf","$k/index.html", "&";
+            system "rm", "$k/index.html", "&";
 		    my @existurl = satz_extract($html,$k);		    
 		    if  ($existurl[0] != 0){
 			look_img($html,$existurl[0],$existurl[1]);
@@ -351,18 +348,12 @@ sub url_loop{
 			}
 		}else{
 		    print "----> folder $k is empty\n";
-            # very basic check to make sure no rm -rf /*
-            if ($var =~ /^\d+?$/) {
-                system "rmdir","$k", "&";
-                # system "rm","-Rf","$k", "&";
-            }
-            # system "rm","-Rf","$k", "&";
-            # much safer
-		    #system "rmdir","$k";
-  	 	}
+            system "rmdir","$k", "&";
+        }
 	    }		
     chdir("../..");
     @URL = ();
+    system "ls -lh temp/$main_id/*";
 }
 
 #########################sub biggestsdir()#######################

@@ -15,11 +15,6 @@ $status = $_POST['status'];
 $Fname = $_POST['Fname'];
 $Sname = $_POST['Sname'];
 
-include_once('db_connect.php');
-
-$status = mysqli_real_escape_string($db_connection, $status);
-$Fname = mysqli_real_escape_string($db_connection, $Fname);
-$Fname = mysqli_real_escape_string($db_connection, $Sname);
 
 switch($status)
 
@@ -51,6 +46,10 @@ switch($status)
 function maketempuser($Fname,$Sname)
 				{
 
+				include_once('db_connect.php');
+
+				$Fname = mysqli_real_escape_string($db_connection, $Fname);
+				$Sname = mysqli_real_escape_string($db_connection, $Sname);
 
 				$get = 'select max(usr_id) from users';
 				$result = mysqli_query($db_connection, $get) or die (mysqli_error());

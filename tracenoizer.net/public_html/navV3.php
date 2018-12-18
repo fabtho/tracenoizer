@@ -16,12 +16,6 @@ $usr_name = $_POST["usr_name"];
 $usr_pw = $_POST["usr_pw"];
 $confpwd = $_POST["confpwd"];
 
-$usr_id = mysqli_real_escape_string($db_connection, $usr_id);
-$main_id = mysqli_real_escape_string($db_connection, $main_id);
-$status = mysqli_real_escape_string($db_connection, $status);
-$usr_name = mysqli_real_escape_string($db_connection, $usr_name);
-$usr_pw = mysqli_real_escape_string($db_connection, $usr_pw);
-$confpwd = mysqli_real_escape_string($db_connection, $confpwd);
 
 
 switch($status)
@@ -74,6 +68,10 @@ want more clones, run TraceNoizer again. <br>
 
 				include_once('db_connect.php');
 				
+				$usr_name = mysqli_real_escape_string($db_connection, $usr_name);
+				$usr_pw = mysqli_real_escape_string($db_connection, $usr_pw);
+				$confpwd = mysqli_real_escape_string($db_connection, $confpwd);
+
 				$get = 'select usr_id from users where usr_name="'.$usr_name.'"';
 				$result = mysqli_query($db_connection, $get) or die (mysqli_error());
 
@@ -137,7 +135,6 @@ want more clones, run TraceNoizer again. <br>
 
 				
 				$put = 'update users set usr_name="'.$usr_name.'",usr_pw="'.$usr_pw.'",usr_mail="'.$usr_mail.'" where usr_id='.$usr_id.'';
-
 
 				mysqli_query($db_connection, $put) or die (mysqli_error());
 
