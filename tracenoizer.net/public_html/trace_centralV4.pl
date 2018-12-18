@@ -187,7 +187,7 @@ sub linkload{
 
 
     if (defined $result) {
-        my $page_count = 2;
+        my $page_count = 3;
         my $page_no    = 1;
         my $result_count = 0;
         print "Result Count: ", $result->totalResults, "\n";
