@@ -1,6 +1,12 @@
 <?php
 include_once('db_connect.php');
 
+$usr = $_POST["usr"];
+$pwd = $_POST["pwd"];
+
+$usr = mysqli_real_escape_string($db_connection, $usr);
+$pwd = mysqli_real_escape_string($db_connection, $pwd);
+
 ###----check, if pw and user_id are in db---
 #--------------------------------------------------
 
