@@ -1,3 +1,4 @@
 user-agent: *
+disallow: /
 disallow: /cloneit/
 disallow: /temp
