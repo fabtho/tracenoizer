@@ -16,6 +16,14 @@ $usr_name = $_POST["usr_name"];
 $usr_pw = $_POST["usr_pw"];
 $confpwd = $_POST["confpwd"];
 
+$usr_id = mysqli_real_escape_string($db_connection, $usr_id);
+$main_id = mysqli_real_escape_string($db_connection, $main_id);
+$status = mysqli_real_escape_string($db_connection, $status);
+$usr_name = mysqli_real_escape_string($db_connection, $usr_name);
+$usr_pw = mysqli_real_escape_string($db_connection, $usr_pw);
+$confpwd = mysqli_real_escape_string($db_connection, $confpwd);
+
+
 switch($status)
 
 	{

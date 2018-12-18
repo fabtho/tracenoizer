@@ -6,6 +6,7 @@ $url = $_GET["url"];
 $usr_id = (int) $_GET["usr_id"];
 $main_id = (int) $_GET["main_id"];
 
+
 if ( substr($url, 0, 5) != '/temp') {
     echo 'only /temp allowed';
     exit;

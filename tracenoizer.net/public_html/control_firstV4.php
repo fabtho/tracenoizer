@@ -3,6 +3,7 @@
 include_once('db_connect.php');
 
 $userID = $_GET['userID'];
+$userID = mysqli_real_escape_string($db_connection, $userID);
 
 
 ###---if user_id and pw are correct, get clone info (main_weblink and main_date)---------------------------------------------------------------------------------
@@ -92,7 +93,7 @@ $query2 = ("SELECT main_date, main_weblink, main_ac_id, main_st_id, main_id FROM
 						<b>Composition:</b><br>
 						<script language="JavaScript">
 						//alert("es tut");
-							F1 = window.open("popupV3.php?url='.$url.'&usr_id='.$userID.'&main_id='.$nr.'","clonesite","width=800,heigth=600,resizable=yes");
+							F1 = window.open("popupV3.php?usr_id='.$userID.'&main_id='.$nr.'&url='.$url.'","clonesite","width=800,heigth=600,resizable=yes");
 
  						</script>
  						';
