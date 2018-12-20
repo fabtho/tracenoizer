@@ -163,7 +163,7 @@ echo '
 		$state = $row[main_st_id];
 		for($st = 0; $st < count($st_strings); $st++){
 			if($state == $st){
-				if($state == 7){//value needs to be changed if number of states changes (to the case where clone is active)
+				if($state == 6){//value needs to be changed if number of states changes (to the case where clone is active)
 					
 					echo '
 					<a name="'.$nr.'"></a>
@@ -172,6 +172,8 @@ echo '
 					
 					<b>Status:</b><br>
 					Online: <a href="'.$row[main_weblink].'" class="nav" target="_new">'.$row[main_weblink].'</a><br>
+
+					Online for Status 6 (2018-12-20): <a href="/temp/'.$userID.'/index.html" class="nav" target="_new">/temp/'.$userID.'/index.html</a><br>
 					<font size="2">link opens in a new window</font><br><br>
 					
 					<b>Composition:</b><br>
