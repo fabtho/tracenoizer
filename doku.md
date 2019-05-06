@@ -135,7 +135,7 @@ Source Code:
 
 ### Usage of compiled version from 2003
 
-I have a compiled version from 2003, after installing some 32 bit library I was able to run it again.
+I have a compiled version from 2003, after installing some 32 bit library I was able to run rainbow on Ubuntu 14 LTS (3.13.0-142-generic)
 
 tracenoizer/tracenoizer.net/public_html/rainbow
       
@@ -145,7 +145,7 @@ apt-get install lib32z1
 
 ### compile rainbow (not working)
 
-Rainbow is not to compile with gcc version 5 on Ubuntu 12. There are some errors. By uncommenting them, I was able to reduce them, but was not able to get a executable code. And even there would be some function missing. Also, code failed to compile with older gcc version.
+Rainbow is not to compile with gcc version 5 on Ubuntu 14 LTS. There are some errors. By uncommenting them, I was able to reduce them, but was not able to get a executable code. And even there would be some function missing. Also, code failed to compile with older gcc version.
 
 https://askubuntu.com/questions/923337/installing-an-older-gcc-version3-4-3-on-ubuntu-14-04-currently-4-8-installed
 
