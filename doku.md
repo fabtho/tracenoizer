@@ -1,3 +1,13 @@
+# Fresh install on Ubuntu 16.04
+
+```
+apt-get install nginx php-fpm
+apt-get install mariadb-server-10.0
+apt-get install git
+apt-get install lib32z1 # for rainbow
+```
+
+
 # Restoration for Tracenoizer in 2018
 
 ## Difference to 2011 version 
