@@ -8,6 +8,8 @@ apt-get install git
 apt-get install lib32z1 # for rainbow
 ```
 
+
+
 ## Database install
 
 ```
@@ -15,6 +17,15 @@ mysql -u root -e "CREATE USER 'tracenoizer'@'localhost' IDENTIFIED BY 'somerando
 mysql -u root -e "GRANT ALL PRIVILEGES ON * . * TO 'tracenoizer'@'localhost';"
 mysql -u root mysql -e "select * from user;"
 mysql -u root -e "create database tracenoizer;"
+sed  's/MyISAM/INNODB/g' tracenoizer.sql > tracenoizer_innodb.sql 
+mysql -u root tracenoizer < tracenoizer_innodb.sql 
+```
+
+### helper commands
+
+```
+mysql -u root tracenoizer -e "show tables;"
+mysql -u root tracenoizer -e "drop database tracenoizer"
 ```
 
 
