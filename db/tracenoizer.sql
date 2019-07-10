@@ -48,6 +48,7 @@ CREATE TABLE `globalurl` (
   `g_url_id` int(11) DEFAULT NULL,
   `g_used` int(1) DEFAULT NULL,
   `g_string` text,
+  PRIMARY KEY (`g_id`),
   KEY `g_id` (`g_id`),
   KEY `g_url_id` (`g_url_id`),
   KEY `g_used` (`g_used`)
@@ -66,6 +67,7 @@ CREATE TABLE `image` (
   `img_url_id` int(11) DEFAULT NULL,
   `img_used` int(1) DEFAULT NULL,
   `img_link` text,
+  PRIMARY KEY (`img_id`),
   KEY `img_id` (`img_id`),
   KEY `img_url_id` (`img_url_id`),
   KEY `img_used` (`img_used`)
@@ -83,6 +85,7 @@ CREATE TABLE `input` (
   `in_id` int(11) NOT NULL AUTO_INCREMENT,
   `in_main_id` int(11) DEFAULT NULL,
   `in_keyword` tinytext,
+  PRIMARY KEY (`in_id`),
   KEY `in_id` (`in_id`),
   KEY `in_main_id` (`in_main_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=35958 DEFAULT CHARSET=latin1;
@@ -102,6 +105,7 @@ CREATE TABLE `keyword` (
   `keyword_infog` float(11,9) DEFAULT NULL,
   `keyword_html` text,
   `keyword_size` int(11) DEFAULT NULL,
+  PRIMARY KEY (`keyword_id`),
   KEY `keyword_id` (`keyword_id`),
   KEY `keyword_main_id` (`keyword_main_id`),
   KEY `keyword` (`keyword`),
@@ -122,6 +126,7 @@ CREATE TABLE `mailurl` (
   `m_url_id` int(11) DEFAULT NULL,
   `m_used` int(1) DEFAULT NULL,
   `m_string` tinytext,
+  PRIMARY KEY (`m_id`),
   KEY `m_id` (`m_id`),
   KEY `m_url_id` (`m_url_id`),
   KEY `m_used` (`m_used`)
@@ -144,6 +149,7 @@ CREATE TABLE `main` (
   `main_ac_id` int(11) DEFAULT NULL,
   `main_html` text,
   `main_st_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`main_id`),
   KEY `main_id` (`main_id`),
   KEY `main_usr_id` (`main_usr_id`),
   KEY `main_generation` (`main_generation`),
@@ -151,8 +157,6 @@ CREATE TABLE `main` (
   KEY `main_st_id` (`main_st_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=37356 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
-ALTER TABLE `main` ADD PRIMARY KEY (`main_id`),
 
 --
 -- Table structure for table `status`
@@ -164,6 +168,7 @@ DROP TABLE IF EXISTS `status`;
 CREATE TABLE `status` (
   `st_id` int(11) DEFAULT NULL,
   `st_string` tinytext,
+  PRIMARY KEY (`st_id`),
   KEY `st_id` (`st_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -195,6 +200,7 @@ CREATE TABLE `text` (
   `tx_word` int(11) DEFAULT NULL,
   `tx_text` longtext,
   `tx_lang` char(2) DEFAULT NULL,
+  PRIMARY KEY (`tx_id`),
   KEY `tx_id` (`tx_id`),
   KEY `tx_main_id` (`tx_main_id`),
   KEY `tx_url_id` (`tx_url_id`),
@@ -214,6 +220,7 @@ CREATE TABLE `url` (
   `url_id` int(11) NOT NULL AUTO_INCREMENT,
   `url_main_id` int(11) DEFAULT NULL,
   `url` text,
+  PRIMARY KEY (`url_id`),
   KEY `url_id` (`url_id`),
   KEY `url_main_id` (`url_main_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=52197 DEFAULT CHARSET=latin1;
@@ -231,6 +238,7 @@ CREATE TABLE `users` (
   `usr_name` varchar(30) NOT NULL DEFAULT '',
   `usr_pw` tinytext,
   `usr_mail` tinytext,
+  PRIMARY KEY (`usr_id`),
   UNIQUE KEY `usr_name` (`usr_name`),
   KEY `usr_id` (`usr_id`),
   KEY `usr_name_2` (`usr_name`)
@@ -249,6 +257,7 @@ CREATE TABLE `wordcount` (
   `wordcount_tx_id` int(11) NOT NULL DEFAULT '0',
   `wordcount_keyword_id` int(11) NOT NULL DEFAULT '0',
   `wordcount_infog` float(11,9) DEFAULT NULL,
+  PRIMARY KEY (`wordcount_id`),
   KEY `wordcount_id` (`wordcount_id`),
   KEY `wordcount_tx_id` (`wordcount_tx_id`),
   KEY `wordcount_keyword_id` (`wordcount_keyword_id`)
