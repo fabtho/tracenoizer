@@ -10,10 +10,11 @@ apt-get install lib32z1 # for rainbow
 
 ## Database install
 
-```mysql -u root -e "CREATE USER 'tracenoizer'@'localhost' IDENTIFIED BY 'somerandompassword';"
-   mysql -u root -e "GRANT ALL PRIVILEGES ON * . * TO 'tracenoizer'@'localhost';"
-   mysql -u root mysql -e "select * from user;"
-   mysql -u root -e "create database tracenoizer;"
+```
+mysql -u root -e "CREATE USER 'tracenoizer'@'localhost' IDENTIFIED BY 'somerandompassword';"
+mysql -u root -e "GRANT ALL PRIVILEGES ON * . * TO 'tracenoizer'@'localhost';"
+mysql -u root mysql -e "select * from user;"
+mysql -u root -e "create database tracenoizer;"
 ```
 
 
