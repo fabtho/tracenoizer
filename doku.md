@@ -23,7 +23,7 @@ mysql -u root tracenoizer < tracenoizer_innodb.sql
 
 do set a root password for mysql!
 ```
-mysql -u root mysql -e "update user set authentication_string=PASSWORD('eHo5Ahd2see6Thuf') where User='root'; flush privileges;"
+mysql -u root mysql -e "update user set authentication_string=PASSWORD('"password"') where User='root'; flush privileges;"
 ```
 
 ### helper commands
