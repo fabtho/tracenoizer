@@ -1,10 +1,19 @@
 # Fresh install on Ubuntu 16.04
 
+## ubuntu packages install
 ```
 apt-get install nginx php-fpm
 apt-get install mariadb-server-10.0
 apt-get install git
 apt-get install lib32z1 # for rainbow
+```
+
+## Database install
+
+```mysql -u root -e "CREATE USER 'tracenoizer'@'localhost' IDENTIFIED BY 'somerandompassword';"
+   mysql -u root -e "GRANT ALL PRIVILEGES ON * . * TO 'tracenoizer'@'localhost';"
+   mysql -u root mysql -e "select * from user;"
+   mysql -u root -e "create database tracenoizer;"
 ```
 
 
