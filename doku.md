@@ -2,12 +2,11 @@
 
 ## ubuntu packages install
 ```
-apt-get install nginx php-fpm
+apt-get install nginx php-fpm php-mysql
 apt-get install mariadb-server-10.0
 apt-get install git
 apt-get install lib32z1 # for rainbow
 ```
-
 
 
 ## Database install
